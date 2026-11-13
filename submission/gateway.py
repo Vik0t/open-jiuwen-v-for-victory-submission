@@ -8,6 +8,8 @@ from contextvars import ContextVar
 import json
 import logging
 import os
+import time
+from submission.streaming import AccountedStream
 from uuid import uuid4
 
 import httpx
@@ -89,6 +91,8 @@ class Gateway:
         payload = json.loads(body)
         if payload.get("model") != self.model or type(payload.get("max_tokens")) is not int or payload["max_tokens"] <= 0:
             raise ValueError("Unexpected model or missing output cap")
+        if payload.get("stream") is not True or (payload.get("stream_options") or {}).get("include_usage") is not True or payload.get("tools"):
+            raise ValueError("Expected native SSE with usage and no tools")
         state["input_bound"] = len(body) + 256
         ticket = self.budget.reserve(state["input_bound"], payload["max_tokens"])
         if ticket is None:
@@ -105,7 +109,7 @@ class Gateway:
             request.extensions["trace"] = trace
         # From this point any transport failure is conservatively unknown, not free.
 
-    async def _response(self, response):
+    async def _response_nonstream(self, response):
         state = response.request.extensions["contest_state"]
         ticket = response.request.extensions["contest_ticket"]
         try:
@@ -124,13 +128,23 @@ class Gateway:
         if state["cost_units"] is None:
             state["status"] = "unknown_usage"
 
+    async def _response(self, response):
+        state = response.request.extensions["contest_state"]
+        state["http_status"] = response.status_code
+        if response.status_code != 200 or "text/event-stream" not in response.headers.get("content-type", ""):
+            await self._response_nonstream(response)
+            if state["status"] == "ok":
+                state["status"] = "agent_error"
+            return
+        response.stream = AccountedStream(response.stream, state, self.budget)
+
     async def answer(self, task_id, prompt, max_output=512, system_prompt=None, json_mode=False):
         if self._client is None:
             raise RuntimeError("Use Gateway as an async context manager")
         if not isinstance(prompt, str) or type(max_output) is not int or max_output <= 0:
             raise ValueError("Require text and a positive integer output cap")
         async with self._semaphore:
-            state = dict(ticket=None, attempted=False, settled=False, usage=None, cost_units=None, status="ok")
+            state = dict(ticket=None, attempted=False, settled=False, usage=None, cost_units=None, status="ok", stream_started=time.monotonic())
             token = ACTIVE.set(state)
             text, error = None, None
             try:
@@ -142,7 +156,16 @@ class Gateway:
                         **({"extra_body": {"response_format": {"type": "json_object"}}} if json_mode else {})),
                     prompt_template=[{"role": "system", "content": system_prompt or "Solve the task. Return only the final answer in the requested format."}],
                     max_iterations=1, max_iterations_hard_limit=1, on_max_iterations="return_observations", parallel_tool_calls=False))
-                result = await Runner.run_agent(agent, {"query": prompt, "conversation_id": agent.card.id})
+                result = {}
+                final_count = 0
+                async for chunk in Runner.run_agent_streaming(agent, {"query": prompt, "conversation_id": agent.card.id}):
+                    kind = chunk.get("type") if isinstance(chunk, dict) else getattr(chunk, "type", None)
+                    payload = chunk.get("payload") if isinstance(chunk, dict) else getattr(chunk, "payload", None)
+                    if kind == "answer" and isinstance(payload, dict):
+                        final_count += 1
+                        result = payload
+                if final_count != 1 or not state.get("stream_complete") or result.get("output") != state.get("content"):
+                    raise RuntimeError("Incomplete native stream or final content mismatch")
                 if result.get("result_type") == "answer" and isinstance(result.get("output"), str):
                     text = result["output"]
                 elif state["status"] == "ok":

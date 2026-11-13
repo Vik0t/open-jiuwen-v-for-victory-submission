@@ -1,7 +1,5 @@
-# Происхождение поставки E132
+# E177 engineering transport control (2026-11-13)
 
-Runtime соответствует архиву `candidate_e132_e70_extended_transport_2026-11-13.zip` с SHA-256 `8bdb09e402a339c001602d751a760d33f749cacc8dec0da79c954b3a79d641eb`. Базовый commit распакованного архива — `26d7a9331b8555b7f1230b42511c647bab102e70`; 13 Python runtime-файлов соответствуют его provenance. Документация репозитория оформляется отдельно от этих runtime-байтов.
+This package retains exact E132 solver, scheduler, prompts and executor. It adds the E170 streaming transport and the E132-style output usage whitelist. The scoped executor from E171/E175 is excluded. The E171/E175 comparative quality gate failed and has not been waived; this control-only update makes no quality improvement claim. The seven gateway assertions remain unchanged, with a streaming-aware test response fixture.
 
-Из точной распаковки архива ранее были собраны AMD64- и ARM64-образы и выполнены offline CLI-проверки. Квитанции находятся в исследовательском репозитории: [AMD64](https://github.com/Vik0t/open-jiuwen-agent-token-prediction/blob/c5667c970f043025f0a0ea58703addfb2ac5de90/reports/coord132_e70_extended_timeout_control_2026-11-13/archive_amd64.json) и [ARM64](https://github.com/Vik0t/open-jiuwen-agent-token-prediction/blob/c5667c970f043025f0a0ea58703addfb2ac5de90/reports/coord132_e70_extended_timeout_control_2026-11-13/archive_arm64.json). Ссылки указывают на опубликованный исследовательский commit.
-
-Точный проверенный ZIP доступен в [резервном релизе E132](https://github.com/Vik0t/open-jiuwen-v-for-victory-submission/releases/tag/e132-backup-2026-11-13). Изменения README, RELEASE и контрольного манифеста не меняют runtime.
+Source freeze SHA-256: `89eb175ca77eee0066fc01bf8879b8c0640efd84f69ccfe86afbdcfe67d27280`. Four completed E170 controls, offline actual-wire replay and native SDK mocks are technical transport evidence, not an official score. E132 async public-test compatibility limitation remains.

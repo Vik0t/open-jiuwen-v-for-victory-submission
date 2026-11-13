@@ -37,6 +37,22 @@ class GatewayChecks(unittest.IsolatedAsyncioTestCase):
         body = {"id": "mock", "object": "chat.completion", "created": 0, "model": "Qwen3.8-27B",
                 "choices": [{"index": 0, "finish_reason": "stop", "message": {"role": "assistant", "content": text,
                             "reasoning_content": "PRIVATE_REASONING_DO_NOT_RETURN"}}], "usage": counts}
+        if json.loads(request.content).get("stream"):
+            common = {"id": "mock", "object": "chat.completion.chunk", "created": 0, "model": "Qwen3.8-27B"}
+            events = [
+                {**common, "choices": [{"index": 0, "delta": {"role": "assistant", "content": ""}, "finish_reason": None}]},
+                {**common, "choices": [{"index": 0, "delta": {"content": text, "reasoning_content": "PRIVATE_REASONING_DO_NOT_RETURN"}, "finish_reason": None}]},
+                {**common, "choices": [{"index": 0, "delta": {}, "finish_reason": "stop"}]},
+            ]
+            if counts is not None:
+                events.append({**common, "choices": [{"index": 0, "delta": {}, "finish_reason": None}], "usage": counts})
+            data = ("".join("data: " + json.dumps(event) + "\n\n" for event in events) + "data: [DONE]\n\n").encode()
+            class Stream(self.httpx.AsyncByteStream):
+                async def __aiter__(self):
+                    yield data
+                async def aclose(self):
+                    pass
+            return self.httpx.Response(200, stream=Stream(), headers={"Content-Type": "text/event-stream"}, request=request)
         return self.httpx.Response(200, json=body, request=request)
 
     def gateway(self, budget):

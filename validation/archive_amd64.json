@@ -1,0 +1,90 @@
+{
+  "image": "jiuwen-e177-verified:amd64",
+  "image_id": "sha256:4f67f63708036a00bbb2e99e8dbb98d69b167ecaaa407c8ff9e3560279c157bb",
+  "architecture": "amd64",
+  "archive_sha256": "57b0de7c074ec265f29acd716364f48fa895fc0ca307706ebf5468277a48abaa",
+  "provenance_sha256": "f07f91ae213dc73989078a7f5813310646228491e99922d66fb6718d15d8aa64",
+  "probes": [
+    {
+      "probe": "license_large",
+      "result": {
+        "status": "passed",
+        "architecture": "x86_64",
+        "source_files": 14,
+        "loopback_calls": 2,
+        "usage_units": 900,
+        "edited_source_bytes": 126042,
+        "explicit_license_included": true,
+        "ordinary_license_deferred": true,
+        "original_license_preserved": true
+      },
+      "probe_sha256": "adede0a88e1a9c9ca58e307ac7ff210aef468ac6c94361c38d81c2255b39aaab"
+    },
+    {
+      "probe": "geometry_helper",
+      "result": {
+        "status": "passed",
+        "architecture": "x86_64",
+        "loopback_calls": 2,
+        "exact_ring_perimeter": 48,
+        "nontrigger_ordinary_area": 35,
+        "usage_units": 650,
+        "typed": false
+      },
+      "probe_sha256": "7a336e1e569b91c571e35b16632032e48f63e25e9a02f84bc16836aed6a0ffe9"
+    },
+    {
+      "probe": "geometry_typed",
+      "result": {
+        "status": "passed",
+        "architecture": "x86_64",
+        "loopback_calls": 2,
+        "exact_ring_perimeter": 48,
+        "nontrigger_ordinary_area": 35,
+        "usage_units": 650,
+        "typed": true
+      },
+      "probe_sha256": "7a336e1e569b91c571e35b16632032e48f63e25e9a02f84bc16836aed6a0ffe9"
+    },
+    {
+      "probe": "gateway_suite",
+      "result": {
+        "status": "passed",
+        "architecture": "x86_64",
+        "legacy_gateway_tests": 7,
+        "assertions_unchanged": true,
+        "fake_model": true,
+        "model_calls": 0
+      },
+      "probe_sha256": "c782e46699004f8bf25e2b4ccf5976034ec63e17265f0cbc34f61dedc9c088f5"
+    },
+    {
+      "probe": "transport_continuation",
+      "result": {
+        "status": "passed",
+        "architecture": "x86_64",
+        "first": "not_sent_no_usage",
+        "next": "ok",
+        "post_send_timeout": "unknown_usage",
+        "sent_requests": 2,
+        "spent_units": 300,
+        "unknown_reserved_units": 1209,
+        "organiser_model_calls": 0
+      },
+      "probe_sha256": "05db82008fd02b2f00837affbd493516b05d212ece7d374090b03fe4776cb581"
+    },
+    {
+      "probe": "ordinary_parity",
+      "result": {
+        "status": "passed",
+        "architecture": "x86_64",
+        "ordinary_cases": 3,
+        "runner_byte_equal": true,
+        "model_calls": 0
+      },
+      "probe_sha256": "3a7926fb6b64c33ae72cfd77f25d76d4c4488a11a559c0ef8bc01b9a606757ac"
+    }
+  ],
+  "organiser_model_calls": 0,
+  "test_source": "packaged runtime in image; gateway test directory mounted read-only from byte-verified exact ZIP extraction"
+}

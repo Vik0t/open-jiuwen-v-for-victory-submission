@@ -4,20 +4,20 @@
     "sha256": "e5e7e0e6877a2d5d82c58971bc2b16847df365db74ed97ab1f659aa2d94bc693"
   },
   "CANDIDATE_PROVENANCE.json": {
-    "bytes": 1649,
-    "sha256": "48d3f623ae078d0c79eaaae882f05ee7c3005112d54f834771886b8f64093147"
+    "bytes": 3806,
+    "sha256": "f07f91ae213dc73989078a7f5813310646228491e99922d66fb6718d15d8aa64"
   },
   "Dockerfile": {
     "bytes": 748,
     "sha256": "76321d912a72b0077bb889a3f4b382919db39326e0556a19a01dbfd117e33a37"
   },
   "README.md": {
-    "bytes": 3202,
-    "sha256": "07a99d3be3f0daf3f9a2fe9bd8dba1641dc9336e827388e67f76411e4e0d80da"
+    "bytes": 2551,
+    "sha256": "88bbb4025db83aa3e7b3f8189bbf1bb2fced60afcab1151fc5df3c6a87066c67"
   },
   "RELEASE.md": {
-    "bytes": 1620,
-    "sha256": "2aad3f99021387d35afdace5eed012c290f4d5bb75a46f74ff9bb832859a7646"
+    "bytes": 761,
+    "sha256": "f520ff9daca330c2d71440c404e6e2bfb5103f3863fac83953ec5e678d801c39"
   },
   "docs/agent_explained_2026-11-09.md": {
     "bytes": 112093,
@@ -384,8 +384,8 @@
     "sha256": "7b3635550912f867a30c9af21371d57a8c0b9b5233518f58c26014804b32f52d"
   },
   "submission/gateway.py": {
-    "bytes": 9146,
-    "sha256": "dac9a36ba21f10bd7e1474906bd886c88c30935868774cac0616244861ff791a"
+    "bytes": 10638,
+    "sha256": "2b12cfee8de2bcfc8149c8c98bbd6dcf39736a6dc77ddf54195ec2d1bee712a3"
   },
   "submission/named_initial.py": {
     "bytes": 2695,
@@ -402,6 +402,10 @@
   "submission/schedule.py": {
     "bytes": 3698,
     "sha256": "a801defd8c47a211bbebd260c3a6cce55b9d3836799511236741888ecf17ab4f"
+  },
+  "submission/streaming.py": {
+    "bytes": 6357,
+    "sha256": "b1dc01f5b6a4152ec580bbc974299a4663f17fb4da3667257bba61a16695519d"
   },
   "submission/task_io.py": {
     "bytes": 5544,
@@ -444,8 +448,8 @@
     "sha256": "70faa6d62fd590a39cc7564c13d52990ee0185c9446b555e9632fe6a04656d85"
   },
   "tests/test_contest_gateway.py": {
-    "bytes": 7975,
-    "sha256": "d17f64216832ac5263e56e2cccc9916e7ca1941b0347244212a56769605519aa"
+    "bytes": 9148,
+    "sha256": "17f59000c784ef0caf87592dedc46b8684a5f40f4cf483ca5d149afcc2aebb69"
   },
   "tests/test_contest_io.py": {
     "bytes": 3011,

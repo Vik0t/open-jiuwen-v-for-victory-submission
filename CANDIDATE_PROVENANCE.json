@@ -1,8 +1,68 @@
 {
-  "note": "Mechanical E70 plus E131 gateway with 600-second read timeout; E70 executor unchanged.",
-  "prior_archive": "candidate_e70_typed_rectangle_2026-11-12.zip",
-  "prior_archive_sha256": "d4656a0688cb10eb745b33dfb8210eee933b73fd57100bac892cb95fba9cbc12",
-  "source_freeze_sha256": "a27a11f3cfcfbcc20f6bd13c394a2c590fccae6602eafd42d6ca477f07ce7f0b",
+  "actual_wire_analysis_sha256": "99b7e3746d94a512129e8106865cceb03e9969da94815d906234c9fdca1672f1",
+  "controls": {
+    "172": {
+      "comparison_gate_passed": true,
+      "experiment": "172",
+      "quality_promotion": false,
+      "results": [
+        {
+          "job": "b6000_1_e170",
+          "not_sent_proven": 0,
+          "sent_known": 25,
+          "spent_units": 53079
+        },
+        {
+          "job": "b6000_4_e170",
+          "not_sent_proven": 0,
+          "sent_known": 18,
+          "spent_units": 48432
+        }
+      ],
+      "source": "E170",
+      "unknown_usage_controls": 0
+    },
+    "173": {
+      "comparison_gate_passed": false,
+      "experiment": "173",
+      "quality_promotion": false,
+      "results": [
+        {
+          "job": "b24000_1_e170",
+          "not_sent_proven": 0,
+          "sent_known": 64,
+          "spent_units": 235660
+        },
+        {
+          "job": "b24000_4_e170",
+          "not_sent_proven": 0,
+          "sent_known": 65,
+          "spent_units": 235605
+        }
+      ],
+      "source": "E170",
+      "unknown_usage_controls": 0
+    }
+  },
+  "e176_timing_amendment": {
+    "freeze_sha256": "3a396d95451c1483555915accf89fc5d76b401a3d684a556f704b9361f54d967",
+    "job": "b24000_4_e170",
+    "marker_sha256": "cdeae97a08a25ef8637710b39e2bdf0c62a09ebb4ab7e89544ad4ff14fbeee3c",
+    "summary_sha256": "7658ff81591bb36abd138f25ee8c6c04328fc97a88cd6c2519d62cb2086d726c",
+    "used": true
+  },
+  "equivalence_qa_sha256": "561adbe8fb86e6b70e276375e44ca0af2dd5412685d062796fedaaf1f5736d83",
+  "excluded_scoped_executor": true,
+  "independent_review_sha256": "6977196c8665cc6eea38cc71bae82e94faba36351b2291512274f79892bc5234",
+  "nonruntime_test_overlay_sha256": "17f59000c784ef0caf87592dedc46b8684a5f40f4cf483ca5d149afcc2aebb69",
+  "offline_replay_sha256": "7a4588468a85559bc055d9bf13da1f4d5082c56bb7d73ecedf9da8e0ced77588",
+  "prior_archive": "candidate_e132_e70_extended_transport_2026-11-13.zip",
+  "prior_archive_sha256": "8bdb09e402a339c001602d751a760d33f749cacc8dec0da79c954b3a79d641eb",
+  "qa_freeze_sha256": "e08c82104c7efa62824905400f583f53d9dfdca478d889b26f788e911d0c9c86",
+  "quality_promotion": false,
+  "rejected_quality_gate_passed": false,
+  "sdk_request_parity_sha256": "7d906326259c6db87be844583abdb5a09dcf4a9706c4426781a9fc67b8304cbc",
+  "source_freeze_sha256": "89eb175ca77eee0066fc01bf8879b8c0640efd84f69ccfe86afbdcfe67d27280",
   "source_sha256": {
     "run_agent.py": "f946edb9a35908d70450554261f2cf61edc6c3a0aaed9ed30c8a1a0c3d408f55",
     "submission/budget.py": "64fd21180dfbbcb72f3aba074e1490dbc303136a7f1f7295a3a051f9809cd612",
@@ -12,9 +72,10 @@
     "submission/editing.py": "2aa6868163582f265a596bbf409b917459adf6d290eb1ba60f4246362d6341e1",
     "submission/exact.py": "71fd4cc3aa7abfe4e63e128b8ff400bef31ab90fbe37aa41a54ba4798d857ec6",
     "submission/executor.py": "7b3635550912f867a30c9af21371d57a8c0b9b5233518f58c26014804b32f52d",
-    "submission/gateway.py": "dac9a36ba21f10bd7e1474906bd886c88c30935868774cac0616244861ff791a",
+    "submission/gateway.py": "2b12cfee8de2bcfc8149c8c98bbd6dcf39736a6dc77ddf54195ec2d1bee712a3",
     "submission/named_initial.py": "f14f394f5d69807108efb21311ac934a6d0791f81c24538e6f71d0c2325882c1",
     "submission/schedule.py": "a801defd8c47a211bbebd260c3a6cce55b9d3836799511236741888ecf17ab4f",
+    "submission/streaming.py": "b1dc01f5b6a4152ec580bbc974299a4663f17fb4da3667257bba61a16695519d",
     "submission/task_io.py": "59ff49c3896838a19c73e42baf5d423cf8ce1828f0c3293d75290c1933f2641c",
     "submission/workflow.py": "8a15c9e97ada9db7d8ac3a0280245711d98fb822f14f559545c2ceeff97402f7"
   }

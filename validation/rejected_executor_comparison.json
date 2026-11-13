@@ -1,0 +1,94 @@
+{
+  "budgets": {
+    "24000": {
+      "control_scores": [
+        219,
+        234
+      ],
+      "candidate_scores": [
+        249,
+        244
+      ],
+      "mean_delta": 20.0,
+      "pass_gains": [
+        "fresh_join_returns",
+        "fresh_latest_event",
+        "leap_05",
+        "leap_06",
+        "leap_07",
+        "leap_14"
+      ],
+      "pass_losses": [],
+      "extra_unsolvable_answers": [
+        "stress_events_3"
+      ],
+      "cost_units": {
+        "b24000_1_e170": 235660,
+        "b24000_2_e171": 234262,
+        "b24000_3_e171": 234640,
+        "b24000_4_e170": 235605
+      },
+      "sent_known": {
+        "b24000_1_e170": 64,
+        "b24000_2_e171": 68,
+        "b24000_3_e171": 64,
+        "b24000_4_e170": 65
+      },
+      "not_sent_proven": {
+        "b24000_1_e170": 0,
+        "b24000_2_e171": 0,
+        "b24000_3_e171": 0,
+        "b24000_4_e170": 0
+      }
+    }
+  },
+  "overall_mean_delta": 20.0,
+  "gate_passed": false,
+  "strict_no_task_losses": true,
+  "usage_complete": true,
+  "interpretation": "old development broad100, not independent holdout",
+  "runs": [
+    {
+      "name": "b24000_1_e170",
+      "arm": "e170",
+      "budget": 24000,
+      "score": 219,
+      "errors": [],
+      "sent_known": 64,
+      "not_sent_proven": 0,
+      "spent_units": 235660
+    },
+    {
+      "name": "b24000_2_e171",
+      "arm": "e171",
+      "budget": 24000,
+      "score": 249,
+      "errors": [],
+      "sent_known": 68,
+      "not_sent_proven": 0,
+      "spent_units": 234262
+    },
+    {
+      "name": "b24000_3_e171",
+      "arm": "e171",
+      "budget": 24000,
+      "score": 244,
+      "errors": [],
+      "sent_known": 64,
+      "not_sent_proven": 0,
+      "spent_units": 234640
+    },
+    {
+      "name": "b24000_4_e170",
+      "arm": "e170",
+      "budget": 24000,
+      "score": 234,
+      "errors": [],
+      "sent_known": 65,
+      "not_sent_proven": 0,
+      "spent_units": 235605
+    }
+  ],
+  "unknown_usage": 0,
+  "total_known_units": 940167
+}
