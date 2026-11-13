@@ -1,0 +1,11 @@
+**
+!Dockerfile
+!.dockerignore
+!run_agent.py
+!submission/
+!submission/*.py
+!submission/requirements.txt
+!submission/requirements.lock
+!math_requirements.lock
+!scripts/
+!scripts/patch_sympy.py

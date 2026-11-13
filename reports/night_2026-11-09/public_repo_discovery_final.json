@@ -1,0 +1,3012 @@
+{
+  "checked_at_utc": "2026-11-08T23:31:29.807176+00:00",
+  "scope": "Final anonymous public-only discovery beyond seven previously catalogued repositories",
+  "baseline_report": "reports/night_2026-11-09/actual_contest_public_repos.json",
+  "baseline_report_sha256": "4adcd492ee4e642b4397baed7b6ae7a66d85aeadb781afc11e6c240fc6ddf4b3",
+  "known_repositories": [
+    "anchadekwi/openjiuwen-challenge-2026",
+    "danilpavlov/hackathon-openjiuwen-2026",
+    "fedorakooo/openjiuwen-challenge-2026",
+    "jul-os/mean-alpacas-openjiuwen-challenge-2026",
+    "kozlovkv/openjiuwen-tasks-predictor",
+    "maxim283b/openjiuwen_hack_alfagraph2000",
+    "re2044/openjiuwen"
+  ],
+  "repository_queries": [
+    {
+      "query": "openJiuwen Challenge 2026 is:public",
+      "url": "https://api.github.com/search/repositories?q=openJiuwen+Challenge+2026+is%3Apublic&sort=updated&order=desc&per_page=100",
+      "http_status": 200,
+      "total_count": 5,
+      "incomplete_results": false,
+      "results": [
+        {
+          "full_name": "anchadekwi/openJiuwen-Challenge-2026",
+          "html_url": "https://github.com/anchadekwi/openJiuwen-Challenge-2026",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 58,
+          "pushed_at": "2026-11-07T17:25:50Z",
+          "updated_at": "2026-11-07T17:25:54Z",
+          "created_at": "2026-11-07T09:33:45Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": null
+        },
+        {
+          "full_name": "fedorakooo/openJiuwen-Challenge-2026",
+          "html_url": "https://github.com/fedorakooo/openJiuwen-Challenge-2026",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 195,
+          "pushed_at": "2026-11-07T11:05:44Z",
+          "updated_at": "2026-11-07T11:05:48Z",
+          "created_at": "2026-11-07T10:18:28Z",
+          "default_branch": "main",
+          "language": "Dockerfile",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          }
+        },
+        {
+          "full_name": "jul-os/Mean-Alpacas-OpenJiuwen-Challenge-2026",
+          "html_url": "https://github.com/jul-os/Mean-Alpacas-OpenJiuwen-Challenge-2026",
+          "description": "Решение https://techarena2026.ru/open-jiuwen-challenge от команды Mean Alpacas. Кейс: оценка токенов для задач ИИ-агентов. ",
+          "private": false,
+          "fork": false,
+          "size": 21,
+          "pushed_at": "2026-11-07T08:33:11Z",
+          "updated_at": "2026-11-07T08:33:15Z",
+          "created_at": "2026-11-07T08:30:02Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        },
+        {
+          "full_name": "Xianmuyingyue/careersim-bdci26-postmortem",
+          "html_url": "https://github.com/Xianmuyingyue/careersim-bdci26-postmortem",
+          "description": "CCF BDCI 2026 [Huawei openJiuwen] career-simulation challenge — full postmortem: submitted skills, A/B experiments, reverse-engineered scoring insights and anonymised leaderboard.",
+          "private": false,
+          "fork": false,
+          "size": 897,
+          "pushed_at": "2026-10-22T01:46:26Z",
+          "updated_at": "2026-10-22T01:46:31Z",
+          "created_at": "2026-10-21T17:35:12Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        },
+        {
+          "full_name": "penguinyogurt/beacon",
+          "html_url": "https://github.com/penguinyogurt/beacon",
+          "description": "Beacon: a multi-agent search-and-rescue planning swarm on Bayesian search theory (Hack the North 2026, openJiuwen Multi-Agent Challenge)",
+          "private": false,
+          "fork": false,
+          "size": 0,
+          "pushed_at": "2026-09-19T04:33:30Z",
+          "updated_at": "2026-09-19T04:33:30Z",
+          "created_at": "2026-09-19T04:33:29Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        }
+      ],
+      "rate_limit": {
+        "X-RateLimit-Limit": "10",
+        "X-RateLimit-Remaining": "8",
+        "X-RateLimit-Reset": "1794180395"
+      }
+    },
+    {
+      "query": "\"openJiuwen\" \"2026\" in:name,description,readme is:public",
+      "url": "https://api.github.com/search/repositories?q=%22openJiuwen%22+%222026%22+in%3Aname%2Cdescription%2Creadme+is%3Apublic&sort=updated&order=desc&per_page=100",
+      "http_status": 200,
+      "total_count": 139,
+      "incomplete_results": false,
+      "results": [
+        {
+          "full_name": "enhansome/enhansome-ChatGPT-repositories",
+          "html_url": "https://github.com/enhansome/enhansome-ChatGPT-repositories",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 6288,
+          "pushed_at": "2026-11-08T23:14:11Z",
+          "updated_at": "2026-11-08T23:14:15Z",
+          "created_at": "2026-08-12T05:35:31Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        },
+        {
+          "full_name": "chaosxingxc-orion/omni",
+          "html_url": "https://github.com/chaosxingxc-orion/omni",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 80088,
+          "pushed_at": "2026-11-08T23:07:43Z",
+          "updated_at": "2026-11-08T23:07:47Z",
+          "created_at": "2026-10-28T13:42:43Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": null
+        },
+        {
+          "full_name": "OWD-AI/awesome-open-world-discovery",
+          "html_url": "https://github.com/OWD-AI/awesome-open-world-discovery",
+          "description": "Curated papers, official blogs, code, datasets and benchmarks for open-world discovery and learning agents",
+          "private": false,
+          "fork": false,
+          "size": 70193,
+          "pushed_at": "2026-11-08T22:37:22Z",
+          "updated_at": "2026-11-08T22:37:26Z",
+          "created_at": "2026-10-16T19:50:16Z",
+          "default_branch": "main",
+          "language": "TeX",
+          "license": null
+        },
+        {
+          "full_name": "Omrigotlieb/awesome-jev",
+          "html_url": "https://github.com/Omrigotlieb/awesome-jev",
+          "description": "Verified, screenshot-rich awesome list of projects built on Jev — TypeSafe AI's System One model for typed decisions",
+          "private": false,
+          "fork": false,
+          "size": 17882,
+          "pushed_at": "2026-11-08T22:08:51Z",
+          "updated_at": "2026-11-08T22:08:55Z",
+          "created_at": "2026-09-21T12:12:16Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "spdx_id": "NOASSERTION",
+            "url": null,
+            "node_id": "MDc6TGljZW5zZTA="
+          }
+        },
+        {
+          "full_name": "xsj734992568/Dashboard",
+          "html_url": "https://github.com/xsj734992568/Dashboard",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 648,
+          "pushed_at": "2026-11-08T21:59:52Z",
+          "updated_at": "2026-11-08T21:59:56Z",
+          "created_at": "2026-10-21T10:53:59Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": null
+        },
+        {
+          "full_name": "mrMaliosi/tmp_repo",
+          "html_url": "https://github.com/mrMaliosi/tmp_repo",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 128,
+          "pushed_at": "2026-11-08T21:45:15Z",
+          "updated_at": "2026-11-08T21:45:20Z",
+          "created_at": "2026-11-08T21:43:21Z",
+          "default_branch": "master",
+          "language": "Python",
+          "license": null
+        },
+        {
+          "full_name": "jyyang621/DailyArXiv",
+          "html_url": "https://github.com/jyyang621/DailyArXiv",
+          "description": "Thanks to https://github.com/zezhishao/DailyArXiv.git",
+          "private": false,
+          "fork": false,
+          "size": 29194,
+          "pushed_at": "2026-11-08T20:41:35Z",
+          "updated_at": "2026-11-08T20:41:38Z",
+          "created_at": "2025-01-21T08:27:27Z",
+          "default_branch": "master",
+          "language": "Python",
+          "license": null
+        },
+        {
+          "full_name": "TeleAI-UAGI/Awesome-Agent-Memory",
+          "html_url": "https://github.com/TeleAI-UAGI/Awesome-Agent-Memory",
+          "description": "Curated systems, benchmarks, and papers etc. on memory for LLMs/MLLMs --- long-term context, retrieval, and reasoning.",
+          "private": false,
+          "fork": false,
+          "size": 2061,
+          "pushed_at": "2026-11-08T19:13:26Z",
+          "updated_at": "2026-11-08T19:13:30Z",
+          "created_at": "2025-10-30T01:29:54Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          }
+        },
+        {
+          "full_name": "openJiuwen-ai/sciencediscovery",
+          "html_url": "https://github.com/openJiuwen-ai/sciencediscovery",
+          "description": "ScienceDiscovery is an all‑in‑one agentic workbench built specifically for scientific research.",
+          "private": false,
+          "fork": false,
+          "size": 65653,
+          "pushed_at": "2026-11-08T18:41:22Z",
+          "updated_at": "2026-11-08T18:41:25Z",
+          "created_at": "2026-08-14T09:38:06Z",
+          "default_branch": "main",
+          "language": "TypeScript",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          }
+        },
+        {
+          "full_name": "mans-westman/tail-risk",
+          "html_url": "https://github.com/mans-westman/tail-risk",
+          "description": "Next-session value-at-risk (VaR) and expected shortfall (ES) forecasting for one daily return series",
+          "private": false,
+          "fork": false,
+          "size": 383,
+          "pushed_at": "2026-11-08T17:32:16Z",
+          "updated_at": "2026-11-08T17:32:21Z",
+          "created_at": "2026-10-31T12:39:18Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": null
+        },
+        {
+          "full_name": "taishi-i/awesome-ChatGPT-repositories",
+          "html_url": "https://github.com/taishi-i/awesome-ChatGPT-repositories",
+          "description": "A curated list of open source GitHub repositories related to ChatGPT, the OpenAI API, and Codex. Searchable via Claude Code  and Codex skills.",
+          "private": false,
+          "fork": false,
+          "size": 33776,
+          "pushed_at": "2026-11-08T17:31:29Z",
+          "updated_at": "2026-11-08T17:31:36Z",
+          "created_at": "2023-04-02T14:00:07Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "cc0-1.0",
+            "name": "Creative Commons Zero v1.0 Universal",
+            "spdx_id": "CC0-1.0",
+            "url": "https://api.github.com/licenses/cc0-1.0",
+            "node_id": "MDc6TGljZW5zZTY="
+          }
+        },
+        {
+          "full_name": "HC-lam/IEDA-project-1",
+          "html_url": "https://github.com/HC-lam/IEDA-project-1",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 2507,
+          "pushed_at": "2026-11-08T16:49:21Z",
+          "updated_at": "2026-11-08T16:49:25Z",
+          "created_at": "2026-11-08T16:37:04Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        },
+        {
+          "full_name": "maxim283b/openJiuwen_hack_AlfaGraph2000",
+          "html_url": "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 164,
+          "pushed_at": "2026-11-08T16:16:07Z",
+          "updated_at": "2026-11-08T16:16:11Z",
+          "created_at": "2026-11-08T11:37:58Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": null
+        },
+        {
+          "full_name": "THEROCKSSS/awesome-jev",
+          "html_url": "https://github.com/THEROCKSSS/awesome-jev",
+          "description": "Merged, deduplicated, daily-updated catalog of Jev / TypeSafe System One projects with a filterable GitHub Pages site",
+          "private": false,
+          "fork": false,
+          "size": 3796,
+          "pushed_at": "2026-11-08T13:31:12Z",
+          "updated_at": "2026-11-08T13:31:15Z",
+          "created_at": "2026-09-26T07:21:13Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "spdx_id": "NOASSERTION",
+            "url": null,
+            "node_id": "MDc6TGljZW5zZTA="
+          }
+        },
+        {
+          "full_name": "chaosxingxc-orion/agent-hub-alpha",
+          "html_url": "https://github.com/chaosxingxc-orion/agent-hub-alpha",
+          "description": "面向企业核心业务的智能体架构研究与参考实现：基于 openJiuwen 演进，融合 Jev/S1 与 Agentic Model/S2，关注语义规约、决策与执行幂等、可回放与可审计。",
+          "private": false,
+          "fork": false,
+          "size": 2896,
+          "pushed_at": "2026-11-08T13:14:35Z",
+          "updated_at": "2026-11-08T13:14:38Z",
+          "created_at": "2026-11-08T12:49:04Z",
+          "default_branch": "main",
+          "language": "Go",
+          "license": null
+        },
+        {
+          "full_name": "fastagent-sh/ai-agent-stack",
+          "html_url": "https://github.com/fastagent-sh/ai-agent-stack",
+          "description": "The open-source AI agent stack, measured weekly: 16 layers, scored on adoption, upkeep and whether user questions get answered.",
+          "private": false,
+          "fork": false,
+          "size": 15762,
+          "pushed_at": "2026-11-08T13:07:32Z",
+          "updated_at": "2026-11-08T13:07:36Z",
+          "created_at": "2026-09-14T06:28:50Z",
+          "default_branch": "main",
+          "language": "TypeScript",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        },
+        {
+          "full_name": "openJiuwen-ai/jiuwenswarm",
+          "html_url": "https://github.com/openJiuwen-ai/jiuwenswarm",
+          "description": "JiuwenSwarm is an intelligent AI Agent built on openJiuwen. It extends the powerful capabilities of large language models directly to your fingertips through various communication apps you use daily.",
+          "private": false,
+          "fork": false,
+          "size": 378919,
+          "pushed_at": "2026-11-08T09:54:32Z",
+          "updated_at": "2026-11-08T18:59:33Z",
+          "created_at": "2026-03-05T06:28:11Z",
+          "default_branch": "develop",
+          "language": "Python",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          }
+        },
+        {
+          "full_name": "enhansome/enhansome-Awesome-Agent-Memory",
+          "html_url": "https://github.com/enhansome/enhansome-Awesome-Agent-Memory",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 602,
+          "pushed_at": "2026-11-08T09:39:33Z",
+          "updated_at": "2026-11-08T09:39:36Z",
+          "created_at": "2026-08-12T07:42:15Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        },
+        {
+          "full_name": "enhansome/enhansome-llm-agent-papers",
+          "html_url": "https://github.com/enhansome/enhansome-llm-agent-papers",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 541,
+          "pushed_at": "2026-11-08T09:35:13Z",
+          "updated_at": "2026-11-08T09:35:17Z",
+          "created_at": "2026-08-12T10:22:06Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        },
+        {
+          "full_name": "ai-boost/awesome-a2a",
+          "html_url": "https://github.com/ai-boost/awesome-a2a",
+          "description": "Agent2Agent (A2A) – awesome A2A agents, tools, servers & clients, all in one place.",
+          "private": false,
+          "fork": false,
+          "size": 632,
+          "pushed_at": "2026-11-08T08:55:35Z",
+          "updated_at": "2026-11-08T08:55:39Z",
+          "created_at": "2025-04-10T07:27:20Z",
+          "default_branch": "main",
+          "language": null,
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        },
+        {
+          "full_name": "Tavish9/awesome-daily-AI-arxiv",
+          "html_url": "https://github.com/Tavish9/awesome-daily-AI-arxiv",
+          "description": "🚀 Daily AI Research Digest: Tracking breakthroughs in AI/NLP/CV/Robotics with dynamic updates and paper navigation.",
+          "private": false,
+          "fork": false,
+          "size": 227060,
+          "pushed_at": "2026-11-08T08:48:02Z",
+          "updated_at": "2026-11-08T08:48:06Z",
+          "created_at": "2025-03-26T13:26:14Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "spdx_id": "NOASSERTION",
+            "url": null,
+            "node_id": "MDc6TGljZW5zZTA="
+          }
+        },
+        {
+          "full_name": "ASUKAAAAA1204/2026OPENJIUWEN",
+          "html_url": "https://github.com/ASUKAAAAA1204/2026OPENJIUWEN",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 5326,
+          "pushed_at": "2026-11-08T08:20:33Z",
+          "updated_at": "2026-11-08T08:20:36Z",
+          "created_at": "2026-10-30T05:25:03Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          }
+        },
+        {
+          "full_name": "mingqian0850/awesome-harness-robot",
+          "html_url": "https://github.com/mingqian0850/awesome-harness-robot",
+          "description": "This is a repo ...",
+          "private": false,
+          "fork": false,
+          "size": 9436,
+          "pushed_at": "2026-11-08T07:55:06Z",
+          "updated_at": "2026-11-08T07:55:10Z",
+          "created_at": "2026-07-25T06:54:45Z",
+          "default_branch": "main",
+          "language": null,
+          "license": {
+            "key": "cc0-1.0",
+            "name": "Creative Commons Zero v1.0 Universal",
+            "spdx_id": "CC0-1.0",
+            "url": "https://api.github.com/licenses/cc0-1.0",
+            "node_id": "MDc6TGljZW5zZTY="
+          }
+        },
+        {
+          "full_name": "tmzncty/LLM_Chronicle",
+          "html_url": "https://github.com/tmzncty/LLM_Chronicle",
+          "description": "AI 自己写自己的历史。",
+          "private": false,
+          "fork": false,
+          "size": 8519,
+          "pushed_at": "2026-11-08T07:26:16Z",
+          "updated_at": "2026-11-08T07:26:20Z",
+          "created_at": "2026-05-19T09:26:11Z",
+          "default_branch": "main",
+          "language": "HTML",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "spdx_id": "NOASSERTION",
+            "url": null,
+            "node_id": "MDc6TGljZW5zZTA="
+          }
+        },
+        {
+          "full_name": "tayyabimam1/awesome-ai-agent-stack",
+          "html_url": "https://github.com/tayyabimam1/awesome-ai-agent-stack",
+          "description": "Curated map of 3,000+ open-source AI agent tools: coding agents, agent frameworks, MCP servers, RAG, memory and local LLMs, sorted by layer and ranked by GitHub stars.",
+          "private": false,
+          "fork": false,
+          "size": 5893,
+          "pushed_at": "2026-11-08T05:38:19Z",
+          "updated_at": "2026-11-08T12:20:09Z",
+          "created_at": "2026-09-18T07:33:15Z",
+          "default_branch": "main",
+          "language": "TypeScript",
+          "license": {
+            "key": "cc-by-4.0",
+            "name": "Creative Commons Attribution 4.0 International",
+            "spdx_id": "CC-BY-4.0",
+            "url": "https://api.github.com/licenses/cc-by-4.0",
+            "node_id": "MDc6TGljZW5zZTI1"
+          }
+        },
+        {
+          "full_name": "XueruiSu/Reproduce-DeepSeek-R1-Survey",
+          "html_url": "https://github.com/XueruiSu/Reproduce-DeepSeek-R1-Survey",
+          "description": "This repository collects various works that reproduce DeepSeek R1, as well as works related to DeepSeek R1 and the DeepSeek series.",
+          "private": false,
+          "fork": false,
+          "size": 225,
+          "pushed_at": "2026-11-08T03:48:30Z",
+          "updated_at": "2026-11-08T03:48:34Z",
+          "created_at": "2025-02-17T07:17:35Z",
+          "default_branch": "main",
+          "language": null,
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        },
+        {
+          "full_name": "wh000wh000/awesome-jev-live",
+          "html_url": "https://github.com/wh000wh000/awesome-jev-live",
+          "description": "Awesome Jev — evidence-graded index of TypeSafe System One: SDKs, MCP tools, agents, apps and open models. 20 languages, rebuilt every 2 hours.",
+          "private": false,
+          "fork": false,
+          "size": 769617,
+          "pushed_at": "2026-11-08T03:48:16Z",
+          "updated_at": "2026-11-08T03:48:20Z",
+          "created_at": "2026-09-18T13:37:03Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "spdx_id": "NOASSERTION",
+            "url": null,
+            "node_id": "MDc6TGljZW5zZTA="
+          }
+        },
+        {
+          "full_name": "HuangShengZeBlueSky/china-agent-practices",
+          "html_url": "https://github.com/HuangShengZeBlueSky/china-agent-practices",
+          "description": "中国科技公司 Agent 工程研究：提示词、技能、CLI、工具接口与工作流拆解",
+          "private": false,
+          "fork": false,
+          "size": 2410568,
+          "pushed_at": "2026-11-08T01:00:50Z",
+          "updated_at": "2026-11-08T01:00:53Z",
+          "created_at": "2026-10-22T15:31:32Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": null
+        },
+        {
+          "full_name": "landandan/HarmonyOSHaps",
+          "html_url": "https://github.com/landandan/HarmonyOSHaps",
+          "description": "HarmonyOS Next Hap安装包导航",
+          "private": false,
+          "fork": false,
+          "size": 6417,
+          "pushed_at": "2026-11-08T00:58:45Z",
+          "updated_at": "2026-11-08T07:05:23Z",
+          "created_at": "2026-08-19T01:46:01Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": null
+        },
+        {
+          "full_name": "anchadekwi/openJiuwen-Challenge-2026",
+          "html_url": "https://github.com/anchadekwi/openJiuwen-Challenge-2026",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 58,
+          "pushed_at": "2026-11-07T17:25:50Z",
+          "updated_at": "2026-11-07T17:25:54Z",
+          "created_at": "2026-11-07T09:33:45Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": null
+        },
+        {
+          "full_name": "danilpavlov/hackathon-openJiuwen-2026",
+          "html_url": "https://github.com/danilpavlov/hackathon-openJiuwen-2026",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 7,
+          "pushed_at": "2026-11-07T11:29:12Z",
+          "updated_at": "2026-11-07T11:29:16Z",
+          "created_at": "2026-11-07T11:29:10Z",
+          "default_branch": "master",
+          "language": null,
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          }
+        },
+        {
+          "full_name": "fedorakooo/openJiuwen-Challenge-2026",
+          "html_url": "https://github.com/fedorakooo/openJiuwen-Challenge-2026",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 195,
+          "pushed_at": "2026-11-07T11:05:44Z",
+          "updated_at": "2026-11-07T11:05:48Z",
+          "created_at": "2026-11-07T10:18:28Z",
+          "default_branch": "main",
+          "language": "Dockerfile",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          }
+        },
+        {
+          "full_name": "Hugo-Tian/powerplant-review-agent",
+          "html_url": "https://github.com/Hugo-Tian/powerplant-review-agent",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 10700,
+          "pushed_at": "2026-11-07T10:17:59Z",
+          "updated_at": "2026-11-07T10:18:02Z",
+          "created_at": "2026-10-31T08:16:11Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          }
+        },
+        {
+          "full_name": "leemine/code-platform",
+          "html_url": "https://github.com/leemine/code-platform",
+          "description": "Swarm external-provider desktop platform; optional Native integration",
+          "private": false,
+          "fork": false,
+          "size": 94618,
+          "pushed_at": "2026-11-07T09:30:36Z",
+          "updated_at": "2026-11-07T09:30:41Z",
+          "created_at": "2026-10-30T15:04:12Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          }
+        },
+        {
+          "full_name": "jul-os/Mean-Alpacas-OpenJiuwen-Challenge-2026",
+          "html_url": "https://github.com/jul-os/Mean-Alpacas-OpenJiuwen-Challenge-2026",
+          "description": "Решение https://techarena2026.ru/open-jiuwen-challenge от команды Mean Alpacas. Кейс: оценка токенов для задач ИИ-агентов. ",
+          "private": false,
+          "fork": false,
+          "size": 21,
+          "pushed_at": "2026-11-07T08:33:11Z",
+          "updated_at": "2026-11-07T08:33:15Z",
+          "created_at": "2026-11-07T08:30:02Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        },
+        {
+          "full_name": "ThinkFlowLab/system1-agents",
+          "html_url": "https://github.com/ThinkFlowLab/system1-agents",
+          "description": "System 1 decision models (Jev, Laya, Cua-S1) as brain for agents: Browser use, computer use, games and robotics",
+          "private": false,
+          "fork": false,
+          "size": 28316,
+          "pushed_at": "2026-11-06T11:50:57Z",
+          "updated_at": "2026-11-07T09:01:32Z",
+          "created_at": "2026-09-22T16:42:42Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          }
+        },
+        {
+          "full_name": "kr7001/fyp-shopping-agent",
+          "html_url": "https://github.com/kr7001/fyp-shopping-agent",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 24462,
+          "pushed_at": "2026-11-06T04:44:38Z",
+          "updated_at": "2026-11-06T02:55:52Z",
+          "created_at": "2026-09-07T11:52:42Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          }
+        },
+        {
+          "full_name": "js-lee-AI/awesome-llm-agent-papers",
+          "html_url": "https://github.com/js-lee-AI/awesome-llm-agent-papers",
+          "description": "LLM agents: curated papers on planning, memory, tool use, multi-agent systems, evaluation, and safety.",
+          "private": false,
+          "fork": false,
+          "size": 9999,
+          "pushed_at": "2026-11-05T18:37:16Z",
+          "updated_at": "2026-11-07T12:10:45Z",
+          "created_at": "2026-07-08T02:31:10Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        },
+        {
+          "full_name": "shihuan1999/homebrew-riscv",
+          "html_url": "https://github.com/shihuan1999/homebrew-riscv",
+          "description": "Harmonybrew tap: prebuilt riscv64_ohos bottles (bottles on shihuan1999/riscv-bin)",
+          "private": false,
+          "fork": false,
+          "size": 868,
+          "pushed_at": "2026-11-05T13:32:39Z",
+          "updated_at": "2026-11-05T13:32:43Z",
+          "created_at": "2026-08-29T07:47:03Z",
+          "default_branch": "main",
+          "language": "Ruby",
+          "license": {
+            "key": "bsd-2-clause",
+            "name": "BSD 2-Clause \"Simplified\" License",
+            "spdx_id": "BSD-2-Clause",
+            "url": "https://api.github.com/licenses/bsd-2-clause",
+            "node_id": "MDc6TGljZW5zZTQ="
+          }
+        },
+        {
+          "full_name": "pminervini/deep-research-mcp",
+          "html_url": "https://github.com/pminervini/deep-research-mcp",
+          "description": "MCP server for OpenAI and Gemini Deep Research, Tavily Research, and self-hosted DR-Tulu and openJiuwen DeepSearch (Gnosis).",
+          "private": false,
+          "fork": false,
+          "size": 5137,
+          "pushed_at": "2026-11-04T15:28:25Z",
+          "updated_at": "2026-11-04T15:28:30Z",
+          "created_at": "2025-08-07T23:25:35Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        },
+        {
+          "full_name": "AlienHub/agent-catalog",
+          "html_url": "https://github.com/AlienHub/agent-catalog",
+          "description": "AI application and agent catalog with SVG assets, typed SDK, React components, and searchable website.",
+          "private": false,
+          "fork": false,
+          "size": 6814,
+          "pushed_at": "2026-11-06T01:20:41Z",
+          "updated_at": "2026-11-04T15:03:04Z",
+          "created_at": "2026-10-02T17:06:23Z",
+          "default_branch": "main",
+          "language": "JavaScript",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "spdx_id": "NOASSERTION",
+            "url": null,
+            "node_id": "MDc6TGljZW5zZTA="
+          }
+        },
+        {
+          "full_name": "michaelatamuk/agentic-desk",
+          "html_url": "https://github.com/michaelatamuk/agentic-desk",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 69567,
+          "pushed_at": "2026-11-04T14:28:42Z",
+          "updated_at": "2026-11-04T14:28:46Z",
+          "created_at": "2026-10-25T08:25:42Z",
+          "default_branch": "main",
+          "language": "HTML",
+          "license": null
+        },
+        {
+          "full_name": "lhw153766-ctrl/jiuwen-codeheal-swarm",
+          "html_url": "https://github.com/lhw153766-ctrl/jiuwen-codeheal-swarm",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 1156,
+          "pushed_at": "2026-11-04T14:11:03Z",
+          "updated_at": "2026-11-04T14:11:07Z",
+          "created_at": "2026-10-15T10:27:40Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          }
+        },
+        {
+          "full_name": "zeshi09/notes",
+          "html_url": "https://github.com/zeshi09/notes",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 882,
+          "pushed_at": "2026-11-04T13:26:32Z",
+          "updated_at": "2026-11-04T13:26:36Z",
+          "created_at": "2026-09-15T17:28:47Z",
+          "default_branch": "main",
+          "language": "HTML",
+          "license": null
+        },
+        {
+          "full_name": "JoakimStarr/finreport-agent",
+          "html_url": "https://github.com/JoakimStarr/finreport-agent",
+          "description": "财报排雷助手：openJiuwen 8 节点工作流 + 12 项指标 + 6 条排雷规则 + 离线缓存（数字经济比赛项目）",
+          "private": false,
+          "fork": false,
+          "size": 10555,
+          "pushed_at": "2026-11-05T01:39:15Z",
+          "updated_at": "2026-11-04T12:50:42Z",
+          "created_at": "2026-11-04T02:26:24Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": null
+        },
+        {
+          "full_name": "zhengnianzu/openclaw-task",
+          "html_url": "https://github.com/zhengnianzu/openclaw-task",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 3781,
+          "pushed_at": "2026-11-03T12:45:33Z",
+          "updated_at": "2026-11-03T12:45:40Z",
+          "created_at": "2026-03-10T08:03:31Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": null
+        },
+        {
+          "full_name": "NeuraLiying/Awesome-Agent-Harnesses",
+          "html_url": "https://github.com/NeuraLiying/Awesome-Agent-Harnesses",
+          "description": "Curated, verified survey of the agent harness — the layer around an LLM   (loop, tools, memory, context, runtime) that turns it into an agent. 116   papers + Claude Code / Codex / Cursor / OpenHands tools + Anthropic /   OpenAI / Karpathy essays. Agent = Model + Harness.",
+          "private": false,
+          "fork": false,
+          "size": 146,
+          "pushed_at": "2026-11-03T11:46:13Z",
+          "updated_at": "2026-11-08T23:24:16Z",
+          "created_at": "2026-07-02T17:04:38Z",
+          "default_branch": "main",
+          "language": null,
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        },
+        {
+          "full_name": "bitlhk/finance-agent-harness",
+          "html_url": "https://github.com/bitlhk/finance-agent-harness",
+          "description": "面向金融 Agent 的行业能力与工程底座：统一金融语义、运行时集成、领域能力包、证据与评测。",
+          "private": false,
+          "fork": false,
+          "size": 7398,
+          "pushed_at": "2026-11-06T15:15:32Z",
+          "updated_at": "2026-11-03T05:51:00Z",
+          "created_at": "2026-09-01T08:14:30Z",
+          "default_branch": "main",
+          "language": "Java",
+          "license": null
+        },
+        {
+          "full_name": "cosolar/agent-nexus",
+          "html_url": "https://github.com/cosolar/agent-nexus",
+          "description": "AI Agent 开源生态图谱：23 大类 / 449 个项目，Star 实测排序，附选型四问与趋势判断。每周更新。",
+          "private": false,
+          "fork": false,
+          "size": 1956,
+          "pushed_at": "2026-11-03T01:58:48Z",
+          "updated_at": "2026-11-03T01:58:51Z",
+          "created_at": "2026-11-03T01:19:28Z",
+          "default_branch": "main",
+          "language": "JavaScript",
+          "license": {
+            "key": "cc-by-4.0",
+            "name": "Creative Commons Attribution 4.0 International",
+            "spdx_id": "CC-BY-4.0",
+            "url": "https://api.github.com/licenses/cc-by-4.0",
+            "node_id": "MDc6TGljZW5zZTI1"
+          }
+        },
+        {
+          "full_name": "waytofindartofproblemsolving-ux/shisai-prize-radar",
+          "html_url": "https://github.com/waytofindartofproblemsolving-ux/shisai-prize-radar",
+          "description": "Shisai competition radar",
+          "private": false,
+          "fork": false,
+          "size": 81,
+          "pushed_at": "2026-11-02T15:49:43Z",
+          "updated_at": "2026-11-02T15:49:48Z",
+          "created_at": "2026-10-25T02:38:10Z",
+          "default_branch": "main",
+          "language": "JavaScript",
+          "license": null
+        },
+        {
+          "full_name": "luxury221/Formal-Verification-Agent-for-Mathematics",
+          "html_url": "https://github.com/luxury221/Formal-Verification-Agent-for-Mathematics",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 3503,
+          "pushed_at": "2026-11-02T12:39:01Z",
+          "updated_at": "2026-11-03T03:06:49Z",
+          "created_at": "2026-11-01T09:51:10Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": null
+        },
+        {
+          "full_name": "jiuwendemos/georesponse",
+          "html_url": "https://github.com/jiuwendemos/georesponse",
+          "description": "GeoResponse - an AI analyst for imagery. Finds change, ranks what matters, writes the assessment with a map. Offline stage demo + pilot pipeline.",
+          "private": false,
+          "fork": false,
+          "size": 56247,
+          "pushed_at": "2026-11-02T12:17:25Z",
+          "updated_at": "2026-11-02T12:17:29Z",
+          "created_at": "2026-10-29T18:51:07Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          }
+        },
+        {
+          "full_name": "jiuwendemos/rootcause",
+          "html_url": "https://github.com/jiuwendemos/rootcause",
+          "description": "When a factory finds a bad part, RootCause finds the likely cause and writes the quality report with evidence. On-site, evidence-first, human-approved.",
+          "private": false,
+          "fork": false,
+          "size": 19139,
+          "pushed_at": "2026-11-02T12:17:23Z",
+          "updated_at": "2026-11-02T12:17:27Z",
+          "created_at": "2026-10-29T18:26:46Z",
+          "default_branch": "main",
+          "language": "TypeScript",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        },
+        {
+          "full_name": "jiuwendemos/cue",
+          "html_url": "https://github.com/jiuwendemos/cue",
+          "description": "CUE — the live show design studio. Stage, looks, video, blocking, cues and budget on one timeline.",
+          "private": false,
+          "fork": false,
+          "size": 27815,
+          "pushed_at": "2026-11-02T12:17:23Z",
+          "updated_at": "2026-11-02T12:17:27Z",
+          "created_at": "2026-10-30T01:17:22Z",
+          "default_branch": "main",
+          "language": "TypeScript",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        },
+        {
+          "full_name": "luoxiu065-zjx/techarena-foresight-evidence",
+          "html_url": "https://github.com/luoxiu065-zjx/techarena-foresight-evidence",
+          "description": "Foresight Agents - Tech Arena UK 2026 Career Survival Agent: Skill versions v37/v38 with timestamps and test-game score reports",
+          "private": false,
+          "fork": false,
+          "size": 1899,
+          "pushed_at": "2026-11-02T03:02:02Z",
+          "updated_at": "2026-11-02T03:02:05Z",
+          "created_at": "2026-11-02T01:19:46Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": null
+        },
+        {
+          "full_name": "jiuwendemos/recall",
+          "html_url": "https://github.com/jiuwendemos/recall",
+          "description": "RECALL — the private capture layer for PPMA. Capture what was said, prove where it came from, redact, and hand the facts to project memory.",
+          "private": false,
+          "fork": false,
+          "size": 16887,
+          "pushed_at": "2026-11-01T13:05:38Z",
+          "updated_at": "2026-11-01T13:05:41Z",
+          "created_at": "2026-10-30T01:46:33Z",
+          "default_branch": "main",
+          "language": "TypeScript",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        },
+        {
+          "full_name": "Shuwajaja/WERKAtlas",
+          "html_url": "https://github.com/Shuwajaja/WERKAtlas",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 45867,
+          "pushed_at": "2026-10-31T23:28:29Z",
+          "updated_at": "2026-10-31T23:28:34Z",
+          "created_at": "2026-07-07T19:04:28Z",
+          "default_branch": "main",
+          "language": "HTML",
+          "license": null
+        },
+        {
+          "full_name": "agents-demo/rootcause",
+          "html_url": "https://github.com/agents-demo/rootcause",
+          "description": "When a factory finds a bad part, RootCause finds the likely cause and writes the quality report with evidence. On-site, evidence-first, human-approved.",
+          "private": false,
+          "fork": false,
+          "size": 19092,
+          "pushed_at": "2026-10-31T18:25:31Z",
+          "updated_at": "2026-10-31T18:25:35Z",
+          "created_at": "2026-10-29T18:26:50Z",
+          "default_branch": "main",
+          "language": "TypeScript",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        },
+        {
+          "full_name": "agents-demo/recall",
+          "html_url": "https://github.com/agents-demo/recall",
+          "description": "RECALL - the private capture layer for PPMA. Capture, prove, redact and hand the facts to project memory.",
+          "private": false,
+          "fork": false,
+          "size": 16675,
+          "pushed_at": "2026-10-31T18:23:57Z",
+          "updated_at": "2026-10-31T18:24:01Z",
+          "created_at": "2026-10-30T01:53:51Z",
+          "default_branch": "main",
+          "language": "TypeScript",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        },
+        {
+          "full_name": "dissill/LLM",
+          "html_url": "https://github.com/dissill/LLM",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 9880,
+          "pushed_at": "2026-10-31T04:11:58Z",
+          "updated_at": "2026-10-31T04:12:02Z",
+          "created_at": "2026-10-16T08:44:49Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          }
+        },
+        {
+          "full_name": "InferMatrixLab/infermatrix-marketing",
+          "html_url": "https://github.com/InferMatrixLab/infermatrix-marketing",
+          "description": "Centralized marketing and community operations materials for InferMatrix projects.",
+          "private": false,
+          "fork": false,
+          "size": 123875,
+          "pushed_at": "2026-10-30T03:59:49Z",
+          "updated_at": "2026-10-30T03:59:53Z",
+          "created_at": "2026-10-18T15:38:38Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        },
+        {
+          "full_name": "xyz11274/agentf",
+          "html_url": "https://github.com/xyz11274/agentf",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 93692,
+          "pushed_at": "2026-10-29T04:49:16Z",
+          "updated_at": "2026-11-05T12:47:14Z",
+          "created_at": "2026-10-10T03:34:23Z",
+          "default_branch": "main",
+          "language": "C++",
+          "license": null
+        },
+        {
+          "full_name": "pswpswpsw/awesome-human-ai-research-systems",
+          "html_url": "https://github.com/pswpswpsw/awesome-human-ai-research-systems",
+          "description": "A curated, commercial-product-first list of systems where AI collaborates with human researchers, from question formulation to manuscript drafting.",
+          "private": false,
+          "fork": false,
+          "size": 476,
+          "pushed_at": "2026-10-29T02:31:50Z",
+          "updated_at": "2026-10-29T05:31:18Z",
+          "created_at": "2026-09-19T06:18:11Z",
+          "default_branch": "main",
+          "language": "JavaScript",
+          "license": {
+            "key": "cc0-1.0",
+            "name": "Creative Commons Zero v1.0 Universal",
+            "spdx_id": "CC0-1.0",
+            "url": "https://api.github.com/licenses/cc0-1.0",
+            "node_id": "MDc6TGljZW5zZTY="
+          }
+        },
+        {
+          "full_name": "pz857082775/mile-neuro-memory",
+          "html_url": "https://github.com/pz857082775/mile-neuro-memory",
+          "description": "🧠 米乐-神经网络记忆：项目介绍 + 17 个主流记忆方案 × 20 项能力综合评测报告",
+          "private": false,
+          "fork": false,
+          "size": 138,
+          "pushed_at": "2026-10-28T11:23:46Z",
+          "updated_at": "2026-10-28T11:24:31Z",
+          "created_at": "2026-10-28T10:38:32Z",
+          "default_branch": "main",
+          "language": null,
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        },
+        {
+          "full_name": "manishh/openjiuwen--swarmflow-predictable-workflows-proof-first",
+          "html_url": "https://github.com/manishh/openjiuwen--swarmflow-predictable-workflows-proof-first",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 24,
+          "pushed_at": "2026-10-27T16:31:40Z",
+          "updated_at": "2026-10-27T16:31:44Z",
+          "created_at": "2026-10-27T16:31:06Z",
+          "default_branch": "master",
+          "language": "Python",
+          "license": null
+        },
+        {
+          "full_name": "thinanphen/faron-openjiuwen-agentgroup",
+          "html_url": "https://github.com/thinanphen/faron-openjiuwen-agentgroup",
+          "description": "Faron x openJiuwen AgentGroup: multi-agent orchestration on openjiuwen.agent_teams (6 members / 12 tools) + two-stage deterministic citation audit",
+          "private": false,
+          "fork": false,
+          "size": 44343,
+          "pushed_at": "2026-10-24T13:16:37Z",
+          "updated_at": "2026-10-24T13:16:40Z",
+          "created_at": "2026-10-14T09:12:51Z",
+          "default_branch": "main",
+          "language": "HTML",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          }
+        },
+        {
+          "full_name": "Xianmuyingyue/careersim-bdci26-postmortem",
+          "html_url": "https://github.com/Xianmuyingyue/careersim-bdci26-postmortem",
+          "description": "CCF BDCI 2026 [Huawei openJiuwen] career-simulation challenge — full postmortem: submitted skills, A/B experiments, reverse-engineered scoring insights and anonymised leaderboard.",
+          "private": false,
+          "fork": false,
+          "size": 897,
+          "pushed_at": "2026-10-22T01:46:26Z",
+          "updated_at": "2026-10-22T01:46:31Z",
+          "created_at": "2026-10-21T17:35:12Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        },
+        {
+          "full_name": "jrob856/test",
+          "html_url": "https://github.com/jrob856/test",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 39116,
+          "pushed_at": "2026-10-16T20:22:03Z",
+          "updated_at": "2026-10-16T17:26:16Z",
+          "created_at": "2026-10-16T17:24:46Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "cc0-1.0",
+            "name": "Creative Commons Zero v1.0 Universal",
+            "spdx_id": "CC0-1.0",
+            "url": "https://api.github.com/licenses/cc0-1.0",
+            "node_id": "MDc6TGljZW5zZTY="
+          }
+        },
+        {
+          "full_name": "Karl-XZ/FloraCast-Research",
+          "html_url": "https://github.com/Karl-XZ/FloraCast-Research",
+          "description": "开源气候与植被分析平台，集成地图与遥感对比、植物观测与识别、地点数据智能问答和历史气象搜索，支持生态研究、植物调查与科研教学。",
+          "private": false,
+          "fork": false,
+          "size": 19875,
+          "pushed_at": "2026-10-16T12:17:57Z",
+          "updated_at": "2026-10-16T12:27:50Z",
+          "created_at": "2026-09-11T18:59:37Z",
+          "default_branch": "master",
+          "language": "JavaScript",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        },
+        {
+          "full_name": "qwqwqwqwqwqwqwqwqe/opportunity_agent",
+          "html_url": "https://github.com/qwqwqwqwqwqwqwqwqe/opportunity_agent",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 5394,
+          "pushed_at": "2026-10-31T13:29:00Z",
+          "updated_at": "2026-10-13T03:09:48Z",
+          "created_at": "2026-10-09T01:20:02Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": null
+        },
+        {
+          "full_name": "SHIChenhao-0801/CCF_BDCI_2026",
+          "html_url": "https://github.com/SHIChenhao-0801/CCF_BDCI_2026",
+          "description": "基于JiuwenSwarm的Agent 科研论文自动生成",
+          "private": false,
+          "fork": false,
+          "size": 87940,
+          "pushed_at": "2026-10-12T13:24:27Z",
+          "updated_at": "2026-10-12T13:24:55Z",
+          "created_at": "2026-10-12T13:06:59Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": null
+        },
+        {
+          "full_name": "Mapleyuchen/CCF-BDCI",
+          "html_url": "https://github.com/Mapleyuchen/CCF-BDCI",
+          "description": "ICLR Essay Generation Agent",
+          "private": false,
+          "fork": false,
+          "size": 100481,
+          "pushed_at": "2026-10-09T14:38:53Z",
+          "updated_at": "2026-10-09T14:38:57Z",
+          "created_at": "2026-09-24T13:52:00Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": null
+        },
+        {
+          "full_name": "zkk123-dd/paperswarm",
+          "html_url": "https://github.com/zkk123-dd/paperswarm",
+          "description": "PaperSwarm: an evidence-gated multi-agent system that generates ICLR-format research papers, with a fully traceable claim ledger, reproduction tooling and run logs.",
+          "private": false,
+          "fork": false,
+          "size": 1232,
+          "pushed_at": "2026-10-08T04:13:25Z",
+          "updated_at": "2026-10-08T04:13:29Z",
+          "created_at": "2026-10-08T03:31:35Z",
+          "default_branch": "main",
+          "language": "TeX",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          }
+        },
+        {
+          "full_name": "YUMinRan/CareerSim-BDCI26",
+          "html_url": "https://github.com/YUMinRan/CareerSim-BDCI26",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 82,
+          "pushed_at": "2026-10-07T17:02:37Z",
+          "updated_at": "2026-10-07T17:05:32Z",
+          "created_at": "2026-10-07T16:49:32Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        },
+        {
+          "full_name": "uhub/awesome-agent",
+          "html_url": "https://github.com/uhub/awesome-agent",
+          "description": "A curated list of awesome AI Agent frameworks, libraries and software.",
+          "private": false,
+          "fork": false,
+          "size": 105,
+          "pushed_at": "2026-10-07T14:45:52Z",
+          "updated_at": "2026-11-02T21:46:14Z",
+          "created_at": "2026-09-02T08:54:17Z",
+          "default_branch": "master",
+          "language": null,
+          "license": null
+        },
+        {
+          "full_name": "smileDSG/CareerSim-BDCI26",
+          "html_url": "https://github.com/smileDSG/CareerSim-BDCI26",
+          "description": "huawei-CCF",
+          "private": false,
+          "fork": false,
+          "size": 619,
+          "pushed_at": "2026-10-07T14:35:18Z",
+          "updated_at": "2026-10-07T14:35:24Z",
+          "created_at": "2026-10-07T14:06:42Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "spdx_id": "NOASSERTION",
+            "url": null,
+            "node_id": "MDc6TGljZW5zZTA="
+          }
+        },
+        {
+          "full_name": "Starry-Nova/JiuwenSwarm",
+          "html_url": "https://github.com/Starry-Nova/JiuwenSwarm",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 236443,
+          "pushed_at": "2026-10-04T07:08:41Z",
+          "updated_at": "2026-10-04T07:08:45Z",
+          "created_at": "2026-10-01T07:04:46Z",
+          "default_branch": "feature/evidence-rail",
+          "language": "Python",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          }
+        },
+        {
+          "full_name": "YidaYang/bdci",
+          "html_url": "https://github.com/YidaYang/bdci",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 277,
+          "pushed_at": "2026-10-03T14:15:16Z",
+          "updated_at": "2026-10-03T02:36:32Z",
+          "created_at": "2026-10-01T14:14:26Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": null
+        },
+        {
+          "full_name": "liyix/finding-the-right-fit",
+          "html_url": "https://github.com/liyix/finding-the-right-fit",
+          "description": "A Harness x Model evaluation suite for command-line agents (code for Finding the Right Fit)",
+          "private": false,
+          "fork": false,
+          "size": 1160,
+          "pushed_at": "2026-10-02T05:08:57Z",
+          "updated_at": "2026-11-04T22:11:36Z",
+          "created_at": "2026-09-30T10:16:44Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          }
+        },
+        {
+          "full_name": "sicloid/openjiuwen-community-vault",
+          "html_url": "https://github.com/sicloid/openjiuwen-community-vault",
+          "description": "Türkçe openJiuwen topluluk katkı rehberi, PR arşivi ve Obsidian vault",
+          "private": false,
+          "fork": false,
+          "size": 1112,
+          "pushed_at": "2026-10-01T12:37:29Z",
+          "updated_at": "2026-10-08T05:11:28Z",
+          "created_at": "2026-10-01T12:12:44Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        },
+        {
+          "full_name": "CloudCrane-Software/jiuwen-glue",
+          "html_url": "https://github.com/CloudCrane-Software/jiuwen-glue",
+          "description": "openJiuwen 胶水层：GuardrailRun 协议聚合 / Budget Lease / 能力治理台账 / 记忆晋升管线 + 决策层接口。Glue layer for openJiuwen — only what native lacks.",
+          "private": false,
+          "fork": false,
+          "size": 739,
+          "pushed_at": "2026-09-30T06:35:59Z",
+          "updated_at": "2026-09-29T05:58:44Z",
+          "created_at": "2026-09-25T16:15:40Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          }
+        },
+        {
+          "full_name": "sweetcornna/Tyche-team",
+          "html_url": "https://github.com/sweetcornna/Tyche-team",
+          "description": "Tyche: evidence-bound ICLR short-paper agent on openJiuwen JiuwenSwarm (CCF BDCI 2026) — team copy",
+          "private": false,
+          "fork": false,
+          "size": 87829,
+          "pushed_at": "2026-09-28T12:21:20Z",
+          "updated_at": "2026-09-28T12:20:51Z",
+          "created_at": "2026-09-28T12:19:06Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          }
+        },
+        {
+          "full_name": "martin-beck/agent-relay",
+          "html_url": "https://github.com/martin-beck/agent-relay",
+          "description": "Android client for provider-neutral coding-agent sessions",
+          "private": false,
+          "fork": false,
+          "size": 48957,
+          "pushed_at": "2026-10-26T04:37:02Z",
+          "updated_at": "2026-09-26T19:22:20Z",
+          "created_at": "2026-09-01T10:57:44Z",
+          "default_branch": "main",
+          "language": "Kotlin",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        },
+        {
+          "full_name": "YimmyZ/awesome-recursive-self-improvement",
+          "html_url": "https://github.com/YimmyZ/awesome-recursive-self-improvement",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 60,
+          "pushed_at": "2026-10-09T19:47:52Z",
+          "updated_at": "2026-09-23T08:26:39Z",
+          "created_at": "2026-08-04T15:36:43Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        },
+        {
+          "full_name": "interactivetech/awesome-self-improving-agent",
+          "html_url": "https://github.com/interactivetech/awesome-self-improving-agent",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 123,
+          "pushed_at": "2026-09-22T13:24:27Z",
+          "updated_at": "2026-10-28T08:28:35Z",
+          "created_at": "2026-08-26T21:40:14Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        },
+        {
+          "full_name": "psgreger/byr7s2y",
+          "html_url": "https://github.com/psgreger/byr7s2y",
+          "description": "Auto-created repository for publishing",
+          "private": false,
+          "fork": false,
+          "size": 25,
+          "pushed_at": "2026-09-22T08:18:10Z",
+          "updated_at": "2026-09-22T08:18:14Z",
+          "created_at": "2026-09-22T08:18:05Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        },
+        {
+          "full_name": "psgreger/24yj2m0cn",
+          "html_url": "https://github.com/psgreger/24yj2m0cn",
+          "description": "Auto-created repository for publishing",
+          "private": false,
+          "fork": false,
+          "size": 28,
+          "pushed_at": "2026-09-22T08:17:29Z",
+          "updated_at": "2026-09-22T08:17:30Z",
+          "created_at": "2026-09-22T08:17:25Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        },
+        {
+          "full_name": "psgreger/z66j32eecv",
+          "html_url": "https://github.com/psgreger/z66j32eecv",
+          "description": "Auto-created repository for publishing",
+          "private": false,
+          "fork": false,
+          "size": 27,
+          "pushed_at": "2026-09-22T08:14:10Z",
+          "updated_at": "2026-09-22T08:14:13Z",
+          "created_at": "2026-09-22T08:14:05Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        },
+        {
+          "full_name": "psgreger/axfzon0w",
+          "html_url": "https://github.com/psgreger/axfzon0w",
+          "description": "Auto-created repository for publishing",
+          "private": false,
+          "fork": false,
+          "size": 27,
+          "pushed_at": "2026-09-22T08:11:36Z",
+          "updated_at": "2026-09-22T08:11:40Z",
+          "created_at": "2026-09-22T08:11:32Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        },
+        {
+          "full_name": "psgreger/wb9qj3k8n",
+          "html_url": "https://github.com/psgreger/wb9qj3k8n",
+          "description": "Auto-created repository for publishing",
+          "private": false,
+          "fork": false,
+          "size": 28,
+          "pushed_at": "2026-09-22T08:08:23Z",
+          "updated_at": "2026-09-22T08:08:26Z",
+          "created_at": "2026-09-22T08:08:18Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        },
+        {
+          "full_name": "psgreger/usm1dr",
+          "html_url": "https://github.com/psgreger/usm1dr",
+          "description": "Auto-created repository for publishing",
+          "private": false,
+          "fork": false,
+          "size": 28,
+          "pushed_at": "2026-09-22T08:08:22Z",
+          "updated_at": "2026-09-22T08:08:26Z",
+          "created_at": "2026-09-22T08:08:18Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        },
+        {
+          "full_name": "psgreger/85chpn",
+          "html_url": "https://github.com/psgreger/85chpn",
+          "description": "Auto-created repository for publishing",
+          "private": false,
+          "fork": false,
+          "size": 26,
+          "pushed_at": "2026-09-22T08:06:24Z",
+          "updated_at": "2026-09-22T08:06:28Z",
+          "created_at": "2026-09-22T08:06:20Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        },
+        {
+          "full_name": "psgreger/gaf91obff",
+          "html_url": "https://github.com/psgreger/gaf91obff",
+          "description": "Auto-created repository for publishing",
+          "private": false,
+          "fork": false,
+          "size": 26,
+          "pushed_at": "2026-09-22T08:06:24Z",
+          "updated_at": "2026-09-22T08:06:27Z",
+          "created_at": "2026-09-22T08:06:19Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        },
+        {
+          "full_name": "psgreger/l3xsjlzd",
+          "html_url": "https://github.com/psgreger/l3xsjlzd",
+          "description": "Auto-created repository for publishing",
+          "private": false,
+          "fork": false,
+          "size": 28,
+          "pushed_at": "2026-09-22T08:05:05Z",
+          "updated_at": "2026-09-22T08:05:09Z",
+          "created_at": "2026-09-22T08:04:57Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        },
+        {
+          "full_name": "psgreger/1mkrwx",
+          "html_url": "https://github.com/psgreger/1mkrwx",
+          "description": "Auto-created repository for publishing",
+          "private": false,
+          "fork": false,
+          "size": 27,
+          "pushed_at": "2026-09-22T08:04:23Z",
+          "updated_at": "2026-09-22T08:04:27Z",
+          "created_at": "2026-09-22T08:04:19Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        },
+        {
+          "full_name": "psgreger/be2iic13",
+          "html_url": "https://github.com/psgreger/be2iic13",
+          "description": "Auto-created repository for publishing",
+          "private": false,
+          "fork": false,
+          "size": 26,
+          "pushed_at": "2026-09-22T08:03:41Z",
+          "updated_at": "2026-09-22T08:03:45Z",
+          "created_at": "2026-09-22T08:03:37Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        },
+        {
+          "full_name": "psgreger/zew6yr8zwi",
+          "html_url": "https://github.com/psgreger/zew6yr8zwi",
+          "description": "Auto-created repository for publishing",
+          "private": false,
+          "fork": false,
+          "size": 26,
+          "pushed_at": "2026-09-22T08:02:22Z",
+          "updated_at": "2026-09-22T08:02:26Z",
+          "created_at": "2026-09-22T08:02:18Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        },
+        {
+          "full_name": "psgreger/gzwhbxzr",
+          "html_url": "https://github.com/psgreger/gzwhbxzr",
+          "description": "Auto-created repository for publishing",
+          "private": false,
+          "fork": false,
+          "size": 28,
+          "pushed_at": "2026-09-22T08:02:21Z",
+          "updated_at": "2026-09-22T08:02:23Z",
+          "created_at": "2026-09-22T08:02:18Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        },
+        {
+          "full_name": "psgreger/72c0yiqoym",
+          "html_url": "https://github.com/psgreger/72c0yiqoym",
+          "description": "Auto-created repository for publishing",
+          "private": false,
+          "fork": false,
+          "size": 28,
+          "pushed_at": "2026-09-22T08:01:38Z",
+          "updated_at": "2026-09-22T08:01:42Z",
+          "created_at": "2026-09-22T08:01:33Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        },
+        {
+          "full_name": "psgreger/x6ti2d828",
+          "html_url": "https://github.com/psgreger/x6ti2d828",
+          "description": "Auto-created repository for publishing",
+          "private": false,
+          "fork": false,
+          "size": 27,
+          "pushed_at": "2026-09-22T07:59:00Z",
+          "updated_at": "2026-09-22T07:59:04Z",
+          "created_at": "2026-09-22T07:58:56Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        }
+      ],
+      "rate_limit": {
+        "X-RateLimit-Limit": "10",
+        "X-RateLimit-Remaining": "9",
+        "X-RateLimit-Reset": "1794180395"
+      }
+    },
+    {
+      "query": "BudgetAwareTokenEstimation in:name,description,readme is:public",
+      "url": "https://api.github.com/search/repositories?q=BudgetAwareTokenEstimation+in%3Aname%2Cdescription%2Creadme+is%3Apublic&sort=updated&order=desc&per_page=100",
+      "http_status": 200,
+      "total_count": 0,
+      "incomplete_results": false,
+      "results": [],
+      "rate_limit": {
+        "X-RateLimit-Limit": "10",
+        "X-RateLimit-Remaining": "7",
+        "X-RateLimit-Reset": "1794180395"
+      }
+    },
+    {
+      "query": "neuraldeep agent budget in:name,description,readme is:public",
+      "url": "https://api.github.com/search/repositories?q=neuraldeep+agent+budget+in%3Aname%2Cdescription%2Creadme+is%3Apublic&sort=updated&order=desc&per_page=100",
+      "http_status": 200,
+      "total_count": 16,
+      "incomplete_results": false,
+      "results": [
+        {
+          "full_name": "aaalinuxxx/openjuuweg",
+          "html_url": "https://github.com/aaalinuxxx/openjuuweg",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 64,
+          "pushed_at": "2026-11-08T21:37:06Z",
+          "updated_at": "2026-11-08T21:37:09Z",
+          "created_at": "2026-11-08T09:55:17Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        },
+        {
+          "full_name": "NeuralDEEPnet/claude-design-skills",
+          "html_url": "https://github.com/NeuralDEEPnet/claude-design-skills",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 2272,
+          "pushed_at": "2026-11-08T18:54:57Z",
+          "updated_at": "2026-11-08T17:36:57Z",
+          "created_at": "2026-10-27T23:44:30Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        },
+        {
+          "full_name": "maxim283b/openJiuwen_hack_AlfaGraph2000",
+          "html_url": "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 164,
+          "pushed_at": "2026-11-08T16:16:07Z",
+          "updated_at": "2026-11-08T16:16:11Z",
+          "created_at": "2026-11-08T11:37:58Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": null
+        },
+        {
+          "full_name": "yenanjing/awesome-ai-for-science",
+          "html_url": "https://github.com/yenanjing/awesome-ai-for-science",
+          "description": "A curated list of awesome projects using AI to automate scientific research — AI Scientist, autonomous research agents, paper writing, hypothesis generation, and more.",
+          "private": false,
+          "fork": false,
+          "size": 918,
+          "pushed_at": "2026-11-08T10:12:28Z",
+          "updated_at": "2026-11-08T10:12:32Z",
+          "created_at": "2026-03-30T07:03:07Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": null
+        },
+        {
+          "full_name": "mb-mal/awesome-ai-agents-frameworks",
+          "html_url": "https://github.com/mb-mal/awesome-ai-agents-frameworks",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 5081,
+          "pushed_at": "2026-11-08T06:00:42Z",
+          "updated_at": "2026-11-08T06:00:45Z",
+          "created_at": "2026-02-13T20:15:03Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        },
+        {
+          "full_name": "LKosoj/LLMApiGateway",
+          "html_url": "https://github.com/LKosoj/LLMApiGateway",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 11576,
+          "pushed_at": "2026-11-07T20:20:04Z",
+          "updated_at": "2026-11-07T20:20:08Z",
+          "created_at": "2026-05-09T16:39:31Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        },
+        {
+          "full_name": "hijera/foxxy-agent",
+          "html_url": "https://github.com/hijera/foxxy-agent",
+          "description": "Foxxy Agent — IDE-friendly agent fork based on coddy-agent",
+          "private": false,
+          "fork": false,
+          "size": 179015,
+          "pushed_at": "2026-11-08T10:17:42Z",
+          "updated_at": "2026-11-07T04:38:12Z",
+          "created_at": "2026-07-02T09:22:28Z",
+          "default_branch": "main",
+          "language": "Go",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        },
+        {
+          "full_name": "NeuralDEEPnet/Codex-openai-skills",
+          "html_url": "https://github.com/NeuralDEEPnet/Codex-openai-skills",
+          "description": "Creating best skills for design and work",
+          "private": false,
+          "fork": false,
+          "size": 198,
+          "pushed_at": "2026-11-08T10:43:38Z",
+          "updated_at": "2026-11-06T15:22:14Z",
+          "created_at": "2026-09-22T19:53:12Z",
+          "default_branch": "main",
+          "language": "OpenSCAD",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        },
+        {
+          "full_name": "viktor-drobek/neuraldeep-drift",
+          "html_url": "https://github.com/viktor-drobek/neuraldeep-drift",
+          "description": "Guarded NeuralDeep drift API skill for coding agents",
+          "private": false,
+          "fork": false,
+          "size": 66,
+          "pushed_at": "2026-10-28T15:23:01Z",
+          "updated_at": "2026-10-29T03:43:42Z",
+          "created_at": "2026-10-25T13:57:17Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        },
+        {
+          "full_name": "Kitamoru/Onitask",
+          "html_url": "https://github.com/Kitamoru/Onitask",
+          "description": "Few moment later",
+          "private": false,
+          "fork": false,
+          "size": 4681,
+          "pushed_at": "2026-10-16T05:03:16Z",
+          "updated_at": "2026-10-16T05:03:20Z",
+          "created_at": "2026-03-30T09:44:55Z",
+          "default_branch": "main",
+          "language": "TypeScript",
+          "license": null
+        },
+        {
+          "full_name": "srednoff888-art/srednoff-os",
+          "html_url": "https://github.com/srednoff888-art/srednoff-os",
+          "description": "Engineering workflows for Codex: code, UI/UX, websites, advertising and 3D. Selective skills, safety gates, portable deployment and reproducible validation.",
+          "private": false,
+          "fork": false,
+          "size": 2179,
+          "pushed_at": "2026-10-15T08:18:48Z",
+          "updated_at": "2026-10-15T08:15:51Z",
+          "created_at": "2026-07-01T01:21:39Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        },
+        {
+          "full_name": "metravod/zymi-core",
+          "html_url": "https://github.com/metravod/zymi-core",
+          "description": "The auditable MCP backend for agents — tools as declarative YAML pipelines: event-sourced, replayable, approval-gated.",
+          "private": false,
+          "fork": false,
+          "size": 2082,
+          "pushed_at": "2026-10-05T04:43:07Z",
+          "updated_at": "2026-10-05T04:43:11Z",
+          "created_at": "2026-04-02T11:46:07Z",
+          "default_branch": "main",
+          "language": "Rust",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        },
+        {
+          "full_name": "Nat822/tech_test_ai_pm_lead",
+          "html_url": "https://github.com/Nat822/tech_test_ai_pm_lead",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 583,
+          "pushed_at": "2026-08-18T18:28:46Z",
+          "updated_at": "2026-08-18T18:30:41Z",
+          "created_at": "2026-08-16T16:07:44Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": null
+        },
+        {
+          "full_name": "123fyq123/coddy",
+          "html_url": "https://github.com/123fyq123/coddy",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 18442,
+          "pushed_at": "2026-08-09T03:01:54Z",
+          "updated_at": "2026-08-09T03:02:50Z",
+          "created_at": "2026-08-08T15:28:31Z",
+          "default_branch": "main",
+          "language": "Go",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        },
+        {
+          "full_name": "andrewiva99/fin-agent",
+          "html_url": "https://github.com/andrewiva99/fin-agent",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 126,
+          "pushed_at": "2026-07-01T09:05:09Z",
+          "updated_at": "2026-07-01T09:05:19Z",
+          "created_at": "2026-07-01T09:05:04Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": null
+        },
+        {
+          "full_name": "vakovalskii/NeuralDeepCode",
+          "html_url": "https://github.com/vakovalskii/NeuralDeepCode",
+          "description": "NeuralDeepCode — terminal AI coding agent for the NeuralDeep hub (rebranded fork)",
+          "private": false,
+          "fork": false,
+          "size": 12513,
+          "pushed_at": "2026-06-24T05:37:10Z",
+          "updated_at": "2026-07-04T17:23:16Z",
+          "created_at": "2026-06-19T13:30:31Z",
+          "default_branch": "main",
+          "language": "TypeScript",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        }
+      ],
+      "rate_limit": {
+        "X-RateLimit-Limit": "10",
+        "X-RateLimit-Remaining": "9",
+        "X-RateLimit-Reset": "1794180396"
+      }
+    },
+    {
+      "query": "\"techarena2026.ru\" in:readme is:public",
+      "url": "https://api.github.com/search/repositories?q=%22techarena2026.ru%22+in%3Areadme+is%3Apublic&sort=updated&order=desc&per_page=100",
+      "http_status": 200,
+      "total_count": 1,
+      "incomplete_results": false,
+      "results": [
+        {
+          "full_name": "jul-os/Mean-Alpacas-OpenJiuwen-Challenge-2026",
+          "html_url": "https://github.com/jul-os/Mean-Alpacas-OpenJiuwen-Challenge-2026",
+          "description": "Решение https://techarena2026.ru/open-jiuwen-challenge от команды Mean Alpacas. Кейс: оценка токенов для задач ИИ-агентов. ",
+          "private": false,
+          "fork": false,
+          "size": 21,
+          "pushed_at": "2026-11-07T08:33:11Z",
+          "updated_at": "2026-11-07T08:33:15Z",
+          "created_at": "2026-11-07T08:30:02Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        }
+      ],
+      "rate_limit": {
+        "X-RateLimit-Limit": "10",
+        "X-RateLimit-Remaining": "6",
+        "X-RateLimit-Reset": "1794180395"
+      }
+    },
+    {
+      "query": "\"open-jiuwen-challenge\" in:readme is:public",
+      "url": "https://api.github.com/search/repositories?q=%22open-jiuwen-challenge%22+in%3Areadme+is%3Apublic&sort=updated&order=desc&per_page=100",
+      "http_status": 200,
+      "total_count": 1,
+      "incomplete_results": false,
+      "results": [
+        {
+          "full_name": "jul-os/Mean-Alpacas-OpenJiuwen-Challenge-2026",
+          "html_url": "https://github.com/jul-os/Mean-Alpacas-OpenJiuwen-Challenge-2026",
+          "description": "Решение https://techarena2026.ru/open-jiuwen-challenge от команды Mean Alpacas. Кейс: оценка токенов для задач ИИ-агентов. ",
+          "private": false,
+          "fork": false,
+          "size": 21,
+          "pushed_at": "2026-11-07T08:33:11Z",
+          "updated_at": "2026-11-07T08:33:15Z",
+          "created_at": "2026-11-07T08:30:02Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        }
+      ],
+      "rate_limit": {
+        "X-RateLimit-Limit": "10",
+        "X-RateLimit-Remaining": "5",
+        "X-RateLimit-Reset": "1794180395"
+      }
+    },
+    {
+      "query": "\"openJiuwen Challenge\" in:name,description,readme is:public",
+      "url": "https://api.github.com/search/repositories?q=%22openJiuwen+Challenge%22+in%3Aname%2Cdescription%2Creadme+is%3Apublic&sort=updated&order=desc&per_page=100",
+      "http_status": 200,
+      "total_count": 5,
+      "incomplete_results": false,
+      "results": [
+        {
+          "full_name": "aaalinuxxx/openjuuweg",
+          "html_url": "https://github.com/aaalinuxxx/openjuuweg",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 64,
+          "pushed_at": "2026-11-08T21:37:06Z",
+          "updated_at": "2026-11-08T21:37:09Z",
+          "created_at": "2026-11-08T09:55:17Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        },
+        {
+          "full_name": "maxim283b/openJiuwen_hack_AlfaGraph2000",
+          "html_url": "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 164,
+          "pushed_at": "2026-11-08T16:16:07Z",
+          "updated_at": "2026-11-08T16:16:11Z",
+          "created_at": "2026-11-08T11:37:58Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": null
+        },
+        {
+          "full_name": "anchadekwi/openJiuwen-Challenge-2026",
+          "html_url": "https://github.com/anchadekwi/openJiuwen-Challenge-2026",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 58,
+          "pushed_at": "2026-11-07T17:25:50Z",
+          "updated_at": "2026-11-07T17:25:54Z",
+          "created_at": "2026-11-07T09:33:45Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": null
+        },
+        {
+          "full_name": "fedorakooo/openJiuwen-Challenge-2026",
+          "html_url": "https://github.com/fedorakooo/openJiuwen-Challenge-2026",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 195,
+          "pushed_at": "2026-11-07T11:05:44Z",
+          "updated_at": "2026-11-07T11:05:48Z",
+          "created_at": "2026-11-07T10:18:28Z",
+          "default_branch": "main",
+          "language": "Dockerfile",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          }
+        },
+        {
+          "full_name": "jul-os/Mean-Alpacas-OpenJiuwen-Challenge-2026",
+          "html_url": "https://github.com/jul-os/Mean-Alpacas-OpenJiuwen-Challenge-2026",
+          "description": "Решение https://techarena2026.ru/open-jiuwen-challenge от команды Mean Alpacas. Кейс: оценка токенов для задач ИИ-агентов. ",
+          "private": false,
+          "fork": false,
+          "size": 21,
+          "pushed_at": "2026-11-07T08:33:11Z",
+          "updated_at": "2026-11-07T08:33:15Z",
+          "created_at": "2026-11-07T08:30:02Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        }
+      ],
+      "rate_limit": {
+        "X-RateLimit-Limit": "10",
+        "X-RateLimit-Remaining": "4",
+        "X-RateLimit-Reset": "1794180395"
+      }
+    },
+    {
+      "query": "openjiuwen hackathon in:name,description,readme is:public",
+      "url": "https://api.github.com/search/repositories?q=openjiuwen+hackathon+in%3Aname%2Cdescription%2Creadme+is%3Apublic&sort=updated&order=desc&per_page=100",
+      "http_status": 200,
+      "total_count": 11,
+      "incomplete_results": false,
+      "results": [
+        {
+          "full_name": "enhansome/enhansome-ChatGPT-repositories",
+          "html_url": "https://github.com/enhansome/enhansome-ChatGPT-repositories",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 6288,
+          "pushed_at": "2026-11-08T23:14:11Z",
+          "updated_at": "2026-11-08T23:14:15Z",
+          "created_at": "2026-08-12T05:35:31Z",
+          "default_branch": "main",
+          "language": null,
+          "license": null
+        },
+        {
+          "full_name": "Omrigotlieb/awesome-jev",
+          "html_url": "https://github.com/Omrigotlieb/awesome-jev",
+          "description": "Verified, screenshot-rich awesome list of projects built on Jev — TypeSafe AI's System One model for typed decisions",
+          "private": false,
+          "fork": false,
+          "size": 17882,
+          "pushed_at": "2026-11-08T22:08:51Z",
+          "updated_at": "2026-11-08T22:08:55Z",
+          "created_at": "2026-09-21T12:12:16Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "spdx_id": "NOASSERTION",
+            "url": null,
+            "node_id": "MDc6TGljZW5zZTA="
+          }
+        },
+        {
+          "full_name": "aaalinuxxx/openjuuweg",
+          "html_url": "https://github.com/aaalinuxxx/openjuuweg",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 64,
+          "pushed_at": "2026-11-08T21:37:06Z",
+          "updated_at": "2026-11-08T21:37:09Z",
+          "created_at": "2026-11-08T09:55:17Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          }
+        },
+        {
+          "full_name": "taishi-i/awesome-ChatGPT-repositories",
+          "html_url": "https://github.com/taishi-i/awesome-ChatGPT-repositories",
+          "description": "A curated list of open source GitHub repositories related to ChatGPT, the OpenAI API, and Codex. Searchable via Claude Code  and Codex skills.",
+          "private": false,
+          "fork": false,
+          "size": 33776,
+          "pushed_at": "2026-11-08T17:31:29Z",
+          "updated_at": "2026-11-08T17:31:36Z",
+          "created_at": "2023-04-02T14:00:07Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "cc0-1.0",
+            "name": "Creative Commons Zero v1.0 Universal",
+            "spdx_id": "CC0-1.0",
+            "url": "https://api.github.com/licenses/cc0-1.0",
+            "node_id": "MDc6TGljZW5zZTY="
+          }
+        },
+        {
+          "full_name": "danilpavlov/hackathon-openJiuwen-2026",
+          "html_url": "https://github.com/danilpavlov/hackathon-openJiuwen-2026",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 7,
+          "pushed_at": "2026-11-07T11:29:12Z",
+          "updated_at": "2026-11-07T11:29:16Z",
+          "created_at": "2026-11-07T11:29:10Z",
+          "default_branch": "master",
+          "language": null,
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          }
+        },
+        {
+          "full_name": "waytofindartofproblemsolving-ux/shisai-prize-radar",
+          "html_url": "https://github.com/waytofindartofproblemsolving-ux/shisai-prize-radar",
+          "description": "Shisai competition radar",
+          "private": false,
+          "fork": false,
+          "size": 81,
+          "pushed_at": "2026-11-02T15:49:43Z",
+          "updated_at": "2026-11-02T15:49:48Z",
+          "created_at": "2026-10-25T02:38:10Z",
+          "default_branch": "main",
+          "language": "JavaScript",
+          "license": null
+        },
+        {
+          "full_name": "Shuwajaja/WERKAtlas",
+          "html_url": "https://github.com/Shuwajaja/WERKAtlas",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 45867,
+          "pushed_at": "2026-10-31T23:28:29Z",
+          "updated_at": "2026-10-31T23:28:34Z",
+          "created_at": "2026-07-07T19:04:28Z",
+          "default_branch": "main",
+          "language": "HTML",
+          "license": null
+        },
+        {
+          "full_name": "jrob856/test",
+          "html_url": "https://github.com/jrob856/test",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 39116,
+          "pushed_at": "2026-10-16T20:22:03Z",
+          "updated_at": "2026-10-16T17:26:16Z",
+          "created_at": "2026-10-16T17:24:46Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "cc0-1.0",
+            "name": "Creative Commons Zero v1.0 Universal",
+            "spdx_id": "CC0-1.0",
+            "url": "https://api.github.com/licenses/cc0-1.0",
+            "node_id": "MDc6TGljZW5zZTY="
+          }
+        },
+        {
+          "full_name": "KenC2006/Parity",
+          "html_url": "https://github.com/KenC2006/Parity",
+          "description": "Huawei - openJiuwen Multi-Agent Challenge Winner",
+          "private": false,
+          "fork": false,
+          "size": 1136,
+          "pushed_at": "2026-09-22T04:48:46Z",
+          "updated_at": "2026-10-02T01:27:08Z",
+          "created_at": "2026-09-19T18:54:48Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": null
+        },
+        {
+          "full_name": "enkai-liu/htn-2026",
+          "html_url": "https://github.com/enkai-liu/htn-2026",
+          "description": null,
+          "private": false,
+          "fork": false,
+          "size": 1382,
+          "pushed_at": "2026-09-20T06:31:00Z",
+          "updated_at": "2026-09-20T06:31:03Z",
+          "created_at": "2026-09-19T03:59:26Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": null
+        },
+        {
+          "full_name": "costrict-plugins-repo/github-trending-awesome-chatgpt-search",
+          "html_url": "https://github.com/costrict-plugins-repo/github-trending-awesome-chatgpt-search",
+          "description": "costrict-plugins mirror of github-trending-awesome-chatgpt-search (auto-generated, do not edit)",
+          "private": false,
+          "fork": false,
+          "size": 1756,
+          "pushed_at": "2026-09-01T01:12:51Z",
+          "updated_at": "2026-09-01T01:13:44Z",
+          "created_at": "2026-06-17T16:41:31Z",
+          "default_branch": "main",
+          "language": "Python",
+          "license": {
+            "key": "cc0-1.0",
+            "name": "Creative Commons Zero v1.0 Universal",
+            "spdx_id": "CC0-1.0",
+            "url": "https://api.github.com/licenses/cc0-1.0",
+            "node_id": "MDc6TGljZW5zZTY="
+          }
+        }
+      ],
+      "rate_limit": {
+        "X-RateLimit-Limit": "10",
+        "X-RateLimit-Remaining": "3",
+        "X-RateLimit-Reset": "1794180395"
+      }
+    }
+  ],
+  "extra_queries": [
+    {
+      "name": "repository_page2",
+      "url": "https://api.github.com/search/repositories?q=%22openJiuwen%22+%222026%22+in%3Aname%2Cdescription%2Creadme+is%3Apublic&sort=updated&order=desc&per_page=100&page=2",
+      "http_status": 200,
+      "total_count": 139,
+      "items": [
+        {
+          "full_name": "KenC2006/Parity",
+          "html_url": "https://github.com/KenC2006/Parity",
+          "description": "Huawei - openJiuwen Multi-Agent Challenge Winner",
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "liuwenhao7720/workAgent",
+          "html_url": "https://github.com/liuwenhao7720/workAgent",
+          "description": "办公工具智能体，基于蜂群开发",
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "davidyang07/htn-2026",
+          "html_url": "https://github.com/davidyang07/htn-2026",
+          "description": null,
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "liamma06/searchGM",
+          "html_url": "https://github.com/liamma06/searchGM",
+          "description": null,
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "enkai-liu/htn-2026",
+          "html_url": "https://github.com/enkai-liu/htn-2026",
+          "description": null,
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "penguinyogurt/beacon",
+          "html_url": "https://github.com/penguinyogurt/beacon",
+          "description": "Beacon: a multi-agent search-and-rescue planning swarm on Bayesian search theory (Hack the North 2026, openJiuwen Multi-Agent Challenge)",
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "jiuwenchannels/jiuwenswarm-bee",
+          "html_url": "https://github.com/jiuwenchannels/jiuwenswarm-bee",
+          "description": "BeeChat - the simplest JiuwenSwarm channel: a bee-avatar Q&A chatbot.",
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "Coconut-ch1ken/AI4Research",
+          "html_url": "https://github.com/Coconut-ch1ken/AI4Research",
+          "description": null,
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "DengJunxian/Qiyuan-Evo",
+          "html_url": "https://github.com/DengJunxian/Qiyuan-Evo",
+          "description": "启元：基于 openJiuwen 的自演进多智能体金融政策数字风洞，含可复现实验与协作驾驶舱。",
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "cfarias73/monocrom2",
+          "html_url": "https://github.com/cfarias73/monocrom2",
+          "description": null,
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "wait-stack/agent-harness-insights",
+          "html_url": "https://github.com/wait-stack/agent-harness-insights",
+          "description": "四家 Agent Harness 框架(LangGraph/dsh/openJiuwen/Pi)与 LakebaseFS 的映射深度洞察",
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "Cloudbird-Software/governance-kernel",
+          "html_url": "https://github.com/Cloudbird-Software/governance-kernel",
+          "description": "Cloudbird-Software governance kernel: speceval assets, runtime gates, plans, reports, decisions (DGA dogfood)",
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "HappyTigerFIsh/zhijing-interview-agent",
+          "html_url": "https://github.com/HappyTigerFIsh/zhijing-interview-agent",
+          "description": null,
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "OpenMedAILab/oph-autoresearch",
+          "html_url": "https://github.com/OpenMedAILab/oph-autoresearch",
+          "description": null,
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "yamzhao/jindiao",
+          "html_url": "https://github.com/yamzhao/jindiao",
+          "description": "jindiao project",
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "Stellven/AI4Research",
+          "html_url": "https://github.com/Stellven/AI4Research",
+          "description": "A Multi-Agent  Framework for Deep Research",
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "lzpsqzr/agntcon-mcpcon-shanghai-2026-replay",
+          "html_url": "https://github.com/lzpsqzr/agntcon-mcpcon-shanghai-2026-replay",
+          "description": null,
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "wangzaixiaoqi/digital-twin-officer",
+          "html_url": "https://github.com/wangzaixiaoqi/digital-twin-officer",
+          "description": null,
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "shihuan1999/openjiuwen-ohos-port",
+          "html_url": "https://github.com/shihuan1999/openjiuwen-ohos-port",
+          "description": "openJiuwen + KB agents + Agent Store + kbapp HAP on OpenHarmony riscv64",
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "costrict-plugins-repo/github-trending-awesome-chatgpt-search",
+          "html_url": "https://github.com/costrict-plugins-repo/github-trending-awesome-chatgpt-search",
+          "description": "costrict-plugins mirror of github-trending-awesome-chatgpt-search (auto-generated, do not edit)",
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "chaosxingxc-orion/meeting-minutes-agent",
+          "html_url": "https://github.com/chaosxingxc-orion/meeting-minutes-agent",
+          "description": null,
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "1850298154/memory_agent_hub",
+          "html_url": "https://github.com/1850298154/memory_agent_hub",
+          "description": "2026 swarm Agent 年，swarm Agent 、Agent team、 ai coding、skill、memory、evolve、agentic RL 等 AI Agent集合",
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "awei234/CCF",
+          "html_url": "https://github.com/awei234/CCF",
+          "description": "完善项目",
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "Canality/DreamFire-QuantAgent",
+          "html_url": "https://github.com/Canality/DreamFire-QuantAgent",
+          "description": "Dream Fire — 华为 openJiuwen Track 2: 基于 JiuwenSwarm 的多 Agent 量化投资系统",
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "jiuwenchannels/Tripwise",
+          "html_url": "https://github.com/jiuwenchannels/Tripwise",
+          "description": null,
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "creeper521/creeper521",
+          "html_url": "https://github.com/creeper521/creeper521",
+          "description": null,
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "milkgod722/openjiuwen-quant-research-agent",
+          "html_url": "https://github.com/milkgod722/openjiuwen-quant-research-agent",
+          "description": "OpenJiuwen/JiuwenSwarm quantitative investment research agent for CCF BDCI competition",
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "xkzs2007/GalaxyOS-desktop",
+          "html_url": "https://github.com/xkzs2007/GalaxyOS-desktop",
+          "description": null,
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "binrogithub/open-fintech-jiuwen",
+          "html_url": "https://github.com/binrogithub/open-fintech-jiuwen",
+          "description": "Production-grade Brazilian Portuguese banking chatbot proving Huawei Cloud MaaS GLM-5.2 + openJiuwen agent-core capability. ReAct agent, tool calling, SSE streaming, multi-tenant, LGPD-compliant.",
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "tuan520/awesome-rising-gems",
+          "html_url": "https://github.com/tuan520/awesome-rising-gems",
+          "description": "Weekly-refreshed list of underrated, fast-growing open-source projects — ranked by relative growth, not absolute stars.",
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "YiShu5/ai-product-notes",
+          "html_url": "https://github.com/YiShu5/ai-product-notes",
+          "description": "意疏的 AI 产品、Agent、RAG 与实践文章归档",
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "sidikbro/jiuwen_atm",
+          "html_url": "https://github.com/sidikbro/jiuwen_atm",
+          "description": null,
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "LOVELY-qinqin/jiuwenswarm",
+          "html_url": "https://github.com/LOVELY-qinqin/jiuwenswarm",
+          "description": null,
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "rainySnowBall/CareerSim-BDCI26",
+          "html_url": "https://github.com/rainySnowBall/CareerSim-BDCI26",
+          "description": "【华为openJiuwen】Agent 职场长程生存与晋升挑战（CCF BDCI 2026）",
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "Ginger66/icml-social-2026-bridgingOSS",
+          "html_url": "https://github.com/Ginger66/icml-social-2026-bridgingOSS",
+          "description": "[ICML Social 2026] OSS × ML · Huawei × HKUST",
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "jiuwencortex/jiuwen_atm",
+          "html_url": "https://github.com/jiuwencortex/jiuwen_atm",
+          "description": null,
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "panshaowu/jiuwenclaw-rl",
+          "html_url": "https://github.com/panshaowu/jiuwenclaw-rl",
+          "description": "Documentation repository for JiuwenClaw Reinforcement Learning framework - online RL training designs, specifications, and implementation plans",
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "Circlechy/LangGraph2openJiuwenTool",
+          "html_url": "https://github.com/Circlechy/LangGraph2openJiuwenTool",
+          "description": null,
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "Circlechy/lg2jiuwen_plugin_v2",
+          "html_url": "https://github.com/Circlechy/lg2jiuwen_plugin_v2",
+          "description": null,
+          "private": false,
+          "fork": false
+        }
+      ]
+    },
+    {
+      "name": "public_forks",
+      "url": "https://api.github.com/search/repositories?q=%22openJiuwen+Challenge%22+in%3Areadme+fork%3Atrue+is%3Apublic&per_page=100",
+      "http_status": 200,
+      "total_count": 4,
+      "items": [
+        {
+          "full_name": "jul-os/Mean-Alpacas-OpenJiuwen-Challenge-2026",
+          "html_url": "https://github.com/jul-os/Mean-Alpacas-OpenJiuwen-Challenge-2026",
+          "description": "Решение https://techarena2026.ru/open-jiuwen-challenge от команды Mean Alpacas. Кейс: оценка токенов для задач ИИ-агентов. ",
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "maxim283b/openJiuwen_hack_AlfaGraph2000",
+          "html_url": "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000",
+          "description": null,
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "aaalinuxxx/openjuuweg",
+          "html_url": "https://github.com/aaalinuxxx/openjuuweg",
+          "description": null,
+          "private": false,
+          "fork": false
+        },
+        {
+          "full_name": "kseniyakap/openjuuweg",
+          "html_url": "https://github.com/kseniyakap/openjuuweg",
+          "description": null,
+          "private": false,
+          "fork": true
+        }
+      ]
+    },
+    {
+      "name": "anonymous_code_search",
+      "url": "https://api.github.com/search/code?q=BudgetAwareTokenEstimation+is%3Apublic&per_page=100",
+      "http_status": 403,
+      "error": "anonymous search unavailable; no authentication attempted"
+    }
+  ],
+  "web_queries": [
+    {
+      "query": "site:github.com \"openJiuwen\" \"Challenge\" \"2026\"",
+      "scope": "public GitHub pages via primary web search"
+    },
+    {
+      "query": "site:github.com \"neuraldeep\" \"agent\" \"budget\"",
+      "scope": "public GitHub pages via primary web search"
+    },
+    {
+      "query": "site:github.com \"BudgetAwareTokenEstimation\"",
+      "scope": "public GitHub pages via primary web search"
+    }
+  ],
+  "new_substantive_repositories": [
+    {
+      "repository": "aaalinuxxx/openjuuweg",
+      "url": "https://github.com/aaalinuxxx/openjuuweg",
+      "private": false,
+      "head_sha": "f18e546ce551551e754e190602f80259a785cbc8",
+      "head_committed_at_utc": "2026-11-08T21:37:05Z",
+      "head_commit_title": "Update README.md",
+      "license_spdx": "MIT",
+      "five_key_files": [
+        "README.md",
+        "run_agent.py",
+        "harness/planner/token_estimator.py",
+        "harness/planner/budget_tracker.py",
+        "harness/agents/coding_solver.py"
+      ],
+      "source_files": [
+        {
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/aaalinuxxx/openjuuweg/f18e546ce551551e754e190602f80259a785cbc8/README.md",
+          "html_url": "https://github.com/aaalinuxxx/openjuuweg/blob/f18e546ce551551e754e190602f80259a785cbc8/README.md",
+          "bytes": 12578,
+          "sha256": "2b056c848396f96cae0073065002fe9ebff187bc7c6f7dc5a91f2a95053903b0"
+        },
+        {
+          "path": "run_agent.py",
+          "url": "https://raw.githubusercontent.com/aaalinuxxx/openjuuweg/f18e546ce551551e754e190602f80259a785cbc8/run_agent.py",
+          "html_url": "https://github.com/aaalinuxxx/openjuuweg/blob/f18e546ce551551e754e190602f80259a785cbc8/run_agent.py",
+          "bytes": 3266,
+          "sha256": "6e1369049300d322223e798cb6a53767d2c4d73cc37d14ab6ac92cc9cc57de63"
+        },
+        {
+          "path": "harness/planner/token_estimator.py",
+          "url": "https://raw.githubusercontent.com/aaalinuxxx/openjuuweg/f18e546ce551551e754e190602f80259a785cbc8/harness/planner/token_estimator.py",
+          "html_url": "https://github.com/aaalinuxxx/openjuuweg/blob/f18e546ce551551e754e190602f80259a785cbc8/harness/planner/token_estimator.py",
+          "bytes": 2620,
+          "sha256": "dfc00c5e554eefcde4ca8e5f1535370f82765d75f936ebcc354656dfdff15b9a"
+        },
+        {
+          "path": "harness/planner/budget_tracker.py",
+          "url": "https://raw.githubusercontent.com/aaalinuxxx/openjuuweg/f18e546ce551551e754e190602f80259a785cbc8/harness/planner/budget_tracker.py",
+          "html_url": "https://github.com/aaalinuxxx/openjuuweg/blob/f18e546ce551551e754e190602f80259a785cbc8/harness/planner/budget_tracker.py",
+          "bytes": 1443,
+          "sha256": "dcb1bc2ddf59c394e0dc145159a14334b931dea532086316f5da457fd401a7dd"
+        },
+        {
+          "path": "harness/agents/coding_solver.py",
+          "url": "https://raw.githubusercontent.com/aaalinuxxx/openjuuweg/f18e546ce551551e754e190602f80259a785cbc8/harness/agents/coding_solver.py",
+          "html_url": "https://github.com/aaalinuxxx/openjuuweg/blob/f18e546ce551551e754e190602f80259a785cbc8/harness/agents/coding_solver.py",
+          "bytes": 4426,
+          "sha256": "3314bd1353fc81c80b0de1dbcefed5b31f80c492e40f7d6e736b52d72bbbd9b3"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/aaalinuxxx/openjuuweg/f18e546ce551551e754e190602f80259a785cbc8/LICENSE",
+          "html_url": "https://github.com/aaalinuxxx/openjuuweg/blob/f18e546ce551551e754e190602f80259a785cbc8/LICENSE",
+          "bytes": 1067,
+          "sha256": "17e3c190a68270413b466ca376d9d91a22de6a89abb1c92917efb5629743a46a"
+        }
+      ],
+      "verified_observations": [
+        {
+          "file": "harness/planner/token_estimator.py",
+          "function": "TokenCostEstimator.estimate",
+          "lines": [
+            32,
+            58
+          ],
+          "verified": "Fixed formulas and constants by task type, length, bytes and failed tests. Loaded regressor/clf objects are not called in estimate.",
+          "limit": "No calibration or measured live success inferred."
+        },
+        {
+          "file": "harness/planner/budget_tracker.py",
+          "function": "BudgetTracker.record_usage",
+          "lines": [
+            18,
+            25
+          ],
+          "verified": "Accumulates input/10 + output + reasoning; allocation is a reward-dependent multiplier of expected cost.",
+          "limit": "Whether output already includes reasoning depends on unread bridge; no assertion of end-to-end double billing. No reserve/unknown-ticket mechanism is present in this class."
+        },
+        {
+          "file": "harness/agents/coding_solver.py",
+          "function": "_run_tests / solve_coding_task",
+          "lines": [
+            12,
+            74
+          ],
+          "verified": "First test_*.py and first non-test top-level module; direct Python execution; return code is the passing criterion. Visible model prompt contains source, first test, failure output; output cap600; whole-module replacement in temporary copy.",
+          "limit": "No run, no measured failures or score. Other scheduler/bridge code not inspected."
+        },
+        {
+          "file": "run_agent.py",
+          "function": "parse_args / async_main",
+          "lines": [
+            52,
+            78
+          ],
+          "verified": "Entrypoint budget defaults from TOKEN_BUDGET and passes that CLI value to HarnessConfig; README documents BUDGET.",
+          "limit": "HarnessConfig not read, so later override behavior not claimed."
+        }
+      ],
+      "readme_claims_not_independently_verified": [
+        "two-stage unsolvability filter",
+        "complete scheduler ROI implementation",
+        "actual trained-model inference",
+        "official model or rate limits stated in README",
+        "runtime correctness, measured score or contest standing"
+      ]
+    }
+  ],
+  "additional_public_forks": [
+    {
+      "repository": "kseniyakap/openjuuweg",
+      "url": "https://github.com/kseniyakap/openjuuweg",
+      "private": false,
+      "fork": true,
+      "head_sha": "0a2870bb4504dcbc641fa8b17075835863ec9af7",
+      "source": "anonymous public HTML metadata only",
+      "same_head_as_aaalinuxxx": false,
+      "source_files_read": 0,
+      "head_committed_at_utc": "2026-11-08T10:20:51Z"
+    }
+  ],
+  "comparison_scope": "Static mechanisms only against already audited common_v2 behavior; no equal-budget competitor experiment",
+  "exclusions": [
+    {
+      "repository": "openJiuwen-ai/CareerSim-BDCI26",
+      "reason": "different CCF BDCI contest"
+    },
+    {
+      "repository": "KenC2006/Parity",
+      "reason": "different Hack the North challenge; no placing claim adopted"
+    },
+    {
+      "repository": "vakovalskii/NeuralDeepCode",
+      "reason": "general hub client, no established relation to this contest"
+    }
+  ],
+  "limits": [
+    "Anonymous core repository metadata endpoint returned403 rate limit; pinned public HTML/raw/Atom used instead.",
+    "Anonymous exact code search returned403; symbol absence not established.",
+    "All139 broad repository search hits covered by two pages, but not every README inspected.",
+    "One newly relevant implementation inspected only within five key files plus legal license text; scheduler, bridge, model files and trajectories not opened.",
+    "Fork metadata only; older distinct head does not establish a different strategy.",
+    "Unindexed, renamed, future or private repositories are outside this search.",
+    "No official leaderboard, team identity or placing verified."
+  ],
+  "anonymous_requests": true,
+  "authorization_header_used": false,
+  "private_or_account_endpoints_read": false,
+  "model_generation_api_calls": 0,
+  "foreign_code_executed": false,
+  "production_modified": false,
+  "baseline_json_modified": false,
+  "main_research_review_modified": false,
+  "credential_like_literals_quoted": false,
+  "secret_scan_counts": [
+    {
+      "path": "README.md",
+      "credential_like_literal_count": 0
+    },
+    {
+      "path": "run_agent.py",
+      "credential_like_literal_count": 0
+    },
+    {
+      "path": "harness/planner/token_estimator.py",
+      "credential_like_literal_count": 0
+    },
+    {
+      "path": "harness/planner/budget_tracker.py",
+      "credential_like_literal_count": 0
+    },
+    {
+      "path": "harness/agents/coding_solver.py",
+      "credential_like_literal_count": 0
+    }
+  ]
+}

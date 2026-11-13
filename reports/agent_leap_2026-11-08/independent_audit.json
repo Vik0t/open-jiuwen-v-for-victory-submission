@@ -1,0 +1,943 @@
+{
+  "audit_utc": "2026-11-08T06:47:52.818507+00:00",
+  "scope": "Read-only audit of frozen source, import resolution, local receipts and saved scores. No model calls, actor reruns, oracle queries or private-file reads.",
+  "freeze_sha256": "a3d6444a423eac8c803e120c6ee3c3e1f171d9bda3aa274816c595ae15d4d2b7",
+  "checks": [
+    {
+      "check": "freeze_digest",
+      "passed": true,
+      "detail": "a3d6444a423eac8c803e120c6ee3c3e1f171d9bda3aa274816c595ae15d4d2b7"
+    },
+    {
+      "check": "all_frozen_source_and_public_file_hashes",
+      "passed": true,
+      "detail": {
+        "files": 75,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "sixteen_public_metadata_records",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "metadata_has_only_public_fields",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "frozen_task_order_matches_dataset",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no_linked_public_inputs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_source_matches_release_manifest",
+      "passed": true,
+      "detail": 9
+    },
+    {
+      "check": "old_source_matches_archived_release",
+      "passed": true,
+      "detail": 9
+    },
+    {
+      "check": "release_archive_checksum",
+      "passed": true,
+      "detail": "1c1e455aa5d09d17cea7a4d01d974d4ef19aa52a9298a192044707dea5efc749"
+    },
+    {
+      "check": "same_budget_implementation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old:import_resolution",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_fixed:import_resolution",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact:import_resolution",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind1:row_usage_formula",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind1:ledger_sum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind1:unknown_reservations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind1:budget_limit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind1:denials_unsent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind1:tickets_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind1:model_and_no_thinking",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind1:no_stored_reasoning_or_headers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind1:freeze_reference",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind1:actor_source_record",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind1:output_caps",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind1:model_steps_bound",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind1:public_metadata_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind1:protected_tests_and_data_unchanged",
+      "passed": true,
+      "detail": 27
+    },
+    {
+      "check": "old_blind1:no_linked_actor_outputs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind1:scorer_uses_trusted_isolated_checker",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind1:score_aggregation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind2:row_usage_formula",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind2:ledger_sum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind2:unknown_reservations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind2:budget_limit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind2:denials_unsent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind2:tickets_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind2:model_and_no_thinking",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind2:no_stored_reasoning_or_headers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind2:freeze_reference",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind2:actor_source_record",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind2:output_caps",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind2:model_steps_bound",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind2:public_metadata_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind2:protected_tests_and_data_unchanged",
+      "passed": true,
+      "detail": 27
+    },
+    {
+      "check": "old_blind2:no_linked_actor_outputs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind2:scorer_uses_trusted_isolated_checker",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_blind2:score_aggregation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind1:row_usage_formula",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind1:ledger_sum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind1:unknown_reservations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind1:budget_limit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind1:denials_unsent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind1:tickets_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind1:model_and_no_thinking",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind1:no_stored_reasoning_or_headers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind1:freeze_reference",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind1:actor_source_record",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind1:output_caps",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind1:model_steps_bound",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind1:public_metadata_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind1:protected_tests_and_data_unchanged",
+      "passed": true,
+      "detail": 27
+    },
+    {
+      "check": "react_blind1:no_linked_actor_outputs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind1:scorer_uses_trusted_isolated_checker",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind1:score_aggregation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind2:row_usage_formula",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind2:ledger_sum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind2:unknown_reservations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind2:budget_limit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind2:denials_unsent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind2:tickets_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind2:model_and_no_thinking",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind2:no_stored_reasoning_or_headers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind2:freeze_reference",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind2:actor_source_record",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind2:output_caps",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind2:model_steps_bound",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind2:public_metadata_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind2:protected_tests_and_data_unchanged",
+      "passed": true,
+      "detail": 27
+    },
+    {
+      "check": "react_blind2:no_linked_actor_outputs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind2:scorer_uses_trusted_isolated_checker",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "react_blind2:score_aggregation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind1:row_usage_formula",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind1:ledger_sum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind1:unknown_reservations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind1:budget_limit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind1:denials_unsent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind1:tickets_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind1:model_and_no_thinking",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind1:no_stored_reasoning_or_headers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind1:freeze_reference",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind1:actor_source_record",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind1:output_caps",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind1:model_steps_bound",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind1:public_metadata_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind1:protected_tests_and_data_unchanged",
+      "passed": true,
+      "detail": 27
+    },
+    {
+      "check": "compact_blind1:no_linked_actor_outputs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind1:scorer_uses_trusted_isolated_checker",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind1:score_aggregation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind2:row_usage_formula",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind2:ledger_sum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind2:unknown_reservations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind2:budget_limit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind2:denials_unsent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind2:tickets_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind2:model_and_no_thinking",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind2:no_stored_reasoning_or_headers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind2:freeze_reference",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind2:actor_source_record",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind2:output_caps",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind2:model_steps_bound",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind2:public_metadata_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind2:protected_tests_and_data_unchanged",
+      "passed": true,
+      "detail": 27
+    },
+    {
+      "check": "compact_blind2:no_linked_actor_outputs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind2:scorer_uses_trusted_isolated_checker",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "compact_blind2:score_aggregation",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "all_checks_passed": true,
+  "import_origins": {
+    "old": {
+      "run_agent": "/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/artifacts/contest_submission_2026-11-08-v2/run_agent.py",
+      "submission.budget": "/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/artifacts/contest_submission_2026-11-08-v2/submission/budget.py",
+      "submission.gateway": "/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/artifacts/contest_submission_2026-11-08-v2/submission/gateway.py",
+      "submission.task_io": "/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/artifacts/contest_submission_2026-11-08-v2/submission/task_io.py",
+      "submission.code_solver": "/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/artifacts/contest_submission_2026-11-08-v2/submission/code_solver.py",
+      "runtime": "/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/experiments/agent_leap_strict_2026-11-08/blind_v1/harness/runtime.py",
+      "baseline": "/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/experiments/agent_leap_strict_2026-11-08/blind_v1/harness/baseline.py"
+    },
+    "react_fixed": {
+      "run_agent": "/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/experiments/agent_leap_strict_2026-11-08/blind_v1/source/run_agent.py",
+      "submission.budget": "/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/experiments/agent_leap_strict_2026-11-08/blind_v1/source/submission/budget.py",
+      "submission.gateway": "/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/experiments/agent_leap_strict_2026-11-08/blind_v1/source/submission/gateway.py",
+      "submission.task_io": "/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/experiments/agent_leap_strict_2026-11-08/blind_v1/source/submission/task_io.py",
+      "submission.code_solver": "/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/experiments/agent_leap_strict_2026-11-08/blind_v1/source/submission/code_solver.py",
+      "runtime": "/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/experiments/agent_leap_strict_2026-11-08/blind_v1/harness/runtime.py",
+      "baseline": "/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/experiments/agent_leap_strict_2026-11-08/blind_v1/harness/baseline.py"
+    },
+    "compact": {
+      "run_agent": "/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/experiments/agent_leap_strict_2026-11-08/blind_v1/source/run_agent.py",
+      "submission.budget": "/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/experiments/agent_leap_strict_2026-11-08/blind_v1/source/submission/budget.py",
+      "submission.gateway": "/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/experiments/agent_leap_strict_2026-11-08/blind_v1/source/submission/gateway.py",
+      "submission.task_io": "/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/experiments/agent_leap_strict_2026-11-08/blind_v1/source/submission/task_io.py",
+      "submission.code_solver": "/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/experiments/agent_leap_strict_2026-11-08/blind_v1/source/submission/code_solver.py",
+      "runtime": "/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/experiments/agent_leap_strict_2026-11-08/blind_v1/harness/runtime.py",
+      "baseline": "/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/experiments/agent_leap_strict_2026-11-08/blind_v1/harness/baseline.py"
+    }
+  },
+  "runs": [
+    {
+      "run": "old_blind1",
+      "arm": "old",
+      "passed": 3,
+      "solvable": 14,
+      "reward": 15,
+      "max_reward": 70,
+      "input_tokens": 13901,
+      "output_tokens_debited": 6860,
+      "cost_units": 82501,
+      "output_equivalent_cost": "8250.1",
+      "sent": 16,
+      "denials": 0,
+      "unknown": 0,
+      "unknown_reservation_units": 0,
+      "length_stops": 0,
+      "max_sent_per_task": 1,
+      "provider_standalone_reasoning_counters": [
+        0
+      ],
+      "protected_files_checked": 27,
+      "protected_changes": [],
+      "changed_sources": [
+        "leap_01/subject.py",
+        "leap_02/subject.py",
+        "leap_03/subject.py"
+      ],
+      "metadata_changes": [],
+      "linked_paths": [],
+      "summary": {
+        "run": "old_blind1",
+        "cohort": "blind",
+        "arm": "old",
+        "budget": 16000,
+        "spent_units": 82501,
+        "reserved_units": 0,
+        "budget_frozen": false,
+        "reason": null,
+        "seconds": 39.872,
+        "timed_out": false,
+        "error": null,
+        "model": "Qwen3.8-27B",
+        "freeze_sha256": "a3d6444a423eac8c803e120c6ee3c3e1f171d9bda3aa274816c595ae15d4d2b7",
+        "actor_source": "/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/artifacts/contest_submission_2026-11-08-v2"
+      },
+      "sha256": {
+        "summary.json": "5822266bfac80b8cc3a78c5dcb167075429d07019c9ce8f6fc6bb9a9ee2ff80a",
+        "calls.jsonl": "b7c7726b3f5e8845d8b919449c0ea4044a1ee1df44f442b72b76e7bba465f430",
+        "score.json": "da9406d3155f1213f05400964f81dd90735e1cdad5e30474dd295a874acfc8f6",
+        "task_results.json": "358f3e8860ca0dcbce7d2281c102706227ae44375e360a3cffd6446c04184297"
+      }
+    },
+    {
+      "run": "old_blind2",
+      "arm": "old",
+      "passed": 3,
+      "solvable": 14,
+      "reward": 15,
+      "max_reward": 70,
+      "input_tokens": 13901,
+      "output_tokens_debited": 6805,
+      "cost_units": 81951,
+      "output_equivalent_cost": "8195.1",
+      "sent": 16,
+      "denials": 0,
+      "unknown": 0,
+      "unknown_reservation_units": 0,
+      "length_stops": 0,
+      "max_sent_per_task": 1,
+      "provider_standalone_reasoning_counters": [
+        0
+      ],
+      "protected_files_checked": 27,
+      "protected_changes": [],
+      "changed_sources": [
+        "leap_01/subject.py",
+        "leap_04/subject.py",
+        "leap_03/subject.py"
+      ],
+      "metadata_changes": [],
+      "linked_paths": [],
+      "summary": {
+        "run": "old_blind2",
+        "cohort": "blind",
+        "arm": "old",
+        "budget": 16000,
+        "spent_units": 81951,
+        "reserved_units": 0,
+        "budget_frozen": false,
+        "reason": null,
+        "seconds": 37.961,
+        "timed_out": false,
+        "error": null,
+        "model": "Qwen3.8-27B",
+        "freeze_sha256": "a3d6444a423eac8c803e120c6ee3c3e1f171d9bda3aa274816c595ae15d4d2b7",
+        "actor_source": "/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/artifacts/contest_submission_2026-11-08-v2"
+      },
+      "sha256": {
+        "summary.json": "e91237499aabcd163729eb82dc938a03b703032d2eae2af96284a9e7efee2e96",
+        "calls.jsonl": "b091656eb071aca08396e041d1e2e9de437bbd023aad32ff36d08e59ec658802",
+        "score.json": "ee58560368b5c416b6eea1ad5050bb38702e995416baed09e18b96593059222b",
+        "task_results.json": "8ea8fb34e2d8da43855358fb397394b8b9a9744a03a84a747b5eb1649a921ff5"
+      }
+    },
+    {
+      "run": "react_blind1",
+      "arm": "react_fixed",
+      "passed": 6,
+      "solvable": 14,
+      "reward": 30,
+      "max_reward": 70,
+      "input_tokens": 99181,
+      "output_tokens_debited": 3852,
+      "cost_units": 137701,
+      "output_equivalent_cost": "13770.1",
+      "sent": 42,
+      "denials": 9,
+      "unknown": 0,
+      "unknown_reservation_units": 0,
+      "length_stops": 0,
+      "max_sent_per_task": 12,
+      "provider_standalone_reasoning_counters": [
+        0
+      ],
+      "protected_files_checked": 27,
+      "protected_changes": [],
+      "changed_sources": [
+        "leap_02/subject.py",
+        "leap_03/subject.py"
+      ],
+      "metadata_changes": [],
+      "linked_paths": [],
+      "summary": {
+        "run": "react_blind1",
+        "cohort": "blind",
+        "arm": "react_fixed",
+        "budget": 16000,
+        "spent_units": 137701,
+        "reserved_units": 0,
+        "budget_frozen": false,
+        "reason": null,
+        "seconds": 36.083,
+        "timed_out": false,
+        "error": null,
+        "model": "Qwen3.8-27B",
+        "freeze_sha256": "a3d6444a423eac8c803e120c6ee3c3e1f171d9bda3aa274816c595ae15d4d2b7",
+        "actor_source": "/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/experiments/agent_leap_strict_2026-11-08/blind_v1/source"
+      },
+      "sha256": {
+        "summary.json": "7ad0f13339f48408be6e07c8ff666c457a4d059754d96da082e924aa7e32b4be",
+        "calls.jsonl": "2ce26a32057e3c8a552cca9065a84f86133d7485325181fb5515f3cb7965004b",
+        "score.json": "30fb8fc1e5542823dc6c52f5c856710a6b886826e3c873bcd62af99490f10034",
+        "task_results.json": "0e1ccc01f72428e88771eea5ee590f40eb58bbca0816917252fab37794f8fc57"
+      }
+    },
+    {
+      "run": "react_blind2",
+      "arm": "react_fixed",
+      "passed": 6,
+      "solvable": 14,
+      "reward": 30,
+      "max_reward": 70,
+      "input_tokens": 97118,
+      "output_tokens_debited": 3976,
+      "cost_units": 136878,
+      "output_equivalent_cost": "13687.8",
+      "sent": 40,
+      "denials": 10,
+      "unknown": 0,
+      "unknown_reservation_units": 0,
+      "length_stops": 0,
+      "max_sent_per_task": 12,
+      "provider_standalone_reasoning_counters": [
+        0
+      ],
+      "protected_files_checked": 27,
+      "protected_changes": [],
+      "changed_sources": [
+        "leap_02/subject.py",
+        "leap_03/subject.py"
+      ],
+      "metadata_changes": [],
+      "linked_paths": [],
+      "summary": {
+        "run": "react_blind2",
+        "cohort": "blind",
+        "arm": "react_fixed",
+        "budget": 16000,
+        "spent_units": 136878,
+        "reserved_units": 0,
+        "budget_frozen": false,
+        "reason": null,
+        "seconds": 38.191,
+        "timed_out": false,
+        "error": null,
+        "model": "Qwen3.8-27B",
+        "freeze_sha256": "a3d6444a423eac8c803e120c6ee3c3e1f171d9bda3aa274816c595ae15d4d2b7",
+        "actor_source": "/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/experiments/agent_leap_strict_2026-11-08/blind_v1/source"
+      },
+      "sha256": {
+        "summary.json": "4765b1d9a32d9f5b738fae0f48d4ab000d3f2de2daa41f69c7a884aecaf94ec7",
+        "calls.jsonl": "c6106c2fcd807497f60cbd705373e456de453d3dc621d344744ebbcd4bbe886b",
+        "score.json": "30fb8fc1e5542823dc6c52f5c856710a6b886826e3c873bcd62af99490f10034",
+        "task_results.json": "dd6c8a2086ee6d8fc4b041f306b7ada71c98194a09b4672c4a77dd5c55c2e050"
+      }
+    },
+    {
+      "run": "compact_blind1",
+      "arm": "compact",
+      "passed": 11,
+      "solvable": 14,
+      "reward": 55,
+      "max_reward": 70,
+      "input_tokens": 46944,
+      "output_tokens_debited": 4656,
+      "cost_units": 93504,
+      "output_equivalent_cost": "9350.4",
+      "sent": 26,
+      "denials": 0,
+      "unknown": 0,
+      "unknown_reservation_units": 0,
+      "length_stops": 0,
+      "max_sent_per_task": 8,
+      "provider_standalone_reasoning_counters": [
+        0
+      ],
+      "protected_files_checked": 27,
+      "protected_changes": [],
+      "changed_sources": [
+        "leap_01/subject.py",
+        "leap_02/subject.py",
+        "leap_04/subject.py",
+        "leap_03/subject.py"
+      ],
+      "metadata_changes": [],
+      "linked_paths": [],
+      "summary": {
+        "run": "compact_blind1",
+        "cohort": "blind",
+        "arm": "compact",
+        "budget": 16000,
+        "spent_units": 93504,
+        "reserved_units": 0,
+        "budget_frozen": false,
+        "reason": null,
+        "seconds": 41.195,
+        "timed_out": false,
+        "error": null,
+        "model": "Qwen3.8-27B",
+        "freeze_sha256": "a3d6444a423eac8c803e120c6ee3c3e1f171d9bda3aa274816c595ae15d4d2b7",
+        "actor_source": "/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/experiments/agent_leap_strict_2026-11-08/blind_v1/source"
+      },
+      "sha256": {
+        "summary.json": "c0e820fa5b907bc08463caeb75133afe667b4028ed6a3da67179fbee0bc2fe91",
+        "calls.jsonl": "6efac9b2851233bfdc262537647e2fd832947642d8f1a6a133db37fa00bc6ed5",
+        "score.json": "44111c26478b8a54fd5d4b4c436b73b7b5b605b24a7ee7fa06400c6509a99603",
+        "task_results.json": "4b06be73b24cc02fb4f91d825b63c62c8736dcef50c99bca7b635fd06450a8c1"
+      }
+    },
+    {
+      "run": "compact_blind2",
+      "arm": "compact",
+      "passed": 11,
+      "solvable": 14,
+      "reward": 55,
+      "max_reward": 70,
+      "input_tokens": 45908,
+      "output_tokens_debited": 4463,
+      "cost_units": 90538,
+      "output_equivalent_cost": "9053.8",
+      "sent": 26,
+      "denials": 0,
+      "unknown": 0,
+      "unknown_reservation_units": 0,
+      "length_stops": 0,
+      "max_sent_per_task": 8,
+      "provider_standalone_reasoning_counters": [
+        0
+      ],
+      "protected_files_checked": 27,
+      "protected_changes": [],
+      "changed_sources": [
+        "leap_01/subject.py",
+        "leap_02/subject.py",
+        "leap_04/subject.py",
+        "leap_03/subject.py"
+      ],
+      "metadata_changes": [],
+      "linked_paths": [],
+      "summary": {
+        "run": "compact_blind2",
+        "cohort": "blind",
+        "arm": "compact",
+        "budget": 16000,
+        "spent_units": 90538,
+        "reserved_units": 0,
+        "budget_frozen": false,
+        "reason": null,
+        "seconds": 40.659,
+        "timed_out": false,
+        "error": null,
+        "model": "Qwen3.8-27B",
+        "freeze_sha256": "a3d6444a423eac8c803e120c6ee3c3e1f171d9bda3aa274816c595ae15d4d2b7",
+        "actor_source": "/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/experiments/agent_leap_strict_2026-11-08/blind_v1/source"
+      },
+      "sha256": {
+        "summary.json": "79e891ab5f99c7982972241f6e7e6de3506cc4236cc3639d2ce24e4e9931a364",
+        "calls.jsonl": "74133586146899961a96c91e414ed961bfa6f0ae217e1e411b5e695fa8b75934",
+        "score.json": "44111c26478b8a54fd5d4b4c436b73b7b5b605b24a7ee7fa06400c6509a99603",
+        "task_results.json": "fa906bbef5ca8c56d8a4e7fb174a8e30ecc3b281727e801ad7bb5929b9003bea"
+      }
+    }
+  ],
+  "isolation_review": {
+    "actor": "Frozen production executor inside Docker; no network; read-only root; only task workspace and read-only executor file mounted; provided tests additionally read-only; no API credentials forwarded.",
+    "checker": "Trusted scorer runs raw Python in isolated Docker. It is not registered as an actor tool.",
+    "metadata": "Only task_id, task_type, instruction, reward and check are projected into actor task objects.",
+    "counters": "Known cost uses I+10*O in integer tenths. Unknown usage retains the full reservation and freezes new allocations. Unsent denied requests cost zero."
+  },
+  "limits": [
+    "Two runs per arm on one local 16-task cohort; these are not official competition scores or a guarantee of generalization.",
+    "Scores are checked against saved scorer outputs; private expected answers and private test contents were not read for this audit.",
+    "Import resolution was reproduced in fresh local processes; actor processes did not log every module.__file__ separately.",
+    "Actor isolation is established by frozen launcher/executor code and input/output integrity, not a new adversarial penetration test.",
+    "No-answer files on unsolvable cases do not prove that the agent detected missing evidence.",
+    "The compact agent checkpoints and stops after a public-test pass; such a pass alone does not guarantee hidden-test correctness."
+  ]
+}

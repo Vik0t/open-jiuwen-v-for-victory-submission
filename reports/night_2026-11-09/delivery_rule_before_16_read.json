@@ -1,0 +1,7 @@
+{
+  "recorded_utc": "2026-11-08T23:51:06.069302+00:00",
+  "root16_quality_not_yet_read": true,
+  "candidate_source_fixed_by": "reports/night_2026-11-09/format64_selection.json",
+  "rule": "Use v5 only if all four prospective16 runs complete with known reconciled usage within budgets and mean reward across two budgets/two repeats exceeds v4; at equal reward choose lower mean measured cost. Otherwise retain v4. Show both budgets separately; no further candidate or tuning.",
+  "weights": "Each of four runs equal weight; same task set repeated, not new independent samples."
+}

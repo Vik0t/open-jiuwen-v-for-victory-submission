@@ -1,0 +1,16 @@
+{
+  "role": "screening on the already inspected forty, not independent validation",
+  "candidate": "json_screen40_io180",
+  "baseline": "v3_screen40_io180",
+  "repeats_initial": 1,
+  "only_change": "Native response_format=json_object for action responses",
+  "same_conditions": [
+    "Qwen3.8-27B",
+    "thinking=False",
+    "budget40000",
+    "read180/connect10",
+    "offline Docker executor"
+  ],
+  "next_validation_trigger": "At least 10 more reward points, or at least 10 percent lower actual cost without lower reward. A triggered fresh validation still precedes promotion.",
+  "unknown_usage": "Retain every incomplete run and its held reservation; no automatic transport retries."
+}

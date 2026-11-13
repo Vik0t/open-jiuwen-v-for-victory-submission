@@ -1,0 +1,608 @@
+{
+  "phase": "independent_computation_then_private_comparison_complete",
+  "public_root": "experiments/agent_leap_strict_2026-11-08/blind_v1/tasks",
+  "independent_derivations_sha256": "9be20fbb40769121a8fd7a3eb5ad2a6e9e6489fbe8484b6630bf00f171b57138",
+  "results": [
+    {
+      "task_id": "leap_05",
+      "independent_answer": "2140",
+      "independent_verdict": "solvable",
+      "method": "Independent integer-minute occupancy, cross-checked against sorted union merging",
+      "details": {
+        "union_intervals": {
+          "A": [
+            [
+              61,
+              83
+            ],
+            [
+              111,
+              330
+            ],
+            [
+              351,
+              443
+            ],
+            [
+              526,
+              547
+            ],
+            [
+              572,
+              600
+            ]
+          ],
+          "B": [
+            [
+              0,
+              21
+            ],
+            [
+              216,
+              389
+            ],
+            [
+              408,
+              600
+            ]
+          ],
+          "C": [
+            [
+              0,
+              411
+            ],
+            [
+              453,
+              498
+            ]
+          ],
+          "D": [
+            [
+              0,
+              15
+            ],
+            [
+              42,
+              131
+            ],
+            [
+              221,
+              282
+            ],
+            [
+              302,
+              600
+            ]
+          ],
+          "E": [
+            [
+              0,
+              109
+            ],
+            [
+              219,
+              477
+            ],
+            [
+              514,
+              600
+            ]
+          ]
+        },
+        "minutes_per_machine": {
+          "A": 382,
+          "B": 386,
+          "C": 456,
+          "D": 463,
+          "E": 453
+        }
+      },
+      "public_sha256": {
+        "task.json": "33e584fec72e0d8afd9c13a10739cb51ecc2e2d31897a9415e2be8eac4823ca3",
+        "workspace/outages.csv": "7e84800cd3abf7833d64b67bbc3a284643ac6ed759dad3fbc92786ee106df241"
+      },
+      "private_answer": "2140",
+      "private_solvable": true,
+      "answer_matches": true,
+      "solvability_matches": true
+    },
+    {
+      "task_id": "leap_06",
+      "independent_answer": "9",
+      "independent_verdict": "solvable",
+      "method": "Pairwise normalized-field graph, breadth/depth traversal of connected components",
+      "details": {
+        "components": [
+          [
+            "r01",
+            "r02",
+            "r03",
+            "r04"
+          ],
+          [
+            "r05",
+            "r06",
+            "r07"
+          ],
+          [
+            "r08"
+          ],
+          [
+            "r09"
+          ],
+          [
+            "r10",
+            "r11",
+            "r12"
+          ],
+          [
+            "r13"
+          ],
+          [
+            "r14"
+          ],
+          [
+            "r15",
+            "r16",
+            "r17"
+          ],
+          [
+            "r18"
+          ]
+        ]
+      },
+      "public_sha256": {
+        "task.json": "10e6236b7087c881ed652a10c1841329cc87b1eacb37fdbb79e42424780fee0d",
+        "workspace/contacts.csv": "64706595847ba2a42c721a134b0a684401ed43ae8ec411c2b8bd93b3ef20639c"
+      },
+      "private_answer": "9",
+      "private_solvable": true,
+      "answer_matches": true,
+      "solvability_matches": true
+    },
+    {
+      "task_id": "leap_07",
+      "independent_answer": "260",
+      "independent_verdict": "solvable",
+      "method": "Exact cumulative integer weights; cross-checked by expanding observations",
+      "details": {
+        "total_weight": 460,
+        "threshold": "437",
+        "histogram": [
+          {
+            "latency_ms": 21,
+            "weight": 1,
+            "cumulative_weight": 1
+          },
+          {
+            "latency_ms": 39,
+            "weight": 21,
+            "cumulative_weight": 22
+          },
+          {
+            "latency_ms": 42,
+            "weight": 67,
+            "cumulative_weight": 89
+          },
+          {
+            "latency_ms": 57,
+            "weight": 46,
+            "cumulative_weight": 135
+          },
+          {
+            "latency_ms": 61,
+            "weight": 6,
+            "cumulative_weight": 141
+          },
+          {
+            "latency_ms": 88,
+            "weight": 55,
+            "cumulative_weight": 196
+          },
+          {
+            "latency_ms": 105,
+            "weight": 19,
+            "cumulative_weight": 215
+          },
+          {
+            "latency_ms": 130,
+            "weight": 48,
+            "cumulative_weight": 263
+          },
+          {
+            "latency_ms": 190,
+            "weight": 64,
+            "cumulative_weight": 327
+          },
+          {
+            "latency_ms": 260,
+            "weight": 114,
+            "cumulative_weight": 441
+          },
+          {
+            "latency_ms": 410,
+            "weight": 19,
+            "cumulative_weight": 460
+          }
+        ]
+      },
+      "public_sha256": {
+        "task.json": "dae942c73b003c8b15e042d0b88267b43a889a4b334b949d959aa8e6351a5fae",
+        "workspace/samples.csv": "5d365015f41cc0b9aeb8f9ee0918c0e07f51348df2baeed09f409703ae07ee08"
+      },
+      "private_answer": "260",
+      "private_solvable": true,
+      "answer_matches": true,
+      "solvability_matches": true
+    },
+    {
+      "task_id": "leap_08",
+      "independent_answer": null,
+      "independent_verdict": "insufficient_evidence",
+      "method": "Opening inventory is an independent missing variable",
+      "details": {
+        "net_change": 17,
+        "formula": "closing_stock = unknown_opening_stock + 17",
+        "two_consistent_examples": [
+          17,
+          117
+        ]
+      },
+      "public_sha256": {
+        "task.json": "ae5e579ba39c302143e8e53e779ff3063ebe4b387d09c2141d7eb872343541d9",
+        "workspace/notes.txt": "ad5ce8472f7d01a75455634372677cad7873cc6164e6d14bee1d9e4ca9db3643",
+        "workspace/stock.csv": "43eb0e26294e3fc4ed81843e41f9dc85f7b520811097530a6f1e5929983966cd"
+      },
+      "private_answer": null,
+      "private_solvable": false,
+      "answer_matches": true,
+      "solvability_matches": true
+    },
+    {
+      "task_id": "leap_09",
+      "independent_answer": "RAVEN",
+      "independent_verdict": "solvable",
+      "method": "Direct closed-range containment, exact power conversion, timezone-aware UTC conversion",
+      "details": {
+        "products": [
+          {
+            "sku": "RAVEN",
+            "startup_watts": "84",
+            "eta_utc": "2026-11-20T12:00:00+00:00",
+            "constraints": {
+              "voltage": true,
+              "startup": true,
+              "ambient": true,
+              "deadline": true
+            },
+            "eligible": true
+          },
+          {
+            "sku": "OTTER",
+            "startup_watts": "80",
+            "eta_utc": "2026-11-20T12:15:00+00:00",
+            "constraints": {
+              "voltage": true,
+              "startup": true,
+              "ambient": true,
+              "deadline": false
+            },
+            "eligible": false
+          },
+          {
+            "sku": "IBIS",
+            "startup_watts": "60",
+            "eta_utc": "2026-11-19T12:00:00+00:00",
+            "constraints": {
+              "voltage": false,
+              "startup": true,
+              "ambient": true,
+              "deadline": true
+            },
+            "eligible": false
+          },
+          {
+            "sku": "LYNX",
+            "startup_watts": "85001/1000",
+            "eta_utc": "2026-11-19T12:00:00+00:00",
+            "constraints": {
+              "voltage": true,
+              "startup": false,
+              "ambient": true,
+              "deadline": true
+            },
+            "eligible": false
+          },
+          {
+            "sku": "YAK",
+            "startup_watts": "75",
+            "eta_utc": "2026-11-18T12:00:00+00:00",
+            "constraints": {
+              "voltage": true,
+              "startup": true,
+              "ambient": false,
+              "deadline": true
+            },
+            "eligible": false
+          }
+        ]
+      },
+      "public_sha256": {
+        "task.json": "d0913caba181b312d9efcc9e4b112d3a6ffc37f50d94dbc4199b9fcea7381997",
+        "workspace/kb/catalog.txt": "7fd09599d1cef8e2be6390e06942ad2c3fa1acfcee2c85e6441d375f1824a75e",
+        "workspace/kb/purchase.txt": "3ad4ed3036174fb19fd0f93fb2326b3f906d0de40382babf382312b85e70d23c",
+        "workspace/kb/units.txt": "55991647229923bbee64785e74f53e669e394e1278146f02dcde09f8845e6a9e"
+      },
+      "private_answer": "RAVEN",
+      "private_solvable": true,
+      "answer_matches": true,
+      "solvability_matches": true
+    },
+    {
+      "task_id": "leap_10",
+      "independent_answer": "08:30 UTC",
+      "independent_verdict": "solvable",
+      "method": "Exhaustive minute-start check of the common UTC window and non-overlap with each lunch",
+      "details": {
+        "utc_availability": [
+          [
+            480,
+            720
+          ],
+          [
+            510,
+            750
+          ],
+          [
+            510,
+            690
+          ]
+        ],
+        "utc_lunch": [
+          [
+            600,
+            630
+          ],
+          [
+            570,
+            630
+          ],
+          [
+            570,
+            600
+          ]
+        ],
+        "duration_minutes": 45,
+        "earliest_start_minute": 510,
+        "earliest_end_minute": 555
+      },
+      "public_sha256": {
+        "task.json": "b8602dd87a31a8b8b4bd7bb5ee18c2f8576d955979ec4f41c27e07e551ec686f",
+        "workspace/kb/meeting.txt": "76775be8e6521fde60fa53b62fba90ce0f51c026f0bda368eaaf6dcefaa74a93",
+        "workspace/kb/participants.txt": "1d91560aaf0f2c9f0715e1fe445db99f28011acd9cb099f0cbcd435fc45956ce"
+      },
+      "private_answer": "08:30 UTC",
+      "private_solvable": true,
+      "answer_matches": true,
+      "solvability_matches": true
+    },
+    {
+      "task_id": "leap_11",
+      "independent_answer": "D06,D07",
+      "independent_verdict": "solvable",
+      "method": "Exhaustive eligible-document combinations, first minimum size then lexicographic order",
+      "details": {
+        "minimum_size": 2,
+        "all_minimum_covers": [
+          [
+            "D06",
+            "D07"
+          ],
+          [
+            "D08",
+            "D09"
+          ]
+        ]
+      },
+      "public_sha256": {
+        "task.json": "9dbb27867a394c5211724114c09a5de16f569a6acf1cce6c471a86e8bd52ef35",
+        "workspace/kb/documents.csv": "fd6110c5e98b94c7a9d90b06d76587d2b70fcf83130fe505d0b90f014754dcdd",
+        "workspace/kb/rules.txt": "4d3ab360e223002f678ae54394d75440599ffdfbdbe421e7bd4a00fe6d0bd5e1"
+      },
+      "private_answer": "D06,D07",
+      "private_solvable": true,
+      "answer_matches": true,
+      "solvability_matches": true
+    },
+    {
+      "task_id": "leap_12",
+      "independent_answer": null,
+      "independent_verdict": "insufficient_evidence",
+      "method": "Invitation uses inspector local time; inspector timezone is absent",
+      "details": {
+        "host_offset_is_not_inspector_offset": true,
+        "two_consistent_utc_starts": [
+          "09:30 UTC if inspector UTC+00:00",
+          "06:30 UTC if inspector UTC+03:00"
+        ]
+      },
+      "public_sha256": {
+        "task.json": "7b9961dcb4c9861cce0a6484836e5eb3bd0d2c02f82f2d9bbc130bc17cc8a056",
+        "workspace/kb/agenda.txt": "5617d90bf9a052b84709c30ef420229572383922bac5d3bbc30680a8f268c9d3",
+        "workspace/kb/approval.txt": "44b603b669eeb3ac78c8694aee2a2197e56900f5ee98719979ff2da2e86c8f74"
+      },
+      "private_answer": null,
+      "private_solvable": false,
+      "answer_matches": true,
+      "solvability_matches": true
+    },
+    {
+      "task_id": "leap_13",
+      "independent_answer": "2026-12-11",
+      "independent_verdict": "solvable",
+      "method": "Calendar day iteration starting after arrival date, excluding weekends and the three explicit holidays",
+      "details": {
+        "counted_business_days": [
+          "2026-11-17",
+          "2026-11-18",
+          "2026-11-19",
+          "2026-11-20",
+          "2026-11-24",
+          "2026-11-25",
+          "2026-11-26",
+          "2026-11-27",
+          "2026-11-30",
+          "2026-12-02",
+          "2026-12-03",
+          "2026-12-04",
+          "2026-12-07",
+          "2026-12-08",
+          "2026-12-09",
+          "2026-12-10",
+          "2026-12-11"
+        ]
+      },
+      "public_sha256": {
+        "task.json": "73b1b713ce9f59d96506d7beac1f7bb940c418745bb6ecb7036f0c422b573fb5"
+      },
+      "private_answer": "2026-12-11",
+      "private_solvable": true,
+      "answer_matches": true,
+      "solvability_matches": true
+    },
+    {
+      "task_id": "leap_14",
+      "independent_answer": "10/37",
+      "independent_verdict": "solvable",
+      "method": "Conditional combinatorial counting, cross-checked over all distinct-ball subsets",
+      "details": {
+        "favorable_subsets": 180,
+        "conditioned_subsets": 666,
+        "formula": "C(5,2)*C(4,2)*C(3,1)/(C(12,5)-C(9,5))"
+      },
+      "public_sha256": {
+        "task.json": "df70265a17af7e6709e8b997d327fb91ca4f3b5f571e273cb49157033101b580"
+      },
+      "private_answer": "10/37",
+      "private_solvable": true,
+      "answer_matches": true,
+      "solvability_matches": true
+    },
+    {
+      "task_id": "leap_15",
+      "independent_answer": "278",
+      "independent_verdict": "solvable",
+      "method": "All 7! schedules with previous-class setup, cross-checked by recursive dynamic programming",
+      "details": {
+        "minimum_objective": 278,
+        "optimal_orders": [
+          [
+            "G",
+            "C",
+            "A",
+            "E",
+            "F",
+            "D",
+            "B"
+          ]
+        ],
+        "one_optimal_trace": [
+          {
+            "job": "G",
+            "setup": 0,
+            "completion": 1,
+            "weighted_completion": 7
+          },
+          {
+            "job": "C",
+            "setup": 0,
+            "completion": 3,
+            "weighted_completion": 18
+          },
+          {
+            "job": "A",
+            "setup": 0,
+            "completion": 7,
+            "weighted_completion": 21
+          },
+          {
+            "job": "E",
+            "setup": 0,
+            "completion": 10,
+            "weighted_completion": 20
+          },
+          {
+            "job": "F",
+            "setup": 2,
+            "completion": 18,
+            "weighted_completion": 90
+          },
+          {
+            "job": "D",
+            "setup": 0,
+            "completion": 23,
+            "weighted_completion": 92
+          },
+          {
+            "job": "B",
+            "setup": 0,
+            "completion": 30,
+            "weighted_completion": 30
+          }
+        ],
+        "permutations_checked": 5040
+      },
+      "public_sha256": {
+        "task.json": "2b7718794224b93c38406d4a00dcf362c17835bd5d4d4ae0755d871b121b723c",
+        "workspace/jobs.csv": "fafa56476ddf4ed2b38c112b4d930ca80d19710adba5af3971e3376a7e4403cb"
+      },
+      "private_answer": "278",
+      "private_solvable": true,
+      "answer_matches": true,
+      "solvability_matches": true
+    },
+    {
+      "task_id": "leap_16",
+      "independent_answer": "112",
+      "independent_verdict": "solvable",
+      "method": "Fix A at seat 0 and E at seat 4 to quotient rotation; enumerate remaining 6!, retaining reflections",
+      "details": {
+        "valid_by_DH_pair": {
+          "1,5": 32,
+          "2,6": 48,
+          "3,7": 32
+        },
+        "crosscheck": "D/H at (2,6): 2*24=48; at (1,5) or (3,7): 2*(24-8)=32 each; total112",
+        "permutations_checked": 720
+      },
+      "public_sha256": {
+        "task.json": "1515927ce03b40f94c9bf11ee7efbcdfce3fdbafe729e1e9a7ae40468189a8e8"
+      },
+      "private_answer": "112",
+      "private_solvable": true,
+      "answer_matches": true,
+      "solvability_matches": true
+    }
+  ],
+  "independent_stage": {
+    "answers_written_before_private_access": true,
+    "private_or_author_files_read_at_that_stage": false,
+    "derivations_sha256_before_private": "9be20fbb40769121a8fd7a3eb5ad2a6e9e6489fbe8484b6630bf00f171b57138"
+  },
+  "comparison": {
+    "private_expected_source": "experiments/agent_leap_holdout_2026-11-08/private/answers.json",
+    "private_expected_sha256": "ad0ad15f89e0b45335a2c90513a5170286ba6fa33aa2a647122dd9b7847efd8d",
+    "checked": 12,
+    "solvable": 10,
+    "insufficient_evidence": 2,
+    "all_answers_match": true,
+    "oracle_errors_found": []
+  },
+  "audit_limits": {
+    "model_api_calls": 0,
+    "production_files_changed": false,
+    "author_prepare_or_reference_code_read": false,
+    "coding_tasks_audited": false,
+    "scope": "leap_05 through leap_16 only"
+  }
+}

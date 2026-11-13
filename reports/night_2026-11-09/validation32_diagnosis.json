@@ -1,0 +1,3645 @@
+{
+  "role": "diagnosis of disclosed validation32 only; not an independent test or official result",
+  "max_reward": 138,
+  "solvable_tasks": 26,
+  "all_tasks": 32,
+  "core_runs": 32,
+  "all_core_unknown_requests": 0,
+  "all_core_held_reservation": 0,
+  "summary": [
+    {
+      "policy": "base",
+      "budget": 32000,
+      "reward": [
+        108,
+        88
+      ],
+      "mean_reward": 98,
+      "passed": [
+        19,
+        16
+      ],
+      "mean_passed": 17.5,
+      "cost": [
+        30511.9,
+        30910.7
+      ],
+      "mean_cost": 30711.300000000003
+    },
+    {
+      "policy": "base",
+      "budget": 16000,
+      "reward": [
+        61,
+        99
+      ],
+      "mean_reward": 80,
+      "passed": [
+        7,
+        16
+      ],
+      "mean_passed": 11.5,
+      "cost": [
+        15456.9,
+        15531.1
+      ],
+      "mean_cost": 15494.0
+    },
+    {
+      "policy": "common",
+      "budget": 32000,
+      "reward": [
+        108,
+        100
+      ],
+      "mean_reward": 104,
+      "passed": [
+        19,
+        18
+      ],
+      "mean_passed": 18.5,
+      "cost": [
+        30096.8,
+        30273.9
+      ],
+      "mean_cost": 30185.35
+    },
+    {
+      "policy": "common",
+      "budget": 16000,
+      "reward": [
+        91,
+        91
+      ],
+      "mean_reward": 91,
+      "passed": [
+        15,
+        15
+      ],
+      "mean_passed": 15,
+      "cost": [
+        15396.1,
+        15540.5
+      ],
+      "mean_cost": 15468.3
+    },
+    {
+      "policy": "raw",
+      "budget": 32000,
+      "reward": [
+        110,
+        113
+      ],
+      "mean_reward": 111.5,
+      "passed": [
+        19,
+        20
+      ],
+      "mean_passed": 19.5,
+      "cost": [
+        30261.4,
+        30284.9
+      ],
+      "mean_cost": 30273.15
+    },
+    {
+      "policy": "raw",
+      "budget": 16000,
+      "reward": [
+        91,
+        101
+      ],
+      "mean_reward": 96,
+      "passed": [
+        15,
+        18
+      ],
+      "mean_passed": 16.5,
+      "cost": [
+        15535.0,
+        14649.7
+      ],
+      "mean_cost": 15092.35
+    },
+    {
+      "policy": "batch",
+      "budget": 32000,
+      "reward": [
+        132,
+        115
+      ],
+      "mean_reward": 123.5,
+      "passed": [
+        24,
+        20
+      ],
+      "mean_passed": 22,
+      "cost": [
+        30115.3,
+        30275.0
+      ],
+      "mean_cost": 30195.15
+    },
+    {
+      "policy": "batch",
+      "budget": 16000,
+      "reward": [
+        79,
+        93
+      ],
+      "mean_reward": 86,
+      "passed": [
+        11,
+        15
+      ],
+      "mean_passed": 13,
+      "cost": [
+        15544.2,
+        15541.4
+      ],
+      "mean_cost": 15542.8
+    },
+    {
+      "policy": "review",
+      "budget": 32000,
+      "reward": [
+        124,
+        119
+      ],
+      "mean_reward": 121.5,
+      "passed": [
+        22,
+        21
+      ],
+      "mean_passed": 21.5,
+      "cost": [
+        30662.2,
+        30658.0
+      ],
+      "mean_cost": 30660.1
+    },
+    {
+      "policy": "review",
+      "budget": 16000,
+      "reward": [
+        85,
+        99
+      ],
+      "mean_reward": 92,
+      "passed": [
+        14,
+        16
+      ],
+      "mean_passed": 15,
+      "cost": [
+        15541.1,
+        15534.5
+      ],
+      "mean_cost": 15537.8
+    },
+    {
+      "policy": "two",
+      "budget": 32000,
+      "reward": [
+        114,
+        102
+      ],
+      "mean_reward": 108,
+      "passed": [
+        20,
+        18
+      ],
+      "mean_passed": 19,
+      "cost": [
+        29927.2,
+        30001.7
+      ],
+      "mean_cost": 29964.45
+    },
+    {
+      "policy": "two",
+      "budget": 16000,
+      "reward": [
+        91,
+        99
+      ],
+      "mean_reward": 95,
+      "passed": [
+        15,
+        16
+      ],
+      "mean_passed": 15.5,
+      "cost": [
+        15540.5,
+        15459.3
+      ],
+      "mean_cost": 15499.9
+    },
+    {
+      "policy": "mean",
+      "budget": 32000,
+      "reward": [
+        118,
+        114
+      ],
+      "mean_reward": 116,
+      "passed": [
+        19,
+        19
+      ],
+      "mean_passed": 19,
+      "cost": [
+        31540.8,
+        31535.2
+      ],
+      "mean_cost": 31538.0
+    },
+    {
+      "policy": "mean",
+      "budget": 16000,
+      "reward": [
+        99,
+        91
+      ],
+      "mean_reward": 95,
+      "passed": [
+        16,
+        15
+      ],
+      "mean_passed": 15.5,
+      "cost": [
+        15541.1,
+        15527.3
+      ],
+      "mean_cost": 15534.2
+    },
+    {
+      "policy": "ordinary",
+      "budget": 32000,
+      "reward": [
+        39,
+        35
+      ],
+      "mean_reward": 37,
+      "passed": [
+        7,
+        6
+      ],
+      "mean_passed": 6.5,
+      "cost": [
+        29690.7,
+        29730.0
+      ],
+      "mean_cost": 29710.35
+    },
+    {
+      "policy": "ordinary",
+      "budget": 16000,
+      "reward": [
+        28,
+        28
+      ],
+      "mean_reward": 28,
+      "passed": [
+        5,
+        5
+      ],
+      "mean_passed": 5,
+      "cost": [
+        13764.8,
+        13748.3
+      ],
+      "mean_cost": 13756.55
+    }
+  ],
+  "per_run": {
+    "val32_base_b32000:r1": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 2,
+          "reward": 15,
+          "cost": 4351.2,
+          "sent_requests": 7,
+          "started_tasks": 3,
+          "unstarted_solvable": 5,
+          "saved_failed_solvable": 1,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [
+            "night_008"
+          ],
+          "unstarted_solvable_ids": [
+            "night_002",
+            "night_003",
+            "night_004",
+            "night_005",
+            "night_006"
+          ],
+          "budget_unavailable_rows": 5,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 5
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 5,
+          "reward": 23,
+          "cost": 11589.0,
+          "sent_requests": 16,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 1,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [
+            "night_010"
+          ],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 6,
+          "reward": 37,
+          "cost": 6200.3,
+          "sent_requests": 13,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 6,
+          "reward": 33,
+          "cost": 8371.4,
+          "sent_requests": 17,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_base_b32000:r2": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 0,
+          "reward": 0,
+          "cost": 1988.9,
+          "sent_requests": 4,
+          "started_tasks": 2,
+          "unstarted_solvable": 6,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_001",
+            "night_002",
+            "night_003",
+            "night_004",
+            "night_005",
+            "night_006"
+          ],
+          "budget_unavailable_rows": 8,
+          "budget_unavailable_after_http": 2,
+          "budget_unavailable_without_http": 6
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 6,
+          "reward": 31,
+          "cost": 10076.8,
+          "sent_requests": 16,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 5,
+          "reward": 31,
+          "cost": 11881.6,
+          "sent_requests": 18,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 1,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 5,
+          "reward": 26,
+          "cost": 6963.4,
+          "sent_requests": 15,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 1,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [
+            "night_027"
+          ],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_base_b16000:r1": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 0,
+          "reward": 0,
+          "cost": 0.0,
+          "sent_requests": 0,
+          "started_tasks": 0,
+          "unstarted_solvable": 8,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_001",
+            "night_002",
+            "night_003",
+            "night_004",
+            "night_005",
+            "night_006",
+            "night_007",
+            "night_008"
+          ],
+          "budget_unavailable_rows": 8,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 8
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 3,
+          "reward": 24,
+          "cost": 2346.2,
+          "sent_requests": 6,
+          "started_tasks": 4,
+          "unstarted_solvable": 3,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_011",
+            "night_012",
+            "night_013"
+          ],
+          "budget_unavailable_rows": 4,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 4
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 2,
+          "reward": 18,
+          "cost": 7401.7,
+          "sent_requests": 11,
+          "started_tasks": 5,
+          "unstarted_solvable": 2,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_017",
+            "night_019"
+          ],
+          "budget_unavailable_rows": 5,
+          "budget_unavailable_after_http": 2,
+          "budget_unavailable_without_http": 3
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 2,
+          "reward": 19,
+          "cost": 5709.0,
+          "sent_requests": 7,
+          "started_tasks": 3,
+          "unstarted_solvable": 3,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_025",
+            "night_026",
+            "night_030"
+          ],
+          "budget_unavailable_rows": 5,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 5
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_base_b16000:r2": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 0,
+          "reward": 0,
+          "cost": 0.0,
+          "sent_requests": 0,
+          "started_tasks": 0,
+          "unstarted_solvable": 8,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_001",
+            "night_002",
+            "night_003",
+            "night_004",
+            "night_005",
+            "night_006",
+            "night_007",
+            "night_008"
+          ],
+          "budget_unavailable_rows": 8,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 8
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 5,
+          "reward": 30,
+          "cost": 6618.0,
+          "sent_requests": 12,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 1,
+          "budget_unavailable_after_http": 1,
+          "budget_unavailable_without_http": 0
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 6,
+          "reward": 37,
+          "cost": 6069.0,
+          "sent_requests": 11,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 1,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 5,
+          "reward": 32,
+          "cost": 2844.1,
+          "sent_requests": 8,
+          "started_tasks": 6,
+          "unstarted_solvable": 1,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_025"
+          ],
+          "budget_unavailable_rows": 2,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 2
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_common_b32000:r1": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 2,
+          "reward": 15,
+          "cost": 10406.9,
+          "sent_requests": 14,
+          "started_tasks": 4,
+          "unstarted_solvable": 4,
+          "saved_failed_solvable": 1,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [
+            "night_008"
+          ],
+          "unstarted_solvable_ids": [
+            "night_002",
+            "night_004",
+            "night_005",
+            "night_006"
+          ],
+          "budget_unavailable_rows": 5,
+          "budget_unavailable_after_http": 1,
+          "budget_unavailable_without_http": 4
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 5,
+          "reward": 23,
+          "cost": 10091.5,
+          "sent_requests": 15,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 1,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [
+            "night_010"
+          ],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 6,
+          "reward": 37,
+          "cost": 6171.7,
+          "sent_requests": 13,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 6,
+          "reward": 33,
+          "cost": 3426.7,
+          "sent_requests": 11,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_common_b32000:r2": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 1,
+          "reward": 7,
+          "cost": 13939.8,
+          "sent_requests": 20,
+          "started_tasks": 6,
+          "unstarted_solvable": 2,
+          "saved_failed_solvable": 2,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [
+            "night_007",
+            "night_008"
+          ],
+          "unstarted_solvable_ids": [
+            "night_002",
+            "night_004"
+          ],
+          "budget_unavailable_rows": 4,
+          "budget_unavailable_after_http": 2,
+          "budget_unavailable_without_http": 2
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 5,
+          "reward": 23,
+          "cost": 6181.1,
+          "sent_requests": 14,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 1,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [
+            "night_010"
+          ],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 6,
+          "reward": 37,
+          "cost": 7316.6,
+          "sent_requests": 14,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 1,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 6,
+          "reward": 33,
+          "cost": 2836.4,
+          "sent_requests": 11,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 1,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_common_b16000:r1": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 0,
+          "reward": 0,
+          "cost": 0.0,
+          "sent_requests": 0,
+          "started_tasks": 0,
+          "unstarted_solvable": 8,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_001",
+            "night_002",
+            "night_003",
+            "night_004",
+            "night_005",
+            "night_006",
+            "night_007",
+            "night_008"
+          ],
+          "budget_unavailable_rows": 8,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 8
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 4,
+          "reward": 22,
+          "cost": 6324.4,
+          "sent_requests": 11,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 1,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [
+            "night_010"
+          ],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 1,
+          "budget_unavailable_after_http": 1,
+          "budget_unavailable_without_http": 0
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 6,
+          "reward": 37,
+          "cost": 5732.3,
+          "sent_requests": 12,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 5,
+          "reward": 32,
+          "cost": 3339.4,
+          "sent_requests": 9,
+          "started_tasks": 6,
+          "unstarted_solvable": 1,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_025"
+          ],
+          "budget_unavailable_rows": 2,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 2
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_common_b16000:r2": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 0,
+          "reward": 0,
+          "cost": 0.0,
+          "sent_requests": 0,
+          "started_tasks": 0,
+          "unstarted_solvable": 8,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_001",
+            "night_002",
+            "night_003",
+            "night_004",
+            "night_005",
+            "night_006",
+            "night_007",
+            "night_008"
+          ],
+          "budget_unavailable_rows": 8,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 8
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 4,
+          "reward": 22,
+          "cost": 4036.4,
+          "sent_requests": 10,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 1,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [
+            "night_010"
+          ],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 1,
+          "budget_unavailable_after_http": 1,
+          "budget_unavailable_without_http": 0
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 6,
+          "reward": 37,
+          "cost": 8559.9,
+          "sent_requests": 16,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 5,
+          "reward": 32,
+          "cost": 2944.2,
+          "sent_requests": 9,
+          "started_tasks": 6,
+          "unstarted_solvable": 1,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_025"
+          ],
+          "budget_unavailable_rows": 2,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 2
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_raw_b32000:r1": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 2,
+          "reward": 10,
+          "cost": 7597.5,
+          "sent_requests": 12,
+          "started_tasks": 4,
+          "unstarted_solvable": 4,
+          "saved_failed_solvable": 1,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [
+            "night_007"
+          ],
+          "unstarted_solvable_ids": [
+            "night_002",
+            "night_003",
+            "night_004",
+            "night_006"
+          ],
+          "budget_unavailable_rows": 5,
+          "budget_unavailable_after_http": 1,
+          "budget_unavailable_without_http": 4
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 5,
+          "reward": 30,
+          "cost": 11228.5,
+          "sent_requests": 14,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 6,
+          "reward": 37,
+          "cost": 7494.8,
+          "sent_requests": 14,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 6,
+          "reward": 33,
+          "cost": 3940.6,
+          "sent_requests": 10,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_raw_b32000:r2": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 3,
+          "reward": 18,
+          "cost": 7811.1,
+          "sent_requests": 12,
+          "started_tasks": 5,
+          "unstarted_solvable": 3,
+          "saved_failed_solvable": 1,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [
+            "night_003"
+          ],
+          "unstarted_solvable_ids": [
+            "night_002",
+            "night_004",
+            "night_006"
+          ],
+          "budget_unavailable_rows": 4,
+          "budget_unavailable_after_http": 1,
+          "budget_unavailable_without_http": 3
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 6,
+          "reward": 31,
+          "cost": 6653.2,
+          "sent_requests": 13,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 5,
+          "reward": 31,
+          "cost": 11294.3,
+          "sent_requests": 16,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 2,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 6,
+          "reward": 33,
+          "cost": 4526.3,
+          "sent_requests": 13,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_raw_b16000:r1": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 0,
+          "reward": 0,
+          "cost": 0.0,
+          "sent_requests": 0,
+          "started_tasks": 0,
+          "unstarted_solvable": 8,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_001",
+            "night_002",
+            "night_003",
+            "night_004",
+            "night_005",
+            "night_006",
+            "night_007",
+            "night_008"
+          ],
+          "budget_unavailable_rows": 8,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 8
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 4,
+          "reward": 22,
+          "cost": 5642.7,
+          "sent_requests": 10,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 1,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [
+            "night_010"
+          ],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 1,
+          "budget_unavailable_after_http": 1,
+          "budget_unavailable_without_http": 0
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 6,
+          "reward": 37,
+          "cost": 7424.9,
+          "sent_requests": 16,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 1,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 5,
+          "reward": 32,
+          "cost": 2467.4,
+          "sent_requests": 8,
+          "started_tasks": 6,
+          "unstarted_solvable": 1,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_025"
+          ],
+          "budget_unavailable_rows": 2,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 2
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_raw_b16000:r2": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 0,
+          "reward": 0,
+          "cost": 695.8,
+          "sent_requests": 2,
+          "started_tasks": 1,
+          "unstarted_solvable": 7,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_001",
+            "night_002",
+            "night_003",
+            "night_004",
+            "night_005",
+            "night_006",
+            "night_007"
+          ],
+          "budget_unavailable_rows": 8,
+          "budget_unavailable_after_http": 1,
+          "budget_unavailable_without_http": 7
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 6,
+          "reward": 31,
+          "cost": 6534.8,
+          "sent_requests": 12,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 6,
+          "reward": 37,
+          "cost": 5275.6,
+          "sent_requests": 13,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 1,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 6,
+          "reward": 33,
+          "cost": 2143.5,
+          "sent_requests": 10,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 1,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_batch_b32000:r1": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 6,
+          "reward": 31,
+          "cost": 14002.7,
+          "sent_requests": 20,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 2,
+          "budget_unavailable_after_http": 2,
+          "budget_unavailable_without_http": 0
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 6,
+          "reward": 31,
+          "cost": 5696.3,
+          "sent_requests": 14,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 6,
+          "reward": 37,
+          "cost": 7477.3,
+          "sent_requests": 16,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 1,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 6,
+          "reward": 33,
+          "cost": 2939.0,
+          "sent_requests": 9,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_batch_b32000:r2": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 4,
+          "reward": 23,
+          "cost": 8586.7,
+          "sent_requests": 13,
+          "started_tasks": 6,
+          "unstarted_solvable": 2,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_002",
+            "night_004"
+          ],
+          "budget_unavailable_rows": 4,
+          "budget_unavailable_after_http": 2,
+          "budget_unavailable_without_http": 2
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 5,
+          "reward": 28,
+          "cost": 7953.3,
+          "sent_requests": 16,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 1,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [
+            "night_013"
+          ],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 5,
+          "reward": 31,
+          "cost": 10084.3,
+          "sent_requests": 19,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 6,
+          "reward": 33,
+          "cost": 3650.7,
+          "sent_requests": 12,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_batch_b16000:r1": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 0,
+          "reward": 0,
+          "cost": 0.0,
+          "sent_requests": 0,
+          "started_tasks": 0,
+          "unstarted_solvable": 8,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_001",
+            "night_002",
+            "night_003",
+            "night_004",
+            "night_005",
+            "night_006",
+            "night_007",
+            "night_008"
+          ],
+          "budget_unavailable_rows": 8,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 8
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 3,
+          "reward": 19,
+          "cost": 2610.3,
+          "sent_requests": 8,
+          "started_tasks": 6,
+          "unstarted_solvable": 2,
+          "saved_failed_solvable": 1,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [
+            "night_010"
+          ],
+          "unstarted_solvable_ids": [
+            "night_011",
+            "night_012"
+          ],
+          "budget_unavailable_rows": 2,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 2
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 5,
+          "reward": 34,
+          "cost": 9770.8,
+          "sent_requests": 16,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 1,
+          "budget_unavailable_after_http": 1,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 3,
+          "reward": 26,
+          "cost": 3163.1,
+          "sent_requests": 7,
+          "started_tasks": 4,
+          "unstarted_solvable": 3,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_025",
+            "night_026",
+            "night_030"
+          ],
+          "budget_unavailable_rows": 4,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 4
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_batch_b16000:r2": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 0,
+          "reward": 0,
+          "cost": 0.0,
+          "sent_requests": 0,
+          "started_tasks": 0,
+          "unstarted_solvable": 8,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_001",
+            "night_002",
+            "night_003",
+            "night_004",
+            "night_005",
+            "night_006",
+            "night_007",
+            "night_008"
+          ],
+          "budget_unavailable_rows": 8,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 8
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 5,
+          "reward": 30,
+          "cost": 5089.0,
+          "sent_requests": 12,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 1,
+          "budget_unavailable_after_http": 1,
+          "budget_unavailable_without_http": 0
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 5,
+          "reward": 31,
+          "cost": 7954.4,
+          "sent_requests": 15,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 1,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 5,
+          "reward": 32,
+          "cost": 2498.0,
+          "sent_requests": 7,
+          "started_tasks": 6,
+          "unstarted_solvable": 1,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_025"
+          ],
+          "budget_unavailable_rows": 2,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 2
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_review_b32000:r1": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 4,
+          "reward": 23,
+          "cost": 9388.1,
+          "sent_requests": 14,
+          "started_tasks": 6,
+          "unstarted_solvable": 2,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_002",
+            "night_004"
+          ],
+          "budget_unavailable_rows": 4,
+          "budget_unavailable_after_http": 2,
+          "budget_unavailable_without_http": 2
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 6,
+          "reward": 31,
+          "cost": 10262.0,
+          "sent_requests": 16,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 6,
+          "reward": 37,
+          "cost": 6893.8,
+          "sent_requests": 17,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 1,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 6,
+          "reward": 33,
+          "cost": 4118.3,
+          "sent_requests": 12,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_review_b32000:r2": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 3,
+          "reward": 18,
+          "cost": 7424.1,
+          "sent_requests": 10,
+          "started_tasks": 4,
+          "unstarted_solvable": 4,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_002",
+            "night_003",
+            "night_004",
+            "night_006"
+          ],
+          "budget_unavailable_rows": 5,
+          "budget_unavailable_after_http": 1,
+          "budget_unavailable_without_http": 4
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 6,
+          "reward": 31,
+          "cost": 10071.0,
+          "sent_requests": 15,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 6,
+          "reward": 37,
+          "cost": 11219.2,
+          "sent_requests": 18,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 1,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 6,
+          "reward": 33,
+          "cost": 1943.7,
+          "sent_requests": 9,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 1,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_review_b16000:r1": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 0,
+          "reward": 0,
+          "cost": 0.0,
+          "sent_requests": 0,
+          "started_tasks": 0,
+          "unstarted_solvable": 8,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_001",
+            "night_002",
+            "night_003",
+            "night_004",
+            "night_005",
+            "night_006",
+            "night_007",
+            "night_008"
+          ],
+          "budget_unavailable_rows": 8,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 8
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 4,
+          "reward": 22,
+          "cost": 4654.8,
+          "sent_requests": 10,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 1,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [
+            "night_010"
+          ],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 1,
+          "budget_unavailable_after_http": 1,
+          "budget_unavailable_without_http": 0
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 5,
+          "reward": 31,
+          "cost": 8373.6,
+          "sent_requests": 18,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 1,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 5,
+          "reward": 32,
+          "cost": 2512.7,
+          "sent_requests": 8,
+          "started_tasks": 6,
+          "unstarted_solvable": 1,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_025"
+          ],
+          "budget_unavailable_rows": 2,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 2
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_review_b16000:r2": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 0,
+          "reward": 0,
+          "cost": 0.0,
+          "sent_requests": 0,
+          "started_tasks": 0,
+          "unstarted_solvable": 8,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_001",
+            "night_002",
+            "night_003",
+            "night_004",
+            "night_005",
+            "night_006",
+            "night_007",
+            "night_008"
+          ],
+          "budget_unavailable_rows": 8,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 8
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 5,
+          "reward": 30,
+          "cost": 5758.4,
+          "sent_requests": 12,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 1,
+          "budget_unavailable_after_http": 1,
+          "budget_unavailable_without_http": 0
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 6,
+          "reward": 37,
+          "cost": 7336.5,
+          "sent_requests": 14,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 1,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 5,
+          "reward": 32,
+          "cost": 2439.6,
+          "sent_requests": 7,
+          "started_tasks": 6,
+          "unstarted_solvable": 1,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_025"
+          ],
+          "budget_unavailable_rows": 2,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 2
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_two_b32000:r1": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 3,
+          "reward": 14,
+          "cost": 7157.2,
+          "sent_requests": 12,
+          "started_tasks": 6,
+          "unstarted_solvable": 2,
+          "saved_failed_solvable": 2,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [
+            "night_003",
+            "night_007"
+          ],
+          "unstarted_solvable_ids": [
+            "night_002",
+            "night_004"
+          ],
+          "budget_unavailable_rows": 3,
+          "budget_unavailable_after_http": 1,
+          "budget_unavailable_without_http": 2
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 5,
+          "reward": 30,
+          "cost": 11734.2,
+          "sent_requests": 16,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 6,
+          "reward": 37,
+          "cost": 7363.0,
+          "sent_requests": 14,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 1,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 6,
+          "reward": 33,
+          "cost": 3672.8,
+          "sent_requests": 11,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 1,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_two_b32000:r2": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 2,
+          "reward": 10,
+          "cost": 5567.8,
+          "sent_requests": 8,
+          "started_tasks": 4,
+          "unstarted_solvable": 4,
+          "saved_failed_solvable": 1,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [
+            "night_007"
+          ],
+          "unstarted_solvable_ids": [
+            "night_002",
+            "night_004",
+            "night_005",
+            "night_006"
+          ],
+          "budget_unavailable_rows": 5,
+          "budget_unavailable_after_http": 1,
+          "budget_unavailable_without_http": 4
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 4,
+          "reward": 22,
+          "cost": 10959.5,
+          "sent_requests": 14,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 1,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [
+            "night_010"
+          ],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 6,
+          "reward": 37,
+          "cost": 10875.5,
+          "sent_requests": 17,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 6,
+          "reward": 33,
+          "cost": 2598.9,
+          "sent_requests": 11,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 1,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_two_b16000:r1": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 0,
+          "reward": 0,
+          "cost": 0.0,
+          "sent_requests": 0,
+          "started_tasks": 0,
+          "unstarted_solvable": 8,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_001",
+            "night_002",
+            "night_003",
+            "night_004",
+            "night_005",
+            "night_006",
+            "night_007",
+            "night_008"
+          ],
+          "budget_unavailable_rows": 8,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 8
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 4,
+          "reward": 22,
+          "cost": 3748.6,
+          "sent_requests": 11,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 1,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [
+            "night_010"
+          ],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 1,
+          "budget_unavailable_after_http": 1,
+          "budget_unavailable_without_http": 0
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 6,
+          "reward": 37,
+          "cost": 9534.0,
+          "sent_requests": 16,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 5,
+          "reward": 32,
+          "cost": 2257.9,
+          "sent_requests": 8,
+          "started_tasks": 6,
+          "unstarted_solvable": 1,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_025"
+          ],
+          "budget_unavailable_rows": 2,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 2
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_two_b16000:r2": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 0,
+          "reward": 0,
+          "cost": 0.0,
+          "sent_requests": 0,
+          "started_tasks": 0,
+          "unstarted_solvable": 8,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_001",
+            "night_002",
+            "night_003",
+            "night_004",
+            "night_005",
+            "night_006",
+            "night_007",
+            "night_008"
+          ],
+          "budget_unavailable_rows": 8,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 8
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 5,
+          "reward": 30,
+          "cost": 6647.5,
+          "sent_requests": 11,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 1,
+          "budget_unavailable_after_http": 1,
+          "budget_unavailable_without_http": 0
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 6,
+          "reward": 37,
+          "cost": 6209.3,
+          "sent_requests": 12,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 1,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 5,
+          "reward": 32,
+          "cost": 2602.5,
+          "sent_requests": 7,
+          "started_tasks": 7,
+          "unstarted_solvable": 1,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_025"
+          ],
+          "budget_unavailable_rows": 2,
+          "budget_unavailable_after_http": 1,
+          "budget_unavailable_without_http": 1
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_mean_b32000:r1": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 3,
+          "reward": 19,
+          "cost": 16271.7,
+          "sent_requests": 23,
+          "started_tasks": 6,
+          "unstarted_solvable": 2,
+          "saved_failed_solvable": 2,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [
+            "night_003",
+            "night_004"
+          ],
+          "unstarted_solvable_ids": [
+            "night_002",
+            "night_008"
+          ],
+          "budget_unavailable_rows": 3,
+          "budget_unavailable_after_http": 1,
+          "budget_unavailable_without_http": 2
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 5,
+          "reward": 30,
+          "cost": 4953.3,
+          "sent_requests": 10,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 1,
+          "budget_unavailable_after_http": 1,
+          "budget_unavailable_without_http": 0
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 6,
+          "reward": 37,
+          "cost": 8100.5,
+          "sent_requests": 17,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 1,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 5,
+          "reward": 32,
+          "cost": 2215.3,
+          "sent_requests": 6,
+          "started_tasks": 6,
+          "unstarted_solvable": 1,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_025"
+          ],
+          "budget_unavailable_rows": 2,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 2
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_mean_b32000:r2": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 3,
+          "reward": 15,
+          "cost": 16477.0,
+          "sent_requests": 23,
+          "started_tasks": 6,
+          "unstarted_solvable": 2,
+          "saved_failed_solvable": 2,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [
+            "night_003",
+            "night_007"
+          ],
+          "unstarted_solvable_ids": [
+            "night_002",
+            "night_008"
+          ],
+          "budget_unavailable_rows": 3,
+          "budget_unavailable_after_http": 1,
+          "budget_unavailable_without_http": 2
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 5,
+          "reward": 30,
+          "cost": 5203.7,
+          "sent_requests": 11,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 1,
+          "budget_unavailable_after_http": 1,
+          "budget_unavailable_without_http": 0
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 6,
+          "reward": 37,
+          "cost": 8123.2,
+          "sent_requests": 15,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 1,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 5,
+          "reward": 32,
+          "cost": 1731.3,
+          "sent_requests": 6,
+          "started_tasks": 6,
+          "unstarted_solvable": 1,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_025"
+          ],
+          "budget_unavailable_rows": 2,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 2
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_mean_b16000:r1": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 1,
+          "reward": 8,
+          "cost": 2405.6,
+          "sent_requests": 4,
+          "started_tasks": 1,
+          "unstarted_solvable": 7,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_001",
+            "night_002",
+            "night_003",
+            "night_004",
+            "night_005",
+            "night_006",
+            "night_008"
+          ],
+          "budget_unavailable_rows": 7,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 7
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 4,
+          "reward": 22,
+          "cost": 3697.7,
+          "sent_requests": 10,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 1,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [
+            "night_010"
+          ],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 1,
+          "budget_unavailable_after_http": 1,
+          "budget_unavailable_without_http": 0
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 6,
+          "reward": 37,
+          "cost": 7013.2,
+          "sent_requests": 14,
+          "started_tasks": 8,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 1,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 5,
+          "reward": 32,
+          "cost": 2424.6,
+          "sent_requests": 8,
+          "started_tasks": 6,
+          "unstarted_solvable": 1,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_025"
+          ],
+          "budget_unavailable_rows": 2,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 2
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_mean_b16000:r2": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 0,
+          "reward": 0,
+          "cost": 2600.5,
+          "sent_requests": 3,
+          "started_tasks": 1,
+          "unstarted_solvable": 7,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_001",
+            "night_002",
+            "night_003",
+            "night_004",
+            "night_005",
+            "night_006",
+            "night_008"
+          ],
+          "budget_unavailable_rows": 8,
+          "budget_unavailable_after_http": 1,
+          "budget_unavailable_without_http": 7
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 4,
+          "reward": 22,
+          "cost": 3172.9,
+          "sent_requests": 10,
+          "started_tasks": 7,
+          "unstarted_solvable": 1,
+          "saved_failed_solvable": 1,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [
+            "night_010"
+          ],
+          "unstarted_solvable_ids": [
+            "night_011"
+          ],
+          "budget_unavailable_rows": 1,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 1
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 6,
+          "reward": 37,
+          "cost": 7265.7,
+          "sent_requests": 13,
+          "started_tasks": 7,
+          "unstarted_solvable": 0,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [],
+          "budget_unavailable_rows": 1,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 1
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 5,
+          "reward": 32,
+          "cost": 2488.2,
+          "sent_requests": 7,
+          "started_tasks": 6,
+          "unstarted_solvable": 1,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_025"
+          ],
+          "budget_unavailable_rows": 2,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 2
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_ordinary_b32000:r1": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 1,
+          "reward": 4,
+          "cost": 14397.6,
+          "sent_requests": 19,
+          "started_tasks": 4,
+          "unstarted_solvable": 4,
+          "saved_failed_solvable": 1,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [
+            "night_006"
+          ],
+          "unstarted_solvable_ids": [
+            "night_001",
+            "night_003",
+            "night_004",
+            "night_008"
+          ],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 1,
+          "reward": 10,
+          "cost": 1703.3,
+          "sent_requests": 8,
+          "started_tasks": 3,
+          "unstarted_solvable": 4,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 1,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_010",
+            "night_012",
+            "night_013",
+            "night_014"
+          ],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 3,
+          "reward": 15,
+          "cost": 6742.5,
+          "sent_requests": 29,
+          "started_tasks": 4,
+          "unstarted_solvable": 3,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 1,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_018",
+            "night_021",
+            "night_022"
+          ],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 2,
+          "reward": 10,
+          "cost": 6847.3,
+          "sent_requests": 27,
+          "started_tasks": 4,
+          "unstarted_solvable": 4,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_025",
+            "night_026",
+            "night_028",
+            "night_029"
+          ],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_ordinary_b32000:r2": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 0,
+          "reward": 0,
+          "cost": 17260.2,
+          "sent_requests": 19,
+          "started_tasks": 4,
+          "unstarted_solvable": 4,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_001",
+            "night_003",
+            "night_004",
+            "night_008"
+          ],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 1,
+          "reward": 10,
+          "cost": 2152.6,
+          "sent_requests": 12,
+          "started_tasks": 2,
+          "unstarted_solvable": 5,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_010",
+            "night_011",
+            "night_012",
+            "night_013",
+            "night_014"
+          ],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 3,
+          "reward": 15,
+          "cost": 4694.4,
+          "sent_requests": 22,
+          "started_tasks": 4,
+          "unstarted_solvable": 3,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 1,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_018",
+            "night_021",
+            "night_022"
+          ],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 2,
+          "reward": 10,
+          "cost": 5622.8,
+          "sent_requests": 26,
+          "started_tasks": 4,
+          "unstarted_solvable": 4,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 1,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_025",
+            "night_026",
+            "night_028",
+            "night_029"
+          ],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_ordinary_b16000:r1": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 0,
+          "reward": 0,
+          "cost": 1676.7,
+          "sent_requests": 5,
+          "started_tasks": 3,
+          "unstarted_solvable": 5,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_001",
+            "night_003",
+            "night_004",
+            "night_007",
+            "night_008"
+          ],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 1,
+          "reward": 10,
+          "cost": 1297.5,
+          "sent_requests": 7,
+          "started_tasks": 2,
+          "unstarted_solvable": 5,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_010",
+            "night_011",
+            "night_012",
+            "night_013",
+            "night_014"
+          ],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 3,
+          "reward": 15,
+          "cost": 7150.9,
+          "sent_requests": 26,
+          "started_tasks": 4,
+          "unstarted_solvable": 3,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_018",
+            "night_021",
+            "night_022"
+          ],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 1,
+          "reward": 3,
+          "cost": 3639.7,
+          "sent_requests": 17,
+          "started_tasks": 4,
+          "unstarted_solvable": 4,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_025",
+            "night_026",
+            "night_028",
+            "night_029"
+          ],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    },
+    "val32_ordinary_b16000:r2": {
+      "by_type": {
+        "coding": {
+          "solvable": 8,
+          "attainable_reward": 37,
+          "passed": 0,
+          "reward": 0,
+          "cost": 522.3,
+          "sent_requests": 4,
+          "started_tasks": 4,
+          "unstarted_solvable": 4,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_001",
+            "night_003",
+            "night_004",
+            "night_008"
+          ],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "math": {
+          "solvable": 6,
+          "attainable_reward": 31,
+          "passed": 1,
+          "reward": 10,
+          "cost": 1925.9,
+          "sent_requests": 8,
+          "started_tasks": 2,
+          "unstarted_solvable": 5,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 1,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_010",
+            "night_011",
+            "night_012",
+            "night_013",
+            "night_014"
+          ],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "data_analysis": {
+          "solvable": 6,
+          "attainable_reward": 37,
+          "passed": 3,
+          "reward": 15,
+          "cost": 4933.7,
+          "sent_requests": 21,
+          "started_tasks": 4,
+          "unstarted_solvable": 3,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 1,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_018",
+            "night_021",
+            "night_022"
+          ],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        },
+        "search": {
+          "solvable": 6,
+          "attainable_reward": 33,
+          "passed": 1,
+          "reward": 3,
+          "cost": 6366.4,
+          "sent_requests": 23,
+          "started_tasks": 4,
+          "unstarted_solvable": 4,
+          "saved_failed_solvable": 0,
+          "unsolvable_answered": 0,
+          "saved_failed_ids": [],
+          "unstarted_solvable_ids": [
+            "night_025",
+            "night_026",
+            "night_028",
+            "night_029"
+          ],
+          "budget_unavailable_rows": 0,
+          "budget_unavailable_after_http": 0,
+          "budget_unavailable_without_http": 0
+        }
+      },
+      "result_count": 32,
+      "score_rows": 32
+    }
+  },
+  "source_receipt_hashes": {
+    "reports/night_2026-11-09/val32_core_complete_checked.json": "c186e50473f9d30b68528671a25751151b05a6f64d82d6940f34e018b04087ae",
+    "experiments/agent_night_2026-11-09/val32_base_b32000/runs/r1/score.json": "1782e7a4eceea9b8ad7a480923248ba25370727aeae6d887f6c0e8a5c7e095f8",
+    "experiments/agent_night_2026-11-09/val32_base_b32000/runs/r1/task_results.json": "5a95dae7b572aa83d13f5c4e3c14f9db6f44636a14d67221d87276a0f5921ca3",
+    "experiments/agent_night_2026-11-09/val32_base_b32000/runs/r1/calls.jsonl": "f3f6b95458b995f59c8d80cabb90f9c9a60ffd0d5b57b4ee5b3c981cb0bf0e24",
+    "experiments/agent_night_2026-11-09/val32_base_b32000/freeze.json": "5323d9b9acf1b90fff6e2088cdccd5f8f3626145d1b0957f2d3d20dba264be26",
+    "experiments/agent_night_2026-11-09/val32_base_b32000/runs/r2/score.json": "5fe126d3afc62b893be06b917b235f11083e26816c410efee1d8fc773754a426",
+    "experiments/agent_night_2026-11-09/val32_base_b32000/runs/r2/task_results.json": "de5da5cd5eba1189a53873b99994b274cd4985727010e0190f49edf14b3871a5",
+    "experiments/agent_night_2026-11-09/val32_base_b32000/runs/r2/calls.jsonl": "d9966091b3635faef83da86393ee34d6921eb72e5c1cf8bf6f516cb762d27170",
+    "experiments/agent_night_2026-11-09/val32_base_b16000/runs/r1/score.json": "526d5d28dd6cbd6c90f9cb246e7af73df30da5d855163ebffc9c3a993cb36471",
+    "experiments/agent_night_2026-11-09/val32_base_b16000/runs/r1/task_results.json": "f8e160e043de348cff5d81fe8846ae29ccd1166e6561a2c07bde637c5074d3ca",
+    "experiments/agent_night_2026-11-09/val32_base_b16000/runs/r1/calls.jsonl": "f6df3a11a49ff898dd3314ed7b7bb9eaba00754ab6979094ed3519aac51f6079",
+    "experiments/agent_night_2026-11-09/val32_base_b16000/freeze.json": "c10801f0bd30e8872b20a2fdf23352569d5eaf7e10c702d8db3b43f75a237d02",
+    "experiments/agent_night_2026-11-09/val32_base_b16000/runs/r2/score.json": "4db7dbad80b513c8a9c61e68507f5bd4e48cc9e782a11011ec6954e2a883eb59",
+    "experiments/agent_night_2026-11-09/val32_base_b16000/runs/r2/task_results.json": "f2549b6dd40dd57aa39c8596d466382831b1d281152238e19e6b589991f68b75",
+    "experiments/agent_night_2026-11-09/val32_base_b16000/runs/r2/calls.jsonl": "9f8b02e7aa81d027f01bba101404703ff0e1993770a43deecea38a2bb741ab71",
+    "experiments/agent_night_2026-11-09/val32_common_b32000/runs/r1/score.json": "1782e7a4eceea9b8ad7a480923248ba25370727aeae6d887f6c0e8a5c7e095f8",
+    "experiments/agent_night_2026-11-09/val32_common_b32000/runs/r1/task_results.json": "277700c1fc04486b9b74ca2ea2b65f77d620037238dc5a5bd80b16779f7715cc",
+    "experiments/agent_night_2026-11-09/val32_common_b32000/runs/r1/calls.jsonl": "09b9491e371b1a7be2275925a6740042985d6d42732c69d377d4041be5485b86",
+    "experiments/agent_night_2026-11-09/val32_common_b32000/freeze.json": "4fd2f9f618d78a8f428554648b2c29d3413382fdbd045159d1a5c80c70d33372",
+    "experiments/agent_night_2026-11-09/val32_common_b32000/runs/r2/score.json": "9b4f24c39dfd278b8ea472b36668bb590e0596c177336060f6289e2bd12f050f",
+    "experiments/agent_night_2026-11-09/val32_common_b32000/runs/r2/task_results.json": "1078e10680774f5d2a83dcc500bff224af8e19955b895698e07c82af1d366d29",
+    "experiments/agent_night_2026-11-09/val32_common_b32000/runs/r2/calls.jsonl": "6abd49e3ff0418f641e00f330341e142e4e9770bdb66a512170083f2f34bb0e6",
+    "experiments/agent_night_2026-11-09/val32_common_b16000/runs/r1/score.json": "0103a7a7819553e2e4f82d563101782de8eefa091343950c280800cb6ce93b51",
+    "experiments/agent_night_2026-11-09/val32_common_b16000/runs/r1/task_results.json": "6a039da287d0c67675e1ec9896267c51039fd2d1b9c88e1deb0781466ed35d33",
+    "experiments/agent_night_2026-11-09/val32_common_b16000/runs/r1/calls.jsonl": "02f1979507c00b243fd5c97d706afdc098c22b808980d464063dd13bde300e59",
+    "experiments/agent_night_2026-11-09/val32_common_b16000/freeze.json": "a0e7a7a2089ff0a641f1e450bccc4e1905f0efde8b0ac420f26f48b35b47d0d0",
+    "experiments/agent_night_2026-11-09/val32_common_b16000/runs/r2/score.json": "0103a7a7819553e2e4f82d563101782de8eefa091343950c280800cb6ce93b51",
+    "experiments/agent_night_2026-11-09/val32_common_b16000/runs/r2/task_results.json": "bd2aea3803f33317145f7695454e34495b032322711edd4b612d16d0c29a276c",
+    "experiments/agent_night_2026-11-09/val32_common_b16000/runs/r2/calls.jsonl": "c779e483b654c66233ae1dcd9ffde7a0b0a8f51370f4eaa0554d8b3bd88b3c4d",
+    "experiments/agent_night_2026-11-09/val32_raw_b32000/runs/r1/score.json": "4452d098f9395e49c0007a78c1656f7b5279146b21accaed53f2611ce01d9f54",
+    "experiments/agent_night_2026-11-09/val32_raw_b32000/runs/r1/task_results.json": "bbaf3c1a9646ed91130148962e15accf12a7a25b946088c51f125565951bbf68",
+    "experiments/agent_night_2026-11-09/val32_raw_b32000/runs/r1/calls.jsonl": "15441aadaf10bcf37ee5d96094b61c6492cff2420214d4e255a71fd6d38cec59",
+    "experiments/agent_night_2026-11-09/val32_raw_b32000/freeze.json": "247ce7c4283f8e4d31166f1872c5177c72388d162971787cad897c07d4144f8a",
+    "experiments/agent_night_2026-11-09/val32_raw_b32000/runs/r2/score.json": "7990cd73bc78a96a154613b899d5a0d06a0d187aaaa9127fa2fe1f72303383c0",
+    "experiments/agent_night_2026-11-09/val32_raw_b32000/runs/r2/task_results.json": "21a64b90bd6450be6895c72ecc7e167b1bfc72d71b1e750b95ddd6c8704be6cc",
+    "experiments/agent_night_2026-11-09/val32_raw_b32000/runs/r2/calls.jsonl": "66f792e9c7149bc9822dd35bdac26ac419db1833bd45d90f9cf055c5cdf0eb19",
+    "experiments/agent_night_2026-11-09/val32_raw_b16000/runs/r1/score.json": "84ffbe7b20e2b3541c7852337bd13cadf0a660b2716d64c717337f108665d0bb",
+    "experiments/agent_night_2026-11-09/val32_raw_b16000/runs/r1/task_results.json": "24978255bfaff4e4187ba797c1676f358eae1d03de4905632f055c2529bcfc49",
+    "experiments/agent_night_2026-11-09/val32_raw_b16000/runs/r1/calls.jsonl": "786a2bdde262729b05ac5b1e66f5ab8f33ca870e1b56b3f7c8516383757402e4",
+    "experiments/agent_night_2026-11-09/val32_raw_b16000/freeze.json": "22c55f879ac105ce5513277107f754d5115280ae13257aed472749fab63e7536",
+    "experiments/agent_night_2026-11-09/val32_raw_b16000/runs/r2/score.json": "112957d0df010e4b7bb09c9d05f4ad73645a99f8cdc8190f6388336e6cc0c11d",
+    "experiments/agent_night_2026-11-09/val32_raw_b16000/runs/r2/task_results.json": "cd71cc49c568bea14edee7748b3a2cf83d4cb61a9b406b0264fa91a79d53c17a",
+    "experiments/agent_night_2026-11-09/val32_raw_b16000/runs/r2/calls.jsonl": "329e1ca9d07c2fc975ac19ce03aff0cb6e6dbc529af639d871f2e2fbb8547c9d",
+    "experiments/agent_night_2026-11-09/val32_batch_b32000/runs/r1/score.json": "f59b6a7af316e40e25cbe3232e15c912a638728b3338f73dc4ac4f3620402601",
+    "experiments/agent_night_2026-11-09/val32_batch_b32000/runs/r1/task_results.json": "a7f44f401f1e49b4c55d7c0136b5ba21dcefa4008d06f0a1d23c74fedeae08e9",
+    "experiments/agent_night_2026-11-09/val32_batch_b32000/runs/r1/calls.jsonl": "964b97681b4e8f2d3c591895207fffd96ad643158c07bcd8aa940e61ceb3a2aa",
+    "experiments/agent_night_2026-11-09/val32_batch_b32000/freeze.json": "5aad6b95debc498664e83c4c3e2d8597e69e3df50c1134d3895447d61658a3b9",
+    "experiments/agent_night_2026-11-09/val32_batch_b32000/runs/r2/score.json": "2ab7c9a492e0536ea45e982b9bb64fb9d97061a2ae466e52378f90e4aa7a8f47",
+    "experiments/agent_night_2026-11-09/val32_batch_b32000/runs/r2/task_results.json": "d3b500e9292adcf36a0460fda5feddab07b450b46d0f21d33061f9952e6d1e95",
+    "experiments/agent_night_2026-11-09/val32_batch_b32000/runs/r2/calls.jsonl": "0dc8c99dda47d86bd9170c882f5d4ab7a872f40a34e4544aa8a1bf2907d8588c",
+    "experiments/agent_night_2026-11-09/val32_batch_b16000/runs/r1/score.json": "663f1d84e218514ae83930c5379be6e5a7a4cf9b03761b634202477fd7fd1a7e",
+    "experiments/agent_night_2026-11-09/val32_batch_b16000/runs/r1/task_results.json": "823d0c94928e96544123c63c8f0400b7d1e198d0aa94304f473471961a8671d8",
+    "experiments/agent_night_2026-11-09/val32_batch_b16000/runs/r1/calls.jsonl": "b7b6159ae6a9eb6cadb0ff06c4cdb3aebcad2fe7614eec0872ce028f4302fde0",
+    "experiments/agent_night_2026-11-09/val32_batch_b16000/freeze.json": "d4df0101c252d39f7f12b4d02ced7b9fabfb6bcf5b21553db981277eb73adbab",
+    "experiments/agent_night_2026-11-09/val32_batch_b16000/runs/r2/score.json": "48c187648538594592de8c84d2806f8c9f1040f38891d795c055104868c5c57f",
+    "experiments/agent_night_2026-11-09/val32_batch_b16000/runs/r2/task_results.json": "acc2082635ec4f2ea76dac276a8813bae6380c47934be23e1b36df9b22c3c5e5",
+    "experiments/agent_night_2026-11-09/val32_batch_b16000/runs/r2/calls.jsonl": "e7af3ddd323cf14a9767a85af6d5b5ab1da36bda891b08553532649525ee6a69",
+    "experiments/agent_night_2026-11-09/val32_review_b32000/runs/r1/score.json": "4c9e98b4490821846c27f448a0c2c5c8ff5586ffd018bae2c5c952fb9fb7ad79",
+    "experiments/agent_night_2026-11-09/val32_review_b32000/runs/r1/task_results.json": "97f7b0bff34c662bac9e958ea0b9483cf758dbfa1e37d4a19a02ff938be57d79",
+    "experiments/agent_night_2026-11-09/val32_review_b32000/runs/r1/calls.jsonl": "15355a6bce43e1458704f77405f16604e45010bcce623f218008900cada0d314",
+    "experiments/agent_night_2026-11-09/val32_review_b32000/freeze.json": "6f823e4332b0df97035831999f2823de161ef140cbd32e65ba9e7c597f0541ef",
+    "experiments/agent_night_2026-11-09/val32_review_b32000/runs/r2/score.json": "598b9db75c163687f0d5192158178c7d4cf69bc3916ea98c23721c1ab4338aac",
+    "experiments/agent_night_2026-11-09/val32_review_b32000/runs/r2/task_results.json": "18c0a4c8ba6fca53c19ba1a802853356d7e55c8fd3094c19e72302f907ca0d63",
+    "experiments/agent_night_2026-11-09/val32_review_b32000/runs/r2/calls.jsonl": "c06b6f8bf5e267a8218a618b197331d827829350ec72496cb7dc204ead6d0d28",
+    "experiments/agent_night_2026-11-09/val32_review_b16000/runs/r1/score.json": "e750d405f549d30698eaa30fa25f73d998bdc95abb4269392ff2548c27ce2d7e",
+    "experiments/agent_night_2026-11-09/val32_review_b16000/runs/r1/task_results.json": "b7774d873112214562814589309d916021e83270b72886d8d5ad86ccf95b4a00",
+    "experiments/agent_night_2026-11-09/val32_review_b16000/runs/r1/calls.jsonl": "b8f62af9117429800280412ad2de7bdbebef801ce31493b117bcaab389aead43",
+    "experiments/agent_night_2026-11-09/val32_review_b16000/freeze.json": "acab715886ed333aa0ebcf3f7c84f9ee8bdf60b2c97505b9e6bdaa1391b3f594",
+    "experiments/agent_night_2026-11-09/val32_review_b16000/runs/r2/score.json": "4db7dbad80b513c8a9c61e68507f5bd4e48cc9e782a11011ec6954e2a883eb59",
+    "experiments/agent_night_2026-11-09/val32_review_b16000/runs/r2/task_results.json": "c92dafcf2e0bc5d23254d042d0d0e06ff0c8f3d80e27d8099163218420ed5875",
+    "experiments/agent_night_2026-11-09/val32_review_b16000/runs/r2/calls.jsonl": "6f5a5a7ef36b04e57bb338d73ad8b221284b9a0881d810615e3246d07f7ce45c",
+    "experiments/agent_night_2026-11-09/val32_two_b32000/runs/r1/score.json": "f438ca34f0623f6e98dac88f50ca32babf6c99d5a7d143a7d71ee6c2d0d30cb1",
+    "experiments/agent_night_2026-11-09/val32_two_b32000/runs/r1/task_results.json": "4b40f344fed3f7ab3a817351ce3cc349b5d86890958ec7f4349b0f602796e50a",
+    "experiments/agent_night_2026-11-09/val32_two_b32000/runs/r1/calls.jsonl": "e4303786d835179781b08241914d9efcc80deb325a065b59d613b6f3b46d9cf4",
+    "experiments/agent_night_2026-11-09/val32_two_b32000/freeze.json": "ea3441a7c8cfe31c51bb1bf68606aa711ab88927f1335238ee8614c8239b4a1c",
+    "experiments/agent_night_2026-11-09/val32_two_b32000/runs/r2/score.json": "21e284915466a454b48ad1fa00545140a7319c9eac9fefdbb08b87310f022a15",
+    "experiments/agent_night_2026-11-09/val32_two_b32000/runs/r2/task_results.json": "f434b2304138f4e09879a9aae118278f7e72dfc658ca04f024ba222b48993472",
+    "experiments/agent_night_2026-11-09/val32_two_b32000/runs/r2/calls.jsonl": "90a555c2aad7774c2be05fa69faef50d9fcf7925f5b112a0dd863bcc54023059",
+    "experiments/agent_night_2026-11-09/val32_two_b16000/runs/r1/score.json": "0103a7a7819553e2e4f82d563101782de8eefa091343950c280800cb6ce93b51",
+    "experiments/agent_night_2026-11-09/val32_two_b16000/runs/r1/task_results.json": "a19d9d70c1a41cf1c4d8c375285c2967f52f2edeaffda776d8edbed2aa2f1fa4",
+    "experiments/agent_night_2026-11-09/val32_two_b16000/runs/r1/calls.jsonl": "f06f6ebc918e1396fa352bcecce2217e12f7725b8cbd5252af936d368a2fc8cc",
+    "experiments/agent_night_2026-11-09/val32_two_b16000/freeze.json": "df2957f0170d50d6f72769b1102867e6970a101324eaed58e0daacb835d4bd21",
+    "experiments/agent_night_2026-11-09/val32_two_b16000/runs/r2/score.json": "4db7dbad80b513c8a9c61e68507f5bd4e48cc9e782a11011ec6954e2a883eb59",
+    "experiments/agent_night_2026-11-09/val32_two_b16000/runs/r2/task_results.json": "f8d5abfca984f6e7bf5e4b9edb246a5ae0aa13f62d8db9abbf14eccc1ef29653",
+    "experiments/agent_night_2026-11-09/val32_two_b16000/runs/r2/calls.jsonl": "6eda22169c03d8ed8bfc74d29e56b52f92efd610c3eb5655f340b73f21383cd1",
+    "experiments/agent_night_2026-11-09/val32_mean_b32000/runs/r1/score.json": "1c86dd32de89e0fc155e8219e7c11dcd09f431e461df9865093356cb66f55e84",
+    "experiments/agent_night_2026-11-09/val32_mean_b32000/runs/r1/task_results.json": "53a9c6782fef146906c616f2a7f92d9713ce7d9eaa0250a479e54489b7a2f663",
+    "experiments/agent_night_2026-11-09/val32_mean_b32000/runs/r1/calls.jsonl": "d18a77edd43935887cc3458d9945b032f75af14e403f8082e496421a83520a23",
+    "experiments/agent_night_2026-11-09/val32_mean_b32000/freeze.json": "23aca4a5723018f088ebc187cf4357794efe57d6d07b18b7ed6f031b6e4fa812",
+    "experiments/agent_night_2026-11-09/val32_mean_b32000/runs/r2/score.json": "8f9bc0fb1bd59a993c3162b0eaa13a5dbbee7cea6685b85f6f23321d745a9865",
+    "experiments/agent_night_2026-11-09/val32_mean_b32000/runs/r2/task_results.json": "c2687df68547f274bea30b94bed1cd6c658fe2e8f16734da0a3f929be0dcf7c7",
+    "experiments/agent_night_2026-11-09/val32_mean_b32000/runs/r2/calls.jsonl": "5fa6dfbbaf9f7b74352287f07ebb020ff8a56d8dc0ad652e67f7c9e15dc50d7e",
+    "experiments/agent_night_2026-11-09/val32_mean_b16000/runs/r1/score.json": "ea4e07e6d67def7fdff295c6f6520d7ca3617a614e957ea4573824f12d869271",
+    "experiments/agent_night_2026-11-09/val32_mean_b16000/runs/r1/task_results.json": "823776cb3fc47a48e01389359f01d87962b7a43efe35a87abe8215ab502fca59",
+    "experiments/agent_night_2026-11-09/val32_mean_b16000/runs/r1/calls.jsonl": "d30ed21ecab14b0cf36f741fe6d5bf1bd472eac2881ac6915c1ba8c7b8573522",
+    "experiments/agent_night_2026-11-09/val32_mean_b16000/freeze.json": "23a5b11e520cdacc89b85dfad884fa9847016629f26b7350e12ae9e60f8d0e09",
+    "experiments/agent_night_2026-11-09/val32_mean_b16000/runs/r2/score.json": "0103a7a7819553e2e4f82d563101782de8eefa091343950c280800cb6ce93b51",
+    "experiments/agent_night_2026-11-09/val32_mean_b16000/runs/r2/task_results.json": "33f20d1692bd4006d4ffcbf3e60441f1f19df9fdb520bee0bde862e38ce82cae",
+    "experiments/agent_night_2026-11-09/val32_mean_b16000/runs/r2/calls.jsonl": "0c11138da3f8cb1ae00853163a65f7465e9e76b46c13e3100a01844f9229d2bc",
+    "experiments/agent_night_2026-11-09/val32_ordinary_b32000/runs/r1/score.json": "d8e21f83f1105a39b3f9e466f2434564f3c29efad73a2aa2c7fafcfb0dd6d5c1",
+    "experiments/agent_night_2026-11-09/val32_ordinary_b32000/runs/r1/task_results.json": "590200af1161a85c71dcb10d7a1edf0aedbb8dd9099dc3c29c218ca70be517a4",
+    "experiments/agent_night_2026-11-09/val32_ordinary_b32000/runs/r1/calls.jsonl": "3bbe0717ad54d774e727c8e7ae30aa2b47cf4b29dbbc765c8f4ceee11bfdfe54",
+    "experiments/agent_night_2026-11-09/val32_ordinary_b32000/freeze.json": "6f5e8a2d55fab55054244702ea5c0f01c581f0a2963c3d4dbbcd4cf42cc42ef4",
+    "experiments/agent_night_2026-11-09/val32_ordinary_b32000/runs/r2/score.json": "9c8ab5d0ba23f6a6a7abd719b7a75c5ef416c202b54275b07ec10423d5295da6",
+    "experiments/agent_night_2026-11-09/val32_ordinary_b32000/runs/r2/task_results.json": "2c07b326c37d92cd5e0ec3fa3e4eb4239ed5a3fcea691fbd1a0696c8cf4b278d",
+    "experiments/agent_night_2026-11-09/val32_ordinary_b32000/runs/r2/calls.jsonl": "3d8d502e1f3856ebbf08e0efb74b1b35ab91a1f1ebbcd0310cfb1cc362305fe7",
+    "experiments/agent_night_2026-11-09/val32_ordinary_b16000/runs/r1/score.json": "b3da16e35691d6ceec5e3941d8a0e7ff1eb33eedea75c1293f89b4a32e319d27",
+    "experiments/agent_night_2026-11-09/val32_ordinary_b16000/runs/r1/task_results.json": "4d4bae91341c4765d93286a9626b77c8b39dc33848b02e22a964185ac507e151",
+    "experiments/agent_night_2026-11-09/val32_ordinary_b16000/runs/r1/calls.jsonl": "73fb489576380b3c61e9f1173b85ada16976892d65c396e696360712878996d3",
+    "experiments/agent_night_2026-11-09/val32_ordinary_b16000/freeze.json": "25631c513358774c5e971fe466335100e69fdbdb0a3bcc3768c813b5e54ef727",
+    "experiments/agent_night_2026-11-09/val32_ordinary_b16000/runs/r2/score.json": "496bebf8e442b08538e2f0028b3506746c52baa19f89506b92cbc37b1ad7db87",
+    "experiments/agent_night_2026-11-09/val32_ordinary_b16000/runs/r2/task_results.json": "c556699ca2db69e06d70bcdceccf4bb8fc74f5887839dc8b8d70d072ee017638",
+    "experiments/agent_night_2026-11-09/val32_ordinary_b16000/runs/r2/calls.jsonl": "9792f577589b5d2d1f71c8d36bbb8c462605eca2adfac3fe1d7229dfede72893"
+  },
+  "api_calls": 0,
+  "runtime_changes": 0,
+  "fresh64_and16_read": false,
+  "batch_b32000_r1": {
+    "batch_actions": 6,
+    "replacements": 10,
+    "actions": [
+      {
+        "task_id": "night_007",
+        "step": 3,
+        "replacements": 3,
+        "public_pass": true
+      },
+      {
+        "task_id": "night_001",
+        "step": 2,
+        "replacements": 1,
+        "public_pass": true
+      },
+      {
+        "task_id": "night_008",
+        "step": 3,
+        "replacements": 1,
+        "public_pass": true
+      },
+      {
+        "task_id": "night_003",
+        "step": 2,
+        "replacements": 3,
+        "public_pass": true
+      },
+      {
+        "task_id": "night_005",
+        "step": 3,
+        "replacements": 1,
+        "public_pass": true
+      },
+      {
+        "task_id": "night_004",
+        "step": 2,
+        "replacements": 1,
+        "public_pass": true
+      }
+    ],
+    "invalid_json": [
+      {
+        "task_id": "night_007",
+        "step": 2,
+        "finish_reason": "stop",
+        "output_tokens": 547,
+        "cost": 953.2,
+        "complete_single_object_after_prefix": false,
+        "text_sha256": "a6cb3ceb1dec22d762f1ce0e33995d9e5571d842216160d725ab26a6b7ccfb0e"
+      },
+      {
+        "task_id": "night_008",
+        "step": 2,
+        "finish_reason": "stop",
+        "output_tokens": 634,
+        "cost": 920.7,
+        "complete_single_object_after_prefix": false,
+        "text_sha256": "af392db5081e0e37211616b520de66fff27c0c703b787b5e2e67b165b93136dc"
+      },
+      {
+        "task_id": "night_006",
+        "step": 1,
+        "finish_reason": "stop",
+        "output_tokens": 43,
+        "cost": 424.8,
+        "complete_single_object_after_prefix": true,
+        "text_sha256": "2867d3cc779b9079d5ff6ccc34164c42e6a9d4461c5d4562c041bd5f063720c9"
+      },
+      {
+        "task_id": "night_006",
+        "step": 2,
+        "finish_reason": "stop",
+        "output_tokens": 43,
+        "cost": 427.2,
+        "complete_single_object_after_prefix": true,
+        "text_sha256": "2867d3cc779b9079d5ff6ccc34164c42e6a9d4461c5d4562c041bd5f063720c9"
+      }
+    ],
+    "invalid_json_cost": 2725.9,
+    "all_invalid_finish_stop": true
+  },
+  "review_receipts": {
+    "path": "reports/night_2026-11-09/validation32_review_receipts.json",
+    "sha256": "1f1d0b33275d0c45adcb7543fde508c380701d4b51d451823bf1e5b819e73c30",
+    "details": {
+      "scope": "Read-only receipt audit of exactly val32_review_b32000 and val32_review_b16000, runs r1 and r2. No model calls, program execution, dataset64/16 content access, or variant changes.",
+      "method": {
+        "task_types": "Join task_results.json task_id to score.json by_task.task_type.",
+        "primary_saved_coding": "Coding rows with preserved status=completed and saved=true. Frozen run_agent.py preserves previous first-pass status/saved when recording deferred_review.",
+        "candidate_count": "Derived from completed saved coding rows and frozen prior-spend threshold; no separate queue receipt exists. All saved coding rows in these four runs have deferred_review rows, and none exceeds the prior-spend threshold.",
+        "paid_review_calls": "Only step events explicitly tagged stage=review, matched uniquely to calls.jsonl by task_id, response content, and cost_units; require attempted=true and positive cost.",
+        "actions": "Parse review response exactly as frozen parse_action does. Invalid or truncated JSON is invalid, even when its text starts with a python action prefix.",
+        "source_changes": "A malformed JSON response receives a parse-error observation before any action branch can execute. Thus these two actual review calls made zero source changes; all review_kept flags are false.",
+        "cost": "cost_units = prompt_tokens + 10 * completion_tokens; output-equivalent budget cost = cost_units / 10.",
+        "causal_limit": "No between-run or control difference is attributed to review. No first-pass program reconstruction or separate first-pass scoring was performed."
+      },
+      "frozen_source": [
+        {
+          "variant": "val32_review_b32000",
+          "sha256": {
+            "source/run_agent.py": "17729dde990b330ada0de9cf9e0da3cde95364272b891cf7dea6d243f9aaf148",
+            "source/submission/compact.py": "2e8011e27d36bea19dd464d6f2826d4654bb733949a42c32576e6f8934edd984",
+            "source/submission/budget.py": "64fd21180dfbbcb72f3aba074e1490dbc303136a7f1f7295a3a051f9809cd612",
+            "freeze.json": "6f823e4332b0df97035831999f2823de161ef140cbd32e65ba9e7c597f0541ef"
+          }
+        },
+        {
+          "variant": "val32_review_b16000",
+          "sha256": {
+            "source/run_agent.py": "17729dde990b330ada0de9cf9e0da3cde95364272b891cf7dea6d243f9aaf148",
+            "source/submission/compact.py": "2e8011e27d36bea19dd464d6f2826d4654bb733949a42c32576e6f8934edd984",
+            "source/submission/budget.py": "64fd21180dfbbcb72f3aba074e1490dbc303136a7f1f7295a3a051f9809cd612",
+            "freeze.json": "acab715886ed333aa0ebcf3f7c84f9ee8bdf60b2c97505b9e6bdaa1391b3f594"
+          }
+        }
+      ],
+      "runs": [
+        {
+          "run": "experiments/agent_night_2026-11-09/val32_review_b32000/runs/r1",
+          "primary_saved_coding_count": 4,
+          "primary_saved_coding_task_ids": [
+            "night_007",
+            "night_001",
+            "night_008",
+            "night_003"
+          ],
+          "derived_review_candidates_count": 4,
+          "derived_review_candidates": [
+            {
+              "task_id": "night_007",
+              "primary_spent_units": 21954
+            },
+            {
+              "task_id": "night_001",
+              "primary_spent_units": 15607
+            },
+            {
+              "task_id": "night_008",
+              "primary_spent_units": 19683
+            },
+            {
+              "task_id": "night_003",
+              "primary_spent_units": 19482
+            }
+          ],
+          "prior_spend_threshold_units": 80000,
+          "deferred_review_rows": [
+            {
+              "task_id": "night_007",
+              "review_status": "budget_unavailable",
+              "review_kept": false,
+              "review_stage_event_count": 0
+            },
+            {
+              "task_id": "night_001",
+              "review_status": "budget_unavailable",
+              "review_kept": false,
+              "review_stage_event_count": 0
+            },
+            {
+              "task_id": "night_008",
+              "review_status": "step_limit",
+              "review_kept": false,
+              "review_stage_event_count": 1
+            },
+            {
+              "task_id": "night_003",
+              "review_status": "budget_unavailable",
+              "review_kept": false,
+              "review_stage_event_count": 0
+            }
+          ],
+          "actual_paid_attempted_review_call_count": 1,
+          "review_kept_count": 0,
+          "review_action_counts": {
+            "read": 0,
+            "answer": 0,
+            "edit": 0,
+            "python": 0,
+            "write": 0,
+            "abstain": 0,
+            "invalid": 1
+          },
+          "review_receipts": [
+            {
+              "task_id": "night_008",
+              "calls_jsonl_line": 59,
+              "ticket": 59,
+              "attempted": true,
+              "status": "ok",
+              "valid_action": null,
+              "apparent_action_prefix": "python",
+              "finish_reason": "length",
+              "max_output": 309,
+              "usage": {
+                "prompt_tokens": 3140,
+                "completion_tokens": 309,
+                "total_tokens": 3449,
+                "completion_tokens_details": {
+                  "reasoning_tokens": 0
+                }
+              },
+              "cost_units": 6230,
+              "cost_output_equivalent": 623.0,
+              "observation": {
+                "error": "Unterminated string starting at: line 1 column 27 (char 26)"
+              },
+              "review_kept": false,
+              "review_status": "step_limit"
+            }
+          ],
+          "demonstrable_source_changing_review_count": 0,
+          "review_cost_units": 6230,
+          "review_cost_output_equivalent": 623.0,
+          "primary_cost_units": 300392,
+          "total_cost_units": 306622,
+          "total_cost_output_equivalent": 30662.2,
+          "total_paid_attempted_call_count": 59,
+          "final_score": {
+            "total_reward": 124,
+            "max_reward": 138,
+            "count_passed": 22,
+            "count_solvable": 26
+          },
+          "artifact_sha256": {
+            "task_results.json": "97f7b0bff34c662bac9e958ea0b9483cf758dbfa1e37d4a19a02ff938be57d79",
+            "calls.jsonl": "15355a6bce43e1458704f77405f16604e45010bcce623f218008900cada0d314",
+            "score.json": "4c9e98b4490821846c27f448a0c2c5c8ff5586ffd018bae2c5c952fb9fb7ad79",
+            "summary.json": "faa0c928c142bec73b56a76dcbc1cc79ffadab5bd25b98728c6b59bed6fcffeb"
+          }
+        },
+        {
+          "run": "experiments/agent_night_2026-11-09/val32_review_b32000/runs/r2",
+          "primary_saved_coding_count": 3,
+          "primary_saved_coding_task_ids": [
+            "night_007",
+            "night_001",
+            "night_008"
+          ],
+          "derived_review_candidates_count": 3,
+          "derived_review_candidates": [
+            {
+              "task_id": "night_007",
+              "primary_spent_units": 27803
+            },
+            {
+              "task_id": "night_001",
+              "primary_spent_units": 17027
+            },
+            {
+              "task_id": "night_008",
+              "primary_spent_units": 18133
+            }
+          ],
+          "prior_spend_threshold_units": 80000,
+          "deferred_review_rows": [
+            {
+              "task_id": "night_007",
+              "review_status": "budget_unavailable",
+              "review_kept": false,
+              "review_stage_event_count": 0
+            },
+            {
+              "task_id": "night_001",
+              "review_status": "budget_unavailable",
+              "review_kept": false,
+              "review_stage_event_count": 0
+            },
+            {
+              "task_id": "night_008",
+              "review_status": "step_limit",
+              "review_kept": false,
+              "review_stage_event_count": 1
+            }
+          ],
+          "actual_paid_attempted_review_call_count": 1,
+          "review_kept_count": 0,
+          "review_action_counts": {
+            "read": 0,
+            "answer": 0,
+            "edit": 0,
+            "python": 0,
+            "write": 0,
+            "abstain": 0,
+            "invalid": 1
+          },
+          "review_receipts": [
+            {
+              "task_id": "night_008",
+              "calls_jsonl_line": 52,
+              "ticket": 52,
+              "attempted": true,
+              "status": "ok",
+              "valid_action": null,
+              "apparent_action_prefix": "python",
+              "finish_reason": "length",
+              "max_output": 368,
+              "usage": {
+                "prompt_tokens": 3150,
+                "completion_tokens": 368,
+                "total_tokens": 3518,
+                "completion_tokens_details": {
+                  "reasoning_tokens": 0
+                }
+              },
+              "cost_units": 6830,
+              "cost_output_equivalent": 683.0,
+              "observation": {
+                "error": "Unterminated string starting at: line 1 column 30 (char 29)"
+              },
+              "review_kept": false,
+              "review_status": "step_limit"
+            }
+          ],
+          "demonstrable_source_changing_review_count": 0,
+          "review_cost_units": 6830,
+          "review_cost_output_equivalent": 683.0,
+          "primary_cost_units": 299750,
+          "total_cost_units": 306580,
+          "total_cost_output_equivalent": 30658.0,
+          "total_paid_attempted_call_count": 52,
+          "final_score": {
+            "total_reward": 119,
+            "max_reward": 138,
+            "count_passed": 21,
+            "count_solvable": 26
+          },
+          "artifact_sha256": {
+            "task_results.json": "18c0a4c8ba6fca53c19ba1a802853356d7e55c8fd3094c19e72302f907ca0d63",
+            "calls.jsonl": "c06b6f8bf5e267a8218a618b197331d827829350ec72496cb7dc204ead6d0d28",
+            "score.json": "598b9db75c163687f0d5192158178c7d4cf69bc3916ea98c23721c1ab4338aac",
+            "summary.json": "e50d48f6e81b552156d4214fbc118647e2eaf7e8cb7e8366e5c3767b2a2c5005"
+          }
+        },
+        {
+          "run": "experiments/agent_night_2026-11-09/val32_review_b16000/runs/r1",
+          "primary_saved_coding_count": 0,
+          "primary_saved_coding_task_ids": [],
+          "derived_review_candidates_count": 0,
+          "derived_review_candidates": [],
+          "prior_spend_threshold_units": 40000,
+          "deferred_review_rows": [],
+          "actual_paid_attempted_review_call_count": 0,
+          "review_kept_count": 0,
+          "review_action_counts": {
+            "read": 0,
+            "answer": 0,
+            "edit": 0,
+            "python": 0,
+            "write": 0,
+            "abstain": 0,
+            "invalid": 0
+          },
+          "review_receipts": [],
+          "demonstrable_source_changing_review_count": 0,
+          "review_cost_units": 0,
+          "review_cost_output_equivalent": 0.0,
+          "primary_cost_units": 155411,
+          "total_cost_units": 155411,
+          "total_cost_output_equivalent": 15541.1,
+          "total_paid_attempted_call_count": 36,
+          "final_score": {
+            "total_reward": 85,
+            "max_reward": 138,
+            "count_passed": 14,
+            "count_solvable": 26
+          },
+          "artifact_sha256": {
+            "task_results.json": "b7774d873112214562814589309d916021e83270b72886d8d5ad86ccf95b4a00",
+            "calls.jsonl": "b8f62af9117429800280412ad2de7bdbebef801ce31493b117bcaab389aead43",
+            "score.json": "e750d405f549d30698eaa30fa25f73d998bdc95abb4269392ff2548c27ce2d7e",
+            "summary.json": "5c282dae03731cfa1ce00afcfbc83294137aa591948dc347a0f02b7f4209b772"
+          }
+        },
+        {
+          "run": "experiments/agent_night_2026-11-09/val32_review_b16000/runs/r2",
+          "primary_saved_coding_count": 0,
+          "primary_saved_coding_task_ids": [],
+          "derived_review_candidates_count": 0,
+          "derived_review_candidates": [],
+          "prior_spend_threshold_units": 40000,
+          "deferred_review_rows": [],
+          "actual_paid_attempted_review_call_count": 0,
+          "review_kept_count": 0,
+          "review_action_counts": {
+            "read": 0,
+            "answer": 0,
+            "edit": 0,
+            "python": 0,
+            "write": 0,
+            "abstain": 0,
+            "invalid": 0
+          },
+          "review_receipts": [],
+          "demonstrable_source_changing_review_count": 0,
+          "review_cost_units": 0,
+          "review_cost_output_equivalent": 0.0,
+          "primary_cost_units": 155345,
+          "total_cost_units": 155345,
+          "total_cost_output_equivalent": 15534.5,
+          "total_paid_attempted_call_count": 33,
+          "final_score": {
+            "total_reward": 99,
+            "max_reward": 138,
+            "count_passed": 16,
+            "count_solvable": 26
+          },
+          "artifact_sha256": {
+            "task_results.json": "c92dafcf2e0bc5d23254d042d0d0e06ff0c8f3d80e27d8099163218420ed5875",
+            "calls.jsonl": "6f5a5a7ef36b04e57bb338d73ad8b221284b9a0881d810615e3246d07f7ce45c",
+            "score.json": "4db7dbad80b513c8a9c61e68507f5bd4e48cc9e782a11011ec6954e2a883eb59",
+            "summary.json": "f8563ea9128a05201bd862c31053c53be4c83c89e49e126368b4464d6a896ced"
+          }
+        }
+      ],
+      "unknowns": [
+        "A separate pre-review hidden-score receipt is unavailable; no source reconstruction or re-scoring was attempted.",
+        "The review queue is inferred from frozen selection rules and preserved task rows rather than a dedicated queue log."
+      ]
+    }
+  },
+  "phase5_status_snapshot": {
+    "phase5b_batch_status.json": {
+      "updated_utc": "2026-11-08T22:20:05.402533+00:00",
+      "jobs": 12,
+      "status_counts": {
+        "scored": 9,
+        "running": 2,
+        "failed": 0
+      },
+      "sha256": "9725ac4debb0a942c419ba4e1d16740e7f733b907d3b144c38c8273edeb3503a"
+    },
+    "phase5c_batch_status.json": {
+      "exists": false
+    }
+  },
+  "semantic_examples": [
+    {
+      "task_id": "night_008",
+      "source": "common b32000 r1/r2",
+      "contract": "constructor and update copy all repeated Headers occurrences; keywords append",
+      "observed": "only __init__ Headers branch changed; update and keyword append remain uncovered",
+      "public_pass": true,
+      "private_pass": false,
+      "batch_r1_r2_private_pass": [
+        true,
+        true
+      ]
+    },
+    {
+      "task_id": "night_007",
+      "source": "common b32000 r2",
+      "contract": "query options preserve string values according to case-insensitive option name",
+      "observed": "helper gained key parameter with empty default, existing caller still does not pass key",
+      "public_pass": true,
+      "private_pass": false,
+      "batch_r1_r2_private_pass": [
+        true,
+        true
+      ]
+    },
+    {
+      "task_id": "night_006",
+      "source": "batch b32000 r1",
+      "observed": "two prose prefixes followed by complete valid read object; neither action executed by strict parser",
+      "lost_steps": 2,
+      "cost": 852.0,
+      "terminal": "budget_unavailable_after_four_paid_calls"
+    }
+  ],
+  "validation": {
+    "passed": true,
+    "core_runs_reconciled": 32,
+    "per_type_reward_passed_cost_totals_match": true,
+    "word_count": 1487,
+    "md_sha256": "41a6560b924f945a439c3b04c38b8c50b027c292a231b44fd755bf9f2eeed8a9",
+    "relative_links_exist": true,
+    "all_113_original_receipts_unchanged": true,
+    "receipt_breakdown": {
+      "core_summary": 1,
+      "unique_freezes": 16,
+      "run_score_result_calls_files": 96
+    }
+  },
+  "cost_definition": "output_tokens + input_tokens / 10"
+}

@@ -1,0 +1,43 @@
+/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/.cache/jiuwenswarm-venv/lib/python3.12/site-packages/openjiuwen/core/common/clients/connector_pool.py:17: PydanticDeprecatedSince20: Support for class-based `config` is deprecated, use ConfigDict instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.14/migration/
+  class ConnectorPoolConfig(BaseModel):
+2026-11-09 05:45:09 | common | default_trace_id | INFO | Registered connector pool type: default
+/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/.cache/jiuwenswarm-venv/lib/python3.12/site-packages/openjiuwen/core/common/clients/http_client.py:22: PydanticDeprecatedSince20: Support for class-based `config` is deprecated, use ConfigDict instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.14/migration/
+  class SessionConfig(BaseModel):
+2026-11-09 05:45:09 | common | default_trace_id | INFO | Registered connector pool type: httpx
+2026-11-09 05:45:10 | common | default_trace_id | INFO | Registered query expression support for milvus
+2026-11-09 05:45:10 | common | default_trace_id | INFO | Registered query expression support for chroma
+2026-11-09 05:45:10 | common | default_trace_id | INFO | Registered parser ExcelParser for .xlsx
+2026-11-09 05:45:10 | common | default_trace_id | INFO | Registered parser ExcelParser for .csv
+2026-11-09 05:45:10 | common | default_trace_id | INFO | Registered parser ExcelParser for .tsv
+2026-11-09 05:45:10 | common | default_trace_id | INFO | Registered parser TxtMdParser for .txt
+2026-11-09 05:45:10 | common | default_trace_id | INFO | Registered parser TxtMdParser for .md
+2026-11-09 05:45:10 | common | default_trace_id | INFO | Registered parser TxtMdParser for .markdown
+2026-11-09 05:45:10 | common | default_trace_id | INFO | Registered parser HTMLFileParser for .htm
+2026-11-09 05:45:10 | common | default_trace_id | INFO | Registered parser HTMLFileParser for .html
+2026-11-09 05:45:10 | common | default_trace_id | INFO | Registered parser JSONParser for .json
+2026-11-09 05:45:10 | common | default_trace_id | INFO | Registered parser PDFParser for .pdf
+2026-11-09 05:45:10 | common | default_trace_id | INFO | Registered parser WordParser for .docx
+2026-11-09 05:45:10 | common | default_trace_id | INFO | Registered parser ImageParser for .png
+2026-11-09 05:45:10 | common | default_trace_id | INFO | Registered parser ImageParser for .jpg
+2026-11-09 05:45:10 | common | default_trace_id | INFO | Registered parser ImageParser for .jpeg
+2026-11-09 05:45:10 | common | default_trace_id | INFO | Registered parser ImageParser for .webp
+2026-11-09 05:45:10 | common | default_trace_id | INFO | Registered parser ImageParser for .gif
+2026-11-09 05:45:10 | common | default_trace_id | INFO | Registered parser ImageParser for .jfif
+test_coding_dispatch_runs_sync_handler_off_event_loop (test_contest_workflow.LocalWorkflowChecks.test_coding_dispatch_runs_sync_handler_off_event_loop) ... /Users/vik0t/hacks/open-jiuwen-agent-token-prediction/.cache/jiuwenswarm-venv/lib/python3.12/site-packages/openjiuwen/core/memory/manage/mem_model/db_model.py:13: SADeprecationWarning: The declarative_mixin decorator was used only by the now removed mypy plugin so it has no longer any use and can be safely removed. (deprecated since: 2.1)
+  @declarative_mixin
+/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/.cache/jiuwenswarm-venv/lib/python3.12/site-packages/openjiuwen/core/memory/manage/mem_model/db_model.py:24: SADeprecationWarning: The declarative_mixin decorator was used only by the now removed mypy plugin so it has no longer any use and can be safely removed. (deprecated since: 2.1)
+  @declarative_mixin
+/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/.cache/jiuwenswarm-venv/lib/python3.12/site-packages/openjiuwen/core/memory/manage/mem_model/db_model.py:30: SADeprecationWarning: The declarative_mixin decorator was used only by the now removed mypy plugin so it has no longer any use and can be safely removed. (deprecated since: 2.1)
+  @declarative_mixin
+Executing <Task pending name='Task-2' coro=<LocalWorkflowChecks.test_coding_dispatch_runs_sync_handler_off_event_loop() running at /Users/vik0t/hacks/open-jiuwen-agent-token-prediction/tests/test_contest_workflow.py:79> wait_for=<Future pending cb=[Task.task_wakeup()] created at /Users/vik0t/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/asyncio/base_events.py:448> cb=[_run_until_complete_cb() at /Users/vik0t/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/asyncio/base_events.py:181] created at /Users/vik0t/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/asyncio/runners.py:100> took 0.312 seconds
+ok
+test_independent_sessions_do_not_mix_parallel_results (test_contest_workflow.LocalWorkflowChecks.test_independent_sessions_do_not_mix_parallel_results) ... ok
+test_real_csv_handler_dispatch (test_contest_workflow.LocalWorkflowChecks.test_real_csv_handler_dispatch) ... ok
+test_real_math_chain_through_native_graph (test_contest_workflow.LocalWorkflowChecks.test_real_math_chain_through_native_graph) ... ok
+test_real_search_and_unknown_keep_answer_field (test_contest_workflow.LocalWorkflowChecks.test_real_search_and_unknown_keep_answer_field) ... ok
+test_unsupported_type_does_not_read_metadata_or_invoke_models (test_contest_workflow.LocalWorkflowChecks.test_unsupported_type_does_not_read_metadata_or_invoke_models) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 1.527s
+
+OK

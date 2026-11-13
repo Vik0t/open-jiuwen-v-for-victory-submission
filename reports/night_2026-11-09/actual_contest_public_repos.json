@@ -1,0 +1,874 @@
+{
+  "checked_at_utc": "2026-11-08T18:49:37Z",
+  "checked_at_novosibirsk": "2026-11-09T01:49:37+07:00",
+  "scope": "Bounded public GitHub and organizer-page search for exactly openJiuwen Challenge2026. Default branches only; no foreign code executed or copied into runtime.",
+  "repository_queries": [
+    {
+      "query": "openJiuwen Challenge2026 is:public",
+      "returned_public_repositories": [],
+      "error": null
+    },
+    {
+      "query": "open-jiuwen-challenge is:public",
+      "returned_public_repositories": [
+        "fedorakooo/openJiuwen-Challenge-2026",
+        "anchadekwi/openJiuwen-Challenge-2026",
+        "jul-os/Mean-Alpacas-OpenJiuwen-Challenge-2026"
+      ],
+      "error": null
+    },
+    {
+      "query": "techarena2026 is:public",
+      "returned_public_repositories": [
+        "jancastachova/techarena2026-atu",
+        "Lunkova-Kate/TechArena2026",
+        "laoyan1120/TechArena2026-Topic1_new",
+        "mannobody/techarena2026-service-zone-optimization",
+        "jul-os/Mean-Alpacas-OpenJiuwen-Challenge-2026"
+      ],
+      "error": null
+    },
+    {
+      "query": "openjiuwen NSU is:public",
+      "returned_public_repositories": [],
+      "error": null
+    },
+    {
+      "query": "openJiuwen 2026 is:public",
+      "returned_public_repositories": [
+        "rainySnowBall/CareerSim-BDCI26",
+        "ASUKAAAAA1204/2026OPENJIUWEN",
+        "anchadekwi/openJiuwen-Challenge-2026",
+        "danilpavlov/hackathon-openJiuwen-2026",
+        "fedorakooo/openJiuwen-Challenge-2026",
+        "jul-os/Mean-Alpacas-OpenJiuwen-Challenge-2026",
+        "jiajia-jun/2026OPENJIUWEN",
+        "sweetcornna/Tyche-team",
+        "penguinyogurt/beacon",
+        "Xianmuyingyue/careersim-bdci26-postmortem",
+        "lkk031/Tyche-team",
+        "YMG001/CareerSim-BDCI26",
+        "openforks/CareerSim-BDCI26"
+      ],
+      "error": null
+    },
+    {
+      "query": "openJiuwen Challenge is:public",
+      "returned_public_repositories": [
+        "anchadekwi/openJiuwen-Challenge-2026",
+        "fedorakooo/openJiuwen-Challenge-2026",
+        "jul-os/Mean-Alpacas-OpenJiuwen-Challenge-2026",
+        "KenC2006/Parity",
+        "AidanHT/Parity",
+        "penguinyogurt/beacon",
+        "Xianmuyingyue/careersim-bdci26-postmortem"
+      ],
+      "error": null
+    },
+    {
+      "query": "jiuwen NSU is:public",
+      "returned_public_repositories": [],
+      "error": null
+    },
+    {
+      "query": "openJiuwen created:>=2026-11-01 is:public",
+      "returned_public_repositories": [
+        "Re2044/openJiuwen",
+        "KozlovKV/openjiuwen-tasks-predictor",
+        "anchadekwi/openJiuwen-Challenge-2026",
+        "danilpavlov/hackathon-openJiuwen-2026",
+        "fedorakooo/openJiuwen-Challenge-2026",
+        "jul-os/Mean-Alpacas-OpenJiuwen-Challenge-2026",
+        "maxim283b/openJiuwen_hack_AlfaGraph2000",
+        "MichaelLing83/openJiuwen-iCode",
+        "songhaowei666/agent-runtime",
+        "Y9Y123/agent-core",
+        "richarmurray6y8-creator/agent-core",
+        "ZaniteA/agent-core",
+        "WTFnewlife/skillhub",
+        "ordercard/agent-studio",
+        "Alchemica369/nga",
+        "qq56734/agent-dx",
+        "JoakimStarr/finreport-agent",
+        "silanurbalbal/agent-studio",
+        "nctu6/agent-memory",
+        "revlogi/agent-memory",
+        "raykairk777/agent-memory",
+        "gefsikatsinelou/deepsearch",
+        "LAYALELMAMOUN/jiuwenswarm",
+        "velvetydarned3i/jiuwenswarm",
+        "fjunorg/YDSwarm",
+        "neonlai/jiuwenswarm",
+        "mananpa4/jiuwenswarm",
+        "asmzhang/jiuwenswarm",
+        "gulletokra6t/jiuwenswarm",
+        "297225669/jiuwenswarm",
+        "chaosxingxc-orion/agent-hub-alpha"
+      ],
+      "error": null
+    },
+    {
+      "query": "openJiuwen user:promsoft is:public",
+      "returned_public_repositories": [],
+      "error": null
+    },
+    {
+      "query": "openJiuwen user:madrugado is:public",
+      "returned_public_repositories": [],
+      "error": null
+    },
+    {
+      "query": "openJiuwen challenge org:openJiuwen-ai is:public",
+      "returned_public_repositories": [],
+      "error": null
+    },
+    {
+      "query": "\"qwen3.6-35b-a3b\" in:readme is:public",
+      "returned_public_repositories": [
+        "Neroued/ninfer",
+        "QwenLM/Qwen3.8",
+        "FlashML-org/FreeToken",
+        "Andyyyy64/whichllm",
+        "Niko1221/Strata",
+        "koharu-rs/koharu",
+        "itayinbarr/little-coder",
+        "GradientHQ/parallax",
+        "incoai/splash",
+        "katanaml/sparrow",
+        "JustVugg/colibri",
+        "simplexai-labs/PolyStrata",
+        "Helldez/BigMoeOnEdge",
+        "perplexityai/pplx-garden",
+        "Osmantic/ODS",
+        "baidu/vLLM-Kunlun",
+        "Edge0-AI/Edge0",
+        "bstnxbt/dflash-mlx",
+        "OpenBMB/MiniCPM-V",
+        "guoqingbao/xinfer",
+        "nace-ai/kapitsa",
+        "wici-ai/inferssd",
+        "hanxiao/knowledge-graph-extractor",
+        "charlie12345/ROCmFPX",
+        "ochyai/vibe-local",
+        "ekzhang/openjev-sglang",
+        "xiaoY233/Chat2API",
+        "leonickson1/Swiftlet",
+        "StartupHakk/OpenMonoAgent.ai",
+        "intel/llm-scaler"
+      ],
+      "error": null
+    }
+  ],
+  "github_scoped_code_searches": [
+    {
+      "query": {
+        "query": "techarena2026",
+        "repository_name": [
+          "openJiuwen-ai/agent-core",
+          "openJiuwen-ai/jiuwenswarm"
+        ],
+        "topn": 10
+      },
+      "results": []
+    },
+    {
+      "query": {
+        "query": "Challenge2026",
+        "repository_name": [
+          "openJiuwen-ai/agent-core",
+          "openJiuwen-ai/jiuwenswarm"
+        ],
+        "topn": 10
+      },
+      "results": []
+    }
+  ],
+  "web_queries": [
+    "\"openJiuwen\" \"Challenge2026\"",
+    "\"open-jiuwen-challenge\" github",
+    "\"techarena2026\" \"github\"",
+    "\"openJiuwen\" НГУ ноябрь 2026",
+    "site:nsu.ru \"openJiuwen\" \"8 ноября\"",
+    "site:nsu.ru \"openJiuwen\" \"9 ноября\"",
+    "site:techarena2026.ru openJiuwen GitHub starter",
+    "site:github.com \"openJiuwen\" \"neuraldeep\"",
+    "\"openJiuwen Challenge 2026\" \"ноября\" github",
+    "site:nsu.ru \"openJiuwen\" after:2026-11-07",
+    "site:openjiuwen.com \"challenge\" \"2026\" NSU",
+    "\"openJiuwen\" \"НГУ\" \"starter\"",
+    "site:gitflic.ru \"openJiuwen\"",
+    "\"openJiuwen Challenge\" \"github.com\"",
+    "site:nsu.ru \"open-jiuwen-challenge\"",
+    "site:openjiuwen.com \"techarena2026\""
+  ],
+  "repositories": [
+    {
+      "repository": "anchadekwi/openJiuwen-Challenge-2026",
+      "url": "https://github.com/anchadekwi/openJiuwen-Challenge-2026",
+      "public": true,
+      "role": "Substantive contest-compatible public harness; README and code match the four-model/100-task protocol. Official registration not independently confirmed.",
+      "created_at_utc": "2026-11-07T09:33:45Z",
+      "pushed_at_utc": "2026-11-07T17:25:50Z",
+      "commit": "3e59424c53c7c5bcbd52261c9bcefbc5d69bbd1f",
+      "commit_date_utc": "2026-11-07T17:25:46Z",
+      "commit_date_novosibirsk": "2026-11-08T00:25:46+07:00",
+      "commit_url": "https://github.com/anchadekwi/openJiuwen-Challenge-2026/commit/3e59424c53c7c5bcbd52261c9bcefbc5d69bbd1f",
+      "declared_root_license": null,
+      "license_note": "No root license detected by GitHub and no LICENSE in examined root tree; no source copied.",
+      "official_result_verified": false,
+      "substantive": true,
+      "examined_files": [
+        {
+          "path": "README.md",
+          "git_blob_sha1": "0f13d448c7490362f023c2ffe2d7cf63870e8876",
+          "url": "https://github.com/anchadekwi/openJiuwen-Challenge-2026/blob/3e59424c53c7c5bcbd52261c9bcefbc5d69bbd1f/README.md"
+        },
+        {
+          "path": "run_agent.py",
+          "git_blob_sha1": "3ae3c54c34ed3608767c01d125e36be12a933ec7",
+          "url": "https://github.com/anchadekwi/openJiuwen-Challenge-2026/blob/3e59424c53c7c5bcbd52261c9bcefbc5d69bbd1f/run_agent.py"
+        },
+        {
+          "path": "Dockerfile",
+          "git_blob_sha1": "7d8a48b5bc4071b755a01ed99103cd532429c45d",
+          "url": "https://github.com/anchadekwi/openJiuwen-Challenge-2026/blob/3e59424c53c7c5bcbd52261c9bcefbc5d69bbd1f/Dockerfile"
+        },
+        {
+          "path": "requirements.txt",
+          "git_blob_sha1": "e08ad6c79ae4b577c48cc9a5350e19f7983a119e",
+          "url": "https://github.com/anchadekwi/openJiuwen-Challenge-2026/blob/3e59424c53c7c5bcbd52261c9bcefbc5d69bbd1f/requirements.txt"
+        },
+        {
+          "path": "harness/llm.py",
+          "git_blob_sha1": "f0ec909cdf6bd8a8d5ed55186632ee312ece8ee1",
+          "url": "https://github.com/anchadekwi/openJiuwen-Challenge-2026/blob/3e59424c53c7c5bcbd52261c9bcefbc5d69bbd1f/harness/llm.py"
+        },
+        {
+          "path": "harness/agent.py",
+          "git_blob_sha1": "5e40262e45998712f4635b76d497beba46740407",
+          "url": "https://github.com/anchadekwi/openJiuwen-Challenge-2026/blob/3e59424c53c7c5bcbd52261c9bcefbc5d69bbd1f/harness/agent.py"
+        },
+        {
+          "path": "harness/planner.py",
+          "git_blob_sha1": "0cdd4c79397ae743fa1720af26dbabd99c053f08",
+          "url": "https://github.com/anchadekwi/openJiuwen-Challenge-2026/blob/3e59424c53c7c5bcbd52261c9bcefbc5d69bbd1f/harness/planner.py"
+        },
+        {
+          "path": "harness/store.py",
+          "git_blob_sha1": "c27eec4c20bdf5ab32e2be61036bb70e4765bdf1",
+          "url": "https://github.com/anchadekwi/openJiuwen-Challenge-2026/blob/3e59424c53c7c5bcbd52261c9bcefbc5d69bbd1f/harness/store.py"
+        }
+      ]
+    },
+    {
+      "repository": "KozlovKV/openjiuwen-tasks-predictor",
+      "url": "https://github.com/KozlovKV/openjiuwen-tasks-predictor",
+      "public": true,
+      "role": "Substantive contest-compatible public harness, created8November; no official score or registration confirmation.",
+      "created_at_utc": "2026-11-08T09:54:28Z",
+      "pushed_at_utc": "2026-11-08T14:11:22Z",
+      "commit": "a1981496b8ddbf5c9818f39d1ea3136b5e087763",
+      "commit_date_utc": "2026-11-08T14:04:11Z",
+      "commit_date_novosibirsk": "2026-11-08T21:04:11+07:00",
+      "commit_url": "https://github.com/KozlovKV/openjiuwen-tasks-predictor/commit/a1981496b8ddbf5c9818f39d1ea3136b5e087763",
+      "declared_root_license": null,
+      "license_note": "No root license detected by GitHub and no LICENSE in examined root tree; no source copied.",
+      "official_result_verified": false,
+      "substantive": true,
+      "examined_files": [
+        {
+          "path": "README.md",
+          "git_blob_sha1": "e547688502e44bc54b987c3ea9533ecc89c5ca77",
+          "url": "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/README.md"
+        },
+        {
+          "path": "run_agent.py",
+          "git_blob_sha1": "2425217069a277cef4e5a893b850875917c298c8",
+          "url": "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/run_agent.py"
+        },
+        {
+          "path": "Dockerfile",
+          "git_blob_sha1": "6385f933c709b0527656b076aaaf159d65e6aa56",
+          "url": "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/Dockerfile"
+        },
+        {
+          "path": "harness/config.py",
+          "git_blob_sha1": "7a8736277cd3fa354211bba45023b715c377762a",
+          "url": "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/harness/config.py"
+        },
+        {
+          "path": "harness/ledger.py",
+          "git_blob_sha1": "2637f0add3bd421ea53538f700a982c3ab8bf736",
+          "url": "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/harness/ledger.py"
+        },
+        {
+          "path": "harness/llm.py",
+          "git_blob_sha1": "a6ba177d556a51bdf776d426b2ecbc7726229191",
+          "url": "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/harness/llm.py"
+        },
+        {
+          "path": "harness/runner.py",
+          "git_blob_sha1": "d94104ac31e583f48c052e44a1e32ca4e56dc0ad",
+          "url": "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/harness/runner.py"
+        },
+        {
+          "path": "harness/planner.py",
+          "git_blob_sha1": "78ed7accf2fcc6f3c3a4a1119fb32b71ef03ffff",
+          "url": "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/harness/planner.py"
+        },
+        {
+          "path": "harness/estimator.py",
+          "git_blob_sha1": "41f99ea63fa25f3d2eaf70589a61d605ad771fd4",
+          "url": "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/harness/estimator.py"
+        },
+        {
+          "path": "harness/estimator.json",
+          "git_blob_sha1": "66da00502865fcde75579ab77a20ad3ff8efbeb2",
+          "url": "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/harness/estimator.json"
+        },
+        {
+          "path": "harness/tasks.py",
+          "git_blob_sha1": "344da317542f34bff2e13687766488599884fcc1",
+          "url": "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/harness/tasks.py"
+        },
+        {
+          "path": "harness/sandbox.py",
+          "git_blob_sha1": "142501d9795e8786a16fc1b17c61f64ab2cdfdae",
+          "url": "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/harness/sandbox.py"
+        },
+        {
+          "path": "harness/solvers/coding_solver.py",
+          "git_blob_sha1": "435dc7b751462b238be6ff4eb3c4d0727c74552f",
+          "url": "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/harness/solvers/coding_solver.py"
+        },
+        {
+          "path": "harness/solvers/common.py",
+          "git_blob_sha1": "c1c59a6122fb3ac9cd26743bd10388d724c53add",
+          "url": "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/harness/solvers/common.py"
+        },
+        {
+          "path": "harness/solvers/pycode.py",
+          "git_blob_sha1": "3507317574c367c842d57274549e5c0b27cae06d",
+          "url": "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/harness/solvers/pycode.py"
+        },
+        {
+          "path": "tools/fit_estimator.py",
+          "git_blob_sha1": "4c722df111b6e321f6e7eaaf702c103b1b33f77a",
+          "url": "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/tools/fit_estimator.py"
+        },
+        {
+          "path": "tools/score.py",
+          "git_blob_sha1": "55a4407b14a2f8efe79469d69fae8c89cf61f4e7",
+          "url": "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/tools/score.py"
+        },
+        {
+          "path": "tests/test_core.py",
+          "git_blob_sha1": "60aaf9905f22553b6e35275c1bdae482660a653f",
+          "url": "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/tests/test_core.py"
+        }
+      ]
+    },
+    {
+      "repository": "maxim283b/openJiuwen_hack_AlfaGraph2000",
+      "url": "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000",
+      "public": true,
+      "role": "Self-described openJiuwen Challenge2026 public solution, with matching official proxy and task protocol; no official score confirmation.",
+      "created_at_utc": "2026-11-08T11:37:58Z",
+      "pushed_at_utc": "2026-11-08T16:16:07Z",
+      "commit": "8b12bb1aefa8c877e0342eb74de9d46a9972ee86",
+      "commit_date_utc": "2026-11-08T16:16:00Z",
+      "commit_date_novosibirsk": "2026-11-08T23:16:00+07:00",
+      "commit_url": "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/commit/8b12bb1aefa8c877e0342eb74de9d46a9972ee86",
+      "declared_root_license": null,
+      "license_note": "No root license detected by GitHub and no LICENSE in examined root tree; no source copied.",
+      "official_result_verified": false,
+      "substantive": true,
+      "examined_files": [
+        {
+          "path": "README.md",
+          "git_blob_sha1": "d5af97774607bdda3c2e4583e2304522953ea97b",
+          "url": "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/README.md"
+        },
+        {
+          "path": "run_agent.py",
+          "git_blob_sha1": "8d09afcf85172d77e6b819b7ef046c4fb8c71f3d",
+          "url": "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/run_agent.py"
+        },
+        {
+          "path": "Dockerfile",
+          "git_blob_sha1": "20380e9aed6eed6cc0caa20a99497b3a96e79493",
+          "url": "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/Dockerfile"
+        },
+        {
+          "path": "alfagraph/budget.py",
+          "git_blob_sha1": "363b30f74a20fd49b86309cfbc92256709aaa944",
+          "url": "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/alfagraph/budget.py"
+        },
+        {
+          "path": "alfagraph/client.py",
+          "git_blob_sha1": "3a38d3be0fdb35e06cc8a166edca2b6ca6513ffb",
+          "url": "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/alfagraph/client.py"
+        },
+        {
+          "path": "alfagraph/agent.py",
+          "git_blob_sha1": "40bb862d0c3e3f8ffe28803cf614c3733533cffc",
+          "url": "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/alfagraph/agent.py"
+        },
+        {
+          "path": "alfagraph/harness.py",
+          "git_blob_sha1": "2e29e732429d76e27f8ff764d32e20ac300c2903",
+          "url": "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/alfagraph/harness.py"
+        },
+        {
+          "path": "alfagraph/context.py",
+          "git_blob_sha1": "441e178a7555fc4395f45e702a2d1d4bcf9db1b6",
+          "url": "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/alfagraph/context.py"
+        },
+        {
+          "path": "alfagraph/planner.py",
+          "git_blob_sha1": "80a99089ddd34bf6266c906d6ba33db949631db5",
+          "url": "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/alfagraph/planner.py"
+        },
+        {
+          "path": "alfagraph/forecast.py",
+          "git_blob_sha1": "bd202a1ec91c5bc0f21de29682926871f1ad5955",
+          "url": "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/alfagraph/forecast.py"
+        },
+        {
+          "path": "alfagraph/allocation.py",
+          "git_blob_sha1": "304b7af6364cd9397798f52ad8c17c76b7780bde",
+          "url": "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/alfagraph/allocation.py"
+        },
+        {
+          "path": "alfagraph/review.py",
+          "git_blob_sha1": "d785b7fa3811570a01db4b3757b5e7fe5eb72dd5",
+          "url": "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/alfagraph/review.py"
+        },
+        {
+          "path": "alfagraph/review_policy.py",
+          "git_blob_sha1": "bd5863cfeecedc4a6fb060c07c52e81dd852e8e8",
+          "url": "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/alfagraph/review_policy.py"
+        },
+        {
+          "path": "alfagraph/execution.py",
+          "git_blob_sha1": "a7c369bb4705fd6d3538e5ece0c29b8e1b64118f",
+          "url": "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/alfagraph/execution.py"
+        },
+        {
+          "path": "alfagraph/settings.py",
+          "git_blob_sha1": "78907cd76ef35969355d66e8965fb00dfcc1f470",
+          "url": "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/alfagraph/settings.py"
+        },
+        {
+          "path": "alfagraph/workflow.py",
+          "git_blob_sha1": "020396136852834022444df0a35b78082fe157a6",
+          "url": "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/alfagraph/workflow.py"
+        }
+      ]
+    },
+    {
+      "repository": "fedorakooo/openJiuwen-Challenge-2026",
+      "url": "https://github.com/fedorakooo/openJiuwen-Challenge-2026",
+      "public": true,
+      "role": "Matching contest project scaffold; every published Python file is empty at the audited commit.",
+      "created_at_utc": "2026-11-07T10:18:28Z",
+      "pushed_at_utc": "2026-11-07T11:05:44Z",
+      "commit": "924b1b6bdf3450fd2fd75e65b8b22ba0413daf74",
+      "commit_date_utc": "2026-11-07T11:05:43Z",
+      "commit_date_novosibirsk": "2026-11-07T18:05:43+07:00",
+      "commit_url": "https://github.com/fedorakooo/openJiuwen-Challenge-2026/commit/924b1b6bdf3450fd2fd75e65b8b22ba0413daf74",
+      "declared_root_license": "Apache-2.0",
+      "license_note": "GitHub metadata and root LICENSE present",
+      "official_result_verified": false,
+      "substantive": false,
+      "examined_files": []
+    },
+    {
+      "repository": "jul-os/Mean-Alpacas-OpenJiuwen-Challenge-2026",
+      "url": "https://github.com/jul-os/Mean-Alpacas-OpenJiuwen-Challenge-2026",
+      "public": true,
+      "role": "Explicit self-described team Mean Alpacas for the exact event URL; currently materials/examples only, no harness visible.",
+      "created_at_utc": "2026-11-07T08:30:02Z",
+      "pushed_at_utc": "2026-11-07T08:33:11Z",
+      "commit": "8161494753234933f0679a0945d187010cd6657c",
+      "commit_date_utc": "2026-11-07T08:33:04Z",
+      "commit_date_novosibirsk": "2026-11-07T15:33:04+07:00",
+      "commit_url": "https://github.com/jul-os/Mean-Alpacas-OpenJiuwen-Challenge-2026/commit/8161494753234933f0679a0945d187010cd6657c",
+      "declared_root_license": null,
+      "license_note": "No root license detected by GitHub and no LICENSE in examined root tree; no source copied.",
+      "official_result_verified": false,
+      "substantive": false,
+      "examined_files": []
+    },
+    {
+      "repository": "Re2044/openJiuwen",
+      "url": "https://github.com/Re2044/openJiuwen",
+      "public": true,
+      "role": "Related API smoke-test prototype with eight sample tasks; only hello request, no contest task loop/budget.",
+      "created_at_utc": "2026-11-07T09:36:43Z",
+      "pushed_at_utc": "2026-11-07T14:23:07Z",
+      "commit": "3891f4b620ded1cdbb822a9a493058f8a5c5879a",
+      "commit_date_utc": "2026-11-07T10:34:32Z",
+      "commit_date_novosibirsk": "2026-11-07T17:34:32+07:00",
+      "commit_url": "https://github.com/Re2044/openJiuwen/commit/3891f4b620ded1cdbb822a9a493058f8a5c5879a",
+      "declared_root_license": null,
+      "license_note": "No root license detected by GitHub and no LICENSE in examined root tree; no source copied.",
+      "official_result_verified": false,
+      "substantive": false,
+      "examined_files": []
+    },
+    {
+      "repository": "danilpavlov/hackathon-openJiuwen-2026",
+      "url": "https://github.com/danilpavlov/hackathon-openJiuwen-2026",
+      "public": true,
+      "role": "Name-only scaffold with README/license; track participation cannot be established by name alone.",
+      "created_at_utc": "2026-11-07T11:29:10Z",
+      "pushed_at_utc": "2026-11-07T11:29:12Z",
+      "commit": "795b2cba044de381c144324b87dd84317cb875bd",
+      "commit_date_utc": "2026-11-07T11:29:11Z",
+      "commit_date_novosibirsk": "2026-11-07T18:29:11+07:00",
+      "commit_url": "https://github.com/danilpavlov/hackathon-openJiuwen-2026/commit/795b2cba044de381c144324b87dd84317cb875bd",
+      "declared_root_license": "Apache-2.0",
+      "license_note": "GitHub metadata and root LICENSE present",
+      "official_result_verified": false,
+      "substantive": false,
+      "examined_files": []
+    }
+  ],
+  "substantive_public_harnesses": 3,
+  "official_registration_or_leaderboard_verified": false,
+  "observations": [
+    {
+      "repo": "anchadekwi/openJiuwen-Challenge-2026",
+      "topic": "planning",
+      "fact": "Fixed per-type priors250/350/400/850; density reward/estimated_cost; URL/missing-file heuristics skip tasks. No fitted cost model or online remaining-token predictor.",
+      "sources": [
+        "https://github.com/anchadekwi/openJiuwen-Challenge-2026/blob/3e59424c53c7c5bcbd52261c9bcefbc5d69bbd1f/harness/planner.py#L7",
+        "https://github.com/anchadekwi/openJiuwen-Challenge-2026/blob/3e59424c53c7c5bcbd52261c9bcefbc5d69bbd1f/harness/planner.py#L94"
+      ]
+    },
+    {
+      "repo": "anchadekwi/openJiuwen-Challenge-2026",
+      "topic": "budget_unknown_reasoning",
+      "fact": "Thread-safe post-response spending, but preflight checks only min(max_tokens,250), without an in-flight worst-case reservation. Missing usage is guessed from character count; SDK failure can fall back to a second HTTP call. Reasoning deduplication is heuristic.",
+      "inference": "Concurrent calls or a sent-but-unknown request can be under-accounted. Not executed.",
+      "sources": [
+        "https://github.com/anchadekwi/openJiuwen-Challenge-2026/blob/3e59424c53c7c5bcbd52261c9bcefbc5d69bbd1f/harness/llm.py#L35",
+        "https://github.com/anchadekwi/openJiuwen-Challenge-2026/blob/3e59424c53c7c5bcbd52261c9bcefbc5d69bbd1f/harness/llm.py#L230"
+      ]
+    },
+    {
+      "repo": "anchadekwi/openJiuwen-Challenge-2026",
+      "topic": "completion_evidence",
+      "fact": "Coding preloads only root .py <=6000bytes, excludes README from initial context, then uses the first test*.py as an ordinary Python script. Source changes may finish immediately on its exit0. History grows across5/6steps; observations clipped1600chars; initial source not rebuilt.",
+      "inference": "A unittest module without unittest.main can exit0 with zero tests. A model can retrieve other files through tools, but completeness is not guaranteed. No claim about actual hidden contest score.",
+      "sources": [
+        "https://github.com/anchadekwi/openJiuwen-Challenge-2026/blob/3e59424c53c7c5bcbd52261c9bcefbc5d69bbd1f/harness/agent.py#L140",
+        "https://github.com/anchadekwi/openJiuwen-Challenge-2026/blob/3e59424c53c7c5bcbd52261c9bcefbc5d69bbd1f/harness/agent.py#L240",
+        "https://github.com/anchadekwi/openJiuwen-Challenge-2026/blob/3e59424c53c7c5bcbd52261c9bcefbc5d69bbd1f/harness/agent.py#L353",
+        "https://github.com/anchadekwi/openJiuwen-Challenge-2026/blob/3e59424c53c7c5bcbd52261c9bcefbc5d69bbd1f/harness/agent.py#L436"
+      ]
+    },
+    {
+      "repo": "KozlovKV/openjiuwen-tasks-predictor",
+      "topic": "planning_and_prediction",
+      "fact": "Per-type/tier linear cost=base+per_char*question_length; online EMA of actual/raw predicted cost; expected value reward*0.9*p_solve; 25-token-bin knapsack recomputed as tasks/attempts change. Optional checks use predicted surplus.",
+      "sources": [
+        "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/harness/estimator.py#L42",
+        "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/harness/planner.py#L103",
+        "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/tools/fit_estimator.py#L36"
+      ]
+    },
+    {
+      "repo": "KozlovKV/openjiuwen-tasks-predictor",
+      "topic": "output_and_unknown",
+      "fact": "Coding caps600,600,4000(reasoning),1500(generic); exceptions/cancellation release the reservation, while a response lacking usage charges estimated input+max_output. Bounds use0.5tokens/character, not serialized UTF8 bytes.",
+      "inference": "A sent request with no full response is not retained as unknown. A retry can hide real cost; no runtime/API check performed.",
+      "sources": [
+        "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/harness/planner.py#L43",
+        "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/harness/llm.py#L89",
+        "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/harness/llm.py#L176"
+      ]
+    },
+    {
+      "repo": "KozlovKV/openjiuwen-tasks-predictor",
+      "topic": "coding_contract",
+      "fact": "Specialized coding prompt contains selected source modules and failure text, not README or full task instruction. Large-source snippets follow failure-named AST nodes/calls to depth2. A generic later fallback can use broader tools.",
+      "inference": "Named contract requirements outside failing public tests can be absent from the specialized model input.",
+      "sources": [
+        "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/harness/solvers/coding_solver.py#L28",
+        "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/harness/solvers/common.py#L52",
+        "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/harness/solvers/pycode.py#L322"
+      ]
+    },
+    {
+      "repo": "KozlovKV/openjiuwen-tasks-predictor",
+      "topic": "quality_verifier",
+      "fact": "No explicit command -> first root test file is run as a script; before.ok and after.ok can directly return DONE. tools/score.py uses the same script exit-code rule for coding. Unit tests and public trajectory summary exist; hard19-case set is not committed.",
+      "inference": "The author's reported perfect local scores do not establish testsRun>0, hidden-contract coverage or comparability to our frozen100. Static code path can falsely accept unittest class-only modules.",
+      "sources": [
+        "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/harness/solvers/pycode.py#L37",
+        "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/harness/solvers/coding_solver.py#L52",
+        "https://github.com/KozlovKV/openjiuwen-tasks-predictor/blob/a1981496b8ddbf5c9818f39d1ea3136b5e087763/tools/score.py#L15"
+      ]
+    },
+    {
+      "repo": "maxim283b/openJiuwen_hack_AlfaGraph2000",
+      "topic": "before_and_during_forecast",
+      "fact": "Task features include kind, instruction size, bytes, rows, operations, AST functions/branches/lines and visible tests. Prefix state includes steps, spent, errors, truncated outputs, reads, executions, edits, tests and empty replies. Nearest24 distinct trajectory-series neighbors are matched by model/cap/kind/state; predict remaining cost, success and empiricalp80. Default Docker uses density; knapsack/MPC also present.",
+      "sources": [
+        "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/alfagraph/planner.py#L49",
+        "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/alfagraph/forecast.py#L12",
+        "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/alfagraph/forecast.py#L125",
+        "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/Dockerfile#L20"
+      ]
+    },
+    {
+      "repo": "maxim283b/openJiuwen_hack_AlfaGraph2000",
+      "topic": "budget_unknown",
+      "fact": "Integer I+10O reservations use serialized UTF8bytes+1024 and actual output cap; bounded model requests, max_retries0. Missing usage settles full reservation and increments uncertain_charge; run may continue. Reasoning is assumed included in completion.",
+      "inference": "Conservative uncertain charge is not measured actual usage. Our retained-unknown/freeze policy is different; compare known and uncertain separately.",
+      "sources": [
+        "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/alfagraph/budget.py#L35",
+        "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/alfagraph/budget.py#L89",
+        "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/alfagraph/client.py#L68"
+      ]
+    },
+    {
+      "repo": "maxim283b/openJiuwen_hack_AlfaGraph2000",
+      "topic": "public_pass_and_review",
+      "fact": "Producer publicPASS sets candidate DONE, but Docker enables separate review by default. Review can design contract tests and seek stronger adjudication. Learned policy ranks reward*(fix-harm)/cost, with harm floor1%; unselected candidates are saved.",
+      "sources": [
+        "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/alfagraph/agent.py#L153",
+        "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/alfagraph/harness.py#L264",
+        "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/alfagraph/review.py#L394",
+        "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/alfagraph/review_policy.py#L84"
+      ]
+    },
+    {
+      "repo": "maxim283b/openJiuwen_hack_AlfaGraph2000",
+      "topic": "state_evidence_and_shutdown",
+      "fact": "session.user caches initial prefix until session ends; tool groups are dropped at12KB. Candidate remains awaiting_review with answerNone on disk before review. Interrupted running review restores its original candidate; top-level finally saves report but does not flush all pending candidates.",
+      "inference": "Stale initial source after edits and a SIGTERM before deferred review are conditional risks. Normal review completion/unselected-save paths exist; no foreign runtime test performed.",
+      "sources": [
+        "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/alfagraph/agent.py#L228",
+        "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/alfagraph/agent.py#L283",
+        "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/alfagraph/harness.py#L264",
+        "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/alfagraph/harness.py#L365",
+        "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/alfagraph/harness.py#L525"
+      ]
+    },
+    {
+      "repo": "maxim283b/openJiuwen_hack_AlfaGraph2000",
+      "topic": "quality_evidence",
+      "fact": "Provided-test hashes and testsRun>0 are checked. README reports external-dataset training and one100-task review comparison173/235 vs167/235, with more unsolvable answers10vs4; training/evaluation code and full evaluation data are not present in examined tree.",
+      "sources": [
+        "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/alfagraph/execution.py#L75",
+        "https://github.com/maxim283b/openJiuwen_hack_AlfaGraph2000/blob/8b12bb1aefa8c877e0342eb74de9d46a9972ee86/README.md"
+      ]
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H1",
+      "idea": "Measure a small cost model including visible files/source size, not just question length; compare to our type medians before considering a new controller.",
+      "why": "Kozlov's linear+EMA is a simple baseline; safe_priority already supplies measured per-type priors.",
+      "validation": "Old development groups only, equal global budgets, reward plus known cost, no unknown=0 labels. No fresh32/64 exposure."
+    },
+    {
+      "id": "H2",
+      "idea": "Keep the README contract and all named APIs in reduced coding context; preserve fresh file cache after edits.",
+      "why": "Test-centered excerpts can hide untested requirements. Our safe cache is already stronger than cached initial prefixes.",
+      "validation": "Public requirement-coverage fixtures and previously inspected difficult cases; no private-derived routing or new prompts specific to hidden cases."
+    },
+    {
+      "id": "H3",
+      "idea": "Separate predicted remaining cost from a hard accounting bound, and distinguish known usage from held/uncertain reservations.",
+      "why": "Public repositories have materially different failure paths; copied release-on-exception would undo our budget guarantees.",
+      "validation": "Existing offline transport/reservation fixtures, not model generation."
+    },
+    {
+      "id": "H4",
+      "idea": "Evaluate optional checks by incremental reward per cost, with a no-check baseline and allowance for harm.",
+      "why": "AlfaGraph's explicit fix/harm/cost decomposition is useful, but9positive examples and one self-reported100 are weak evidence for transfer.",
+      "validation": "Repeated frozen equal-budget development comparisons; preserve completed candidates; no learned review layer until a simple policy wins."
+    },
+    {
+      "id": "H5",
+      "idea": "Require real test execution and contract checks before treating publicPASS as useful evidence.",
+      "why": "Two public harnesses use script exit0; our testsRun>0 and strict pass conditions should remain. Safe_review changes the stop condition, not the truth of a check.",
+      "validation": "Our fixed unittest-without-main, failed-assert, explicit-DONE and candidate-preservation fixtures."
+    }
+  ],
+  "local_source_comparison": {
+    "v3": {
+      "path": "/Users/vik0t/hacks/open-jiuwen-agent-token-prediction",
+      "sha256": {
+        "run_agent.py": "446f92d2040703164dcef96055b508ac440c278b17fe3ff334415e507f9dec8f",
+        "submission/budget.py": "dc33352cb7d1214ab3a3dbeeb5202ac2369c5752fd054686d2742a57b1de0945",
+        "submission/code_solver.py": "437b6731356e7555fb712dd0c7dd523fd3c2332344b7f56b240ce93bad3647b5",
+        "submission/compact.py": "9553bf784456b3514822d1f6be1c6eb1fe5adef6dd4f1ba64b7553f8850fc23b",
+        "submission/data_solver.py": "72513695e3b42e989d3c53a84f58068d4976e450c2452704a2053dd55deaf50d",
+        "submission/editing.py": "07891fc320f9d03761b1ffe98549848162ef2320829333278c32554c23f891a0",
+        "submission/exact.py": "71fd4cc3aa7abfe4e63e128b8ff400bef31ab90fbe37aa41a54ba4798d857ec6",
+        "submission/executor.py": "f197d617c51b35e51b5bff63772bff42ee87b678f32202ee3de82b219ef63c72",
+        "submission/gateway.py": "2302b63f6c0702447e70dd97c430ce78d2bae744b352ebfc5fc185ea450822a1",
+        "submission/schedule.py": "a801defd8c47a211bbebd260c3a6cce55b9d3836799511236741888ecf17ab4f",
+        "submission/task_io.py": "59ff49c3896838a19c73e42baf5d423cf8ce1828f0c3293d75290c1933f2641c",
+        "submission/workflow.py": "8a15c9e97ada9db7d8ac3a0280245711d98fb822f14f559545c2ceeff97402f7"
+      }
+    },
+    "safe_source": {
+      "path": "experiments/agent_night_2026-11-09/safe_source",
+      "sha256": {
+        "run_agent.py": "446f92d2040703164dcef96055b508ac440c278b17fe3ff334415e507f9dec8f",
+        "submission/budget.py": "64fd21180dfbbcb72f3aba074e1490dbc303136a7f1f7295a3a051f9809cd612",
+        "submission/code_solver.py": "437b6731356e7555fb712dd0c7dd523fd3c2332344b7f56b240ce93bad3647b5",
+        "submission/compact.py": "f7159e4f21e83c24643caaa1e302245a6df77ee464149b0f7c32c6653c82dfd3",
+        "submission/data_solver.py": "72513695e3b42e989d3c53a84f58068d4976e450c2452704a2053dd55deaf50d",
+        "submission/editing.py": "07891fc320f9d03761b1ffe98549848162ef2320829333278c32554c23f891a0",
+        "submission/exact.py": "71fd4cc3aa7abfe4e63e128b8ff400bef31ab90fbe37aa41a54ba4798d857ec6",
+        "submission/executor.py": "f197d617c51b35e51b5bff63772bff42ee87b678f32202ee3de82b219ef63c72",
+        "submission/gateway.py": "be6925e998ac54a3f247b46029dce8fdd312b4818141361ed592923ebc5043e3",
+        "submission/schedule.py": "a801defd8c47a211bbebd260c3a6cce55b9d3836799511236741888ecf17ab4f",
+        "submission/task_io.py": "59ff49c3896838a19c73e42baf5d423cf8ce1828f0c3293d75290c1933f2641c",
+        "submission/workflow.py": "8a15c9e97ada9db7d8ac3a0280245711d98fb822f14f559545c2ceeff97402f7"
+      },
+      "frozen_experiment_source": "experiments/agent_night_2026-11-09/safe27_dev100/source",
+      "same_as_frozen": true
+    },
+    "safe_priority_source": {
+      "path": "experiments/agent_night_2026-11-09/safe_priority_source",
+      "sha256": {
+        "run_agent.py": "e4b23806061837b8d60eef22955690c3090172c5eea762353a03d867e7c267ea",
+        "submission/budget.py": "64fd21180dfbbcb72f3aba074e1490dbc303136a7f1f7295a3a051f9809cd612",
+        "submission/code_solver.py": "437b6731356e7555fb712dd0c7dd523fd3c2332344b7f56b240ce93bad3647b5",
+        "submission/compact.py": "f7159e4f21e83c24643caaa1e302245a6df77ee464149b0f7c32c6653c82dfd3",
+        "submission/data_solver.py": "72513695e3b42e989d3c53a84f58068d4976e450c2452704a2053dd55deaf50d",
+        "submission/editing.py": "07891fc320f9d03761b1ffe98549848162ef2320829333278c32554c23f891a0",
+        "submission/exact.py": "71fd4cc3aa7abfe4e63e128b8ff400bef31ab90fbe37aa41a54ba4798d857ec6",
+        "submission/executor.py": "f197d617c51b35e51b5bff63772bff42ee87b678f32202ee3de82b219ef63c72",
+        "submission/gateway.py": "be6925e998ac54a3f247b46029dce8fdd312b4818141361ed592923ebc5043e3",
+        "submission/schedule.py": "a801defd8c47a211bbebd260c3a6cce55b9d3836799511236741888ecf17ab4f",
+        "submission/task_io.py": "59ff49c3896838a19c73e42baf5d423cf8ce1828f0c3293d75290c1933f2641c",
+        "submission/workflow.py": "8a15c9e97ada9db7d8ac3a0280245711d98fb822f14f559545c2ceeff97402f7"
+      },
+      "frozen_experiment_source": "experiments/agent_night_2026-11-09/safe_priority27_dev100/source",
+      "same_as_frozen": true
+    },
+    "safe_contract_source": {
+      "path": "experiments/agent_night_2026-11-09/safe_contract_source",
+      "sha256": {
+        "run_agent.py": "446f92d2040703164dcef96055b508ac440c278b17fe3ff334415e507f9dec8f",
+        "submission/budget.py": "64fd21180dfbbcb72f3aba074e1490dbc303136a7f1f7295a3a051f9809cd612",
+        "submission/code_solver.py": "437b6731356e7555fb712dd0c7dd523fd3c2332344b7f56b240ce93bad3647b5",
+        "submission/compact.py": "250e85501e07566765bbdd9b4c3ec09b86caee1a5df246cd8834cf424d2d6014",
+        "submission/data_solver.py": "72513695e3b42e989d3c53a84f58068d4976e450c2452704a2053dd55deaf50d",
+        "submission/editing.py": "07891fc320f9d03761b1ffe98549848162ef2320829333278c32554c23f891a0",
+        "submission/exact.py": "71fd4cc3aa7abfe4e63e128b8ff400bef31ab90fbe37aa41a54ba4798d857ec6",
+        "submission/executor.py": "f197d617c51b35e51b5bff63772bff42ee87b678f32202ee3de82b219ef63c72",
+        "submission/gateway.py": "be6925e998ac54a3f247b46029dce8fdd312b4818141361ed592923ebc5043e3",
+        "submission/schedule.py": "a801defd8c47a211bbebd260c3a6cce55b9d3836799511236741888ecf17ab4f",
+        "submission/task_io.py": "59ff49c3896838a19c73e42baf5d423cf8ce1828f0c3293d75290c1933f2641c",
+        "submission/workflow.py": "8a15c9e97ada9db7d8ac3a0280245711d98fb822f14f559545c2ceeff97402f7"
+      },
+      "frozen_experiment_source": "experiments/agent_night_2026-11-09/safe_contract27_dev100/source",
+      "same_as_frozen": true
+    },
+    "safe_review_source": {
+      "path": "experiments/agent_night_2026-11-09/safe_review_source",
+      "sha256": {
+        "run_agent.py": "446f92d2040703164dcef96055b508ac440c278b17fe3ff334415e507f9dec8f",
+        "submission/budget.py": "64fd21180dfbbcb72f3aba074e1490dbc303136a7f1f7295a3a051f9809cd612",
+        "submission/code_solver.py": "437b6731356e7555fb712dd0c7dd523fd3c2332344b7f56b240ce93bad3647b5",
+        "submission/compact.py": "2845ee95f0327ac68a327e6923eb120baf7c41c060a0df53c98f56d20820d4c6",
+        "submission/data_solver.py": "72513695e3b42e989d3c53a84f58068d4976e450c2452704a2053dd55deaf50d",
+        "submission/editing.py": "07891fc320f9d03761b1ffe98549848162ef2320829333278c32554c23f891a0",
+        "submission/exact.py": "71fd4cc3aa7abfe4e63e128b8ff400bef31ab90fbe37aa41a54ba4798d857ec6",
+        "submission/executor.py": "f197d617c51b35e51b5bff63772bff42ee87b678f32202ee3de82b219ef63c72",
+        "submission/gateway.py": "be6925e998ac54a3f247b46029dce8fdd312b4818141361ed592923ebc5043e3",
+        "submission/schedule.py": "a801defd8c47a211bbebd260c3a6cce55b9d3836799511236741888ecf17ab4f",
+        "submission/task_io.py": "59ff49c3896838a19c73e42baf5d423cf8ce1828f0c3293d75290c1933f2641c",
+        "submission/workflow.py": "8a15c9e97ada9db7d8ac3a0280245711d98fb822f14f559545c2ceeff97402f7"
+      },
+      "frozen_experiment_source": "experiments/agent_night_2026-11-09/safe_review27_dev100/source",
+      "same_as_frozen": true
+    }
+  },
+  "own_runtime_summary": {
+    "v3": "Sequential exact local handlers then coding-last byte/reward heuristic; max8 compact JSON actions, output cap1536, native ReActAgent per call; no learned forecast in control. Request reservations and freeze-on-unknown; current source cache has known older weaknesses.",
+    "safe": "Frozen safe_source combines cache consistency, no-op/remaining-step cues, Python exit0 guard, empty_action classification, request-bound checks and potential in-flight capacity3; run_agent still sequential.",
+    "safe_priority": "Only queue variant adds type median costs/success priors from old json_cues traces and reward*p/cost density; no runtime linear model or DP call.",
+    "safe_contract": "Coding coverage reminder; successful edit can still autoDONE. Python exit guard inherited.",
+    "safe_review": "Removes two automatic completion branches and asks explicit completion/checks; explicit DONE can still bypass earlier failed self-check, successful Python submit marker can finish same action.",
+    "schedule_module": "schedule.py contains a knapsack helper, but current run_agent.solve does not call it."
+  },
+  "official": {
+    "landing": {
+      "url": "https://techarena2026.ru/open-jiuwen-challenge",
+      "observed": "Q&A9November15:30MSK/19:30NSK; competition continues10–13November; awards20November.",
+      "publication_date_of_this_block_confirmed": false
+    },
+    "new_official_contest_starter_or_dated_docs_nov8_9_found": false,
+    "negative_result_scope": "No such dated contest-specific publication found in the enumerated public queries/pages; not a claim that none exists in closed channels or unindexed pages.",
+    "generic_frameworks": [
+      {
+        "repo": "openJiuwen-ai/agent-core",
+        "role": "Official generic SDK, not contest starter",
+        "metadata": {
+          "pushed_at": "2026-11-07T10:23:19Z",
+          "license": "Apache-2.0"
+        }
+      },
+      {
+        "repo": "openJiuwen-ai/jiuwenswarm",
+        "role": "Official generic swarm framework, not contest starter",
+        "pushed_at": "2026-11-08T09:54:32Z",
+        "default_head": "6c6434e8ed7ae5cc7df00d16d9f4e39dc26bfb71",
+        "default_head_commit_date": "2026-11-07T11:38:24Z",
+        "nov8_9_default_branch_commits_returned": 0,
+        "license": "Apache-2.0"
+      }
+    ],
+    "different_official_challenge": {
+      "repo": "openJiuwen-ai/agent-tools",
+      "commit": "79793013dc41b4dc417e8532ccf5f557ddf6423b",
+      "commit_date": "2026-11-06T09:33:00Z",
+      "url": "https://github.com/openJiuwen-ai/agent-tools/blob/79793013dc41b4dc417e8532ccf5f557ddf6423b/Agent%20Innovation%20Challenge/Competition%20Submission%20Guidelines.md",
+      "role": "Agent Tool demo integrated into OpenJiuwen Studio; distinct from NSU100-task budget harness.",
+      "license": "Apache-2.0"
+    },
+    "public_material_mirror": {
+      "repo": "jul-os/Mean-Alpacas-OpenJiuwen-Challenge-2026",
+      "role": "Participant mirror, not official publisher; both files exactly match user-provided originals by Git blob SHA-1.",
+      "files": [
+        {
+          "path": "task-dir.zip",
+          "bytes": 80978,
+          "git_blob_sha1": "f0f9f1f0be2360f6233229bc966d36b49e5f9e23",
+          "sha256": "9982643201421d553bf84c900836f46ac685ac7ca0f8d803bade5cbb9966b60e",
+          "sample_task_count": 8,
+          "run_agent_present": false
+        },
+        {
+          "path": "Регламент соревнования.md",
+          "bytes": 9683,
+          "git_blob_sha1": "d91ad85911ee90faf1d81e31b070e479fe5d911c",
+          "sha256": "f24256eda3d15ffbf6576ce67b8f158dfcb0a1b1e12c5abfd8e8342fff6235fd"
+        }
+      ]
+    }
+  },
+  "limits": [
+    "Repository public status verified at read time; creation/commit timestamps are not proof of first public-visibility time.",
+    "Three substantial repositories examined, plus four scaffolds/prototypes; not a census of every participant.",
+    "Author-reported local scores are not official contest scores and are not comparable to our differently composed sets.",
+    "Only selected source files read; no full clone/download/build/execution of foreign code.",
+    "No secrets, credentials, invitations, private repositories or participant messages sought.",
+    "Fresh32/64 conditions, private data, provenance and results were not opened.",
+    "No code/controller changes or model generation calls performed."
+  ],
+  "model_generation_api_calls": 0,
+  "foreign_code_executed": false,
+  "production_modified": false
+}

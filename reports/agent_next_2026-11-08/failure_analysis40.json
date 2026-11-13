@@ -1,0 +1,2054 @@
+{
+  "scope": "Completed forty-task runs only; fresh twenty tasks not read",
+  "cost_unit": "input + 10*output; divide by 10 for reported output equivalents",
+  "runs": [
+    {
+      "policy": "v3_blind40",
+      "run": "r1",
+      "reward": 140,
+      "passed": 25,
+      "spent_units": 229932,
+      "failed": [
+        "next_001",
+        "next_002",
+        "next_005",
+        "next_006",
+        "next_007",
+        "next_010",
+        "next_014"
+      ],
+      "stage_cost_units": {
+        "main": 229932
+      },
+      "stage_calls": {
+        "main": 74
+      },
+      "invalid_cost_units": {},
+      "invalid_calls": {},
+      "invalid_details": [],
+      "call_event_alignment": true,
+      "persistent_failure_cost_units": {
+        "next_005": 8968,
+        "next_006": 7867,
+        "next_007": 7848
+      },
+      "sensitivity_excluding_ambiguous_006_007": {
+        "excluded": [
+          "next_006",
+          "next_007"
+        ],
+        "reward": 140,
+        "attainable": 171,
+        "passed": 25,
+        "solvable": 30
+      }
+    },
+    {
+      "policy": "v3_blind40",
+      "run": "r2",
+      "reward": 150,
+      "passed": 27,
+      "spent_units": 225426,
+      "failed": [
+        "next_005",
+        "next_006",
+        "next_007",
+        "next_014",
+        "next_016"
+      ],
+      "stage_cost_units": {
+        "main": 225426
+      },
+      "stage_calls": {
+        "main": 69
+      },
+      "invalid_cost_units": {
+        "main": 23213
+      },
+      "invalid_calls": {
+        "main": 2
+      },
+      "invalid_details": [
+        {
+          "task_id": "next_001",
+          "stage": "main",
+          "cost_units": 3413,
+          "finish_reason": "stop",
+          "max_output": 1536,
+          "completion_tokens": 172
+        },
+        {
+          "task_id": "next_010",
+          "stage": "main",
+          "cost_units": 19800,
+          "finish_reason": "length",
+          "max_output": 1536,
+          "completion_tokens": 1536
+        }
+      ],
+      "call_event_alignment": true,
+      "persistent_failure_cost_units": {
+        "next_005": 8968,
+        "next_006": 6187,
+        "next_007": 4413
+      },
+      "sensitivity_excluding_ambiguous_006_007": {
+        "excluded": [
+          "next_006",
+          "next_007"
+        ],
+        "reward": 150,
+        "attainable": 171,
+        "passed": 27,
+        "solvable": 30
+      }
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r1",
+      "reward": 151,
+      "passed": 27,
+      "spent_units": 395136,
+      "failed": [
+        "next_001",
+        "next_005",
+        "next_006",
+        "next_007",
+        "next_014"
+      ],
+      "stage_cost_units": {
+        "first": 179620,
+        "review": 188428,
+        "retry": 27088
+      },
+      "stage_calls": {
+        "first": 61,
+        "review": 34,
+        "retry": 7
+      },
+      "invalid_cost_units": {
+        "review": 57423
+      },
+      "invalid_calls": {
+        "review": 6
+      },
+      "invalid_details": [
+        {
+          "task_id": "next_013",
+          "stage": "review",
+          "cost_units": 7285,
+          "finish_reason": "stop",
+          "max_output": 865,
+          "completion_tokens": 626
+        },
+        {
+          "task_id": "next_024",
+          "stage": "review",
+          "cost_units": 3939,
+          "finish_reason": "stop",
+          "max_output": 1137,
+          "completion_tokens": 299
+        },
+        {
+          "task_id": "next_015",
+          "stage": "review",
+          "cost_units": 15524,
+          "finish_reason": "length",
+          "max_output": 1497,
+          "completion_tokens": 1497
+        },
+        {
+          "task_id": "next_010",
+          "stage": "review",
+          "cost_units": 19555,
+          "finish_reason": "length",
+          "max_output": 1494,
+          "completion_tokens": 1494
+        },
+        {
+          "task_id": "next_014",
+          "stage": "review",
+          "cost_units": 8065,
+          "finish_reason": "length",
+          "max_output": 681,
+          "completion_tokens": 681
+        },
+        {
+          "task_id": "next_026",
+          "stage": "review",
+          "cost_units": 3055,
+          "finish_reason": "length",
+          "max_output": 222,
+          "completion_tokens": 222
+        }
+      ],
+      "call_event_alignment": true,
+      "persistent_failure_cost_units": {
+        "next_005": 28084,
+        "next_006": 21853,
+        "next_007": 4413
+      },
+      "sensitivity_excluding_ambiguous_006_007": {
+        "excluded": [
+          "next_006",
+          "next_007"
+        ],
+        "reward": 151,
+        "attainable": 171,
+        "passed": 27,
+        "solvable": 30
+      }
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r2",
+      "reward": 148,
+      "passed": 27,
+      "spent_units": 394116,
+      "failed": [
+        "next_001",
+        "next_005",
+        "next_006",
+        "next_007",
+        "next_016"
+      ],
+      "stage_cost_units": {
+        "first": 189753,
+        "review": 188307,
+        "retry": 16056
+      },
+      "stage_calls": {
+        "first": 63,
+        "review": 32,
+        "retry": 3
+      },
+      "invalid_cost_units": {
+        "first": 3193,
+        "review": 56941
+      },
+      "invalid_calls": {
+        "first": 1,
+        "review": 5
+      },
+      "invalid_details": [
+        {
+          "task_id": "next_001",
+          "stage": "first",
+          "cost_units": 3193,
+          "finish_reason": "stop",
+          "max_output": 1536,
+          "completion_tokens": 150
+        },
+        {
+          "task_id": "next_013",
+          "stage": "review",
+          "cost_units": 10606,
+          "finish_reason": "length",
+          "max_output": 964,
+          "completion_tokens": 964
+        },
+        {
+          "task_id": "next_016",
+          "stage": "review",
+          "cost_units": 5700,
+          "finish_reason": "stop",
+          "max_output": 1484,
+          "completion_tokens": 512
+        },
+        {
+          "task_id": "next_016",
+          "stage": "review",
+          "cost_units": 5597,
+          "finish_reason": "stop",
+          "max_output": 906,
+          "completion_tokens": 499
+        },
+        {
+          "task_id": "next_015",
+          "stage": "review",
+          "cost_units": 15524,
+          "finish_reason": "length",
+          "max_output": 1497,
+          "completion_tokens": 1497
+        },
+        {
+          "task_id": "next_010",
+          "stage": "review",
+          "cost_units": 19514,
+          "finish_reason": "length",
+          "max_output": 1536,
+          "completion_tokens": 1536
+        }
+      ],
+      "call_event_alignment": true,
+      "persistent_failure_cost_units": {
+        "next_005": 30797,
+        "next_006": 16158,
+        "next_007": 7328
+      },
+      "sensitivity_excluding_ambiguous_006_007": {
+        "excluded": [
+          "next_006",
+          "next_007"
+        ],
+        "reward": 148,
+        "attainable": 171,
+        "passed": 27,
+        "solvable": 30
+      }
+    },
+    {
+      "policy": "v3_blind40_low",
+      "run": "r1",
+      "reward": 138,
+      "passed": 25,
+      "spent_units": 186486,
+      "failed": [
+        "next_002",
+        "next_004",
+        "next_005",
+        "next_006",
+        "next_007",
+        "next_010",
+        "next_016"
+      ],
+      "stage_cost_units": {
+        "main": 186486
+      },
+      "stage_calls": {
+        "main": 59
+      },
+      "invalid_cost_units": {
+        "main": 23108
+      },
+      "invalid_calls": {
+        "main": 2
+      },
+      "invalid_details": [
+        {
+          "task_id": "next_001",
+          "stage": "main",
+          "cost_units": 3243,
+          "finish_reason": "stop",
+          "max_output": 1536,
+          "completion_tokens": 155
+        },
+        {
+          "task_id": "next_010",
+          "stage": "main",
+          "cost_units": 19865,
+          "finish_reason": "length",
+          "max_output": 1536,
+          "completion_tokens": 1536
+        }
+      ],
+      "call_event_alignment": true,
+      "persistent_failure_cost_units": {
+        "next_005": 6456,
+        "next_006": 6177,
+        "next_007": 4413
+      },
+      "sensitivity_excluding_ambiguous_006_007": {
+        "excluded": [
+          "next_006",
+          "next_007"
+        ],
+        "reward": 138,
+        "attainable": 171,
+        "passed": 25,
+        "solvable": 30
+      }
+    },
+    {
+      "policy": "v3_blind40_low",
+      "run": "r2",
+      "reward": 145,
+      "passed": 26,
+      "spent_units": 186794,
+      "failed": [
+        "next_002",
+        "next_004",
+        "next_005",
+        "next_006",
+        "next_007",
+        "next_010"
+      ],
+      "stage_cost_units": {
+        "main": 186794
+      },
+      "stage_calls": {
+        "main": 60
+      },
+      "invalid_cost_units": {
+        "main": 18465
+      },
+      "invalid_calls": {
+        "main": 3
+      },
+      "invalid_details": [
+        {
+          "task_id": "next_025",
+          "stage": "main",
+          "cost_units": 8443,
+          "finish_reason": "stop",
+          "max_output": 1536,
+          "completion_tokens": 745
+        },
+        {
+          "task_id": "next_025",
+          "stage": "main",
+          "cost_units": 6519,
+          "finish_reason": "stop",
+          "max_output": 1536,
+          "completion_tokens": 550
+        },
+        {
+          "task_id": "next_001",
+          "stage": "main",
+          "cost_units": 3503,
+          "finish_reason": "stop",
+          "max_output": 1536,
+          "completion_tokens": 181
+        }
+      ],
+      "call_event_alignment": true,
+      "persistent_failure_cost_units": {
+        "next_005": 5926,
+        "next_006": 6146,
+        "next_007": 7328
+      },
+      "sensitivity_excluding_ambiguous_006_007": {
+        "excluded": [
+          "next_006",
+          "next_007"
+        ],
+        "reward": 145,
+        "attainable": 171,
+        "passed": 26,
+        "solvable": 30
+      }
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r1",
+      "reward": 141,
+      "passed": 26,
+      "spent_units": 194101,
+      "failed": [
+        "next_005",
+        "next_006",
+        "next_007",
+        "next_010",
+        "next_014",
+        "next_016"
+      ],
+      "stage_cost_units": {
+        "first": 180468,
+        "review": 13633,
+        "retry": 0
+      },
+      "stage_calls": {
+        "first": 61,
+        "review": 3,
+        "retry": 0
+      },
+      "invalid_cost_units": {
+        "first": 3283,
+        "review": 6683
+      },
+      "invalid_calls": {
+        "first": 1,
+        "review": 1
+      },
+      "invalid_details": [
+        {
+          "task_id": "next_001",
+          "stage": "first",
+          "cost_units": 3283,
+          "finish_reason": "stop",
+          "max_output": 1536,
+          "completion_tokens": 159
+        },
+        {
+          "task_id": "next_022",
+          "stage": "review",
+          "cost_units": 6683,
+          "finish_reason": "length",
+          "max_output": 541,
+          "completion_tokens": 541
+        }
+      ],
+      "call_event_alignment": true,
+      "persistent_failure_cost_units": {
+        "next_005": 8946,
+        "next_006": 5112,
+        "next_007": 7328
+      },
+      "sensitivity_excluding_ambiguous_006_007": {
+        "excluded": [
+          "next_006",
+          "next_007"
+        ],
+        "reward": 141,
+        "attainable": 171,
+        "passed": 26,
+        "solvable": 30
+      }
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r2",
+      "reward": 140,
+      "passed": 25,
+      "spent_units": 195465,
+      "failed": [
+        "next_001",
+        "next_002",
+        "next_005",
+        "next_006",
+        "next_007",
+        "next_010",
+        "next_014"
+      ],
+      "stage_cost_units": {
+        "first": 175973,
+        "review": 19492,
+        "retry": 0
+      },
+      "stage_calls": {
+        "first": 61,
+        "review": 4,
+        "retry": 0
+      },
+      "invalid_cost_units": {
+        "first": 3193,
+        "review": 8172
+      },
+      "invalid_calls": {
+        "first": 1,
+        "review": 2
+      },
+      "invalid_details": [
+        {
+          "task_id": "next_001",
+          "stage": "first",
+          "cost_units": 3193,
+          "finish_reason": "stop",
+          "max_output": 1536,
+          "completion_tokens": 150
+        },
+        {
+          "task_id": "next_027",
+          "stage": "review",
+          "cost_units": 5593,
+          "finish_reason": "length",
+          "max_output": 403,
+          "completion_tokens": 403
+        },
+        {
+          "task_id": "next_013",
+          "stage": "review",
+          "cost_units": 2579,
+          "finish_reason": "length",
+          "max_output": 200,
+          "completion_tokens": 200
+        }
+      ],
+      "call_event_alignment": true,
+      "persistent_failure_cost_units": {
+        "next_005": 9196,
+        "next_006": 6157,
+        "next_007": 7328
+      },
+      "sensitivity_excluding_ambiguous_006_007": {
+        "excluded": [
+          "next_006",
+          "next_007"
+        ],
+        "reward": 140,
+        "attainable": 171,
+        "passed": 25,
+        "solvable": 30
+      }
+    }
+  ],
+  "noncode_reviews": [
+    {
+      "policy": "v4_blind40",
+      "run": "r1",
+      "task_id": "next_027",
+      "type": "data_analysis",
+      "reward": 10,
+      "actual_cost_units": 4752,
+      "model_steps": 1,
+      "source_changes": 0,
+      "review_status": "completed",
+      "final_passed": true,
+      "initial_answer": "5",
+      "final_answer": "5",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r1",
+      "task_id": "next_022",
+      "type": "data_analysis",
+      "reward": 9,
+      "actual_cost_units": 9404,
+      "model_steps": 2,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "2310",
+      "final_answer": "2310",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r1",
+      "task_id": "next_013",
+      "type": "math",
+      "reward": 8,
+      "actual_cost_units": 12004,
+      "model_steps": 2,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "16",
+      "final_answer": "16",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r1",
+      "task_id": "next_024",
+      "type": "data_analysis",
+      "reward": 8,
+      "actual_cost_units": 6373,
+      "model_steps": 2,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "Atlas=48;Beryl=34;Cobalt=28;Delta=27",
+      "final_answer": "Atlas=48;Beryl=34;Cobalt=28;Delta=27",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r1",
+      "task_id": "next_012",
+      "type": "math",
+      "reward": 7,
+      "actual_cost_units": 2759,
+      "model_steps": 2,
+      "source_changes": 0,
+      "review_status": "completed",
+      "final_passed": true,
+      "initial_answer": "14/5",
+      "final_answer": "14/5",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r1",
+      "task_id": "next_016",
+      "type": "math",
+      "reward": 7,
+      "actual_cost_units": 11910,
+      "model_steps": 1,
+      "source_changes": 0,
+      "review_status": "completed",
+      "final_passed": true,
+      "initial_answer": "29",
+      "final_answer": "30",
+      "initial_correct": false,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r1",
+      "task_id": "next_018",
+      "type": "math",
+      "reward": 7,
+      "actual_cost_units": 5153,
+      "model_steps": 1,
+      "source_changes": 0,
+      "review_status": "completed",
+      "final_passed": true,
+      "initial_answer": "3A7F02C9",
+      "final_answer": "3A7F02C9",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r1",
+      "task_id": "next_015",
+      "type": "math",
+      "reward": 6,
+      "actual_cost_units": 15524,
+      "model_steps": 1,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "30",
+      "final_answer": "30",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r1",
+      "task_id": "next_014",
+      "type": "math",
+      "reward": 4,
+      "actual_cost_units": 14582,
+      "model_steps": 2,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": false,
+      "initial_answer": "27/2",
+      "final_answer": "27/2",
+      "initial_correct": false,
+      "final_correct": false
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r1",
+      "task_id": "next_025",
+      "type": "data_analysis",
+      "reward": 3,
+      "actual_cost_units": 6649,
+      "model_steps": 2,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "ACG 10",
+      "final_answer": "ACG 10",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r1",
+      "task_id": "next_023",
+      "type": "data_analysis",
+      "reward": 3,
+      "actual_cost_units": 4372,
+      "model_steps": 1,
+      "source_changes": 0,
+      "review_status": "completed",
+      "final_passed": true,
+      "initial_answer": "3",
+      "final_answer": "3",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r1",
+      "task_id": "next_021",
+      "type": "data_analysis",
+      "reward": 2,
+      "actual_cost_units": 2652,
+      "model_steps": 1,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "282",
+      "final_answer": "282",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r1",
+      "task_id": "next_026",
+      "type": "data_analysis",
+      "reward": 2,
+      "actual_cost_units": 3055,
+      "model_steps": 1,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "4",
+      "final_answer": "4",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r1",
+      "task_id": "next_011",
+      "type": "math",
+      "reward": 1,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "6770",
+      "final_answer": "6770",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r1",
+      "task_id": "next_017",
+      "type": "math",
+      "reward": 1,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "324",
+      "final_answer": "324",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r2",
+      "task_id": "next_027",
+      "type": "data_analysis",
+      "reward": 10,
+      "actual_cost_units": 13938,
+      "model_steps": 2,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "5",
+      "final_answer": "5",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r2",
+      "task_id": "next_022",
+      "type": "data_analysis",
+      "reward": 9,
+      "actual_cost_units": 8101,
+      "model_steps": 2,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "2310",
+      "final_answer": "2310",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r2",
+      "task_id": "next_013",
+      "type": "math",
+      "reward": 8,
+      "actual_cost_units": 14735,
+      "model_steps": 2,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "16",
+      "final_answer": "16",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r2",
+      "task_id": "next_024",
+      "type": "data_analysis",
+      "reward": 8,
+      "actual_cost_units": 6576,
+      "model_steps": 2,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "Atlas=48;Beryl=34;Cobalt=28;Delta=27",
+      "final_answer": "Atlas=48;Beryl=34;Cobalt=28;Delta=27",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r2",
+      "task_id": "next_012",
+      "type": "math",
+      "reward": 7,
+      "actual_cost_units": 1903,
+      "model_steps": 1,
+      "source_changes": 0,
+      "review_status": "completed",
+      "final_passed": true,
+      "initial_answer": "14/5",
+      "final_answer": "14/5",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r2",
+      "task_id": "next_016",
+      "type": "math",
+      "reward": 7,
+      "actual_cost_units": 11297,
+      "model_steps": 2,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": false,
+      "initial_answer": "64",
+      "final_answer": "64",
+      "initial_correct": false,
+      "final_correct": false
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r2",
+      "task_id": "next_018",
+      "type": "math",
+      "reward": 7,
+      "actual_cost_units": 4173,
+      "model_steps": 1,
+      "source_changes": 0,
+      "review_status": "completed",
+      "final_passed": true,
+      "initial_answer": "3A7F02C9",
+      "final_answer": "3A7F02C9",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r2",
+      "task_id": "next_015",
+      "type": "math",
+      "reward": 6,
+      "actual_cost_units": 15524,
+      "model_steps": 1,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "30",
+      "final_answer": "30",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r2",
+      "task_id": "next_014",
+      "type": "math",
+      "reward": 4,
+      "actual_cost_units": 10658,
+      "model_steps": 2,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "33/4",
+      "final_answer": "33/4",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r2",
+      "task_id": "next_025",
+      "type": "data_analysis",
+      "reward": 3,
+      "actual_cost_units": 7249,
+      "model_steps": 2,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "ACG 10",
+      "final_answer": "ACG 10",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r2",
+      "task_id": "next_023",
+      "type": "data_analysis",
+      "reward": 3,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "3",
+      "final_answer": "3",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r2",
+      "task_id": "next_021",
+      "type": "data_analysis",
+      "reward": 2,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "282",
+      "final_answer": "282",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r2",
+      "task_id": "next_026",
+      "type": "data_analysis",
+      "reward": 2,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "4",
+      "final_answer": "4",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r2",
+      "task_id": "next_011",
+      "type": "math",
+      "reward": 1,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "6770",
+      "final_answer": "6770",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r2",
+      "task_id": "next_017",
+      "type": "math",
+      "reward": 1,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "324",
+      "final_answer": "324",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r1",
+      "task_id": "next_027",
+      "type": "data_analysis",
+      "reward": 10,
+      "actual_cost_units": 3512,
+      "model_steps": 1,
+      "source_changes": 0,
+      "review_status": "completed",
+      "final_passed": true,
+      "initial_answer": "5",
+      "final_answer": "5",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r1",
+      "task_id": "next_022",
+      "type": "data_analysis",
+      "reward": 9,
+      "actual_cost_units": 10121,
+      "model_steps": 2,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "2310",
+      "final_answer": "2310",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r1",
+      "task_id": "next_013",
+      "type": "math",
+      "reward": 8,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "16",
+      "final_answer": "16",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r1",
+      "task_id": "next_024",
+      "type": "data_analysis",
+      "reward": 8,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "Atlas=48;Beryl=34;Cobalt=28;Delta=27",
+      "final_answer": "Atlas=48;Beryl=34;Cobalt=28;Delta=27",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r1",
+      "task_id": "next_012",
+      "type": "math",
+      "reward": 7,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "14/5",
+      "final_answer": "14/5",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r1",
+      "task_id": "next_016",
+      "type": "math",
+      "reward": 7,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": false,
+      "initial_answer": "29",
+      "final_answer": "29",
+      "initial_correct": false,
+      "final_correct": false
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r1",
+      "task_id": "next_018",
+      "type": "math",
+      "reward": 7,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "3A7F02C9",
+      "final_answer": "3A7F02C9",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r1",
+      "task_id": "next_015",
+      "type": "math",
+      "reward": 6,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "30",
+      "final_answer": "30",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r1",
+      "task_id": "next_025",
+      "type": "data_analysis",
+      "reward": 3,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "ACG 10",
+      "final_answer": "ACG 10",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r1",
+      "task_id": "next_023",
+      "type": "data_analysis",
+      "reward": 3,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "3",
+      "final_answer": "3",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r1",
+      "task_id": "next_021",
+      "type": "data_analysis",
+      "reward": 2,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "282",
+      "final_answer": "282",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r1",
+      "task_id": "next_026",
+      "type": "data_analysis",
+      "reward": 2,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "4",
+      "final_answer": "4",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r1",
+      "task_id": "next_011",
+      "type": "math",
+      "reward": 1,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "6770",
+      "final_answer": "6770",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r1",
+      "task_id": "next_017",
+      "type": "math",
+      "reward": 1,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "324",
+      "final_answer": "324",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r2",
+      "task_id": "next_027",
+      "type": "data_analysis",
+      "reward": 10,
+      "actual_cost_units": 13475,
+      "model_steps": 2,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "5",
+      "final_answer": "5",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r2",
+      "task_id": "next_022",
+      "type": "data_analysis",
+      "reward": 9,
+      "actual_cost_units": 3438,
+      "model_steps": 1,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "2310",
+      "final_answer": "2310",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r2",
+      "task_id": "next_013",
+      "type": "math",
+      "reward": 8,
+      "actual_cost_units": 2579,
+      "model_steps": 1,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "16",
+      "final_answer": "16",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r2",
+      "task_id": "next_024",
+      "type": "data_analysis",
+      "reward": 8,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "Atlas=48;Beryl=34;Cobalt=28;Delta=27",
+      "final_answer": "Atlas=48;Beryl=34;Cobalt=28;Delta=27",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r2",
+      "task_id": "next_012",
+      "type": "math",
+      "reward": 7,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "14/5",
+      "final_answer": "14/5",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r2",
+      "task_id": "next_016",
+      "type": "math",
+      "reward": 7,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "30",
+      "final_answer": "30",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r2",
+      "task_id": "next_018",
+      "type": "math",
+      "reward": 7,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "3A7F02C9",
+      "final_answer": "3A7F02C9",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r2",
+      "task_id": "next_015",
+      "type": "math",
+      "reward": 6,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "30",
+      "final_answer": "30",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r2",
+      "task_id": "next_014",
+      "type": "math",
+      "reward": 4,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": false,
+      "initial_answer": "27/2",
+      "final_answer": "27/2",
+      "initial_correct": false,
+      "final_correct": false
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r2",
+      "task_id": "next_025",
+      "type": "data_analysis",
+      "reward": 3,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "ACG 10",
+      "final_answer": "ACG 10",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r2",
+      "task_id": "next_023",
+      "type": "data_analysis",
+      "reward": 3,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "3",
+      "final_answer": "3",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r2",
+      "task_id": "next_021",
+      "type": "data_analysis",
+      "reward": 2,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "282",
+      "final_answer": "282",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r2",
+      "task_id": "next_026",
+      "type": "data_analysis",
+      "reward": 2,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "4",
+      "final_answer": "4",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r2",
+      "task_id": "next_011",
+      "type": "math",
+      "reward": 1,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "6770",
+      "final_answer": "6770",
+      "initial_correct": true,
+      "final_correct": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r2",
+      "task_id": "next_017",
+      "type": "math",
+      "reward": 1,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_answer": "324",
+      "final_answer": "324",
+      "initial_correct": true,
+      "final_correct": true
+    }
+  ],
+  "code_reviews": [
+    {
+      "policy": "v4_blind40",
+      "run": "r1",
+      "task_id": "next_003",
+      "type": "coding",
+      "reward": 10,
+      "actual_cost_units": 13916,
+      "model_steps": 3,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r1",
+      "task_id": "next_005",
+      "type": "coding",
+      "reward": 10,
+      "actual_cost_units": 18888,
+      "model_steps": 3,
+      "source_changes": 0,
+      "review_status": "completed",
+      "final_passed": false,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r1",
+      "task_id": "next_010",
+      "type": "coding",
+      "reward": 9,
+      "actual_cost_units": 29535,
+      "model_steps": 3,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r1",
+      "task_id": "next_009",
+      "type": "coding",
+      "reward": 8,
+      "actual_cost_units": 12969,
+      "model_steps": 3,
+      "source_changes": 0,
+      "review_status": "completed",
+      "final_passed": true,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r1",
+      "task_id": "next_001",
+      "type": "coding",
+      "reward": 6,
+      "actual_cost_units": 13931,
+      "model_steps": 3,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": false,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r1",
+      "task_id": "next_008",
+      "type": "coding",
+      "reward": 6,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r1",
+      "task_id": "next_004",
+      "type": "coding",
+      "reward": 5,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r1",
+      "task_id": "next_007",
+      "type": "coding",
+      "reward": 3,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": false,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r1",
+      "task_id": "next_002",
+      "type": "coding",
+      "reward": 2,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r2",
+      "task_id": "next_003",
+      "type": "coding",
+      "reward": 10,
+      "actual_cost_units": 16205,
+      "model_steps": 3,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r2",
+      "task_id": "next_005",
+      "type": "coding",
+      "reward": 10,
+      "actual_cost_units": 21601,
+      "model_steps": 3,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": false,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r2",
+      "task_id": "next_010",
+      "type": "coding",
+      "reward": 9,
+      "actual_cost_units": 28916,
+      "model_steps": 3,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r2",
+      "task_id": "next_009",
+      "type": "coding",
+      "reward": 8,
+      "actual_cost_units": 17460,
+      "model_steps": 3,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r2",
+      "task_id": "next_006",
+      "type": "coding",
+      "reward": 7,
+      "actual_cost_units": 9971,
+      "model_steps": 3,
+      "source_changes": 0,
+      "review_status": "completed",
+      "final_passed": false,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r2",
+      "task_id": "next_001",
+      "type": "coding",
+      "reward": 6,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": false,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r2",
+      "task_id": "next_008",
+      "type": "coding",
+      "reward": 6,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r2",
+      "task_id": "next_004",
+      "type": "coding",
+      "reward": 5,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r2",
+      "task_id": "next_007",
+      "type": "coding",
+      "reward": 3,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": false,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40",
+      "run": "r2",
+      "task_id": "next_002",
+      "type": "coding",
+      "reward": 2,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r1",
+      "task_id": "next_003",
+      "type": "coding",
+      "reward": 10,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r1",
+      "task_id": "next_005",
+      "type": "coding",
+      "reward": 10,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": false,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r1",
+      "task_id": "next_009",
+      "type": "coding",
+      "reward": 8,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r1",
+      "task_id": "next_006",
+      "type": "coding",
+      "reward": 7,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": false,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r1",
+      "task_id": "next_001",
+      "type": "coding",
+      "reward": 6,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r1",
+      "task_id": "next_008",
+      "type": "coding",
+      "reward": 6,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r1",
+      "task_id": "next_004",
+      "type": "coding",
+      "reward": 5,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r1",
+      "task_id": "next_007",
+      "type": "coding",
+      "reward": 3,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": false,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r1",
+      "task_id": "next_002",
+      "type": "coding",
+      "reward": 2,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r2",
+      "task_id": "next_003",
+      "type": "coding",
+      "reward": 10,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r2",
+      "task_id": "next_005",
+      "type": "coding",
+      "reward": 10,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": false,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r2",
+      "task_id": "next_009",
+      "type": "coding",
+      "reward": 8,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r2",
+      "task_id": "next_006",
+      "type": "coding",
+      "reward": 7,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": false,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r2",
+      "task_id": "next_001",
+      "type": "coding",
+      "reward": 6,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": false,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r2",
+      "task_id": "next_008",
+      "type": "coding",
+      "reward": 6,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r2",
+      "task_id": "next_004",
+      "type": "coding",
+      "reward": 5,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": true,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r2",
+      "task_id": "next_007",
+      "type": "coding",
+      "reward": 3,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": false,
+      "initial_quality_inferable_from_unchanged_source": true
+    },
+    {
+      "policy": "v4_blind40_low",
+      "run": "r2",
+      "task_id": "next_002",
+      "type": "coding",
+      "reward": 2,
+      "actual_cost_units": 0,
+      "model_steps": 0,
+      "source_changes": 0,
+      "review_status": "started",
+      "final_passed": false,
+      "initial_quality_inferable_from_unchanged_source": true
+    }
+  ],
+  "source_hashes": {
+    "experiments/agent_next_2026-11-08/v3_blind40/runs/r1/score.json": "aeb300a389d3c24b665eacdff394d77f36a1c05bec2e04239cb3b11dd9a4b99a",
+    "experiments/agent_next_2026-11-08/v3_blind40/runs/r1/task_results.json": "66e375b5c5fc7f4ea254a58ca8dfacf158cd5029cefd53e463d6a4203c6e9cdd",
+    "experiments/agent_next_2026-11-08/v3_blind40/runs/r1/summary.json": "71893e8307a4c1af3f33092a65ec763691d86718df9b6feb47801070766bc77e",
+    "experiments/agent_next_2026-11-08/v3_blind40/runs/r1/calls.jsonl": "b9b4d0514fa4f981e53daae592be6701f5c1a7763e0a8540da542cb102a41eff",
+    "experiments/agent_next_2026-11-08/v3_blind40/runs/r2/score.json": "2aa3a13abecb2c8d02d4058f70d6c950f7ac5468db0c5aa8164485fe7efe669f",
+    "experiments/agent_next_2026-11-08/v3_blind40/runs/r2/task_results.json": "51c202c2c391edd36c611ef6a973586a979a7e9579434de91e2495a0c69d0460",
+    "experiments/agent_next_2026-11-08/v3_blind40/runs/r2/summary.json": "54fb27ad36e499424924ea170f696213c8afcf73ac7150cc16244604faf35f94",
+    "experiments/agent_next_2026-11-08/v3_blind40/runs/r2/calls.jsonl": "08e9dff5619a3b7989f90dffccb9cab74acd03cf883a68237a5d530dc09f3ff0",
+    "experiments/agent_next_2026-11-08/v4_blind40/runs/r1/score.json": "7e4ee94c9f234ebe15a30637075c353b84f6acb1b1631fb5edfadc1eb86e006e",
+    "experiments/agent_next_2026-11-08/v4_blind40/runs/r1/task_results.json": "05861c2a2735ca657a9c75d85933323786587924f1433f02b0adcdd6fa49373c",
+    "experiments/agent_next_2026-11-08/v4_blind40/runs/r1/summary.json": "399cd314ec3796127b181ce310d6e2281357b415660f57150ab76c57de937cea",
+    "experiments/agent_next_2026-11-08/v4_blind40/runs/r1/calls.jsonl": "b53efa244cbc1c06be129a652e88da152cc98e36687d4a074a3664f0f8e262a2",
+    "experiments/agent_next_2026-11-08/v4_blind40/runs/r2/score.json": "90cf83f992e387fe6b8b4e2415a226050484a35989bfc371526f9371d81d6197",
+    "experiments/agent_next_2026-11-08/v4_blind40/runs/r2/task_results.json": "1c78b17df3932fd8303fc54d8053ecf5466ea3eac90049521d663fadab19bf76",
+    "experiments/agent_next_2026-11-08/v4_blind40/runs/r2/summary.json": "3ae390a69ece678979a2f91730662cd73a48634282b2ae5d7c17a46d583b33a9",
+    "experiments/agent_next_2026-11-08/v4_blind40/runs/r2/calls.jsonl": "fd29b481062eb84753c9bf74c502104550a0909a6981739619c4dbdc0397af04",
+    "experiments/agent_next_2026-11-08/v3_blind40_low/runs/r1/score.json": "a7e7cb34e1943c24c810e87cb7e622cf00f4e8e177e36fbb45070944947ba339",
+    "experiments/agent_next_2026-11-08/v3_blind40_low/runs/r1/task_results.json": "ce6787ae90a28e975d2ad60064e9e349a36ac105079f0059fcca880b583293ed",
+    "experiments/agent_next_2026-11-08/v3_blind40_low/runs/r1/summary.json": "8c6a834cadd8297cee030c5bb15a114311060de53794b61a94d50494a6af5933",
+    "experiments/agent_next_2026-11-08/v3_blind40_low/runs/r1/calls.jsonl": "3e209e588c6b7c633e6412e64afc24dead4238a8bdcb4fc6c62b313486b574ab",
+    "experiments/agent_next_2026-11-08/v3_blind40_low/runs/r2/score.json": "e05d74e3b24231d83fe4f455c1a6ef0be427eb4647fc52b17f147d9bbd6e90e2",
+    "experiments/agent_next_2026-11-08/v3_blind40_low/runs/r2/task_results.json": "b6b692b48ed23bcbc3df3e334d8fe97b447c04910c86b839fe3abcb45408bcff",
+    "experiments/agent_next_2026-11-08/v3_blind40_low/runs/r2/summary.json": "07dccb3134e2249aaf1d0c4cd29620ecb0582fc87d9d54c9a79973f21e1f0e7c",
+    "experiments/agent_next_2026-11-08/v3_blind40_low/runs/r2/calls.jsonl": "ac2e8499e9035e8d133fe4082100ec242b1a6100b5ade6a1b9b1e7caf03584c5",
+    "experiments/agent_next_2026-11-08/v4_blind40_low/runs/r1/score.json": "1eeda794fde23a60b34dfde21a61a1937b62d7ff8912ec897db04da78f05b8ef",
+    "experiments/agent_next_2026-11-08/v4_blind40_low/runs/r1/task_results.json": "9f07d8e8f76abde19c50d0324c2a17921653016a5d8546b9ca2a49e0aba9e7c0",
+    "experiments/agent_next_2026-11-08/v4_blind40_low/runs/r1/summary.json": "f5497a223d4c6324cd6a1931202bd34f636732b35aac9ee96574090527e49c07",
+    "experiments/agent_next_2026-11-08/v4_blind40_low/runs/r1/calls.jsonl": "dcc9d8e6a3a84eef5f0e6e0e1928fb96bd8fd44760b635555614054439cf1216",
+    "experiments/agent_next_2026-11-08/v4_blind40_low/runs/r2/score.json": "67d6f4a119070162a53d54f63b90329390ae127eb68de2d798c575e419244f67",
+    "experiments/agent_next_2026-11-08/v4_blind40_low/runs/r2/task_results.json": "9129ef2afe0ec88bdd2f8e5bb100997aada0474bac82e7ac1dfcf3229adfe29a",
+    "experiments/agent_next_2026-11-08/v4_blind40_low/runs/r2/summary.json": "9c22b34743fe4b49f2ab7cbe044eed9ee0c2a2511c4e4d27531b94155eb30350",
+    "experiments/agent_next_2026-11-08/v4_blind40_low/runs/r2/calls.jsonl": "6d9c32aa5d38880afddbebb353b30342c28a12f0f1698e7c07296f642b37602c"
+  },
+  "never_passed_in_eight_runs": [
+    "next_005",
+    "next_006",
+    "next_007"
+  ],
+  "engineering100_ambiguous_overlap": [
+    {
+      "task_id": "next_006",
+      "exact_public_copy": true
+    },
+    {
+      "task_id": "next_007",
+      "exact_public_copy": true
+    }
+  ],
+  "sensitivity_notice": "Diagnostic only; frozen scores and oracle remain unchanged; costs are not recomputed"
+}

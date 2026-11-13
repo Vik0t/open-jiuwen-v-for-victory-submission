@@ -1,0 +1,461 @@
+{
+  "scope": {
+    "generated_utc": "2026-11-08T18:10:22Z",
+    "primary_papers": 4,
+    "additional_repositories": 3,
+    "additional_text_files_with_read_ranges": 15,
+    "python_files_with_code_read": 11,
+    "repository_code_executed": false,
+    "generation_api_calls": 0,
+    "fresh32_read": false,
+    "original_review_counts_26_repos_69_files_changed": false
+  },
+  "papers": [
+    {
+      "id": "P01",
+      "name": "TokenEconomizer",
+      "url": "https://arxiv.org/html/2610.22732v1",
+      "read_sections": [
+        "Abstract",
+        "2 cost profiling",
+        "3 methods"
+      ],
+      "paper_summary_word_budget": 200
+    },
+    {
+      "id": "P02",
+      "name": "BATS",
+      "url": "https://arxiv.org/html/2511.17006v2",
+      "read_sections": [
+        "Abstract",
+        "2.2 unified cost",
+        "3 budget awareness"
+      ],
+      "paper_summary_word_budget": 200
+    },
+    {
+      "id": "P03",
+      "name": "CodeRescue",
+      "url": "https://arxiv.org/html/2607.19338v1",
+      "read_sections": [
+        "Abstract",
+        "3.1-3.4 problem, router, cost penalty, calibration"
+      ],
+      "paper_summary_word_budget": 200
+    },
+    {
+      "id": "P04",
+      "name": "SWEPatchTest",
+      "url": "https://arxiv.org/html/2610.18004v1",
+      "read_sections": [
+        "Abstract",
+        "Introduction",
+        "2.5 evaluation protocol, GRR/WDR/CAR/JVR"
+      ],
+      "paper_summary_word_budget": 200,
+      "code_reviewed": false
+    }
+  ],
+  "repositories": [
+    {
+      "id": "M01",
+      "repository": "microsoft/TokenEconomizer",
+      "commit": "4cbc639aaed8343dc629c0044d2df578ed16d112",
+      "url": "https://github.com/microsoft/TokenEconomizer",
+      "license": {
+        "spdx": "Apache-2.0",
+        "status": "LICENSE header inspected"
+      },
+      "tree_listed": {
+        "entries": 284,
+        "source": "pinned complete recursive tree fetched by root",
+        "not_equivalent_to_read_files": true
+      },
+      "actually_read": [
+        {
+          "path": "tokeneconomizer/loopguard/rules.py",
+          "blob_sha": "a9c6801d28d834509c821de616baa1d86e093196",
+          "url": "https://github.com/microsoft/TokenEconomizer/blob/4cbc639aaed8343dc629c0044d2df578ed16d112/tokeneconomizer/loopguard/rules.py",
+          "fetched_complete_text": true,
+          "total_lines": 199,
+          "actually_read_line_ranges": [
+            [
+              1,
+              199
+            ]
+          ],
+          "functions_or_paths_read": [
+            "scaled_thresholds",
+            "gate_for_judge",
+            "is_stuck",
+            "assess_abort",
+            "nudge_text"
+          ],
+          "license_header_only": false
+        },
+        {
+          "path": "tokeneconomizer/loopguard/state.py",
+          "blob_sha": "8f1bf1ea6d7da221b1bdfe10c268d8a1bccb4259",
+          "url": "https://github.com/microsoft/TokenEconomizer/blob/4cbc639aaed8343dc629c0044d2df578ed16d112/tokeneconomizer/loopguard/state.py",
+          "fetched_complete_text": true,
+          "total_lines": 253,
+          "actually_read_line_ranges": [
+            [
+              124,
+              253
+            ]
+          ],
+          "functions_or_paths_read": [
+            "_failure_sig",
+            "SpiralState.update",
+            "SpiralState.recent_digest",
+            "SpiralState.stagnation",
+            "state_from_trajectory"
+          ],
+          "license_header_only": false
+        },
+        {
+          "path": "tokeneconomizer/loopguard/turn.py",
+          "blob_sha": "f97369605a8ba181d1632b7e1209a3d07aecbecf",
+          "url": "https://github.com/microsoft/TokenEconomizer/blob/4cbc639aaed8343dc629c0044d2df578ed16d112/tokeneconomizer/loopguard/turn.py",
+          "fetched_complete_text": true,
+          "total_lines": 479,
+          "actually_read_line_ranges": [
+            [
+              221,
+              340
+            ],
+            [
+              368,
+              479
+            ]
+          ],
+          "functions_or_paths_read": [
+            "TurnGuard._track",
+            "TurnGuard.resolved_proxy",
+            "TurnGuard.verification_state",
+            "TurnGuard._sampled",
+            "TurnGuard.fold",
+            "TurnGuard.nudge_body",
+            "TurnGuard.after_nudge"
+          ],
+          "license_header_only": false
+        },
+        {
+          "path": "tokeneconomizer/loopguard/judge.py",
+          "blob_sha": "0d4142f891262b1a9fb5a3519408f174b56e7adc",
+          "url": "https://github.com/microsoft/TokenEconomizer/blob/4cbc639aaed8343dc629c0044d2df578ed16d112/tokeneconomizer/loopguard/judge.py",
+          "fetched_complete_text": true,
+          "total_lines": 103,
+          "actually_read_line_ranges": [
+            [
+              1,
+              103
+            ]
+          ],
+          "functions_or_paths_read": [
+            "llm_stuck_judge",
+            "llm_nudge_writer"
+          ],
+          "license_header_only": false
+        },
+        {
+          "path": "tokeneconomizer/microskills/lifecycle.py",
+          "blob_sha": "63cf4a861f80ca8517b22a8da9447c64912ece59",
+          "url": "https://github.com/microsoft/TokenEconomizer/blob/4cbc639aaed8343dc629c0044d2df578ed16d112/tokeneconomizer/microskills/lifecycle.py",
+          "fetched_complete_text": true,
+          "total_lines": 118,
+          "actually_read_line_ranges": [
+            [
+              1,
+              118
+            ]
+          ],
+          "functions_or_paths_read": [
+            "edited_pyfiles",
+            "edited_files",
+            "Lifecycle._drifted_confirms",
+            "Lifecycle.score",
+            "Lifecycle.injectable",
+            "Lifecycle.update"
+          ],
+          "license_header_only": false
+        },
+        {
+          "path": "docs/ARCHITECTURE.md",
+          "blob_sha": "53b70bddf2cd805e312c87ea160ea220e41a1c61",
+          "url": "https://github.com/microsoft/TokenEconomizer/blob/4cbc639aaed8343dc629c0044d2df578ed16d112/docs/ARCHITECTURE.md",
+          "fetched_complete_text": true,
+          "total_lines": 38,
+          "actually_read_line_ranges": [
+            [
+              1,
+              38
+            ]
+          ],
+          "functions_or_paths_read": [],
+          "license_header_only": false
+        },
+        {
+          "path": "LICENSE",
+          "blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+          "url": "https://github.com/microsoft/TokenEconomizer/blob/4cbc639aaed8343dc629c0044d2df578ed16d112/LICENSE",
+          "fetched_complete_text": true,
+          "total_lines": 203,
+          "actually_read_line_ranges": [
+            [
+              1,
+              5
+            ]
+          ],
+          "functions_or_paths_read": [],
+          "license_header_only": true
+        }
+      ],
+      "selected_files_read": 7
+    },
+    {
+      "id": "M02",
+      "repository": "google-research/budget-aware-agent",
+      "commit": "37d23f66c512734db476313cf436a506edbec9e0",
+      "url": "https://github.com/google-research/budget-aware-agent",
+      "license": {
+        "spdx": "Apache-2.0",
+        "status": "LICENSE header inspected"
+      },
+      "tree_listed": {
+        "entries": 34,
+        "source": "pinned complete recursive tree fetched by root",
+        "not_equivalent_to_read_files": true
+      },
+      "actually_read": [
+        {
+          "path": "src/agent_budget_tracker.py",
+          "blob_sha": "8529454425ff274130e1cd1785d0cc5700f2b177",
+          "url": "https://github.com/google-research/budget-aware-agent/blob/37d23f66c512734db476313cf436a506edbec9e0/src/agent_budget_tracker.py",
+          "fetched_complete_text": true,
+          "total_lines": 845,
+          "actually_read_line_ranges": [
+            [
+              75,
+              180
+            ],
+            [
+              444,
+              460
+            ],
+            [
+              497,
+              542
+            ]
+          ],
+          "functions_or_paths_read": [
+            "run_inference_on_question_async:budget insertion and finalization branches"
+          ],
+          "license_header_only": false
+        },
+        {
+          "path": "src/agent_bats.py",
+          "blob_sha": "76af318bb2a2c262f2a8566acf928bf4ba9dbc66",
+          "url": "https://github.com/google-research/budget-aware-agent/blob/37d23f66c512734db476313cf436a506edbec9e0/src/agent_bats.py",
+          "fetched_complete_text": true,
+          "total_lines": 1049,
+          "actually_read_line_ranges": [
+            [
+              72,
+              107
+            ],
+            [
+              111,
+              173
+            ],
+            [
+              218,
+              362
+            ],
+            [
+              414,
+              458
+            ],
+            [
+              608,
+              620
+            ]
+          ],
+          "functions_or_paths_read": [
+            "verify_answer",
+            "run_inference_on_question_async:verification, continue/restart, tool quota branches"
+          ],
+          "license_header_only": false
+        },
+        {
+          "path": "src/prompts_bats.py",
+          "blob_sha": "21b0285bcea190d511b518cf7f8fdb9c79eea707",
+          "url": "https://github.com/google-research/budget-aware-agent/blob/37d23f66c512734db476313cf436a506edbec9e0/src/prompts_bats.py",
+          "fetched_complete_text": true,
+          "total_lines": 458,
+          "actually_read_line_ranges": [
+            [
+              118,
+              251
+            ],
+            [
+              322,
+              388
+            ]
+          ],
+          "functions_or_paths_read": [
+            "pr_system_instruction_initial",
+            "pr_chat_verification"
+          ],
+          "license_header_only": false
+        },
+        {
+          "path": "LICENSE",
+          "blob_sha": "7a4a3ea2424c09fbe48d455aed1eaa94d9124835",
+          "url": "https://github.com/google-research/budget-aware-agent/blob/37d23f66c512734db476313cf436a506edbec9e0/LICENSE",
+          "fetched_complete_text": true,
+          "total_lines": 202,
+          "actually_read_line_ranges": [
+            [
+              1,
+              5
+            ]
+          ],
+          "functions_or_paths_read": [],
+          "license_header_only": true
+        }
+      ],
+      "selected_files_read": 4
+    },
+    {
+      "id": "M03",
+      "repository": "Qijia-He/ARCHER",
+      "commit": "72c1274469e08999854dcf7d659eb53905a355a8",
+      "url": "https://github.com/Qijia-He/ARCHER",
+      "license": {
+        "spdx": null,
+        "status": "No LICENSE/COPYING path in complete 65-entry pinned tree; license not established"
+      },
+      "tree_listed": {
+        "entries": 65,
+        "source": "pinned complete recursive tree fetched by this reviewer",
+        "not_equivalent_to_read_files": true
+      },
+      "actually_read": [
+        {
+          "path": "README.md",
+          "blob_sha": "ad90d376cab360c3b5532403307d881a913f519a",
+          "url": "https://github.com/Qijia-He/ARCHER/blob/72c1274469e08999854dcf7d659eb53905a355a8/README.md",
+          "fetched_complete_text": true,
+          "total_lines": 154,
+          "actually_read_line_ranges": [
+            [
+              1,
+              154
+            ]
+          ],
+          "functions_or_paths_read": [],
+          "license_header_only": false
+        },
+        {
+          "path": "conformal/scripts/crc_on_holdout_usd.py",
+          "blob_sha": "875111336ebbecd99aa4e74c13e97f4146535a46",
+          "url": "https://github.com/Qijia-He/ARCHER/blob/72c1274469e08999854dcf7d659eb53905a355a8/conformal/scripts/crc_on_holdout_usd.py",
+          "fetched_complete_text": true,
+          "total_lines": 140,
+          "actually_read_line_ranges": [
+            [
+              1,
+              140
+            ]
+          ],
+          "functions_or_paths_read": [
+            "policy",
+            "hoeffding_eps",
+            "usable",
+            "eval_split",
+            "build_lambdas",
+            "main"
+          ],
+          "license_header_only": false
+        },
+        {
+          "path": "data_generation/core/short_circuit_runner.py",
+          "blob_sha": "0029a4f4db65c446900c0d10638a5e8937f21659",
+          "url": "https://github.com/Qijia-He/ARCHER/blob/72c1274469e08999854dcf7d659eb53905a355a8/data_generation/core/short_circuit_runner.py",
+          "fetched_complete_text": true,
+          "total_lines": 225,
+          "actually_read_line_ranges": [
+            [
+              1,
+              225
+            ]
+          ],
+          "functions_or_paths_read": [
+            "_build_call_record",
+            "_run_diagnose",
+            "run_short_circuit_rollout",
+            "_finalize"
+          ],
+          "license_header_only": false
+        },
+        {
+          "path": "data_generation/agents/code_agent.py",
+          "blob_sha": "2f531df22972cb25c9770dae0fdcb865fae6b864",
+          "url": "https://github.com/Qijia-He/ARCHER/blob/72c1274469e08999854dcf7d659eb53905a355a8/data_generation/agents/code_agent.py",
+          "fetched_complete_text": true,
+          "total_lines": 424,
+          "actually_read_line_ranges": [
+            [
+              153,
+              356
+            ]
+          ],
+          "functions_or_paths_read": [
+            "CodeAgent.__init__",
+            "CodeAgent._resolve_base",
+            "CodeAgent._resolve_escalate",
+            "CodeAgent._call_with_retry",
+            "CodeAgent.propose",
+            "CodeAgent.reflect",
+            "CodeAgent.replan",
+            "CodeAgent.escalate",
+            "CodeAgent.escalate_with_context"
+          ],
+          "license_header_only": false
+        }
+      ],
+      "selected_files_read": 4
+    }
+  ],
+  "findings": {
+    "TokenEconomizer": [
+      "Strict stuck fallback combines edits, sustained errors and repeated failure signatures; it does not directly detect our successful repeated read calls.",
+      "Default 18/20-call gates do not transfer unchanged to an 8-step controller.",
+      "TurnGuard.resolved_proxy is not an external quality verdict.",
+      "Optional judge and redirect writer are paid calls; pricing fallback is not our hard usage ledger.",
+      "Micro-skill promotion and retirement are repository-history dependent."
+    ],
+    "BATS": [
+      "Budget Tracker inserts tool-specific used/remaining counts; the selected driver also has a paid finalization call.",
+      "BATS verify_answer makes an additional model call and adds its token counts; configured continuation can reset a trajectory.",
+      "Prompts assume an answer exists; our contest permits genuinely unsolvable tasks.",
+      "Tool request truncation does not implement per-request token reservation."
+    ],
+    "CodeRescue": [
+      "Published paper name and README ARCHER name differ at the pinned commit.",
+      "agents/code_agent.py at repository root is 404; actual path is data_generation/agents/code_agent.py.",
+      "Selected calibration script replays pre-collected costs_usd; it does not run a live agent.",
+      "Selected script uses Hoeffding epsilon and cost range from calibration plus test, unlike the paper's displayed conformal correction.",
+      "Paper expectation/marginal guarantees do not imply a hard per-run budget cap.",
+      "Short-circuit collection does not observe every action on every task; missing outcomes cannot be treated as success or failure.",
+      "The collector calls cold-start escalate; escalate_with_context exists separately.",
+      "CodeAgent has internal parse retries and higher model output caps; do not transplant its accounting defaults."
+    ],
+    "SWEPatchTest": [
+      "Fail-to-pass on one reference patch does not guarantee rejection of wrong patches or acceptance of alternative correct patches.",
+      "No benchmark code or candidate pools were executed or audited here."
+    ]
+  }
+}

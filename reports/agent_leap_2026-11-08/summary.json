@@ -1,0 +1,89 @@
+{
+  "cohort_freeze_sha256": "a3d6444a423eac8c803e120c6ee3c3e1f171d9bda3aa274816c595ae15d4d2b7",
+  "task_count": 16,
+  "solvable_count": 14,
+  "budget_each_run": 16000,
+  "runs": [
+    {
+      "run": "compact_blind1",
+      "arm": "compact",
+      "passed": 11,
+      "reward": 55,
+      "cost": 9350.4,
+      "seconds": 41.195,
+      "abstained": 2
+    },
+    {
+      "run": "compact_blind2",
+      "arm": "compact",
+      "passed": 11,
+      "reward": 55,
+      "cost": 9053.8,
+      "seconds": 40.659,
+      "abstained": 2
+    },
+    {
+      "run": "old_blind1",
+      "arm": "old",
+      "passed": 3,
+      "reward": 15,
+      "cost": 8250.1,
+      "seconds": 39.872,
+      "abstained": 0
+    },
+    {
+      "run": "old_blind2",
+      "arm": "old",
+      "passed": 3,
+      "reward": 15,
+      "cost": 8195.1,
+      "seconds": 37.961,
+      "abstained": 0
+    },
+    {
+      "run": "react_blind1",
+      "arm": "react_fixed",
+      "passed": 6,
+      "reward": 30,
+      "cost": 13770.1,
+      "seconds": 36.083,
+      "abstained": 2
+    },
+    {
+      "run": "react_blind2",
+      "arm": "react_fixed",
+      "passed": 6,
+      "reward": 30,
+      "cost": 13687.8,
+      "seconds": 38.191,
+      "abstained": 2
+    }
+  ],
+  "by_arm": {
+    "old": {
+      "passed": [
+        3,
+        3
+      ],
+      "mean_cost": 8222.6,
+      "mean_reward": 15
+    },
+    "react_fixed": {
+      "passed": [
+        6,
+        6
+      ],
+      "mean_cost": 13728.95,
+      "mean_reward": 30
+    },
+    "compact": {
+      "passed": [
+        11,
+        11
+      ],
+      "mean_cost": 9202.099999999999,
+      "mean_reward": 55
+    }
+  },
+  "cost_reduction_compact_vs_react": 0.32973024156982156
+}

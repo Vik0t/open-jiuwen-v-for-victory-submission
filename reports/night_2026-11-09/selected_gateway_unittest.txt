@@ -1,0 +1,43 @@
+/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/.cache/jiuwenswarm-venv/lib/python3.12/site-packages/openjiuwen/core/common/clients/connector_pool.py:17: PydanticDeprecatedSince20: Support for class-based `config` is deprecated, use ConfigDict instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.14/migration/
+  class ConnectorPoolConfig(BaseModel):
+2026-11-09 05:43:39 | common | default_trace_id | INFO | Registered connector pool type: default
+/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/.cache/jiuwenswarm-venv/lib/python3.12/site-packages/openjiuwen/core/common/clients/http_client.py:22: PydanticDeprecatedSince20: Support for class-based `config` is deprecated, use ConfigDict instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.14/migration/
+  class SessionConfig(BaseModel):
+2026-11-09 05:43:39 | common | default_trace_id | INFO | Registered connector pool type: httpx
+2026-11-09 05:43:40 | common | default_trace_id | INFO | Registered query expression support for milvus
+2026-11-09 05:43:40 | common | default_trace_id | INFO | Registered query expression support for chroma
+2026-11-09 05:43:40 | common | default_trace_id | INFO | Registered parser ExcelParser for .xlsx
+2026-11-09 05:43:40 | common | default_trace_id | INFO | Registered parser ExcelParser for .csv
+2026-11-09 05:43:40 | common | default_trace_id | INFO | Registered parser ExcelParser for .tsv
+2026-11-09 05:43:40 | common | default_trace_id | INFO | Registered parser TxtMdParser for .txt
+2026-11-09 05:43:40 | common | default_trace_id | INFO | Registered parser TxtMdParser for .md
+2026-11-09 05:43:40 | common | default_trace_id | INFO | Registered parser TxtMdParser for .markdown
+2026-11-09 05:43:40 | common | default_trace_id | INFO | Registered parser HTMLFileParser for .htm
+2026-11-09 05:43:40 | common | default_trace_id | INFO | Registered parser HTMLFileParser for .html
+2026-11-09 05:43:40 | common | default_trace_id | INFO | Registered parser JSONParser for .json
+2026-11-09 05:43:40 | common | default_trace_id | INFO | Registered parser PDFParser for .pdf
+2026-11-09 05:43:40 | common | default_trace_id | INFO | Registered parser WordParser for .docx
+2026-11-09 05:43:40 | common | default_trace_id | INFO | Registered parser ImageParser for .png
+2026-11-09 05:43:40 | common | default_trace_id | INFO | Registered parser ImageParser for .jpg
+2026-11-09 05:43:40 | common | default_trace_id | INFO | Registered parser ImageParser for .jpeg
+2026-11-09 05:43:40 | common | default_trace_id | INFO | Registered parser ImageParser for .webp
+2026-11-09 05:43:40 | common | default_trace_id | INFO | Registered parser ImageParser for .gif
+2026-11-09 05:43:40 | common | default_trace_id | INFO | Registered parser ImageParser for .jfif
+/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/.cache/jiuwenswarm-venv/lib/python3.12/site-packages/openjiuwen/core/memory/manage/mem_model/db_model.py:13: SADeprecationWarning: The declarative_mixin decorator was used only by the now removed mypy plugin so it has no longer any use and can be safely removed. (deprecated since: 2.1)
+  @declarative_mixin
+/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/.cache/jiuwenswarm-venv/lib/python3.12/site-packages/openjiuwen/core/memory/manage/mem_model/db_model.py:24: SADeprecationWarning: The declarative_mixin decorator was used only by the now removed mypy plugin so it has no longer any use and can be safely removed. (deprecated since: 2.1)
+  @declarative_mixin
+/Users/vik0t/hacks/open-jiuwen-agent-token-prediction/.cache/jiuwenswarm-venv/lib/python3.12/site-packages/openjiuwen/core/memory/manage/mem_model/db_model.py:30: SADeprecationWarning: The declarative_mixin decorator was used only by the now removed mypy plugin so it has no longer any use and can be safely removed. (deprecated since: 2.1)
+  @declarative_mixin
+test_actual_runner_final_text_usage_and_exact_requested_model (test_contest_gateway.GatewayChecks.test_actual_runner_final_text_usage_and_exact_requested_model) ... ok
+test_budget_denial_happens_before_any_transport_request (test_contest_gateway.GatewayChecks.test_budget_denial_happens_before_any_transport_request) ... ok
+test_cancellation_after_request_dispatch_never_releases_unknown_cost (test_contest_gateway.GatewayChecks.test_cancellation_after_request_dispatch_never_releases_unknown_cost) ... ok
+test_model_whitelist_is_casefold_validation_without_flash_alias (test_contest_gateway.GatewayChecks.test_model_whitelist_is_casefold_validation_without_flash_alias) ... ok
+test_network_timeout_has_one_attempt_and_unknown_cost (test_contest_gateway.GatewayChecks.test_network_timeout_has_one_attempt_and_unknown_cost) ... ok
+test_parallel_native_answers_keep_their_own_ticket_and_usage (test_contest_gateway.GatewayChecks.test_parallel_native_answers_keep_their_own_ticket_and_usage) ... ok
+test_unknown_usage_freezes_and_cannot_leak_to_the_next_answer (test_contest_gateway.GatewayChecks.test_unknown_usage_freezes_and_cannot_leak_to_the_next_answer) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 2.102s
+
+OK

@@ -1,0 +1,148 @@
+{
+  "role": "one-pair development screening; not independent validation",
+  "protocol": {
+    "role": "screening on the already inspected forty, not independent validation",
+    "candidate": "json_screen40_io180",
+    "baseline": "v3_screen40_io180",
+    "repeats_initial": 1,
+    "only_change": "Native response_format=json_object for action responses",
+    "same_conditions": [
+      "Qwen3.8-27B",
+      "thinking=False",
+      "budget40000",
+      "read180/connect10",
+      "offline Docker executor"
+    ],
+    "next_validation_trigger": "At least 10 more reward points, or at least 10 percent lower actual cost without lower reward. A triggered fresh validation still precedes promotion.",
+    "unknown_usage": "Retain every incomplete run and its held reservation; no automatic transport retries."
+  },
+  "protocol_sha256": "3bdc3722794fd2a09ba09da0aba2383edc4120812d24ad13b026258d932f90e2",
+  "matched_conditions": {
+    "model": true,
+    "enable_thinking": true,
+    "budget": true,
+    "task_order": true,
+    "seed": true,
+    "wall_seconds": true,
+    "image": true,
+    "sdk_versions": true,
+    "public_tasks_sha256": true,
+    "executor_sha256": true,
+    "scorer_sha256": true,
+    "harness_files": true
+  },
+  "baseline": {
+    "name": "v3_screen40_io180",
+    "run": "r1",
+    "reward": 144,
+    "attainable": 181,
+    "passed": 26,
+    "solvable": 32,
+    "missing_data_abstained": 8,
+    "cost_output_equivalents": 19644.9,
+    "reserved_units": 0,
+    "http_requests": 63,
+    "http_status": {
+      "200": 63
+    },
+    "prompt_tokens": 95869,
+    "completion_tokens": 10058,
+    "finish_reason": {
+      "stop": 63
+    },
+    "actions": {
+      "python": 27,
+      "answer": 7,
+      "abstain": 8,
+      "invalid_json": 1,
+      "edit": 10,
+      "read": 7,
+      "not_one_object": 3
+    },
+    "invalid_json": 1,
+    "invalid_protocol": 4,
+    "invalid_protocol_cost_units": 21762,
+    "invalid_protocol_finish_length": 0,
+    "invalid_details": [
+      {
+        "task_id": "next_012",
+        "kind": "invalid_json",
+        "finish_reason": "stop",
+        "cost_units": 12324,
+        "ticket": 13
+      },
+      {
+        "task_id": "next_005",
+        "kind": "not_one_object",
+        "finish_reason": "stop",
+        "cost_units": 3478,
+        "ticket": 41
+      },
+      {
+        "task_id": "next_001",
+        "kind": "not_one_object",
+        "finish_reason": "stop",
+        "cost_units": 3523,
+        "ticket": 47
+      },
+      {
+        "task_id": "next_010",
+        "kind": "not_one_object",
+        "finish_reason": "stop",
+        "cost_units": 2437,
+        "ticket": 58
+      }
+    ],
+    "freeze_sha256": "32d61a5ae1dcb600eeb3b5aa188dc3cbd3fb12fc3a32612971810c5923166924",
+    "source_hashes": {
+      "experiments/agent_next_2026-11-08/v3_screen40_io180/runs/r1/score.json": "af51fd21c7ff638ec81f3f10b0b7deca080e71e372ae24bbaf73313c9514d3b2",
+      "experiments/agent_next_2026-11-08/v3_screen40_io180/runs/r1/summary.json": "37da8ef9f00e46ded3551d15f2dafab80ffcb562d04b348630a1f0fc41f6fabb",
+      "experiments/agent_next_2026-11-08/v3_screen40_io180/runs/r1/calls.jsonl": "c9f894cff2077b9aac987b01294738cbbf75249a99b34756fcd78910610df3e5",
+      "experiments/agent_next_2026-11-08/v3_screen40_io180/runs/r1/task_results.json": "b4f491889adb7d3123fb1bce4c29c3c985c4d891463173a456a4cea0bf346918"
+    }
+  },
+  "candidate": {
+    "name": "json_screen40_io180",
+    "run": "r1",
+    "reward": 146,
+    "attainable": 181,
+    "passed": 27,
+    "solvable": 32,
+    "missing_data_abstained": 8,
+    "cost_output_equivalents": 19334.3,
+    "reserved_units": 0,
+    "http_requests": 65,
+    "http_status": {
+      "200": 65
+    },
+    "prompt_tokens": 98503,
+    "completion_tokens": 9484,
+    "finish_reason": {
+      "stop": 65
+    },
+    "actions": {
+      "python": 32,
+      "answer": 8,
+      "abstain": 8,
+      "edit": 10,
+      "read": 7
+    },
+    "invalid_json": 0,
+    "invalid_protocol": 0,
+    "invalid_protocol_cost_units": 0,
+    "invalid_protocol_finish_length": 0,
+    "invalid_details": [],
+    "freeze_sha256": "9b5f5ba5a1a44a8f723ec083b61f4a40bcbc6becaa906320fc6084df2e919043",
+    "source_hashes": {
+      "experiments/agent_next_2026-11-08/json_screen40_io180/runs/r1/score.json": "a13ee225fba26083e98250dd58cd3444232255957552c4bd4b5e808f8294aa81",
+      "experiments/agent_next_2026-11-08/json_screen40_io180/runs/r1/summary.json": "c7679766992679ddc0870bf914e5b7bac1f72045ae4d83326141665a4cbf68e1",
+      "experiments/agent_next_2026-11-08/json_screen40_io180/runs/r1/calls.jsonl": "f2698b8c4e2211f3b0c37d8585b2c0ab4ef137d1830c069862035d44bc586900",
+      "experiments/agent_next_2026-11-08/json_screen40_io180/runs/r1/task_results.json": "0d04916dd9ee6d57844bbeaf7b321187b77eb002c1fe24ab558b31ecb946cbee"
+    }
+  },
+  "reward_delta": 2,
+  "passed_delta": 1,
+  "cost_saving_fraction": 0.015810719321554312,
+  "fresh_validation_triggered": false,
+  "decision": "keep experimental; no promotion"
+}

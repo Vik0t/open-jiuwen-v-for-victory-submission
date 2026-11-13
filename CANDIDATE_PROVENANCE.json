@@ -1,0 +1,21 @@
+{
+  "note": "Mechanical E70 plus E131 gateway with 600-second read timeout; E70 executor unchanged.",
+  "prior_archive": "candidate_e70_typed_rectangle_2026-11-12.zip",
+  "prior_archive_sha256": "d4656a0688cb10eb745b33dfb8210eee933b73fd57100bac892cb95fba9cbc12",
+  "source_freeze_sha256": "a27a11f3cfcfbcc20f6bd13c394a2c590fccae6602eafd42d6ca477f07ce7f0b",
+  "source_sha256": {
+    "run_agent.py": "f946edb9a35908d70450554261f2cf61edc6c3a0aaed9ed30c8a1a0c3d408f55",
+    "submission/budget.py": "64fd21180dfbbcb72f3aba074e1490dbc303136a7f1f7295a3a051f9809cd612",
+    "submission/code_solver.py": "437b6731356e7555fb712dd0c7dd523fd3c2332344b7f56b240ce93bad3647b5",
+    "submission/compact.py": "e8b9899471bfe8a1c04aaac73da333a3b2c08503bb0e676ef2a2a883c7a16d7c",
+    "submission/data_solver.py": "72513695e3b42e989d3c53a84f58068d4976e450c2452704a2053dd55deaf50d",
+    "submission/editing.py": "2aa6868163582f265a596bbf409b917459adf6d290eb1ba60f4246362d6341e1",
+    "submission/exact.py": "71fd4cc3aa7abfe4e63e128b8ff400bef31ab90fbe37aa41a54ba4798d857ec6",
+    "submission/executor.py": "7b3635550912f867a30c9af21371d57a8c0b9b5233518f58c26014804b32f52d",
+    "submission/gateway.py": "dac9a36ba21f10bd7e1474906bd886c88c30935868774cac0616244861ff791a",
+    "submission/named_initial.py": "f14f394f5d69807108efb21311ac934a6d0791f81c24538e6f71d0c2325882c1",
+    "submission/schedule.py": "a801defd8c47a211bbebd260c3a6cce55b9d3836799511236741888ecf17ab4f",
+    "submission/task_io.py": "59ff49c3896838a19c73e42baf5d423cf8ce1828f0c3293d75290c1933f2641c",
+    "submission/workflow.py": "8a15c9e97ada9db7d8ac3a0280245711d98fb822f14f559545c2ceeff97402f7"
+  }
+}

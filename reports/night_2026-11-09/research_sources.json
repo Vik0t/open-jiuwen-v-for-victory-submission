@@ -1,0 +1,1348 @@
+{
+  "title": "Публичные решения агентов: проверенные результаты, версии и прочитанные фрагменты",
+  "status": "research_review_v2",
+  "checked_at_utc": "2026-11-08T16:24:28Z",
+  "checked_timezone": "Asia/Novosibirsk",
+  "scope": "Целевой обзор первичных публичных источников. Не исчерпывающий поиск всех репозиториев. Скачанный код не запускался, обращения к языковым моделям не выполнялись.",
+  "counts": {
+    "repositories_indexed": 26,
+    "tree_files_indexed": 6527,
+    "fetched_text_files": 69
+  },
+  "inspection_levels": [
+    "discovered_only",
+    "metadata_and_complete_tree",
+    "text_fetched",
+    "selected_function_bodies_inspected"
+  ],
+  "limitations": [
+    "Pinned default-branch commit is not necessarily the exact submitted competition image.",
+    "Directory/tree indexing does not mean code was read.",
+    "No local reproduction of third-party scores.",
+    "Missing repository license must not be treated as permission to copy source.",
+    "Research hypotheses are not measured improvements of our agent."
+  ],
+  "local_rules": {
+    "path": "/Users/vik0t/Downloads/Регламент соревнования.md",
+    "sha256": "f24256eda3d15ffbf6576ce67b8f158dfcb0a1b1e12c5abfd8e8342fff6235fd",
+    "important_lines": [
+      43,
+      44,
+      46,
+      112,
+      114,
+      124
+    ],
+    "clarification": "Third-party Python packages are not globally prohibited. Packages are installed at image build and count toward 4GB; no downloads at run; local neural models prohibited. Task-specific restrictions can be stricter."
+  },
+  "repositories": [
+    {
+      "id": "R01",
+      "repository": "paulwhitten/AgentWhetters-swe-bench-pro-purple-simple_loop",
+      "url": "https://github.com/paulwhitten/AgentWhetters-swe-bench-pro-purple-simple_loop",
+      "default_branch": "main",
+      "commit": "5521c9855e7eeedd56b1d55d9c4c100d92713ad0",
+      "commit_date": "2026-05-20T01:39:14Z",
+      "repository_license_detected": null,
+      "root_license_files": [],
+      "tree_truncated": false,
+      "tree_indexed_files": 25,
+      "award": {
+        "status": "official_first",
+        "competition": "AgentX–AgentBeats Phase 2 / SWE-bench Pro",
+        "source": "https://rdi.berkeley.edu/agentx-agentbeats"
+      },
+      "fetched_files": [
+        {
+          "path": "docs/architecture-simple_loop.md",
+          "git_blob_sha": "a6480ef25d7457998832f95ef8ba855d8ef3dd60",
+          "url": "https://github.com/paulwhitten/AgentWhetters-swe-bench-pro-purple-simple_loop/blob/5521c9855e7eeedd56b1d55d9c4c100d92713ad0/docs/architecture-simple_loop.md",
+          "characters_in_fetched_text": 21004,
+          "inspection": "text_fetched",
+          "selected_elements": []
+        },
+        {
+          "path": "src/purple/server.py",
+          "git_blob_sha": "9d09267bb4c35a863ad697ef270772d2f7aca5c9",
+          "url": "https://github.com/paulwhitten/AgentWhetters-swe-bench-pro-purple-simple_loop/blob/5521c9855e7eeedd56b1d55d9c4c100d92713ad0/src/purple/server.py",
+          "characters_in_fetched_text": 91989,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "_discover_test_command",
+            "_derive_scoped_test_cmd",
+            "_extract_failure_ids",
+            "_gate_passes_with_baseline",
+            "baseline run and QA done gates"
+          ]
+        },
+        {
+          "path": "tests/test_baseline_gate.py",
+          "git_blob_sha": "66b6ffd187bafc6fbdf03faded90a97e548685a3",
+          "url": "https://github.com/paulwhitten/AgentWhetters-swe-bench-pro-purple-simple_loop/blob/5521c9855e7eeedd56b1d55d9c4c100d92713ad0/tests/test_baseline_gate.py",
+          "characters_in_fetched_text": 11590,
+          "inspection": "text_fetched",
+          "selected_elements": []
+        }
+      ]
+    },
+    {
+      "id": "R02",
+      "repository": "paulwhitten/AgentWhetters-general-purple",
+      "url": "https://github.com/paulwhitten/AgentWhetters-general-purple",
+      "default_branch": "main",
+      "commit": "b62e1a9beb4cc3926fd073017d076830d9b4e198",
+      "commit_date": "2026-05-29T20:09:55Z",
+      "repository_license_detected": null,
+      "root_license_files": [],
+      "tree_truncated": false,
+      "tree_indexed_files": 21,
+      "award": {
+        "status": "official_first",
+        "competition": "AgentX–AgentBeats Phase 2 / General Purpose",
+        "source": "https://rdi.berkeley.edu/agentx-agentbeats"
+      },
+      "fetched_files": [
+        {
+          "path": "src/agent.py",
+          "git_blob_sha": "88b241b3ac06da6e1bff3dd9ce91b7b348c77378",
+          "url": "https://github.com/paulwhitten/AgentWhetters-general-purple/blob/b62e1a9beb4cc3926fd073017d076830d9b4e198/src/agent.py",
+          "characters_in_fetched_text": 19178,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "single general loop and passthrough prompt"
+          ]
+        },
+        {
+          "path": "src/tagged_action_adapter.py",
+          "git_blob_sha": "03a6d32973f14edcf113fbbede38f9966ba4d633",
+          "url": "https://github.com/paulwhitten/AgentWhetters-general-purple/blob/b62e1a9beb4cc3926fd073017d076830d9b4e198/src/tagged_action_adapter.py",
+          "characters_in_fetched_text": 14410,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "native tool-schema adaptation and text fallback"
+          ]
+        },
+        {
+          "path": "src/usage.py",
+          "git_blob_sha": "5f68ee378d15ec40913dd98c602ef951ba589ad0",
+          "url": "https://github.com/paulwhitten/AgentWhetters-general-purple/blob/b62e1a9beb4cc3926fd073017d076830d9b4e198/src/usage.py",
+          "characters_in_fetched_text": 4455,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "usage accounting fields"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R03",
+      "repository": "ab-shetty/cybergym-alpha",
+      "url": "https://github.com/ab-shetty/cybergym-alpha",
+      "default_branch": "main",
+      "commit": "a4e65f2ee190e0c4ecbe057904137ab748a257ff",
+      "commit_date": "2026-05-11T03:28:07Z",
+      "repository_license_detected": null,
+      "root_license_files": [],
+      "tree_truncated": false,
+      "tree_indexed_files": 12,
+      "award": {
+        "status": "official_first",
+        "competition": "AgentX–AgentBeats Phase 2 / CyberGym",
+        "source": "https://rdi.berkeley.edu/agentx-agentbeats"
+      },
+      "fetched_files": [
+        {
+          "path": "src/analyzer.py",
+          "git_blob_sha": "5c4309d37b08603d425d1491187b7010660081d7",
+          "url": "https://github.com/ab-shetty/cybergym-alpha/blob/a4e65f2ee190e0c4ecbe057904137ab748a257ff/src/analyzer.py",
+          "characters_in_fetched_text": 9112,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "_trace_chain",
+            "_score_source_relevance",
+            "build_context"
+          ]
+        },
+        {
+          "path": "src/executor.py",
+          "git_blob_sha": "e5db0401f76fafc3fd50b6ff2903085d8bef8d91",
+          "url": "https://github.com/ab-shetty/cybergym-alpha/blob/a4e65f2ee190e0c4ecbe057904137ab748a257ff/src/executor.py",
+          "characters_in_fetched_text": 12852,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "MAX_TEST_ITERS and feedback loop"
+          ]
+        },
+        {
+          "path": "src/poc_generator.py",
+          "git_blob_sha": "c5a8e163414e0cc7375626da33e8d5b7c03b3b0d",
+          "url": "https://github.com/ab-shetty/cybergym-alpha/blob/a4e65f2ee190e0c4ecbe057904137ab748a257ff/src/poc_generator.py",
+          "characters_in_fetched_text": 10314,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "_run_script",
+            "bounded payload creation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R04",
+      "repository": "ab-shetty/pi-bench-alpha",
+      "url": "https://github.com/ab-shetty/pi-bench-alpha",
+      "default_branch": "main",
+      "commit": "579e11c6a378cc57dd83655088c4b14fd238907b",
+      "commit_date": "2026-05-11T05:42:39Z",
+      "repository_license_detected": null,
+      "root_license_files": [],
+      "tree_truncated": false,
+      "tree_indexed_files": 14,
+      "award": {
+        "status": "official_first_tie",
+        "competition": "AgentX–AgentBeats Phase 2 / PiBench",
+        "source": "https://rdi.berkeley.edu/agentx-agentbeats"
+      },
+      "fetched_files": [
+        {
+          "path": "src/planner.py",
+          "git_blob_sha": "cc9cec2cd382b2bc70da3d2d34cbbc3854f9c958",
+          "url": "https://github.com/ab-shetty/pi-bench-alpha/blob/579e11c6a378cc57dd83655088c4b14fd238907b/src/planner.py",
+          "characters_in_fetched_text": 11949,
+          "inspection": "text_fetched",
+          "selected_elements": []
+        },
+        {
+          "path": "src/post_processor.py",
+          "git_blob_sha": "b4fd16c9ee62c69e5f11867c8252c8baee759f64",
+          "url": "https://github.com/ab-shetty/pi-bench-alpha/blob/579e11c6a378cc57dd83655088c4b14fd238907b/src/post_processor.py",
+          "characters_in_fetched_text": 6409,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "post_process_tool_calls",
+            "_record_decision_last"
+          ]
+        },
+        {
+          "path": "src/server.py",
+          "git_blob_sha": "cf9427aaa08ed1a3c0cd64256e4070bd8a358c12",
+          "url": "https://github.com/ab-shetty/pi-bench-alpha/blob/579e11c6a378cc57dd83655088c4b14fd238907b/src/server.py",
+          "characters_in_fetched_text": 9692,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "_handle_turn normal serving path"
+          ]
+        },
+        {
+          "path": "src/session_state.py",
+          "git_blob_sha": "dae4be6ac39197f457e0e810b2e24eed5cc558c4",
+          "url": "https://github.com/ab-shetty/pi-bench-alpha/blob/579e11c6a378cc57dd83655088c4b14fd238907b/src/session_state.py",
+          "characters_in_fetched_text": 3467,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "assess",
+            "build_addendum"
+          ]
+        },
+        {
+          "path": "src/validator.py",
+          "git_blob_sha": "b04520b03698b9b9e2886711d0de64cb4c40e866",
+          "url": "https://github.com/ab-shetty/pi-bench-alpha/blob/579e11c6a378cc57dd83655088c4b14fd238907b/src/validator.py",
+          "characters_in_fetched_text": 11300,
+          "inspection": "text_fetched",
+          "selected_elements": []
+        }
+      ]
+    },
+    {
+      "id": "R05",
+      "repository": "dirk61/MLE-Squad",
+      "url": "https://github.com/dirk61/MLE-Squad",
+      "default_branch": "main",
+      "commit": "f43de6edc8750fdbbe8f67154545085993b68384",
+      "commit_date": "2026-05-04T00:26:49Z",
+      "repository_license_detected": null,
+      "root_license_files": [],
+      "tree_truncated": false,
+      "tree_indexed_files": 48,
+      "award": {
+        "status": "official_first_tie",
+        "competition": "AgentX–AgentBeats Phase 2 / MLE-Bench",
+        "source": "https://rdi.berkeley.edu/agentx-agentbeats"
+      },
+      "fetched_files": [
+        {
+          "path": "prompts/protocols/sign_off.md",
+          "git_blob_sha": "0894d8fff10e25de4c1eb3a1689519477307c228",
+          "url": "https://github.com/dirk61/MLE-Squad/blob/f43de6edc8750fdbbe8f67154545085993b68384/prompts/protocols/sign_off.md",
+          "characters_in_fetched_text": 2878,
+          "inspection": "text_fetched",
+          "selected_elements": []
+        },
+        {
+          "path": "src/graph.py",
+          "git_blob_sha": "15421c5039350483808b6689a3108be0a595a9ed",
+          "url": "https://github.com/dirk61/MLE-Squad/blob/f43de6edc8750fdbbe8f67154545085993b68384/src/graph.py",
+          "characters_in_fetched_text": 2550,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "router graph wiring"
+          ]
+        },
+        {
+          "path": "src/nodes.py",
+          "git_blob_sha": "e9e6b83a7746c9ad47b9ba7d460b150a39710786",
+          "url": "https://github.com/dirk61/MLE-Squad/blob/f43de6edc8750fdbbe8f67154545085993b68384/src/nodes.py",
+          "characters_in_fetched_text": 32485,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "_windowed_messages",
+            "specialist loop limits"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R06",
+      "repository": "kekshibata/kddcup2026-data-agents-4th-place-solution",
+      "url": "https://github.com/kekshibata/kddcup2026-data-agents-4th-place-solution",
+      "default_branch": "main",
+      "commit": "ae0f2baa9b6533c23cd4db6bbcc09f4fcf791c1a",
+      "commit_date": "2026-07-21T04:32:46Z",
+      "repository_license_detected": "MIT",
+      "root_license_files": [
+        "LICENSE"
+      ],
+      "tree_truncated": false,
+      "tree_indexed_files": 3387,
+      "award": {
+        "status": "official_fourth",
+        "competition": "KDD Cup 2026 Data Agents / Phase 2 final",
+        "source": "https://dataagent.top/leaderboard"
+      },
+      "fetched_files": [
+        {
+          "path": "README.md",
+          "git_blob_sha": "7351eff3e06e1c69a94fa16373b5bb7fdf778f0b",
+          "url": "https://github.com/kekshibata/kddcup2026-data-agents-4th-place-solution/blob/ae0f2baa9b6533c23cd4db6bbcc09f4fcf791c1a/README.md",
+          "characters_in_fetched_text": 6398,
+          "inspection": "text_fetched",
+          "selected_elements": []
+        },
+        {
+          "path": "src/experiments/exp_172_ehr_distinct/adaptive_vote.py",
+          "git_blob_sha": "9bd72a4d47ef61f323c21087c3d484b43a2523ac",
+          "url": "https://github.com/kekshibata/kddcup2026-data-agents-4th-place-solution/blob/ae0f2baa9b6533c23cd4db6bbcc09f4fcf791c1a/src/experiments/exp_172_ehr_distinct/adaptive_vote.py",
+          "characters_in_fetched_text": 11288,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "adaptive_vote",
+            "_numeric_set",
+            "_try_subset_pick",
+            "_union_columns"
+          ]
+        },
+        {
+          "path": "src/experiments/exp_172_ehr_distinct/anti_aggregation.py",
+          "git_blob_sha": "8c0f41d2a647a47655cf0f2bf02afcb05bd9657a",
+          "url": "https://github.com/kekshibata/kddcup2026-data-agents-4th-place-solution/blob/ae0f2baa9b6533c23cd4db6bbcc09f4fcf791c1a/src/experiments/exp_172_ehr_distinct/anti_aggregation.py",
+          "characters_in_fetched_text": 4794,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "question-only NO_AGG classifier structure"
+          ]
+        },
+        {
+          "path": "src/experiments/exp_172_ehr_distinct/flags.py",
+          "git_blob_sha": "94a23ad81a61561b9e99453af98f47278e4f0622",
+          "url": "https://github.com/kekshibata/kddcup2026-data-agents-4th-place-solution/blob/ae0f2baa9b6533c23cd4db6bbcc09f4fcf791c1a/src/experiments/exp_172_ehr_distinct/flags.py",
+          "characters_in_fetched_text": 6709,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "feature flags and default profile"
+          ]
+        },
+        {
+          "path": "src/experiments/exp_172_ehr_distinct/phased_agent.py",
+          "git_blob_sha": "f2c9af19ed4d6df7abcd5055af707e3c862ac650",
+          "url": "https://github.com/kekshibata/kddcup2026-data-agents-4th-place-solution/blob/ae0f2baa9b6533c23cd4db6bbcc09f4fcf791c1a/src/experiments/exp_172_ehr_distinct/phased_agent.py",
+          "characters_in_fetched_text": 22047,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "_validate_action",
+            "run transitions and successful query counter"
+          ]
+        },
+        {
+          "path": "submission/README.md",
+          "git_blob_sha": "b755625533fc8c9a5bb23b60a78dca6f5c792876",
+          "url": "https://github.com/kekshibata/kddcup2026-data-agents-4th-place-solution/blob/ae0f2baa9b6533c23cd4db6bbcc09f4fcf791c1a/submission/README.md",
+          "characters_in_fetched_text": 3695,
+          "inspection": "text_fetched",
+          "selected_elements": []
+        },
+        {
+          "path": "submission/main.py",
+          "git_blob_sha": "e286d2aa7a2ba4813f674960f1672628773419f2",
+          "url": "https://github.com/kekshibata/kddcup2026-data-agents-4th-place-solution/blob/ae0f2baa9b6533c23cd4db6bbcc09f4fcf791c1a/submission/main.py",
+          "characters_in_fetched_text": 29776,
+          "inspection": "text_fetched",
+          "selected_elements": []
+        }
+      ]
+    },
+    {
+      "id": "R07",
+      "repository": "soumya-batra/officeqa_agentbeats",
+      "url": "https://github.com/soumya-batra/officeqa_agentbeats",
+      "default_branch": "main",
+      "commit": "ed28aca195b3581422aa922e912064af0d6e53d3",
+      "commit_date": "2026-04-24T11:59:43Z",
+      "repository_license_detected": null,
+      "root_license_files": [],
+      "tree_truncated": false,
+      "tree_indexed_files": 60,
+      "award": {
+        "status": "official_first",
+        "competition": "AgentX–AgentBeats Phase 2 / OfficeQA",
+        "source": "https://rdi.berkeley.edu/agentx-agentbeats"
+      },
+      "fetched_files": [
+        {
+          "path": "Dockerfile.officeqa-agent",
+          "git_blob_sha": "536b5db0ea053d72f920f350b57ce0aaa5165967",
+          "url": "https://github.com/soumya-batra/officeqa_agentbeats/blob/ed28aca195b3581422aa922e912064af0d6e53d3/Dockerfile.officeqa-agent",
+          "characters_in_fetched_text": 795,
+          "inspection": "text_fetched",
+          "selected_elements": []
+        },
+        {
+          "path": "README.md",
+          "git_blob_sha": "67a5dc8dd7c0a151dcf57050413b4fe183a8d28b",
+          "url": "https://github.com/soumya-batra/officeqa_agentbeats/blob/ed28aca195b3581422aa922e912064af0d6e53d3/README.md",
+          "characters_in_fetched_text": 3651,
+          "inspection": "text_fetched",
+          "selected_elements": []
+        },
+        {
+          "path": "participant/src/config.py",
+          "git_blob_sha": "b3004cbd45440ec7424e1f025734aea0085e4963",
+          "url": "https://github.com/soumya-batra/officeqa_agentbeats/blob/ed28aca195b3581422aa922e912064af0d6e53d3/participant/src/config.py",
+          "characters_in_fetched_text": 2694,
+          "inspection": "text_fetched",
+          "selected_elements": []
+        },
+        {
+          "path": "participant/src/faiss_retriever.py",
+          "git_blob_sha": "a31b048cd3582ba9f1f7a7b56bc316a1d6de9894",
+          "url": "https://github.com/soumya-batra/officeqa_agentbeats/blob/ed28aca195b3581422aa922e912064af0d6e53d3/participant/src/faiss_retriever.py",
+          "characters_in_fetched_text": 22074,
+          "inspection": "text_fetched",
+          "selected_elements": []
+        },
+        {
+          "path": "participant/src/llm.py",
+          "git_blob_sha": "65f5a25b017e8222dbd6e4da850b58f267d7fb0d",
+          "url": "https://github.com/soumya-batra/officeqa_agentbeats/blob/ed28aca195b3581422aa922e912064af0d6e53d3/participant/src/llm.py",
+          "characters_in_fetched_text": 13689,
+          "inspection": "text_fetched",
+          "selected_elements": []
+        },
+        {
+          "path": "participant/src/retrieval.py",
+          "git_blob_sha": "9421157abf2e24f13740f6092edeed082972ae72",
+          "url": "https://github.com/soumya-batra/officeqa_agentbeats/blob/ed28aca195b3581422aa922e912064af0d6e53d3/participant/src/retrieval.py",
+          "characters_in_fetched_text": 5569,
+          "inspection": "text_fetched",
+          "selected_elements": []
+        },
+        {
+          "path": "v2/src/agent.py",
+          "git_blob_sha": "26c2ad41d645c7c0901178aba8300776e60335ad",
+          "url": "https://github.com/soumya-batra/officeqa_agentbeats/blob/ed28aca195b3581422aa922e912064af0d6e53d3/v2/src/agent.py",
+          "characters_in_fetched_text": 12443,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "_respond",
+            "_analyze",
+            "answer_question",
+            "_normalize_response"
+          ]
+        },
+        {
+          "path": "v2/src/corpus.py",
+          "git_blob_sha": "3e50f471c615655c40f9fa6bac20b69ecddb3750",
+          "url": "https://github.com/soumya-batra/officeqa_agentbeats/blob/ed28aca195b3581422aa922e912064af0d6e53d3/v2/src/corpus.py",
+          "characters_in_fetched_text": 4669,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "load",
+            "search"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R08",
+      "repository": "zhezh/kddcup2026_champion",
+      "url": "https://github.com/zhezh/kddcup2026_champion",
+      "default_branch": "main",
+      "commit": "bdc874fc4260e3565ae0dce041728fdf5b376709",
+      "commit_date": "2026-08-02T04:56:48Z",
+      "repository_license_detected": null,
+      "root_license_files": [],
+      "tree_truncated": false,
+      "tree_indexed_files": 63,
+      "award": {
+        "status": "official_first",
+        "competition": "KDD Cup 2026 Data Agents / Phase 2 final",
+        "source": "https://dataagent.top/leaderboard"
+      },
+      "fetched_files": [
+        {
+          "path": "src/data_agent_baseline/agents_v2/pre_agent.py",
+          "git_blob_sha": "5b7c0f37dea331f86c82f37471da46858137d995",
+          "url": "https://github.com/zhezh/kddcup2026_champion/blob/bdc874fc4260e3565ae0dce041728fdf5b376709/src/data_agent_baseline/agents_v2/pre_agent.py",
+          "characters_in_fetched_text": 8639,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "pre-analysis vote and context generation"
+          ]
+        },
+        {
+          "path": "src/data_agent_baseline/agents_v2/solver_agent.py",
+          "git_blob_sha": "369067f3554c5509aacb5169a94297150bca382b",
+          "url": "https://github.com/zhezh/kddcup2026_champion/blob/bdc874fc4260e3565ae0dce041728fdf5b376709/src/data_agent_baseline/agents_v2/solver_agent.py",
+          "characters_in_fetched_text": 10376,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "restricted four-tool set and solver prompt"
+          ]
+        },
+        {
+          "path": "src/data_agent_baseline/tools_v2/solver_file_tool.py",
+          "git_blob_sha": "bf12391008da9c8f519bc762675c1463f8d005c7",
+          "url": "https://github.com/zhezh/kddcup2026_champion/blob/bdc874fc4260e3565ae0dce041728fdf5b376709/src/data_agent_baseline/tools_v2/solver_file_tool.py",
+          "characters_in_fetched_text": 8995,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "edit_solver",
+            "run_solver output feedback"
+          ]
+        },
+        {
+          "path": "src/data_agent_baseline/tools_v2/table_profile.py",
+          "git_blob_sha": "b093059e2234ff423667af0157f2da0df2969e24",
+          "url": "https://github.com/zhezh/kddcup2026_champion/blob/bdc874fc4260e3565ae0dce041728fdf5b376709/src/data_agent_baseline/tools_v2/table_profile.py",
+          "characters_in_fetched_text": 4994,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "table_profile"
+          ]
+        },
+        {
+          "path": "src/data_agent_baseline/zz_agent_v2.py",
+          "git_blob_sha": "9917b07dc72d8fafe85a92012a44c88250356ad6",
+          "url": "https://github.com/zhezh/kddcup2026_champion/blob/bdc874fc4260e3565ae0dce041728fdf5b376709/src/data_agent_baseline/zz_agent_v2.py",
+          "characters_in_fetched_text": 36119,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "budget/attempt constants and pipeline setup"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R09",
+      "repository": "SWE-agent/mini-swe-agent",
+      "url": "https://github.com/SWE-agent/mini-swe-agent",
+      "default_branch": "main",
+      "commit": "04d809ceab9df28f9adaed044884180159172930",
+      "commit_date": "2026-09-03T05:05:59Z",
+      "repository_license_detected": "MIT",
+      "root_license_files": [
+        "LICENSE.md"
+      ],
+      "tree_truncated": false,
+      "tree_indexed_files": 221,
+      "award": {
+        "status": "research_system_not_award",
+        "competition": "mini-SWE-agent",
+        "source": null
+      },
+      "fetched_files": [
+        {
+          "path": "src/minisweagent/agents/default.py",
+          "git_blob_sha": "ca310e37d7c61888c576f73f5e1790ac769407b1",
+          "url": "https://github.com/SWE-agent/mini-swe-agent/blob/04d809ceab9df28f9adaed044884180159172930/src/minisweagent/agents/default.py",
+          "characters_in_fetched_text": 8043,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "DefaultAgent query/execute/run",
+            "get_template_vars",
+            "format error and cost handling"
+          ]
+        },
+        {
+          "path": "src/minisweagent/config/benchmarks/swebench.yaml",
+          "git_blob_sha": "106decd160e72e5164e29d15d23da354c29c309d",
+          "url": "https://github.com/SWE-agent/mini-swe-agent/blob/04d809ceab9df28f9adaed044884180159172930/src/minisweagent/config/benchmarks/swebench.yaml",
+          "characters_in_fetched_text": 7593,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "reproduction and regression instructions"
+          ]
+        },
+        {
+          "path": "src/minisweagent/config/default.yaml",
+          "git_blob_sha": "7753df3e42e7c9e792da9d063311221b299ba4d6",
+          "url": "https://github.com/SWE-agent/mini-swe-agent/blob/04d809ceab9df28f9adaed044884180159172930/src/minisweagent/config/default.yaml",
+          "characters_in_fetched_text": 5829,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "workflow and output truncation policy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R10",
+      "repository": "OpenAutoCoder/Agentless",
+      "url": "https://github.com/OpenAutoCoder/Agentless",
+      "default_branch": "main",
+      "commit": "5ce5888b9f149beaace393957a55ea8ee46c9f71",
+      "commit_date": "2024-12-22T19:29:28Z",
+      "repository_license_detected": "MIT",
+      "root_license_files": [
+        "LICENSE"
+      ],
+      "tree_truncated": false,
+      "tree_indexed_files": 35,
+      "award": {
+        "status": "research_system_not_award",
+        "competition": "Agentless",
+        "source": null
+      },
+      "fetched_files": [
+        {
+          "path": "agentless/repair/rerank.py",
+          "git_blob_sha": "5f1cab553fab0cc369027bd77f404e51bce373a3",
+          "url": "https://github.com/OpenAutoCoder/Agentless/blob/5ce5888b9f149beaace393957a55ea8ee46c9f71/agentless/repair/rerank.py",
+          "characters_in_fetched_text": 12839,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "majority_voting and filter fallback"
+          ]
+        },
+        {
+          "path": "agentless/test/generate_reproduction_tests.py",
+          "git_blob_sha": "503f8728b971b50fd49a413c11d7babb4083af84",
+          "url": "https://github.com/OpenAutoCoder/Agentless/blob/5ce5888b9f149beaace393957a55ea8ee46c9f71/agentless/test/generate_reproduction_tests.py",
+          "characters_in_fetched_text": 17104,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "test_selection"
+          ]
+        },
+        {
+          "path": "agentless/test/run_reproduction_tests.py",
+          "git_blob_sha": "b9a7494efc7c23036912ba40852c48f0ddd9eff2",
+          "url": "https://github.com/OpenAutoCoder/Agentless/blob/5ce5888b9f149beaace393957a55ea8ee46c9f71/agentless/test/run_reproduction_tests.py",
+          "characters_in_fetched_text": 5445,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "reproduction test runner path"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R11",
+      "repository": "WecoAI/aideml",
+      "url": "https://github.com/WecoAI/aideml",
+      "default_branch": "main",
+      "commit": "ad73d227af481bea3de06f884f41b2993dd6453a",
+      "commit_date": "2026-10-16T14:33:37Z",
+      "repository_license_detected": "MIT",
+      "root_license_files": [
+        "LICENSE"
+      ],
+      "tree_truncated": false,
+      "tree_indexed_files": 125,
+      "award": {
+        "status": "research_system_not_award",
+        "competition": "AIDE",
+        "source": null
+      },
+      "fetched_files": [
+        {
+          "path": "aide/agent.py",
+          "git_blob_sha": "512368205265b75d5cfdaf777f03db0245e1631e",
+          "url": "https://github.com/WecoAI/aideml/blob/ad73d227af481bea3de06f884f41b2993dd6453a/aide/agent.py",
+          "characters_in_fetched_text": 18784,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "search_policy",
+            "parse_exec_result"
+          ]
+        },
+        {
+          "path": "aide/journal.py",
+          "git_blob_sha": "88d44a4e84d014febdbe259ba13bdaf826ebe83e",
+          "url": "https://github.com/WecoAI/aideml/blob/ad73d227af481bea3de06f884f41b2993dd6453a/aide/journal.py",
+          "characters_in_fetched_text": 8807,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "get_best_node"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R12",
+      "repository": "paulwhitten/AgentWhetters-bwim",
+      "url": "https://github.com/paulwhitten/AgentWhetters-bwim",
+      "default_branch": "main",
+      "commit": "e4c6290faa762a36e54191686bcb6eb62ca0490a",
+      "commit_date": "2026-09-22T04:45:18Z",
+      "repository_license_detected": null,
+      "root_license_files": [],
+      "tree_truncated": false,
+      "tree_indexed_files": 58,
+      "award": {
+        "status": "official_first_tie",
+        "competition": "AgentX–AgentBeats Phase 2 / BWIM",
+        "source": "https://rdi.berkeley.edu/agentx-agentbeats"
+      },
+      "fetched_files": [
+        {
+          "path": "pragmatic_builder/skills/plan_verifier.py",
+          "git_blob_sha": "99b65648ff5c5bf9ca7e485ce1ad40eb52e82f63",
+          "url": "https://github.com/paulwhitten/AgentWhetters-bwim/blob/e4c6290faa762a36e54191686bcb6eb62ca0490a/pragmatic_builder/skills/plan_verifier.py",
+          "characters_in_fetched_text": 32455,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "verify_plan",
+            "_check_each_expansion",
+            "count checking"
+          ]
+        },
+        {
+          "path": "pragmatic_builder/skills/spatial_executor.py",
+          "git_blob_sha": "ede51462f4b7ab0268ebeb0ca9618e9c423c16bc",
+          "url": "https://github.com/paulwhitten/AgentWhetters-bwim/blob/e4c6290faa762a36e54191686bcb6eb62ca0490a/pragmatic_builder/skills/spatial_executor.py",
+          "characters_in_fetched_text": 19525,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "structured spatial execution"
+          ]
+        },
+        {
+          "path": "pragmatic_builder/skills/underspec_detector.py",
+          "git_blob_sha": "8a93b1752c1b2b67c5058d1afa44744148b74b21",
+          "url": "https://github.com/paulwhitten/AgentWhetters-bwim/blob/e4c6290faa762a36e54191686bcb6eb62ca0490a/pragmatic_builder/skills/underspec_detector.py",
+          "characters_in_fetched_text": 23649,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "heuristic underspecification checks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R13",
+      "repository": "ab-shetty/mids-fieldworkarena-alpha",
+      "url": "https://github.com/ab-shetty/mids-fieldworkarena-alpha",
+      "default_branch": "main",
+      "commit": "d5ceb6317aaa56272ead0c64660b6c70d8f1fd12",
+      "commit_date": "2026-05-04T06:01:31Z",
+      "repository_license_detected": null,
+      "root_license_files": [],
+      "tree_truncated": false,
+      "tree_indexed_files": 14,
+      "award": {
+        "status": "official_first_tie",
+        "competition": "AgentX–AgentBeats Phase 2 / FieldWorkArena",
+        "source": "https://rdi.berkeley.edu/agentx-agentbeats"
+      },
+      "fetched_files": [
+        {
+          "path": "src/agent.py",
+          "git_blob_sha": "c004c0d544cde473a8864d94a337b9b49ac04bdf",
+          "url": "https://github.com/ab-shetty/mids-fieldworkarena-alpha/blob/d5ceb6317aaa56272ead0c64660b6c70d8f1fd12/src/agent.py",
+          "characters_in_fetched_text": 38228,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "conditional_should_verify",
+            "ENABLE_SECOND_PASS_VERIFY default",
+            "output format detection"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R14",
+      "repository": "soumya-batra/tau2-agentbeats",
+      "url": "https://github.com/soumya-batra/tau2-agentbeats",
+      "default_branch": "main",
+      "commit": "365c202c63f320bdf6b5906d46990cdb5d7ca2d5",
+      "commit_date": "2026-05-09T15:56:47Z",
+      "repository_license_detected": null,
+      "root_license_files": [],
+      "tree_truncated": false,
+      "tree_indexed_files": 32,
+      "award": {
+        "status": "official_first",
+        "competition": "AgentX–AgentBeats Phase 2 / tau2-bench",
+        "source": "https://rdi.berkeley.edu/agentx-agentbeats"
+      },
+      "fetched_files": [
+        {
+          "path": "agent-template/src/agent.py",
+          "git_blob_sha": "b90415c64b389f4ca3435e9061166afd26c5949d",
+          "url": "https://github.com/soumya-batra/tau2-agentbeats/blob/365c202c63f320bdf6b5906d46990cdb5d7ca2d5/agent-template/src/agent.py",
+          "characters_in_fetched_text": 7621,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "AgentExecutor.execute JSON-object request and persisted plan"
+          ]
+        },
+        {
+          "path": "src/agent.py",
+          "git_blob_sha": "b84f802120b9aba01efb15918f684494ede55b18",
+          "url": "https://github.com/soumya-batra/tau2-agentbeats/blob/365c202c63f320bdf6b5906d46990cdb5d7ca2d5/src/agent.py",
+          "characters_in_fetched_text": 13112,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "green adapter role distinguished from actual purple"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R15",
+      "repository": "gmsh/car-bench-exp-agent",
+      "url": "https://github.com/gmsh/car-bench-exp-agent",
+      "default_branch": "main",
+      "commit": "7e499f4692e81a31a0edd4d4cffb96a64585cb68",
+      "commit_date": "2026-05-04T04:01:09Z",
+      "repository_license_detected": "MIT",
+      "root_license_files": [
+        "LICENSE"
+      ],
+      "tree_truncated": false,
+      "tree_indexed_files": 26,
+      "award": {
+        "status": "official_first_tie",
+        "competition": "AgentX–AgentBeats Phase 2 / CAR-bench",
+        "source": "https://rdi.berkeley.edu/agentx-agentbeats"
+      },
+      "fetched_files": [
+        {
+          "path": "src/agent/guards/missing_tool.py",
+          "git_blob_sha": "8264fb82388065535d82c5682024e145866b8426",
+          "url": "https://github.com/gmsh/car-bench-exp-agent/blob/7e499f4692e81a31a0edd4d4cffb96a64585cb68/src/agent/guards/missing_tool.py",
+          "characters_in_fetched_text": 2015,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "MissingToolGuard"
+          ]
+        },
+        {
+          "path": "src/agent/guards/param_schema.py",
+          "git_blob_sha": "af3af9ee2d7193935648234ddd9ba0af646d0385",
+          "url": "https://github.com/gmsh/car-bench-exp-agent/blob/7e499f4692e81a31a0edd4d4cffb96a64585cb68/src/agent/guards/param_schema.py",
+          "characters_in_fetched_text": 6974,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "ParamSchemaGuard"
+          ]
+        },
+        {
+          "path": "src/agent/state.py",
+          "git_blob_sha": "4029171714b030920a49dab83b9763b67a8d8c9c",
+          "url": "https://github.com/gmsh/car-bench-exp-agent/blob/7e499f4692e81a31a0edd4d4cffb96a64585cb68/src/agent/state.py",
+          "characters_in_fetched_text": 8051,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "StateCache from tool results"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R16",
+      "repository": "ftelnov/entouch",
+      "url": "https://github.com/ftelnov/entouch",
+      "default_branch": "master",
+      "commit": "1e29897cdd8defdccdfe79f8f7fe4141da6aa17a",
+      "commit_date": "2026-08-29T08:14:02Z",
+      "repository_license_detected": null,
+      "root_license_files": [],
+      "tree_truncated": false,
+      "tree_indexed_files": 40,
+      "award": {
+        "status": "official_first_tie",
+        "competition": "AgentX–AgentBeats Phase 2 / OSWorld Verified",
+        "source": "https://rdi.berkeley.edu/agentx-agentbeats"
+      },
+      "fetched_files": [
+        {
+          "path": "src/history.py",
+          "git_blob_sha": "c61f9838f70b5724c563c604b949f90fa4feaf1b",
+          "url": "https://github.com/ftelnov/entouch/blob/1e29897cdd8defdccdfe79f8f7fe4141da6aa17a/src/history.py",
+          "characters_in_fetched_text": 8598,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "TaskHistory.build_messages",
+            "needs_compression",
+            "build_compression_prompt",
+            "apply_compression"
+          ]
+        },
+        {
+          "path": "src/agent.py",
+          "git_blob_sha": "8d6076594ecf0f4c7604ffa95d703179a9fbbca4",
+          "url": "https://github.com/ftelnov/entouch/blob/1e29897cdd8defdccdfe79f8f7fe4141da6aa17a/src/agent.py",
+          "characters_in_fetched_text": 12496,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "Agent.run",
+            "_check_screen_unchanged"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R17",
+      "repository": "soutrikmachine/purple-terminal-agent",
+      "url": "https://github.com/soutrikmachine/purple-terminal-agent",
+      "default_branch": "main",
+      "commit": "0fb6764e8dd8bd366dd8dcb2dee866b2c1df3374",
+      "commit_date": "2026-05-21T08:13:57Z",
+      "repository_license_detected": "MIT",
+      "root_license_files": [
+        "LICENSE"
+      ],
+      "tree_truncated": false,
+      "tree_indexed_files": 20,
+      "award": {
+        "status": "official_second_tie",
+        "competition": "AgentX–AgentBeats Phase 2 / Terminal-Bench 2.0",
+        "source": "https://rdi.berkeley.edu/agentx-agentbeats"
+      },
+      "fetched_files": [
+        {
+          "path": "src/agent.py",
+          "git_blob_sha": "80d3263cede0f5b54b57dcf4e35edfc853d9ef96",
+          "url": "https://github.com/soutrikmachine/purple-terminal-agent/blob/0fb6764e8dd8bd366dd8dcb2dee866b2c1df3374/src/agent.py",
+          "characters_in_fetched_text": 21172,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "AgentSession.on_exec_result step reminder and repeated failure hint"
+          ]
+        },
+        {
+          "path": "src/verifier.py",
+          "git_blob_sha": "54ab08672aa188319b75ee161e68f7d5acc57d3c",
+          "url": "https://github.com/soutrikmachine/purple-terminal-agent/blob/0fb6764e8dd8bd366dd8dcb2dee866b2c1df3374/src/verifier.py",
+          "characters_in_fetched_text": 4517,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "self_verify",
+            "_build_run_command",
+            "_verify_by_observation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R18",
+      "repository": "zaidishahbaz1/purple-terminal-bench",
+      "url": "https://github.com/zaidishahbaz1/purple-terminal-bench",
+      "default_branch": "main",
+      "commit": "56e92017b5f0c7758b25b8f8975dafc3f27990a0",
+      "commit_date": "2026-05-15T04:11:17Z",
+      "repository_license_detected": null,
+      "root_license_files": [],
+      "tree_truncated": false,
+      "tree_indexed_files": 14,
+      "award": {
+        "status": "official_second_tie",
+        "competition": "AgentX–AgentBeats Phase 2 / Terminal-Bench 2.0",
+        "source": "https://rdi.berkeley.edu/agentx-agentbeats"
+      },
+      "fetched_files": [
+        {
+          "path": "src/agent.py",
+          "git_blob_sha": "e7f0dd87b2de829ce08b0cd88fc7a4ef5652c655",
+          "url": "https://github.com/zaidishahbaz1/purple-terminal-bench/blob/56e92017b5f0c7758b25b8f8975dafc3f27990a0/src/agent.py",
+          "characters_in_fetched_text": 16164,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "Agent._inner_loop",
+            "tool result linkage and hard counts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R19",
+      "repository": "yarongmu-google/MLSys",
+      "url": "https://github.com/yarongmu-google/MLSys",
+      "default_branch": "main",
+      "commit": "9eff933d0c90e80d2e407a9e8a76df693438732e",
+      "commit_date": "2026-05-22T18:48:36Z",
+      "repository_license_detected": "Apache-2.0",
+      "root_license_files": [
+        "LICENSE"
+      ],
+      "tree_truncated": false,
+      "tree_indexed_files": 57,
+      "award": {
+        "status": "organizer_results_not_agent_submission",
+        "competition": "MLSys 2026 / Track B",
+        "source": "https://github.com/yarongmu-google/MLSys"
+      },
+      "fetched_files": [
+        {
+          "path": "README.md",
+          "git_blob_sha": "676a9b501aa34feba84d00e644f2bf87c564c110",
+          "url": "https://github.com/yarongmu-google/MLSys/blob/9eff933d0c90e80d2e407a9e8a76df693438732e/README.md",
+          "characters_in_fetched_text": 13197,
+          "inspection": "text_fetched",
+          "selected_elements": []
+        }
+      ]
+    },
+    {
+      "id": "R20",
+      "repository": "RISE-X-Lab/OpenCollab",
+      "url": "https://github.com/RISE-X-Lab/OpenCollab",
+      "default_branch": "main",
+      "commit": "78ca8e374181f621e70e8d5436199182f8295cbf",
+      "commit_date": "2026-11-07T11:06:04Z",
+      "repository_license_detected": "MulanPSL-2.0",
+      "root_license_files": [
+        "LICENSE"
+      ],
+      "tree_truncated": false,
+      "tree_indexed_files": 1060,
+      "award": {
+        "status": "author_first_claim_only",
+        "competition": "OAIC Factory Hackathon / 2026-10-11",
+        "source": "https://github.com/RISE-X-Lab/OpenCollab"
+      },
+      "fetched_files": [
+        {
+          "path": "README.md",
+          "git_blob_sha": "8caa63d791748573288f27afb4898035ee20da18",
+          "url": "https://github.com/RISE-X-Lab/OpenCollab/blob/78ca8e374181f621e70e8d5436199182f8295cbf/README.md",
+          "characters_in_fetched_text": 11887,
+          "inspection": "text_fetched",
+          "selected_elements": []
+        },
+        {
+          "path": "examples/arcbench-evolution-r6/arc_light/acceptance.py",
+          "git_blob_sha": "321249e421a822b45ab78bbc15088f9aca93280b",
+          "url": "https://github.com/RISE-X-Lab/OpenCollab/blob/78ca8e374181f621e70e8d5436199182f8295cbf/examples/arcbench-evolution-r6/arc_light/acceptance.py",
+          "characters_in_fetched_text": 5644,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "AcceptanceTool.execute_with_runtime source-digest cache, scoped checks, stale detection"
+          ]
+        },
+        {
+          "path": "examples/arcbench-evolution-r6/arcbench_r6/session_control.py",
+          "git_blob_sha": "4c9d9f4173faeaab1cf48c3de7c23a8c72f71e9f",
+          "url": "https://github.com/RISE-X-Lab/OpenCollab/blob/78ca8e374181f621e70e8d5436199182f8295cbf/examples/arcbench-evolution-r6/arcbench_r6/session_control.py",
+          "characters_in_fetched_text": 1266,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "SessionMetrics.event"
+          ]
+        },
+        {
+          "path": "examples/arcbench-evolution-r6/arcbench_r6/workflow.py",
+          "git_blob_sha": "ba7d85fa61b4519ab340790d1c48c74f2b27278f",
+          "url": "https://github.com/RISE-X-Lab/OpenCollab/blob/78ca8e374181f621e70e8d5436199182f8295cbf/examples/arcbench-evolution-r6/arcbench_r6/workflow.py",
+          "characters_in_fetched_text": 6791,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "weave preparation and delivery status"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R21",
+      "repository": "1ytic/NVARC",
+      "url": "https://github.com/1ytic/NVARC",
+      "default_branch": "main",
+      "commit": "846d0198efa752534594e321fc3289fc0a06c657",
+      "commit_date": "2025-12-13T15:02:38Z",
+      "repository_license_detected": null,
+      "root_license_files": [],
+      "tree_truncated": false,
+      "tree_indexed_files": 39,
+      "award": {
+        "status": "official_first_top_score",
+        "competition": "ARC Prize 2025 / Top Score",
+        "source": "https://arcprize.org/blog/arc-prize-2025-results-analysis"
+      },
+      "fetched_files": []
+    },
+    {
+      "id": "R22",
+      "repository": "SamsungSAILMontreal/TinyRecursiveModels",
+      "url": "https://github.com/SamsungSAILMontreal/TinyRecursiveModels",
+      "default_branch": "main",
+      "commit": "c01103738605ba39d1430519b1ee0c62f4c707f8",
+      "commit_date": "2026-04-01T00:50:39Z",
+      "repository_license_detected": "MIT",
+      "root_license_files": [
+        "LICENSE"
+      ],
+      "tree_truncated": false,
+      "tree_indexed_files": 40,
+      "award": {
+        "status": "official_first_paper_award",
+        "competition": "ARC Prize 2025 / Paper Award",
+        "source": "https://arcprize.org/blog/arc-prize-2025-results-analysis"
+      },
+      "fetched_files": []
+    },
+    {
+      "id": "R23",
+      "repository": "durga-sandeep/agentbeats-pibench-baseline",
+      "url": "https://github.com/durga-sandeep/agentbeats-pibench-baseline",
+      "default_branch": "main",
+      "commit": "c1e5d5243330d25911461ff3448d0351b133169b",
+      "commit_date": "2026-04-28T01:00:30Z",
+      "repository_license_detected": "NOASSERTION",
+      "root_license_files": [
+        "LICENSE"
+      ],
+      "tree_truncated": false,
+      "tree_indexed_files": 16,
+      "award": {
+        "status": "official_first_tie",
+        "competition": "AgentX–AgentBeats Phase 2 / PiBench",
+        "source": "https://rdi.berkeley.edu/agentx-agentbeats"
+      },
+      "fetched_files": [
+        {
+          "path": "purple/baseline_agent.py",
+          "git_blob_sha": "b642c154b02ad658ceac342c60cfe4b1fa07a2b4",
+          "url": "https://github.com/durga-sandeep/agentbeats-pibench-baseline/blob/c1e5d5243330d25911461ff3448d0351b133169b/purple/baseline_agent.py",
+          "characters_in_fetched_text": 37121,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "BaselinePurpleAgent.init_state",
+            "BaselinePurpleAgent.generate",
+            "decision gate v1/v2 history bug"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R24",
+      "repository": "KWSMooBang/AgentBeats-JarvisVLA",
+      "url": "https://github.com/KWSMooBang/AgentBeats-JarvisVLA",
+      "default_branch": "master",
+      "commit": "0a26dd127aa7c67fe5496a973088e98b50d06e6f",
+      "commit_date": "2026-04-13T04:10:57Z",
+      "repository_license_detected": null,
+      "root_license_files": [],
+      "tree_truncated": false,
+      "tree_indexed_files": 1037,
+      "award": {
+        "status": "official_first_tie",
+        "competition": "AgentX–AgentBeats Phase 2 / Minecraft",
+        "source": "https://rdi.berkeley.edu/agentx-agentbeats"
+      },
+      "fetched_files": []
+    },
+    {
+      "id": "R25",
+      "repository": "project-numina/aimo-progress-prize",
+      "url": "https://github.com/project-numina/aimo-progress-prize",
+      "default_branch": "main",
+      "commit": "712e1abbcbcf870dccf4c6a3e7837e2967bd7d7f",
+      "commit_date": "2024-07-22T08:22:55Z",
+      "repository_license_detected": "Apache-2.0",
+      "root_license_files": [
+        "LICENSE"
+      ],
+      "tree_truncated": false,
+      "tree_indexed_files": 22,
+      "award": {
+        "status": "official_first",
+        "competition": "AIMO Progress Prize 1 / 2024",
+        "source": "https://aimoprize.com/updates/2024-07-20-progress-prize-results"
+      },
+      "fetched_files": [
+        {
+          "path": "kaggle-solution.ipynb",
+          "git_blob_sha": "5443f9f5d91800afa2f56bffc5b38be1a0ce9327",
+          "url": "https://github.com/project-numina/aimo-progress-prize/blob/712e1abbcbcf870dccf4c6a3e7837e2967bd7d7f/kaggle-solution.ipynb",
+          "characters_in_fetched_text": 274189,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "PythonREPL",
+            "execute_completion",
+            "process_code",
+            "filter_answers",
+            "get_majority_vote",
+            "main and Config"
+          ],
+          "note": "Notebook JSON read only; code cells inspected, not executed."
+        }
+      ]
+    },
+    {
+      "id": "R26",
+      "repository": "bharath03-a/scratchpad-scheduler-agent",
+      "url": "https://github.com/bharath03-a/scratchpad-scheduler-agent",
+      "default_branch": "main",
+      "commit": "d707d30174838d8445c5bfcce7e3177263937f2b",
+      "commit_date": "2026-05-23T06:55:13Z",
+      "repository_license_detected": "Apache-2.0",
+      "root_license_files": [
+        "LICENSE"
+      ],
+      "tree_truncated": false,
+      "tree_indexed_files": 41,
+      "award": {
+        "status": "official_second",
+        "competition": "MLSys 2026 / Track B Agent Reasoning",
+        "source": "https://github.com/yarongmu-google/MLSys"
+      },
+      "fetched_files": [
+        {
+          "path": "core/granularity.py",
+          "git_blob_sha": "c635d00939538be2b44cef6941eb1a5bfb10d6b8",
+          "url": "https://github.com/bharath03-a/scratchpad-scheduler-agent/blob/d707d30174838d8445c5bfcce7e3177263937f2b/core/granularity.py",
+          "characters_in_fetched_text": 4840,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "_candidate_granularities",
+            "find_optimal_granularity",
+            "optimize_granularities"
+          ]
+        },
+        {
+          "path": "core/validator.py",
+          "git_blob_sha": "413bb27d3c6e8bf65a66a21c0bcc9c75457ba7a0",
+          "url": "https://github.com/bharath03-a/scratchpad-scheduler-agent/blob/d707d30174838d8445c5bfcce7e3177263937f2b/core/validator.py",
+          "characters_in_fetched_text": 8905,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "check_memory_constraints",
+            "validate_dependency_ordering",
+            "validate_solution"
+          ]
+        },
+        {
+          "path": "orchestrator.py",
+          "git_blob_sha": "5d2d9bd95c04898f83d13eba6fb674e9219de4d3",
+          "url": "https://github.com/bharath03-a/scratchpad-scheduler-agent/blob/d707d30174838d8445c5bfcce7e3177263937f2b/orchestrator.py",
+          "characters_in_fetched_text": 11091,
+          "inspection": "selected_function_bodies_inspected",
+          "selected_elements": [
+            "_run_pipeline",
+            "_rank_valid",
+            "_generate_fallback"
+          ]
+        }
+      ]
+    }
+  ],
+  "primary_nonrepository_sources": [
+    {
+      "url": "https://rdi.berkeley.edu/agentx-agentbeats",
+      "role": "official_phase2_track_awards",
+      "read": "official winners table"
+    },
+    {
+      "url": "https://dataagent.top/leaderboard",
+      "role": "official_phase2_final_rank",
+      "read": "search-indexed official table; live page has no readable server text",
+      "verified_rows": [
+        "1 TorchTensor .6496",
+        "2 NV Data Explorer .6109",
+        "3 afanti .5900",
+        "4 Team KOBUSHI .5880"
+      ]
+    },
+    {
+      "url": "https://tech.meituan.com/2026/08/13/KDD-2026-meituan-papers.html",
+      "role": "winner organization links TorchTensor to zhezh/kddcup2026_champion",
+      "read": "article and repository link"
+    },
+    {
+      "url": "https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup/",
+      "role": "second-place technical report",
+      "read": "article only; no exact KGMON competition source verified"
+    },
+    {
+      "url": "https://arcprize.org/blog/arc-prize-2025-results-analysis",
+      "role": "official distinct top-score and paper-award ranks",
+      "read": "results article"
+    },
+    {
+      "url": "https://arcprize.org/blog/arc-prize-2024-winners-technical-report",
+      "role": "historical official ranks",
+      "read": "results article"
+    },
+    {
+      "url": "https://aimoprize.com/updates/2026-06-24-aimo-3-winners-announced",
+      "role": "official AIMO3 award ranks",
+      "read": "full article; #1 Exalted Joseph, #2 varianceofx, #3 SKobayak"
+    },
+    {
+      "url": "https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3/writeups/1st-place-solution-for-the-aimo3-competition",
+      "role": "winner-authored AIMO3 writeup",
+      "read": "indexed writeup including author clarification that scheduling rolls over saved time after consensus early-stop; exact notebook unavailable in this review"
+    },
+    {
+      "url": "https://huggingface.co/buckets/SWIFTx-AI/data",
+      "role": "published AIMO3 winner artifacts",
+      "read": "file listing/README only; submission.ipynb body not retrieved; weights not downloaded"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.16891",
+      "role": "AIMO2 authors' technical paper",
+      "read": "paper metadata/abstract; no reproduction"
+    },
+    {
+      "url": "https://www.databricks.com/blog/evaluating-ai-agents-live-grounded-reasoning-cup",
+      "role": "organizer report of Grounded Reasoning Cup",
+      "read": "article only; winner code not located"
+    },
+    {
+      "url": "https://create.gosim.org/factory26/",
+      "role": "OAIC event page",
+      "read": "page returned no readable text; OpenCollab first-place claim remains author-only"
+    }
+  ],
+  "discovered_not_read_code": [
+    {
+      "repository": "NVIDIA-NeMo/Skills",
+      "url": "https://github.com/NVIDIA-NeMo/Skills",
+      "reason": "AIMO2 paper/model-training approach screened, no pinned source audit in this pass"
+    },
+    {
+      "repository": "VThejas/mlsys-competition-2026-lazy-schedulers",
+      "url": "https://github.com/VThejas/mlsys-competition-2026-lazy-schedulers",
+      "reason": "official third-place link found, not fetched"
+    },
+    {
+      "url": "https://www.kaggle.com/code/theexaltedone/44-50-let-me-over-cook",
+      "reason": "AIMO3 winning notebook link found but source not retrieved"
+    },
+    {
+      "url": "https://huggingface.co/SWIFTx-AI",
+      "reason": "author profile and published bucket found; runnable demo currently returns runtime error"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "task_id": "stress_ranges_0",
+  "task_type": "coding",
+  "public_files": [
+    {
+      "path": "experiments/agent_night_2026-11-09/json_cues27_dev100/tasks/stress_ranges_0/workspace/README.md",
+      "bytes": 329,
+      "sha256": "df1c220f8976b1d224bce51ec02577a8e471f4b5663d41b1d1863122ddb04bab"
+    },
+    {
+      "path": "experiments/agent_night_2026-11-09/json_cues27_dev100/tasks/stress_ranges_0/workspace/subject.py",
+      "bytes": 554,
+      "sha256": "896fd77de9dce097faf357488cf85f40e54cd22eff92a348102beda3998b365b"
+    },
+    {
+      "path": "experiments/agent_night_2026-11-09/json_cues27_dev100/tasks/stress_ranges_0/workspace/test_public.py",
+      "bytes": 354,
+      "sha256": "c19c05c1b6f520d3ebd5741b315be8c1a58e2a4e9e8fb013977a9488a266b984"
+    }
+  ],
+  "extractor": "reports/night_2026-11-09/initial_cost_prediction.py:public_features",
+  "extractor_sha256": "bcdba90814d92e78e1d9e9506dcca85530d4680d770420c9bbc4e33665128146",
+  "feature_row_matches_saved": true,
+  "features": {
+    "instruction_chars": 92,
+    "total_bytes": 1237,
+    "file_count": 3,
+    "py_files": 2,
+    "table_files": 0,
+    "text_files": 1,
+    "json_files": 0,
+    "other_files": 0,
+    "source_lines": 26,
+    "ast_nodes": 248,
+    "functions": 2,
+    "branches": 3,
+    "loops": 3,
+    "imports": 2,
+    "test_functions": 0
+  },
+  "matrix_feature_names": [
+    "type_coding",
+    "type_data_analysis",
+    "type_math",
+    "type_search",
+    "instruction_chars",
+    "total_bytes",
+    "file_count",
+    "py_files",
+    "table_files",
+    "text_files",
+    "json_files",
+    "other_files",
+    "source_lines",
+    "ast_nodes",
+    "functions",
+    "branches",
+    "loops",
+    "imports",
+    "test_functions"
+  ],
+  "raw_vector": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    92,
+    1237,
+    3,
+    2,
+    0,
+    1,
+    0,
+    0,
+    26,
+    248,
+    2,
+    3,
+    3,
+    2,
+    0
+  ],
+  "boosting_input_after_log1p": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    4.532599493153256,
+    7.121252453244542,
+    1.3862943611198906,
+    1.0986122886681098,
+    0.0,
+    0.6931471805599453,
+    0.0,
+    0.0,
+    3.295836866004329,
+    5.517452896464707,
+    1.0986122886681098,
+    1.3862943611198906,
+    1.3862943611198906,
+    1.0986122886681098,
+    0.0
+  ],
+  "ridge_input_before_standardization": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    4.532599493153256,
+    7.121252453244542,
+    1.3862943611198906
+  ],
+  "usage": {
+    "r1": {
+      "calls": [
+        {
+          "input_tokens": 829,
+          "output_tokens": 61,
+          "cost": 143.9
+        }
+      ],
+      "input_tokens": 829,
+      "output_tokens": 61,
+      "cost": 143.9
+    },
+    "r2": {
+      "calls": [
+        {
+          "input_tokens": 829,
+          "output_tokens": 24,
+          "cost": 106.9
+        },
+        {
+          "input_tokens": 876,
+          "output_tokens": 49,
+          "cost": 136.6
+        }
+      ],
+      "input_tokens": 1705,
+      "output_tokens": 73,
+      "cost": 243.5
+    }
+  },
+  "target_cost": 193.7,
+  "group_members": [
+    "stress_ranges_0",
+    "stress_ranges_1",
+    "stress_ranges_2",
+    "stress_ranges_3"
+  ],
+  "fold": 0,
+  "fit_tasks": 75,
+  "test_tasks": 25,
+  "family_absent_from_fit": true,
+  "predictions": {
+    "type_median": 847.0,
+    "ridge_size": 941.387878335128,
+    "boosting_counts": 767.2426243231167
+  },
+  "all_checks_pass": true,
+  "api_calls": 0
+}
